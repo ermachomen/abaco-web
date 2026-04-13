@@ -1,4 +1,6 @@
 import Image from "next/image";
+import ScrollReveal from "./components/ScrollReveal";
+import ContactForm from "./components/ContactForm";
 
 export default function Home() {
   return (
@@ -17,34 +19,19 @@ export default function Home() {
           </a>
 
           <nav className="hidden items-center gap-8 md:flex">
-            <a
-              href="#quienes"
-              className="text-sm font-medium text-slate-600 transition hover:text-slate-900"
-            >
+            <a href="#quienes" className="text-sm font-medium text-slate-600 transition hover:text-slate-900">
               Quiénes somos
             </a>
-            <a
-              href="#servicios"
-              className="text-sm font-medium text-slate-600 transition hover:text-slate-900"
-            >
+            <a href="#servicios" className="text-sm font-medium text-slate-600 transition hover:text-slate-900">
               Servicios
             </a>
-            <a
-              href="#metodo"
-              className="text-sm font-medium text-slate-600 transition hover:text-slate-900"
-            >
+            <a href="#metodo" className="text-sm font-medium text-slate-600 transition hover:text-slate-900">
               Cómo trabajamos
             </a>
-            <a
-              href="#proyectos"
-              className="text-sm font-medium text-slate-600 transition hover:text-slate-900"
-            >
+            <a href="#proyectos" className="text-sm font-medium text-slate-600 transition hover:text-slate-900">
               Proyectos
             </a>
-            <a
-              href="#contacto"
-              className="rounded-xl bg-slate-900 px-4 py-2 text-sm font-semibold text-white transition hover:bg-slate-800"
-            >
+            <a href="#contacto" className="rounded-xl bg-slate-900 px-4 py-2 text-sm font-semibold text-white transition hover:bg-slate-800">
               Contacto
             </a>
           </nav>
@@ -57,19 +44,12 @@ export default function Home() {
           aria-hidden
           className="pointer-events-none absolute inset-0 opacity-[0.15]"
           style={{
-            backgroundImage:
-              "radial-gradient(circle, #94a3b8 1px, transparent 1px)",
+            backgroundImage: "radial-gradient(circle, #94a3b8 1px, transparent 1px)",
             backgroundSize: "32px 32px",
           }}
         />
-        <div
-          aria-hidden
-          className="pointer-events-none absolute -left-40 -top-40 h-[600px] w-[600px] rounded-full bg-sky-600/20 blur-3xl"
-        />
-        <div
-          aria-hidden
-          className="pointer-events-none absolute -bottom-32 right-0 h-[500px] w-[500px] rounded-full bg-indigo-600/10 blur-3xl"
-        />
+        <div aria-hidden className="pointer-events-none absolute -left-40 -top-40 h-[600px] w-[600px] rounded-full bg-sky-600/20 blur-3xl" />
+        <div aria-hidden className="pointer-events-none absolute -bottom-32 right-0 h-[500px] w-[500px] rounded-full bg-indigo-600/10 blur-3xl" />
 
         <div className="relative mx-auto max-w-7xl px-6 py-24 lg:px-8 lg:py-36">
           <div className="grid items-center gap-16 lg:grid-cols-2">
@@ -95,16 +75,10 @@ export default function Home() {
               </p>
 
               <div className="mt-10 flex flex-wrap gap-4">
-                <a
-                  href="#contacto"
-                  className="rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-sky-500/25 transition hover:bg-sky-400"
-                >
+                <a href="#contacto" className="rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-sky-500/25 transition hover:bg-sky-400">
                   Solicitar información
                 </a>
-                <a
-                  href="#servicios"
-                  className="rounded-xl border border-white/20 bg-white/5 px-6 py-3 text-sm font-semibold text-white backdrop-blur transition hover:border-white/40 hover:bg-white/10"
-                >
+                <a href="#servicios" className="rounded-xl border border-white/20 bg-white/5 px-6 py-3 text-sm font-semibold text-white backdrop-blur transition hover:border-white/40 hover:bg-white/10">
                   Ver servicios →
                 </a>
               </div>
@@ -117,120 +91,108 @@ export default function Home() {
                 ].map(([title, desc]) => (
                   <div key={title}>
                     <p className="text-base font-bold text-white">{title}</p>
-                    <p className="mt-1 text-xs leading-5 text-slate-400">
-                      {desc}
-                    </p>
+                    <p className="mt-1 text-xs leading-5 text-slate-400">{desc}</p>
                   </div>
                 ))}
               </div>
             </div>
 
-            <div className="flex justify-center lg:justify-end">
-              <div className="relative">
-                <div className="absolute -inset-6 rounded-[2.5rem] bg-sky-500/10 blur-2xl" />
-                <div className="relative rounded-[2rem] border border-white/10 bg-white/5 p-10 shadow-2xl backdrop-blur-sm">
-                  <Image
-                    src="/images/logo-abaco.jpeg"
-                    alt="Logo Abaco Ingeniería"
-                    width={420}
-                    height={260}
-                    className="h-auto w-full max-w-sm"
-                    priority
-                  />
-                  <span className="absolute right-5 top-5 block h-7 w-7 rounded-tr-xl border-r-2 border-t-2 border-sky-400/40" />
-                  <span className="absolute bottom-5 left-5 block h-7 w-7 rounded-bl-xl border-b-2 border-l-2 border-sky-400/40" />
+            {/* Imagen principal hero */}
+            <ScrollReveal direction="zoom" delay={200}>
+              <div className="flex justify-center lg:justify-end">
+                <div className="relative">
+                  <div className="absolute -inset-6 rounded-[2.5rem] bg-sky-500/10 blur-2xl" />
+                  <div className="relative overflow-hidden rounded-[2rem] border border-white/10 shadow-2xl">
+                    <Image
+                      src="/images/2.png"
+                      alt="Ingenieros trabajando"
+                      width={560}
+                      height={400}
+                      className="h-auto w-full max-w-lg object-cover"
+                      priority
+                    />
+                    <span className="absolute right-5 top-5 block h-7 w-7 rounded-tr-xl border-r-2 border-t-2 border-sky-400/60" />
+                    <span className="absolute bottom-5 left-5 block h-7 w-7 rounded-bl-xl border-b-2 border-l-2 border-sky-400/60" />
+                  </div>
                 </div>
               </div>
-            </div>
+            </ScrollReveal>
           </div>
         </div>
       </section>
 
       {/* ── QUIÉNES SOMOS ── */}
-      <section id="quienes" className="bg-slate-50">
+      <section id="quienes" className="bg-white">
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
+
+          {/* Bloque principal: foto + texto Manuel */}
           <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
-            <div>
-              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-700">
-                Quiénes somos
-              </p>
-              <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-                Oficina Técnica de Ingeniería Industrial y Civil
-              </h2>
-              <p className="mt-6 text-base leading-8 text-slate-600">
-                En abacoingeniería® somos una Oficina Técnica de Ingeniería
-                Industrial y Civil dedicada a simplificar y resolver las
-                necesidades técnicas de nuestros clientes. Ofrecemos soluciones
-                integrales que incluyen proyectos técnicos, informes
-                periciales, tasaciones, fichas reducidas de vehículos y mucho
-                más.
-              </p>
-              <p className="mt-4 text-base leading-8 text-slate-600">
-                Desde nuestros inicios, hemos consolidado un equipo humano
-                altamente cualificado. Nuestra misión es clara: brindar un
-                servicio de excelencia con total disponibilidad, implicándonos
-                al máximo en cada proyecto.
-              </p>
-              <p className="mt-4 text-base leading-8 text-slate-600">
-                Nuestro enfoque se basa en la cercanía con el cliente, la
-                claridad en la comunicación y la capacidad de anticiparnos a los
-                problemas técnicos antes de que ocurran. Entendemos cada
-                proyecto como único, por lo que ofrecemos soluciones
-                personalizadas que optimizan tiempos, costes y cumplimiento
-                normativo.
-              </p>
-              <p className="mt-4 text-base leading-8 text-slate-600">
-                Trabajamos tanto con particulares como con empresas,
-                administraciones públicas y profesionales que necesitan un
-                respaldo técnico fiable para desarrollar su actividad.
-              </p>
-              <a
-                href="#servicios"
-                className="mt-8 inline-block rounded-xl bg-slate-900 px-6 py-3 text-sm font-semibold text-white transition hover:bg-slate-800"
-              >
-                Qué servicios ofrecemos
-              </a>
-            </div>
-
-            <div className="grid gap-4 sm:grid-cols-2">
-              <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm sm:col-span-2">
-                <p className="text-lg font-bold text-slate-900">
-                  Manuel Marín Vicente
-                </p>
-                <p className="text-sm font-medium text-sky-700">
-                  Ingeniero Técnico Industrial
-                </p>
-                <p className="mt-3 text-sm leading-7 text-slate-600">
-                  Al frente de abacoingeniería® desde 1983. Décadas de
-                  experiencia avalan nuestra labor como una oficina técnica de
-                  referencia, contando además con un equipo de técnicos
-                  especializados en distintas áreas de la ingeniería y la
-                  consultoría.
-                </p>
-              </div>
-
-              {[
-                "Atención personalizada",
-                "Enfoque práctico",
-                "Comunicación clara",
-                "Cita previa disponible",
-              ].map((item) => (
-                <div
-                  key={item}
-                  className="rounded-3xl border border-slate-200 bg-white p-6"
-                >
-                  <p className="text-base font-semibold text-slate-900">
-                    {item}
-                  </p>
+            <ScrollReveal direction="left">
+              <div className="relative">
+                <div className="absolute -inset-3 rounded-[2.5rem] bg-sky-100/60 blur-2xl" />
+                <div className="relative overflow-hidden rounded-3xl shadow-lg">
+                  <Image
+                    src="/images/manuel.png"
+                    alt="Manuel Marín Vicente"
+                    width={560}
+                    height={600}
+                    className="h-auto w-full object-cover"
+                  />
                 </div>
-              ))}
-            </div>
+              </div>
+            </ScrollReveal>
+
+            <ScrollReveal direction="right" delay={150}>
+              <div>
+                <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-700">
+                  Quiénes somos
+                </p>
+                <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
+                  Oficina Técnica de Ingeniería Industrial y Civil
+                </h2>
+                <p className="mt-6 text-base leading-8 text-slate-600">
+                  Al frente de abacoingeniería® está Manuel Marín Vicente,
+                  Ingeniero Técnico Industrial desde 1983. Con una trayectoria
+                  impecable, Manuel lidera el equipo ofreciendo una atención
+                  personalizada y un asesoramiento experto.
+                </p>
+                <p className="mt-4 text-base leading-8 text-slate-600">
+                  Él mismo estudia cada caso para encontrar la mejor solución,
+                  asumiendo la responsabilidad directa de cada proyecto.
+                </p>
+
+                {/* Firma */}
+                <div className="mt-8 border-l-2 border-sky-500 pl-4">
+                  <p className="font-bold text-slate-900">Manuel Marín Vicente</p>
+                  <p className="text-sm text-sky-700">Ingeniero Técnico Industrial</p>
+                </div>
+
+                <a href="#servicios" className="mt-8 inline-block rounded-xl bg-slate-900 px-6 py-3 text-sm font-semibold text-white transition hover:bg-slate-800">
+                  Qué servicios ofrecemos
+                </a>
+              </div>
+            </ScrollReveal>
           </div>
+
+          {/* Bloque equipo */}
+          <ScrollReveal direction="up" delay={100}>
+            <div className="mt-16 rounded-3xl bg-sky-50 px-8 py-10 text-center">
+              <p className="text-lg text-slate-700">
+                Además, contamos con{" "}
+                <strong className="text-slate-900">un equipo de técnicos especializados</strong>{" "}
+                en diversas áreas, lo que nos permite abordar cualquier reto de
+                ingeniería con solvencia y profesionalidad.
+              </p>
+            </div>
+          </ScrollReveal>
+
         </div>
       </section>
 
       {/* ── SERVICIOS ── */}
-      <section id="servicios" className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
+      <section id="servicios" className="bg-gradient-to-b from-sky-50 to-white">
+      <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
+        <ScrollReveal direction="up">
         <div className="max-w-3xl">
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-700">
             Nuestros servicios
@@ -240,8 +202,7 @@ export default function Home() {
           </h2>
           <p className="mt-4 text-lg text-slate-600">
             En abacoingeniería® ofrecemos un amplio abanico de servicios
-            técnicos para resolver tus necesidades con la máxima
-            profesionalidad.
+            técnicos para resolver tus necesidades con la máxima profesionalidad.
           </p>
           <p className="mt-4 text-lg text-slate-600">
             Cubrimos todo el proceso técnico, desde la idea inicial hasta la
@@ -249,136 +210,160 @@ export default function Home() {
             garantizar seguridad, viabilidad y cumplimiento normativo.
           </p>
         </div>
+        </ScrollReveal>
 
         <div className="mt-12 grid gap-6 md:grid-cols-2">
-          {[
-            {
-              title: "Ingeniería Industrial y Civil",
-              items: [
-                [
-                  "Diseño y proyectos",
-                  "Construcción de naves industriales, talleres, bares, discotecas y grandes áreas comerciales.",
-                ],
-                [
-                  "Instalaciones técnicas",
-                  "Proyectos de electricidad, calefacción, aire acondicionado, fontanería y gas.",
-                ],
-                [
-                  "Dirección y certificación",
-                  "Supervisión y certificados de obras e instalaciones.",
-                ],
-                [
-                  "Mediciones",
-                  "Ejecución y comprobación precisa de mediciones para tus proyectos.",
-                ],
-              ],
-              extra:
-                "Trabajamos en la apertura de negocios, ampliaciones de instalaciones, cambios de uso y adecuación de espacios a normativa vigente.",
-            },
-            {
-              title: "Homologaciones y Vehículos",
-              items: [
-                [
-                  "Fichas técnicas reducidas",
-                  "Para matriculación, rehabilitación o catalogación de vehículos como históricos.",
-                ],
-                [
-                  "Reformas y homologaciones",
-                  "Adaptación y legalización de modificaciones en vehículos.",
-                ],
-                [
-                  "Asesoramiento especializado",
-                  "Estudios previos para la importación y documentación necesaria.",
-                ],
-              ],
-              extra:
-                "Gestionamos procesos completos de matriculación, importación y legalización, evitando errores y reduciendo tiempos en ITV y trámites administrativos.",
-            },
-            {
-              title: "Consultoría Técnica",
-              items: [
-                [
-                  "Asesoramiento personalizado",
-                  "Orientación técnica profesional para tu proyecto, actividad o inversión.",
-                ],
-                [
-                  "Cumplimiento normativo",
-                  "Garantizamos que tus instalaciones cumplen con las normativas industrial, de seguridad y sanitaria.",
-                ],
-                [
-                  "Control de contratistas",
-                  "Supervisión para evitar desviaciones y asegurar que la ejecución respete el proyecto aprobado.",
-                ],
-              ],
-              extra:
-                "Te ayudamos a tomar decisiones técnicas con seguridad, minimizando riesgos y asegurando la viabilidad de tu inversión.",
-            },
-            {
-              title: "Otros Servicios",
-              items: [
-                [
-                  "Informes periciales",
-                  "Reconstrucción de accidentes de tráfico y análisis técnicos para particulares, compañías o juzgados.",
-                ],
-                [
-                  "Tasaciones y valoraciones",
-                  "De industrias, viviendas y otros bienes.",
-                ],
-                [
-                  "Certificación energética",
-                  "Evaluación y certificación de la eficiencia energética de inmuebles.",
-                ],
-                [
-                  "Gestión de suelo",
-                  "Gestión y asesoramiento en suelo industrial y comercial.",
-                ],
-                [
-                  "Topografía y reportajes",
-                  "Reconocimientos técnicos, fotografía y documentación gráfica de proyectos.",
-                ],
-              ],
-              extra:
-                "Actuamos como soporte técnico en procesos judiciales, compraventas, auditorías y evaluaciones técnicas especializadas.",
-            },
-          ].map((category) => (
-            <div
-              key={category.title}
-              className="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:shadow-md"
-            >
-              <h3 className="text-xl font-semibold text-slate-900">
-                {category.title}
-              </h3>
+          {/* Tarjeta 1 con imagen */}
+          <ScrollReveal direction="up" delay={0}>
+          <div className="overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-md">
+            <div className="relative h-52 w-full">
+              <Image
+                src="/images/1.avif"
+                alt="Ingeniería Industrial y Civil"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="p-7">
+              <h3 className="text-xl font-semibold text-slate-900">Ingeniería Industrial y Civil</h3>
               <ul className="mt-4 space-y-3">
-                {category.items.map(([label, desc]) => (
+                {[
+                  ["Diseño y proyectos", "Construcción de naves industriales, talleres, bares, discotecas y grandes áreas comerciales."],
+                  ["Instalaciones técnicas", "Proyectos de electricidad, calefacción, aire acondicionado, fontanería y gas."],
+                  ["Dirección y certificación", "Supervisión y certificados de obras e instalaciones."],
+                  ["Mediciones", "Ejecución y comprobación precisa de mediciones para tus proyectos."],
+                ].map(([label, desc]) => (
                   <li key={label}>
                     <p className="text-sm font-semibold text-sky-700">{label}</p>
                     <p className="text-sm leading-6 text-slate-600">{desc}</p>
                   </li>
                 ))}
               </ul>
-              <p className="mt-4 text-sm text-slate-600">{category.extra}</p>
-              <a
-                href="#contacto"
-                className="mt-6 inline-block text-sm font-semibold text-slate-900 underline underline-offset-4 hover:text-sky-700"
-              >
+              <p className="mt-4 text-sm text-slate-600">
+                Trabajamos en la apertura de negocios, ampliaciones de instalaciones, cambios de uso y adecuación de espacios a normativa vigente.
+              </p>
+              <a href="#contacto" className="mt-6 inline-block text-sm font-semibold text-slate-900 underline underline-offset-4 hover:text-sky-700">
                 Contáctanos →
               </a>
             </div>
-          ))}
+          </div>
+          </ScrollReveal>
+
+          {/* Tarjeta 2 con imagen */}
+          <ScrollReveal direction="up" delay={100}>
+          <div className="overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-md">
+            <div className="relative h-52 w-full">
+              <Image
+                src="/images/2.avif"
+                alt="Homologaciones y Vehículos"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="p-7">
+              <h3 className="text-xl font-semibold text-slate-900">Homologaciones y Vehículos</h3>
+              <ul className="mt-4 space-y-3">
+                {[
+                  ["Fichas técnicas reducidas", "Para matriculación, rehabilitación o catalogación de vehículos como históricos."],
+                  ["Reformas y homologaciones", "Adaptación y legalización de modificaciones en vehículos."],
+                  ["Asesoramiento especializado", "Estudios previos para la importación y documentación necesaria."],
+                ].map(([label, desc]) => (
+                  <li key={label}>
+                    <p className="text-sm font-semibold text-sky-700">{label}</p>
+                    <p className="text-sm leading-6 text-slate-600">{desc}</p>
+                  </li>
+                ))}
+              </ul>
+              <p className="mt-4 text-sm text-slate-600">
+                Gestionamos procesos completos de matriculación, importación y legalización, evitando errores y reduciendo tiempos en ITV y trámites administrativos.
+              </p>
+              <a href="#contacto" className="mt-6 inline-block text-sm font-semibold text-slate-900 underline underline-offset-4 hover:text-sky-700">
+                Contáctanos →
+              </a>
+            </div>
+          </div>
+
+          </ScrollReveal>
+
+          {/* Tarjeta 3 con imagen */}
+          <ScrollReveal direction="up" delay={200}>
+          <div className="overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-md">
+            <div className="relative h-52 w-full">
+              <Image
+                src="/images/3.avif"
+                alt="Consultoría Técnica"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="p-7">
+              <h3 className="text-xl font-semibold text-slate-900">Consultoría Técnica</h3>
+              <ul className="mt-4 space-y-3">
+                {[
+                  ["Asesoramiento personalizado", "Orientación técnica profesional para tu proyecto, actividad o inversión."],
+                  ["Cumplimiento normativo", "Garantizamos que tus instalaciones cumplen con las normativas industrial, de seguridad y sanitaria."],
+                  ["Control de contratistas", "Supervisión para evitar desviaciones y asegurar que la ejecución respete el proyecto aprobado."],
+                ].map(([label, desc]) => (
+                  <li key={label}>
+                    <p className="text-sm font-semibold text-sky-700">{label}</p>
+                    <p className="text-sm leading-6 text-slate-600">{desc}</p>
+                  </li>
+                ))}
+              </ul>
+              <p className="mt-4 text-sm text-slate-600">
+                Te ayudamos a tomar decisiones técnicas con seguridad, minimizando riesgos y asegurando la viabilidad de tu inversión.
+              </p>
+              <a href="#contacto" className="mt-6 inline-block text-sm font-semibold text-slate-900 underline underline-offset-4 hover:text-sky-700">
+                Contáctanos →
+              </a>
+            </div>
+          </div>
+
+          </ScrollReveal>
+
+          {/* Tarjeta 4 sin imagen */}
+          <ScrollReveal direction="up" delay={300}>
+          <div className="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
+            <h3 className="text-xl font-semibold text-slate-900">Otros Servicios</h3>
+            <ul className="mt-4 space-y-3">
+              {[
+                ["Informes periciales", "Reconstrucción de accidentes de tráfico y análisis técnicos para particulares, compañías o juzgados."],
+                ["Tasaciones y valoraciones", "De industrias, viviendas y otros bienes."],
+                ["Certificación energética", "Evaluación y certificación de la eficiencia energética de inmuebles."],
+                ["Gestión de suelo", "Gestión y asesoramiento en suelo industrial y comercial."],
+                ["Topografía y reportajes", "Reconocimientos técnicos, fotografía y documentación gráfica de proyectos."],
+              ].map(([label, desc]) => (
+                <li key={label}>
+                  <p className="text-sm font-semibold text-sky-700">{label}</p>
+                  <p className="text-sm leading-6 text-slate-600">{desc}</p>
+                </li>
+              ))}
+            </ul>
+            <p className="mt-4 text-sm text-slate-600">
+              Actuamos como soporte técnico en procesos judiciales, compraventas, auditorías y evaluaciones técnicas especializadas.
+            </p>
+            <a href="#contacto" className="mt-6 inline-block text-sm font-semibold text-slate-900 underline underline-offset-4 hover:text-sky-700">
+              Contáctanos →
+            </a>
+          </div>
+          </ScrollReveal>
         </div>
+      </div>
       </section>
 
       {/* ── CÓMO TRABAJAMOS ── */}
-      <section id="metodo" className="bg-white">
-        <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
+      <section id="metodo" className="relative overflow-hidden bg-sky-950 text-white">
+        <div aria-hidden className="pointer-events-none absolute -right-40 -top-40 h-[500px] w-[500px] rounded-full bg-sky-600/15 blur-3xl" />
+        <div aria-hidden className="pointer-events-none absolute -bottom-32 left-0 h-[400px] w-[400px] rounded-full bg-indigo-600/10 blur-3xl" />
+        <div className="relative mx-auto max-w-7xl px-6 py-20 lg:px-8">
           <div className="max-w-2xl">
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-700">
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-300">
               Cómo trabajamos
             </p>
-            <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
+            <h2 className="mt-3 text-3xl font-bold tracking-tight text-white sm:text-4xl">
               Un proceso claro, rápido y eficaz
             </h2>
-            <p className="mt-4 text-lg text-slate-600">
+            <p className="mt-4 text-lg text-sky-100/80">
               Analizamos cada caso con rigor técnico y visión práctica para que
               el cliente tenga claridad desde el primer momento.
             </p>
@@ -386,26 +371,26 @@ export default function Home() {
 
           <div className="mt-12 grid gap-6 md:grid-cols-4">
             {[
-              ["1. Análisis", "Estudiamos tu caso y tus necesidades técnicas."],
-              ["2. Propuesta", "Definimos la mejor solución adaptada."],
-              ["3. Desarrollo", "Redactamos, coordinamos y gestionamos el proyecto."],
-              ["4. Legalización", "Tramitamos y garantizamos cumplimiento normativo."],
-            ].map(([title, desc]) => (
-              <div
-                key={title}
-                className="rounded-2xl border border-slate-200 p-6 shadow-sm"
-              >
-                <p className="text-base font-semibold text-slate-900">{title}</p>
-                <p className="mt-2 text-sm leading-6 text-slate-600">{desc}</p>
-              </div>
+              ["1. Análisis", "Estudiamos tu caso y tus necesidades técnicas.", 0],
+              ["2. Propuesta", "Definimos la mejor solución adaptada.", 100],
+              ["3. Desarrollo", "Redactamos, coordinamos y gestionamos el proyecto.", 200],
+              ["4. Legalización", "Tramitamos y garantizamos cumplimiento normativo.", 300],
+            ].map(([title, desc, delay]) => (
+              <ScrollReveal key={title as string} direction="up" delay={delay as number}>
+                <div className="rounded-2xl border border-sky-500/20 bg-white/5 p-6 backdrop-blur-sm">
+                  <p className="text-base font-semibold text-white">{title}</p>
+                  <p className="mt-2 text-sm leading-6 text-sky-100/70">{desc}</p>
+                </div>
+              </ScrollReveal>
             ))}
           </div>
         </div>
       </section>
 
       {/* ── PROYECTOS ── */}
-      <section id="proyectos" className="bg-slate-50">
+      <section id="proyectos" className="bg-white">
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
+          <ScrollReveal direction="up">
           <div className="max-w-3xl">
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-700">
               Proyectos
@@ -429,23 +414,19 @@ export default function Home() {
               <li>• Certificados e informes para trámites administrativos</li>
             </ul>
 
-            <a
-              href="#contacto"
-              className="mt-8 inline-block rounded-xl bg-slate-900 px-6 py-3 text-sm font-semibold text-white transition hover:bg-slate-800"
-            >
+            <a href="#contacto" className="mt-8 inline-block rounded-xl bg-slate-900 px-6 py-3 text-sm font-semibold text-white transition hover:bg-slate-800">
               Solicitar estudio de tu caso
             </a>
           </div>
+          </ScrollReveal>
         </div>
       </section>
 
       {/* ── CONTACTO ── */}
-      <section
-        id="contacto"
-        className="border-t border-slate-200 bg-slate-900 text-white"
-      >
+      <section id="contacto" className="border-t border-slate-200 bg-slate-900 text-white">
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
           <div className="grid gap-12 lg:grid-cols-2">
+            <ScrollReveal direction="left">
             <div>
               <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-300">
                 Te atendemos con cita previa
@@ -461,204 +442,71 @@ export default function Home() {
                 Respuesta rápida. Estudiaremos tu caso sin compromiso.
               </p>
 
+              <a
+                href="https://wa.me/34687465486"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-6 inline-flex items-center gap-3 rounded-xl bg-green-500 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-green-500/25 transition hover:bg-green-400"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+                  <path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.554 4.117 1.528 5.845L.057 23.547a.75.75 0 00.921.921l5.702-1.471A11.943 11.943 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.75a9.722 9.722 0 01-4.964-1.36l-.355-.212-3.686.95.968-3.54-.232-.368A9.722 9.722 0 012.25 12C2.25 6.615 6.615 2.25 12 2.25S21.75 6.615 21.75 12 17.385 21.75 12 21.75z"/>
+                </svg>
+                Escríbenos por WhatsApp
+              </a>
+
               <div className="mt-8 grid gap-4 sm:grid-cols-2">
-                <div className="rounded-2xl border border-slate-700 p-5">
-                  <p className="text-sm text-slate-400">Teléfono</p>
-                  <a
-                    href="tel:+34670607830"
-                    className="mt-2 block font-semibold hover:text-sky-400"
-                  >
-                    670 607 830
-                  </a>
-                </div>
-
-                <div className="rounded-2xl border border-slate-700 p-5">
-                  <p className="text-sm text-slate-400">Email</p>
-                  <a
-                    href="mailto:info@abacoingenieria.es"
-                    className="mt-2 block font-semibold hover:text-sky-400"
-                  >
-                    info@abacoingenieria.es
-                  </a>
-                </div>
-
-                <div className="rounded-2xl border border-slate-700 p-5">
-                  <p className="text-sm text-slate-400">
-                    Oficina Principal Almería
-                  </p>
-                  <p className="mt-2 text-sm font-semibold leading-6">
-                    Carretera de Ronda, 293
-                    <br />
-                    Entresuelo 2 · 04009 Almería
-                    <br />
-                    <span className="text-xs text-slate-400">
-                      (junto a la Residencia Sanitaria Bola Azul)
-                    </span>
-                  </p>
-                </div>
-
-                <div className="rounded-2xl border border-slate-700 p-5">
-                  <p className="text-sm text-slate-400">
-                    Despacho en Aguadulce
-                  </p>
-                  <p className="mt-2 text-sm font-semibold leading-6">
-                    Calle Islas Azores, 18
-                    <br />
-                    04720 Aguadulce · Almería
-                  </p>
-                </div>
-              </div>
-
-              <div className="mt-8 flex flex-wrap gap-4">
-                <a
-                  href="mailto:info@abacoingenieria.es"
-                  className="inline-block rounded-2xl bg-white px-6 py-3 text-sm font-semibold text-slate-900 transition hover:bg-slate-100"
-                >
-                  Escribir ahora
-                </a>
-
-                <a
-                  href="https://wa.me/34670607830?text=Hola,%20quiero%20hacer%20una%20consulta%20sobre%20un%20proyecto%20t%C3%A9cnico"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 rounded-2xl bg-emerald-500 px-6 py-3 text-sm font-semibold text-white transition hover:bg-emerald-400"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 32 32"
-                    fill="currentColor"
-                    className="h-5 w-5"
-                    aria-hidden="true"
-                  >
-                    <path d="M19.11 17.41c-.29-.15-1.72-.85-1.98-.95-.27-.1-.46-.15-.66.15-.2.29-.76.95-.94 1.15-.17.2-.35.22-.64.07-.29-.15-1.24-.46-2.36-1.46-.87-.78-1.46-1.74-1.63-2.03-.17-.29-.02-.44.13-.59.13-.13.29-.35.44-.51.15-.17.2-.29.29-.49.1-.2.05-.37-.02-.51-.07-.15-.66-1.59-.9-2.18-.24-.57-.49-.49-.66-.5h-.56c-.2 0-.51.07-.78.37-.27.29-1.02 1-1.02 2.44s1.05 2.83 1.19 3.03c.15.2 2.06 3.15 4.99 4.42.7.3 1.24.48 1.67.61.7.22 1.34.19 1.85.12.56-.08 1.72-.7 1.96-1.37.24-.66.24-1.24.17-1.36-.07-.12-.27-.2-.56-.34Z" />
-                    <path d="M16.01 3.2c-7.07 0-12.8 5.73-12.8 12.8 0 2.24.58 4.42 1.67 6.34L3 29l6.86-1.8a12.76 12.76 0 0 0 6.15 1.57h.01c7.07 0 12.8-5.73 12.8-12.8S23.08 3.2 16.01 3.2Zm0 23.46h-.01a10.6 10.6 0 0 1-5.4-1.48l-.39-.23-4.07 1.07 1.09-3.97-.25-.41a10.57 10.57 0 1 1 9.03 5.02Z" />
-                  </svg>
-                  WhatsApp
-                </a>
+                {[
+                  ["Llámanos", "670 607 830"],
+                  ["E-mail", "info@abacoingenieria.es"],
+                  ["Dirección postal", "Carretera de Ronda, 293\nEntresuelo 2\n04009 Almería"],
+                ].map(([label, value]) => (
+                  <div key={label} className="rounded-2xl border border-white/10 bg-white/5 p-5">
+                    <p className="text-xs font-semibold uppercase tracking-widest text-sky-300">{label}</p>
+                    <p className="mt-2 text-sm leading-6 text-slate-300 whitespace-pre-line">{value}</p>
+                  </div>
+                ))}
               </div>
             </div>
+            </ScrollReveal>
 
-            {/* Formulario */}
-            <div className="rounded-3xl border border-slate-700 bg-slate-800/50 p-8">
-              <h3 className="text-xl font-semibold text-white">
-                Formulario de contacto
-              </h3>
-              <form className="mt-6 space-y-4">
-                <div className="grid gap-4 sm:grid-cols-2">
-                  <div>
-                    <label className="mb-1 block text-xs font-medium text-slate-400">
-                      Nombre
-                    </label>
-                    <input
-                      type="text"
-                      placeholder="Nombre"
-                      className="w-full rounded-xl border border-slate-600 bg-slate-700/50 px-4 py-2.5 text-sm text-white placeholder-slate-500 focus:border-sky-500 focus:outline-none"
-                    />
-                  </div>
-                  <div>
-                    <label className="mb-1 block text-xs font-medium text-slate-400">
-                      Empresa
-                    </label>
-                    <input
-                      type="text"
-                      placeholder="Empresa"
-                      className="w-full rounded-xl border border-slate-600 bg-slate-700/50 px-4 py-2.5 text-sm text-white placeholder-slate-500 focus:border-sky-500 focus:outline-none"
-                    />
-                  </div>
-                </div>
-
-                <div className="grid gap-4 sm:grid-cols-2">
-                  <div>
-                    <label className="mb-1 block text-xs font-medium text-slate-400">
-                      Teléfono
-                    </label>
-                    <input
-                      type="tel"
-                      placeholder="Teléfono"
-                      className="w-full rounded-xl border border-slate-600 bg-slate-700/50 px-4 py-2.5 text-sm text-white placeholder-slate-500 focus:border-sky-500 focus:outline-none"
-                    />
-                  </div>
-                  <div>
-                    <label className="mb-1 block text-xs font-medium text-slate-400">
-                      E-mail
-                    </label>
-                    <input
-                      type="email"
-                      placeholder="E-mail"
-                      className="w-full rounded-xl border border-slate-600 bg-slate-700/50 px-4 py-2.5 text-sm text-white placeholder-slate-500 focus:border-sky-500 focus:outline-none"
-                    />
-                  </div>
-                </div>
-
-                <div>
-                  <label className="mb-1 block text-xs font-medium text-slate-400">
-                    Mensaje
-                  </label>
-                  <textarea
-                    rows={4}
-                    placeholder="Mensaje"
-                    className="w-full rounded-xl border border-slate-600 bg-slate-700/50 px-4 py-2.5 text-sm text-white placeholder-slate-500 focus:border-sky-500 focus:outline-none"
-                  />
-                </div>
-
-                <button
-                  type="submit"
-                  className="w-full rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white transition hover:bg-sky-400"
-                >
-                  Enviar mensaje
-                </button>
-              </form>
+            <ScrollReveal direction="right" delay={150}>
+            <div className="rounded-3xl border border-white/10 bg-white/5 p-8">
+              <h3 className="text-xl font-semibold text-white">Envíanos tu consulta</h3>
+              <p className="mt-2 text-sm text-slate-400">Te responderemos lo antes posible.</p>
+              <ContactForm />
             </div>
+            </ScrollReveal>
           </div>
         </div>
       </section>
 
       {/* ── BOTÓN FLOTANTE WHATSAPP ── */}
       <a
-        href="https://wa.me/34670607830?text=Hola,%20quiero%20hacer%20una%20consulta"
+        href="https://wa.me/34687465486"
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Contactar por WhatsApp"
-        className="fixed bottom-6 right-6 z-50 inline-flex h-14 w-14 items-center justify-center rounded-full bg-emerald-500 text-white shadow-xl transition hover:scale-105 hover:bg-emerald-400"
+        className="fixed bottom-6 right-6 z-50 flex items-center gap-2 rounded-full bg-green-500 px-5 py-3 text-sm font-semibold text-white shadow-xl shadow-green-500/40 transition hover:bg-green-400 hover:scale-105"
       >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 32 32"
-          fill="currentColor"
-          className="h-7 w-7"
-          aria-hidden="true"
-        >
-          <path d="M19.11 17.41c-.29-.15-1.72-.85-1.98-.95-.27-.1-.46-.15-.66.15-.2.29-.76.95-.94 1.15-.17.2-.35.22-.64.07-.29-.15-1.24-.46-2.36-1.46-.87-.78-1.46-1.74-1.63-2.03-.17-.29-.02-.44.13-.59.13-.13.29-.35.44-.51.15-.17.2-.29.29-.49.1-.2.05-.37-.02-.51-.07-.15-.66-1.59-.9-2.18-.24-.57-.49-.49-.66-.5h-.56c-.2 0-.51.07-.78.37-.27.29-1.02 1-1.02 2.44s1.05 2.83 1.19 3.03c.15.2 2.06 3.15 4.99 4.42.7.3 1.24.48 1.67.61.7.22 1.34.19 1.85.12.56-.08 1.72-.7 1.96-1.37.24-.66.24-1.24.17-1.36-.07-.12-.27-.2-.56-.34Z" />
-          <path d="M16.01 3.2c-7.07 0-12.8 5.73-12.8 12.8 0 2.24.58 4.42 1.67 6.34L3 29l6.86-1.8a12.76 12.76 0 0 0 6.15 1.57h.01c7.07 0 12.8-5.73 12.8-12.8S23.08 3.2 16.01 3.2Zm0 23.46h-.01a10.6 10.6 0 0 1-5.4-1.48l-.39-.23-4.07 1.07 1.09-3.97-.25-.41a10.57 10.57 0 1 1 9.03 5.02Z" />
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5 shrink-0">
+          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+          <path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.554 4.117 1.528 5.845L.057 23.547a.75.75 0 00.921.921l5.702-1.471A11.943 11.943 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.75a9.722 9.722 0 01-4.964-1.36l-.355-.212-3.686.95.968-3.54-.232-.368A9.722 9.722 0 012.25 12C2.25 6.615 6.615 2.25 12 2.25S21.75 6.615 21.75 12 17.385 21.75 12 21.75z"/>
         </svg>
+        WhatsApp
       </a>
 
       {/* ── FOOTER ── */}
-      <footer className="border-t border-slate-800 bg-slate-900 text-slate-400">
-        <div className="mx-auto max-w-7xl px-6 py-8 lg:px-8">
-          <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
-            <p className="text-sm">©abacoingeniería® 2026</p>
-            <div className="flex gap-6 text-sm">
-              <a
-                href="https://abacoingenieria.es/aviso-legal/"
-                className="hover:text-white"
-              >
-                Aviso Legal
-              </a>
-              <a
-                href="https://abacoingenieria.es/politica-de-privacidad/"
-                className="hover:text-white"
-              >
-                Privacidad
-              </a>
-              <a
-                href="https://abacoingenieria.es/declaracion-de-accesibilidad/"
-                className="hover:text-white"
-              >
-                Accesibilidad
-              </a>
-            </div>
-          </div>
+      <footer className="border-t border-slate-200 bg-white">
+        <div className="mx-auto max-w-7xl px-6 py-8 lg:px-8 flex flex-col items-center justify-between gap-4 sm:flex-row">
+          <Image
+            src="/images/logo-abaco.jpeg"
+            alt="Abaco Ingeniería"
+            width={120}
+            height={40}
+          />
+          <p className="text-sm text-slate-500">
+            © {new Date().getFullYear()} abacoingeniería®. Todos los derechos reservados.
+          </p>
         </div>
       </footer>
     </main>
