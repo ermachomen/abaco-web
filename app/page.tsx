@@ -251,7 +251,7 @@ export default function Home() {
 
           {/* Tarjeta 2 con imagen */}
           <ScrollReveal direction="up" delay={100}>
-          <div className="overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-md">
+          <div className="overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-md relative">
             <div className="relative h-52 w-full">
               <Image
                 src="/images/2.avif"
@@ -277,9 +277,14 @@ export default function Home() {
               <p className="mt-4 text-sm text-slate-600">
                 Gestionamos procesos completos de matriculación, importación y legalización, evitando errores y reduciendo tiempos en ITV y trámites administrativos.
               </p>
-              <a href="#contacto" className="mt-6 inline-block text-sm font-semibold text-slate-900 underline underline-offset-4 hover:text-sky-700">
-                Contáctanos →
-              </a>
+              <div className="mt-6 flex flex-wrap gap-4">
+                <a href="/fichas-tecnicas" className="inline-block rounded-xl bg-sky-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-sky-500">
+                  Solicitar ficha técnica →
+                </a>
+                <a href="#contacto" className="inline-block text-sm font-semibold text-slate-900 underline underline-offset-4 hover:text-sky-700 self-center">
+                  Contacto
+                </a>
+              </div>
             </div>
           </div>
 
