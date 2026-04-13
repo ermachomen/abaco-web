@@ -1,57 +1,150 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-white text-slate-900">
-      <section className="border-b border-slate-200 bg-gradient-to-b from-slate-50 to-white">
-        <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-28">
-          <div className="max-w-3xl">
-            <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-sky-700">
-              AbacoIngenieria · Almería
-            </p>
+      <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/95 backdrop-blur">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
+          <a href="#" className="flex items-center gap-3">
+            <Image
+              src="/images/logo-abaco.jpeg"
+              alt="Abaco Ingeniería"
+              width={170}
+              height={60}
+              priority
+            />
+          </a>
 
-            <h1 className="text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">
-              Soluciones de ingeniería y consultoría técnica con enfoque
-              práctico, riguroso y cercano
-            </h1>
+          <nav className="hidden items-center gap-8 md:flex">
+            <a
+              href="#servicios"
+              className="text-sm font-medium text-slate-600 transition hover:text-slate-900"
+            >
+              Servicios
+            </a>
+            <a
+              href="#empresa"
+              className="text-sm font-medium text-slate-600 transition hover:text-slate-900"
+            >
+              Empresa
+            </a>
+            <a
+              href="#proceso"
+              className="text-sm font-medium text-slate-600 transition hover:text-slate-900"
+            >
+              Cómo trabajamos
+            </a>
+            <a
+              href="#contacto"
+              className="rounded-xl bg-slate-900 px-4 py-2 text-sm font-semibold text-white transition hover:bg-slate-800"
+            >
+              Contacto
+            </a>
+          </nav>
+        </div>
+      </header>
 
-            <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600">
-              Ayudamos a empresas, explotaciones, entidades y particulares a
-              convertir necesidades técnicas en proyectos viables, claros y bien
-              ejecutados.
-            </p>
+      {/* ── HERO ── */}
+      <section className="relative overflow-hidden bg-slate-900 text-white">
+        {/* Dot-grid texture */}
+        <div
+          aria-hidden
+          className="pointer-events-none absolute inset-0 opacity-[0.15]"
+          style={{
+            backgroundImage:
+              "radial-gradient(circle, #94a3b8 1px, transparent 1px)",
+            backgroundSize: "32px 32px",
+          }}
+        />
+        {/* Radial glow top-left */}
+        <div
+          aria-hidden
+          className="pointer-events-none absolute -left-40 -top-40 h-[600px] w-[600px] rounded-full bg-sky-600/20 blur-3xl"
+        />
+        {/* Radial glow bottom-right */}
+        <div
+          aria-hidden
+          className="pointer-events-none absolute -bottom-32 right-0 h-[500px] w-[500px] rounded-full bg-indigo-600/10 blur-3xl"
+        />
 
-            <div className="mt-8 flex flex-wrap gap-4">
-              <a
-                href="#contacto"
-                className="rounded-2xl bg-slate-900 px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-slate-800"
-              >
-                Solicitar asesoramiento
-              </a>
-              <a
-                href="#servicios"
-                className="rounded-2xl border border-slate-300 px-6 py-3 text-sm font-semibold text-slate-700 transition hover:border-slate-400 hover:bg-slate-50"
-              >
-                Ver servicios
-              </a>
+        <div className="relative mx-auto max-w-7xl px-6 py-24 lg:px-8 lg:py-36">
+          <div className="grid items-center gap-16 lg:grid-cols-2">
+            {/* ── Left column ── */}
+            <div>
+              {/* Badge */}
+              <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-sky-500/30 bg-sky-500/10 px-4 py-1.5 backdrop-blur">
+                <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-sky-400" />
+                <span className="text-xs font-semibold uppercase tracking-widest text-sky-400">
+                  Abaco Ingeniería · Almería
+                </span>
+              </div>
+
+              <h1 className="text-5xl font-bold leading-[1.1] tracking-tight sm:text-6xl lg:text-7xl">
+                <span className="text-white">Soluciones de </span>
+                <span className="text-sky-400">ingeniería</span>
+                <span className="text-white">
+                  {" "}
+                  para proyectos que avanzan
+                </span>
+              </h1>
+
+              <p className="mt-6 max-w-xl text-lg leading-8 text-slate-300">
+                Ayudamos a empresas, explotaciones, entidades y particulares a
+                convertir necesidades técnicas en proyectos viables, claros y
+                bien ejecutados.
+              </p>
+
+              <div className="mt-10 flex flex-wrap gap-4">
+                <a
+                  href="#contacto"
+                  className="rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-sky-500/25 transition hover:bg-sky-400 hover:shadow-sky-400/30"
+                >
+                  Solicitar asesoramiento
+                </a>
+                <a
+                  href="#servicios"
+                  className="rounded-xl border border-white/20 bg-white/5 px-6 py-3 text-sm font-semibold text-white backdrop-blur transition hover:border-white/40 hover:bg-white/10"
+                >
+                  Ver servicios →
+                </a>
+              </div>
+
+              {/* Value pillars */}
+              <div className="mt-12 grid grid-cols-3 gap-x-6 border-t border-white/10 pt-10">
+                {[
+                  ["Rigor", "Soluciones bien fundamentadas"],
+                  ["Cercanía", "Trato directo y seguimiento"],
+                  ["Confianza", "Calidad, detalle y plazos"],
+                ].map(([title, desc]) => (
+                  <div key={title}>
+                    <p className="text-base font-bold text-white">{title}</p>
+                    <p className="mt-1 text-xs leading-5 text-slate-400">
+                      {desc}
+                    </p>
+                  </div>
+                ))}
+              </div>
             </div>
 
-            <div className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-3">
-              <div className="rounded-2xl border border-slate-200 bg-white p-5">
-                <p className="text-2xl font-bold text-slate-900">Rigor</p>
-                <p className="mt-2 text-sm text-slate-600">
-                  Soluciones técnicas claras, realistas y bien fundamentadas.
-                </p>
-              </div>
-              <div className="rounded-2xl border border-slate-200 bg-white p-5">
-                <p className="text-2xl font-bold text-slate-900">Cercanía</p>
-                <p className="mt-2 text-sm text-slate-600">
-                  Trato directo, seguimiento y comunicación sencilla.
-                </p>
-              </div>
-              <div className="rounded-2xl border border-slate-200 bg-white p-5">
-                <p className="text-2xl font-bold text-slate-900">Confianza</p>
-                <p className="mt-2 text-sm text-slate-600">
-                  Compromiso con la calidad, el detalle y los plazos.
-                </p>
+            {/* ── Right column ── */}
+            <div className="flex justify-center lg:justify-end">
+              <div className="relative">
+                {/* Outer glow */}
+                <div className="absolute -inset-6 rounded-[2.5rem] bg-sky-500/10 blur-2xl" />
+                {/* Glass card */}
+                <div className="relative rounded-[2rem] border border-white/10 bg-white/5 p-10 shadow-2xl backdrop-blur-sm">
+                  <Image
+                    src="/images/logo-abaco.jpeg"
+                    alt="Logo Abaco Ingeniería"
+                    width={420}
+                    height={260}
+                    className="h-auto w-full max-w-sm"
+                    priority
+                  />
+                  {/* Decorative corner accents */}
+                  <span className="absolute right-5 top-5 block h-7 w-7 rounded-tr-xl border-r-2 border-t-2 border-sky-400/40" />
+                  <span className="absolute bottom-5 left-5 block h-7 w-7 rounded-bl-xl border-b-2 border-l-2 border-sky-400/40" />
+                </div>
               </div>
             </div>
           </div>
@@ -114,7 +207,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-slate-50">
+      <section id="empresa" className="bg-slate-50">
         <div className="mx-auto grid max-w-7xl gap-12 px-6 py-20 lg:grid-cols-2 lg:px-8">
           <div>
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-700">
@@ -124,7 +217,7 @@ export default function Home() {
               Ingeniería con visión técnica y trato cercano
             </h2>
             <p className="mt-6 text-base leading-8 text-slate-600">
-              En AbacoIngenieria trabajamos con una idea sencilla: ofrecer
+              En Abaco Ingeniería trabajamos con una idea sencilla: ofrecer
               soluciones técnicas rigurosas, comprensibles y útiles para cada
               cliente. Apostamos por la claridad, la responsabilidad y el
               acompañamiento durante todo el proceso.
@@ -154,7 +247,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
+      <section id="proceso" className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
         <div className="max-w-2xl">
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-700">
             Cómo trabajamos
