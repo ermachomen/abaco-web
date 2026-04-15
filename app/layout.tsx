@@ -17,20 +17,22 @@ const siteUrl = "https://www.ingenierial.es";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Abaco Ingeniería – Ingeniería y Consultoría Técnica en Almería",
+    default:
+      "Licencias de Actividad y Peritaciones Judiciales en Almería | Abaco Ingeniería",
     template: "%s | Abaco Ingeniería",
   },
   description:
-    "Empresa de ingeniería en Almería especializada en proyectos técnicos, informes periciales, tramitación administrativa y consultoría. Soluciones prácticas y rigurosas para particulares y empresas.",
+    "Ingeniería en Almería especializada en proyectos para licencia de actividad y peritaciones judiciales. Tramitación ágil, informes periciales rigurosos y asesoramiento técnico para particulares, empresas y abogados.",
   keywords: [
+    "licencia de actividad Almería",
+    "proyecto licencia de actividad",
+    "proyecto apertura local Almería",
+    "peritaciones judiciales Almería",
+    "perito judicial ingeniero Almería",
+    "informes periciales Almería",
     "ingeniería Almería",
     "consultoría técnica Almería",
-    "proyectos de ingeniería",
-    "informes periciales",
-    "tramitación administrativa",
-    "ingeniería industrial Almería",
-    "empresa ingeniería",
-    "asesoramiento técnico",
+    "tramitación licencia apertura",
   ],
   authors: [{ name: "Abaco Ingeniería", url: siteUrl }],
   creator: "Abaco Ingeniería",
@@ -48,9 +50,10 @@ export const metadata: Metadata = {
     locale: "es_ES",
     url: siteUrl,
     siteName: "Abaco Ingeniería",
-    title: "Abaco Ingeniería – Ingeniería y Consultoría Técnica en Almería",
+    title:
+      "Licencias de Actividad y Peritaciones Judiciales en Almería | Abaco Ingeniería",
     description:
-      "Proyectos técnicos, informes periciales, tramitación y consultoría de ingeniería en Almería. Profesionalidad y cercanía.",
+      "Proyectos para licencia de actividad y peritaciones judiciales en Almería. Tramitación ágil e informes periciales rigurosos.",
     images: [
       {
         url: "/images/og-abaco.jpg",
@@ -62,9 +65,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Abaco Ingeniería – Consultoría técnica en Almería",
+    title:
+      "Licencias de Actividad y Peritaciones Judiciales en Almería",
     description:
-      "Proyectos técnicos, informes periciales y consultoría de ingeniería en Almería.",
+      "Proyectos para licencia de actividad y peritaciones judiciales en Almería.",
     images: ["/images/og-abaco.jpg"],
   },
 };
@@ -107,13 +111,23 @@ const jsonLd = {
     },
     {
       "@type": "Service",
-      "@id": `${siteUrl}/#service`,
-      name: "Consultoría e Ingeniería Técnica",
+      "@id": `${siteUrl}/#licencia-actividad`,
+      name: "Proyecto para Licencia de Actividad",
       provider: { "@id": `${siteUrl}/#organization` },
-      serviceType: "Ingeniería y Consultoría",
+      serviceType: "Proyecto técnico y tramitación de licencia de actividad",
       areaServed: { "@type": "AdministrativeArea", name: "Almería" },
       description:
-        "Proyectos técnicos, informes periciales, tramitación administrativa y asesoramiento de ingeniería para particulares y empresas en Almería.",
+        "Redacción de proyecto técnico y tramitación completa de la licencia de actividad para locales, comercios e industrias en Almería.",
+    },
+    {
+      "@type": "Service",
+      "@id": `${siteUrl}/#peritaciones-judiciales`,
+      name: "Peritaciones Judiciales",
+      provider: { "@id": `${siteUrl}/#organization` },
+      serviceType: "Informes periciales judiciales de ingeniería",
+      areaServed: { "@type": "AdministrativeArea", name: "Almería" },
+      description:
+        "Peritaciones judiciales e informes periciales de ingeniería para procedimientos judiciales, aseguradoras y particulares en Almería.",
     },
   ],
 };
