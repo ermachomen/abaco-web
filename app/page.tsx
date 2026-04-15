@@ -1,6 +1,7 @@
 import Image from "next/image";
 import ScrollReveal from "./components/ScrollReveal";
 import ContactForm from "./components/ContactForm";
+import VideoHero from "./components/VideoHero";
 
 export default function Home() {
   return (
@@ -38,89 +39,8 @@ export default function Home() {
         </div>
       </header>
 
-      {/* ── HERO ── */}
-      <section className="relative overflow-hidden bg-slate-900 text-white">
-        <div
-          aria-hidden
-          className="pointer-events-none absolute inset-0 opacity-[0.15]"
-          style={{
-            backgroundImage: "radial-gradient(circle, #94a3b8 1px, transparent 1px)",
-            backgroundSize: "32px 32px",
-          }}
-        />
-        <div aria-hidden className="pointer-events-none absolute -left-40 -top-40 h-[600px] w-[600px] rounded-full bg-sky-600/20 blur-3xl" />
-        <div aria-hidden className="pointer-events-none absolute -bottom-32 right-0 h-[500px] w-[500px] rounded-full bg-indigo-600/10 blur-3xl" />
-
-        <div className="relative mx-auto max-w-7xl px-6 py-24 lg:px-8 lg:py-36">
-          <div className="grid items-center gap-16 lg:grid-cols-2">
-            <div>
-              <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-sky-500/30 bg-sky-500/10 px-4 py-1.5 backdrop-blur">
-                <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-sky-400" />
-                <span className="text-xs font-semibold uppercase tracking-widest text-sky-400">
-                  Ingeniería de confianza en España
-                </span>
-              </div>
-
-              <h1 className="text-5xl font-bold leading-[1.1] tracking-tight sm:text-6xl lg:text-7xl">
-                <span className="text-white">Consultoría de </span>
-                <span className="text-sky-400">Ingeniería</span>
-                <span className="text-white"> en Almería</span>
-              </h1>
-
-              <p className="mt-6 max-w-xl text-lg leading-8 text-slate-300">
-                En abacoingeniería® resolvemos de forma ágil y eficaz cualquier
-                necesidad técnica, desde proyectos industriales hasta informes
-                periciales y legalización de vehículos. Más de 40 años de
-                experiencia nos avalan ofreciendo soluciones claras, seguras y
-                adaptadas a cada cliente.
-              </p>
-
-              <div className="mt-10 flex flex-wrap gap-4">
-                <a href="#contacto" className="rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-sky-500/25 transition hover:bg-sky-400">
-                  Solicitar información
-                </a>
-                <a href="#servicios" className="rounded-xl border border-white/20 bg-white/5 px-6 py-3 text-sm font-semibold text-white backdrop-blur transition hover:border-white/40 hover:bg-white/10">
-                  Ver servicios →
-                </a>
-              </div>
-
-              <div className="mt-12 grid grid-cols-3 gap-x-6 border-t border-white/10 pt-10">
-                {[
-                  ["Rapidez", "Respuesta ágil a cada necesidad"],
-                  ["Eficacia", "Soluciones técnicas precisas"],
-                  ["Calidad", "Experiencia profesional avalada"],
-                ].map(([title, desc]) => (
-                  <div key={title}>
-                    <p className="text-base font-bold text-white">{title}</p>
-                    <p className="mt-1 text-xs leading-5 text-slate-400">{desc}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            {/* Imagen principal hero */}
-            <ScrollReveal direction="zoom" delay={200}>
-              <div className="flex justify-center lg:justify-end">
-                <div className="relative">
-                  <div className="absolute -inset-6 rounded-[2.5rem] bg-sky-500/10 blur-2xl" />
-                  <div className="relative overflow-hidden rounded-[2rem] border border-white/10 shadow-2xl">
-                    <Image
-                      src="/images/2.png"
-                      alt="Ingenieros trabajando"
-                      width={560}
-                      height={400}
-                      className="h-auto w-full max-w-lg object-cover"
-                      priority
-                    />
-                    <span className="absolute right-5 top-5 block h-7 w-7 rounded-tr-xl border-r-2 border-t-2 border-sky-400/60" />
-                    <span className="absolute bottom-5 left-5 block h-7 w-7 rounded-bl-xl border-b-2 border-l-2 border-sky-400/60" />
-                  </div>
-                </div>
-              </div>
-            </ScrollReveal>
-          </div>
-        </div>
-      </section>
+      {/* ── HERO CON VIDEO ── */}
+      <VideoHero />
 
       {/* ── QUIÉNES SOMOS ── */}
       <section id="quienes" className="bg-white">
