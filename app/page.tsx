@@ -243,9 +243,14 @@ export default function Home() {
               <p className="mt-4 text-sm text-slate-600">
                 Trabajamos en la apertura de negocios, ampliaciones de instalaciones, cambios de uso y adecuación de espacios a normativa vigente.
               </p>
-              <a href="#contacto" className="mt-6 inline-block text-sm font-semibold text-slate-900 underline underline-offset-4 hover:text-sky-700">
-                Contáctanos →
-              </a>
+              <div className="mt-6 flex flex-wrap gap-4">
+                <a href="/licencia-de-actividad" className="inline-block rounded-xl bg-sky-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-sky-500">
+                  Licencia de actividad →
+                </a>
+                <a href="#contacto" className="inline-block text-sm font-semibold text-slate-900 underline underline-offset-4 hover:text-sky-700 self-center">
+                  Contáctanos
+                </a>
+              </div>
             </div>
           </div>
           </ScrollReveal>
@@ -348,9 +353,14 @@ export default function Home() {
             <p className="mt-4 text-sm text-slate-600">
               Actuamos como soporte técnico en procesos judiciales, compraventas, auditorías y evaluaciones técnicas especializadas.
             </p>
-            <a href="#contacto" className="mt-6 inline-block text-sm font-semibold text-slate-900 underline underline-offset-4 hover:text-sky-700">
-              Contáctanos →
-            </a>
+            <div className="mt-6 flex flex-wrap gap-4">
+              <a href="/peritaciones-judiciales" className="inline-block rounded-xl bg-sky-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-sky-500">
+                Peritaciones judiciales →
+              </a>
+              <a href="#contacto" className="inline-block text-sm font-semibold text-slate-900 underline underline-offset-4 hover:text-sky-700 self-center">
+                Contáctanos
+              </a>
+            </div>
           </div>
           </ScrollReveal>
         </div>
