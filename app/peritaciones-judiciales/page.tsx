@@ -54,9 +54,14 @@ const serviceLd = {
   name: "Peritaciones Judiciales",
   provider: {
     "@type": "LocalBusiness",
+    "@id": `${siteUrl}/#organization`,
     name: "Abaco Ingeniería",
+    url: siteUrl,
     telephone: "+34670607830",
     email: "info@abacoingenieria.es",
+    priceRange: "€€",
+    image: `${siteUrl}/images/og-abaco.jpg`,
+    logo: `${siteUrl}/images/logo-abaco1.jpeg`,
     address: {
       "@type": "PostalAddress",
       streetAddress: "Carretera de Ronda, 293",
