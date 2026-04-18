@@ -1,11 +1,73 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import FichaForm from "../components/FichaForm";
 
-export const metadata = {
-  title: "Fichas Técnicas Reducidas | abacoingeniería",
+const siteUrl = "https://www.ingenierial.es";
+
+export const metadata: Metadata = {
+  title: "Fichas Técnicas Reducidas para Vehículos | Abaco Ingeniería",
   description:
-    "Tramitación de fichas técnicas reducidas para matriculación, rehabilitación y catalogación de vehículos históricos. Solicita tu ficha online.",
+    "Tramitación online de fichas técnicas reducidas para matriculación, rehabilitación, importación y catalogación de vehículos históricos. Ingeniero colegiado, ámbito nacional, presupuesto sin compromiso.",
+  keywords: [
+    "ficha técnica reducida",
+    "ficha técnica reducida Almería",
+    "homologación vehículos Almería",
+    "matriculación vehículo importado",
+    "rehabilitación vehículo baja definitiva",
+    "catalogación vehículo histórico",
+    "ingeniero homologación vehículos",
+  ],
+  alternates: {
+    canonical: "/fichas-tecnicas",
+    languages: { "es-ES": "/fichas-tecnicas" },
+  },
+  openGraph: {
+    type: "article",
+    locale: "es_ES",
+    url: `${siteUrl}/fichas-tecnicas`,
+    siteName: "Abaco Ingeniería",
+    title: "Fichas Técnicas Reducidas para Vehículos",
+    description:
+      "Ficha técnica reducida para matriculación, rehabilitación, importación y vehículos históricos.",
+    images: [
+      {
+        url: "/images/og-abaco.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Fichas técnicas reducidas – Abaco Ingeniería",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Fichas Técnicas Reducidas para Vehículos",
+    description: "Homologación y ficha técnica reducida online.",
+    images: ["/images/og-abaco.jpg"],
+  },
+};
+
+const serviceLd = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: "Ficha Técnica Reducida",
+  provider: {
+    "@type": "LocalBusiness",
+    name: "Abaco Ingeniería",
+    telephone: "+34670607830",
+    email: "info@abacoingenieria.es",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "Carretera de Ronda, 293",
+      addressLocality: "Almería",
+      postalCode: "04001",
+      addressCountry: "ES",
+    },
+  },
+  areaServed: { "@type": "Country", name: "España" },
+  url: `${siteUrl}/fichas-tecnicas`,
+  description:
+    "Redacción y tramitación de fichas técnicas reducidas para matriculación, rehabilitación, importación y catalogación de vehículos históricos en España.",
 };
 
 const pasos = [
@@ -54,9 +116,45 @@ const faqs = [
   },
 ];
 
+const faqLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: f.a },
+  })),
+};
+
+const breadcrumbLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Inicio", item: siteUrl },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Fichas Técnicas Reducidas",
+      item: `${siteUrl}/fichas-tecnicas`,
+    },
+  ],
+};
+
 export default function FichasTecnicasPage() {
   return (
     <main className="min-h-screen bg-white text-slate-900">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+      />
 
       {/* ── HEADER ── */}
       <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/95 backdrop-blur">

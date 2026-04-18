@@ -25,25 +25,49 @@ export const metadata: Metadata = {
     "Ingeniería en Almería especializada en proyectos para licencia de actividad y peritaciones judiciales. Tramitación ágil, informes periciales rigurosos y asesoramiento técnico para particulares, empresas y abogados.",
   keywords: [
     "licencia de actividad Almería",
+    "licencia de apertura Almería",
     "proyecto licencia de actividad",
+    "proyecto licencia de apertura Almería",
     "proyecto apertura local Almería",
+    "ingeniero Almería",
+    "ingeniería Almería",
     "peritaciones judiciales Almería",
     "perito judicial ingeniero Almería",
+    "perito ingeniero Almería",
     "informes periciales Almería",
-    "ingeniería Almería",
+    "ficha técnica reducida",
+    "homologación vehículos Almería",
     "consultoría técnica Almería",
     "tramitación licencia apertura",
+    "Abaco Ingeniería",
   ],
   authors: [{ name: "Abaco Ingeniería", url: siteUrl }],
   creator: "Abaco Ingeniería",
   publisher: "Abaco Ingeniería",
+  category: "Engineering",
+  applicationName: "Abaco Ingeniería",
+  referrer: "origin-when-cross-origin",
+  formatDetection: { telephone: true, address: true, email: true },
   robots: {
     index: true,
     follow: true,
-    googleBot: { index: true, follow: true },
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
+  verification: {
+    google: "49oMVv0acqN89KeaiGU9w4PwuJy7dmRzcMsjvHdEetE",
   },
   alternates: {
     canonical: "/",
+    languages: {
+      "es-ES": "/",
+      "x-default": "/",
+    },
   },
   openGraph: {
     type: "website",
@@ -77,16 +101,23 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "LocalBusiness",
+      "@type": ["LocalBusiness", "ProfessionalService"],
       "@id": `${siteUrl}/#organization`,
       name: "Abaco Ingeniería",
+      alternateName: ["abacoingeniería", "Ábaco Ingeniería"],
       url: siteUrl,
-      logo: `${siteUrl}/images/logo-abaco1.jpeg`,
+      logo: {
+        "@type": "ImageObject",
+        url: `${siteUrl}/images/logo-abaco1.jpeg`,
+        width: 1536,
+        height: 1024,
+      },
       image: `${siteUrl}/images/og-abaco.jpg`,
       telephone: "+34670607830",
       email: "info@abacoingenieria.es",
+      priceRange: "€€",
       description:
-        "Empresa de ingeniería y consultoría técnica en Almería. Proyectos, informes periciales, tramitación y asesoramiento.",
+        "Empresa de ingeniería y consultoría técnica en Almería. Proyectos de licencia de actividad, peritaciones judiciales, fichas técnicas y asesoramiento.",
       address: {
         "@type": "PostalAddress",
         streetAddress: "Carretera de Ronda, 293",
@@ -95,11 +126,44 @@ const jsonLd = {
         addressRegion: "Andalucía",
         addressCountry: "ES",
       },
-      areaServed: {
-        "@type": "AdministrativeArea",
-        name: "Almería",
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 36.8381,
+        longitude: -2.4597,
       },
-      sameAs: ["https://www.instagram.com/abacoingenieria"],
+      areaServed: [
+        { "@type": "AdministrativeArea", name: "Almería" },
+        { "@type": "AdministrativeArea", name: "Andalucía" },
+        { "@type": "Country", name: "España" },
+      ],
+      openingHoursSpecification: [
+        {
+          "@type": "OpeningHoursSpecification",
+          dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          opens: "09:00",
+          closes: "14:00",
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday"],
+          opens: "16:00",
+          closes: "19:00",
+        },
+      ],
+      contactPoint: [
+        {
+          "@type": "ContactPoint",
+          contactType: "customer service",
+          telephone: "+34670607830",
+          email: "info@abacoingenieria.es",
+          areaServed: "ES",
+          availableLanguage: ["Spanish"],
+        },
+      ],
+      sameAs: [
+        "https://www.instagram.com/abacoingenieria",
+        "https://wa.me/34670607830",
+      ],
     },
     {
       "@type": "WebSite",
@@ -108,6 +172,14 @@ const jsonLd = {
       name: "Abaco Ingeniería",
       publisher: { "@id": `${siteUrl}/#organization` },
       inLanguage: "es-ES",
+      potentialAction: {
+        "@type": "SearchAction",
+        target: {
+          "@type": "EntryPoint",
+          urlTemplate: `${siteUrl}/?s={search_term_string}`,
+        },
+        "query-input": "required name=search_term_string",
+      },
     },
     {
       "@type": "Service",

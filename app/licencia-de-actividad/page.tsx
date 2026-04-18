@@ -6,16 +6,46 @@ import ContactForm from "../components/ContactForm";
 const siteUrl = "https://www.ingenierial.es";
 
 export const metadata: Metadata = {
-  title: "Proyecto para Licencia de Actividad en Almería",
+  title: "Licencia de Actividad y Apertura en Almería | Proyecto Técnico",
   description:
-    "Redactamos el proyecto técnico y tramitamos la licencia de actividad para locales, comercios, talleres e industrias en Almería. Gestión integral y ágil.",
-  alternates: { canonical: "/licencia-de-actividad" },
+    "Proyecto técnico y tramitación completa de licencia de actividad y apertura en Almería: locales, comercios, hostelería, talleres e industrias. Ingeniero colegiado, gestión ágil y visita incluida.",
+  keywords: [
+    "licencia de actividad Almería",
+    "licencia de apertura Almería",
+    "proyecto licencia de apertura Almería",
+    "proyecto apertura local Almería",
+    "tramitación licencia actividad Almería",
+    "ingeniero licencia apertura Almería",
+    "declaración responsable apertura Almería",
+    "cambio de titularidad licencia Almería",
+    "licencia hostelería Almería",
+  ],
+  alternates: {
+    canonical: "/licencia-de-actividad",
+    languages: { "es-ES": "/licencia-de-actividad" },
+  },
   openGraph: {
     type: "article",
+    locale: "es_ES",
     url: `${siteUrl}/licencia-de-actividad`,
-    title: "Proyecto para Licencia de Actividad en Almería",
+    siteName: "Abaco Ingeniería",
+    title: "Licencia de Actividad y Apertura en Almería | Proyecto Técnico",
     description:
-      "Proyecto técnico y tramitación completa de licencia de actividad en Almería.",
+      "Proyecto técnico y tramitación completa de licencia de actividad y apertura en Almería.",
+    images: [
+      {
+        url: "/images/og-abaco.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Licencia de actividad y apertura en Almería – Abaco Ingeniería",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Licencia de Actividad y Apertura en Almería",
+    description:
+      "Proyecto técnico y tramitación de licencia de actividad en Almería.",
     images: ["/images/og-abaco.jpg"],
   },
 };
@@ -49,27 +79,65 @@ const faqLd = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "¿Qué es la licencia de actividad?",
+      name: "¿Qué es la licencia de actividad o licencia de apertura en Almería?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Es la autorización municipal obligatoria para abrir un local de uso comercial, industrial o de servicios. Requiere proyecto técnico firmado por ingeniero.",
+        text: "Es la autorización municipal obligatoria para abrir un local comercial, industrial o de servicios en Almería. Acredita que el establecimiento cumple la normativa urbanística, sectorial, de seguridad contra incendios, accesibilidad y ruidos. Requiere un proyecto técnico firmado por ingeniero colegiado.",
       },
     },
     {
       "@type": "Question",
-      name: "¿Cuánto tarda la tramitación en Almería?",
+      name: "¿Cuánto tarda obtener la licencia de actividad en Almería?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Depende del tipo de actividad y del ayuntamiento. En actividades inocuas puede resolverse en semanas mediante declaración responsable; las calificadas requieren más plazo.",
+        text: "En actividades inocuas tramitadas por declaración responsable el local puede abrir en pocos días desde la presentación. Para actividades calificadas el plazo municipal oscila entre 2 y 6 meses. El proyecto técnico lo entregamos habitualmente en 7-15 días desde la visita al local.",
       },
     },
     {
       "@type": "Question",
-      name: "¿Qué incluye el servicio?",
+      name: "¿Qué diferencia hay entre licencia de actividad y declaración responsable?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Visita técnica, redacción del proyecto, visado si procede, presentación en el ayuntamiento y seguimiento hasta la obtención de la licencia.",
+        text: "La declaración responsable permite iniciar la actividad de forma inmediata tras presentar el proyecto y los documentos, asumiendo bajo responsabilidad que cumplen la normativa. La licencia de actividad tradicional exige resolución expresa del ayuntamiento antes de abrir. Cada tipo de actividad tiene asignado un régimen concreto.",
       },
+    },
+    {
+      "@type": "Question",
+      name: "¿Qué incluye vuestro servicio de licencia de apertura?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Visita técnica al local, redacción del proyecto y anexos, visado colegial si procede, cálculo de instalaciones, presentación telemática en el ayuntamiento, contestación a requerimientos y seguimiento hasta la obtención de la licencia o la apertura efectiva.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "¿Trabajáis con cambios de titularidad y ampliaciones?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Sí. Tramitamos cambios de titular, ampliaciones de superficie, modificaciones de actividad y regularizaciones de locales que operan sin licencia, incluyendo legalización técnica del estado actual.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "¿Cuánto cuesta el proyecto de licencia de actividad en Almería?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "El precio depende del tipo de actividad, la superficie y la instalación a justificar. Tras una visita gratuita al local ofrecemos presupuesto cerrado sin compromiso, sin sorpresas ni variaciones posteriores.",
+      },
+    },
+  ],
+};
+
+const breadcrumbLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Inicio", item: siteUrl },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Licencia de Actividad en Almería",
+      item: `${siteUrl}/licencia-de-actividad`,
     },
   ],
 };
@@ -84,6 +152,10 @@ export default function LicenciaActividadPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
       />
 
       <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/95 backdrop-blur">
@@ -105,21 +177,53 @@ export default function LicenciaActividadPage() {
         </div>
       </header>
 
+      <nav aria-label="Migas de pan" className="mx-auto max-w-7xl px-6 pt-4 text-sm text-slate-500 lg:px-8">
+        <ol className="flex flex-wrap items-center gap-2">
+          <li><Link href="/" className="hover:text-slate-900">Inicio</Link></li>
+          <li aria-hidden>›</li>
+          <li aria-current="page" className="text-slate-700">Licencia de Actividad en Almería</li>
+        </ol>
+      </nav>
+
       <section className="bg-slate-900 text-white">
         <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
           <p className="text-sm font-semibold uppercase tracking-wider text-sky-400">Servicio · Almería</p>
           <h1 className="mt-4 text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">
-            Proyecto para Licencia de Actividad en Almería
+            Licencia de Actividad y Apertura en Almería
           </h1>
           <p className="mt-6 max-w-2xl text-lg text-slate-300">
             Redactamos el proyecto técnico y tramitamos íntegramente la licencia
-            de actividad de tu local, comercio, taller o industria. Gestión ágil,
-            visitas incluidas y seguimiento hasta la resolución.
+            de actividad y apertura de tu local, comercio, bar, taller o
+            industria en Almería. Ingeniero colegiado, visita gratuita al local
+            y seguimiento ante el ayuntamiento hasta la resolución.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a href="#contacto" className="rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-400">Solicitar presupuesto</a>
             <a href="tel:+34670607830" className="rounded-xl border border-slate-600 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800">Llamar 670 607 830</a>
           </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl px-6 pt-20 lg:px-8">
+        <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">¿Qué es la licencia de actividad en Almería?</h2>
+        <div className="mt-6 space-y-4 text-slate-700 leading-relaxed">
+          <p>
+            La <strong>licencia de actividad</strong> —también llamada <strong>licencia de apertura</strong>— es
+            la autorización municipal que el <strong>Ayuntamiento de Almería</strong> exige para
+            poner en marcha cualquier local comercial, industrial o de servicios. Su
+            obtención es obligatoria y acredita que el establecimiento cumple con la
+            normativa urbanística, sectorial, de <strong>seguridad contra incendios</strong>,
+            accesibilidad, <strong>protección frente al ruido</strong>, salubridad y
+            compatibilidad con el uso del suelo.
+          </p>
+          <p>
+            En Almería conviven dos regímenes: <em>declaración responsable</em> —para
+            actividades inocuas o de bajo impacto— y <em>licencia previa</em> —para
+            actividades calificadas, con incidencia ambiental o riesgo relevante—.
+            Determinar el régimen aplicable es el primer paso y condiciona todos los
+            plazos posteriores. Nos encargamos de analizarlo, redactar el proyecto y
+            presentarlo telemáticamente en tu nombre.
+          </p>
         </div>
       </section>
 
@@ -151,6 +255,36 @@ export default function LicenciaActividadPage() {
             <li>· Cambios de titularidad y ampliaciones</li>
           </ul>
         </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
+        <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Zonas de actuación en Almería</h2>
+        <p className="mt-4 text-slate-700 leading-relaxed">
+          Trabajamos en toda la provincia de Almería: capital y barrios (Centro,
+          Zapillo, Nueva Almería, Oliveros, Los Ángeles, Torrecárdenas), y
+          municipios del área metropolitana como El Ejido, Roquetas de Mar,
+          Vícar, Almerimar, Huércal de Almería, Viator, Níjar, Huércal-Overa,
+          Adra, Berja, Cuevas del Almanzora, Vera, Mojácar y Carboneras.
+          Presentación telemática en todos los ayuntamientos.
+        </p>
+        <h3 className="mt-10 text-xl font-semibold">Enlaces de interés</h3>
+        <ul className="mt-4 space-y-2 text-slate-700">
+          <li>·{" "}
+            <Link href="/peritaciones-judiciales" className="text-sky-700 underline hover:no-underline">
+              Peritaciones judiciales en Almería
+            </Link>
+          </li>
+          <li>·{" "}
+            <Link href="/fichas-tecnicas" className="text-sky-700 underline hover:no-underline">
+              Fichas técnicas reducidas
+            </Link>
+          </li>
+          <li>·{" "}
+            <Link href="/" className="text-sky-700 underline hover:no-underline">
+              Inicio – Abaco Ingeniería
+            </Link>
+          </li>
+        </ul>
       </section>
 
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">

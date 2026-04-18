@@ -6,16 +6,44 @@ import ContactForm from "../components/ContactForm";
 const siteUrl = "https://www.ingenierial.es";
 
 export const metadata: Metadata = {
-  title: "Peritaciones Judiciales en Almería · Perito Ingeniero",
+  title: "Peritaciones Judiciales en Almería | Perito Ingeniero Colegiado",
   description:
-    "Peritaciones judiciales e informes periciales de ingeniería en Almería. Perito judicial para juzgados, abogados, aseguradoras y particulares. Informes rigurosos y defendibles en sala.",
-  alternates: { canonical: "/peritaciones-judiciales" },
+    "Peritaciones judiciales e informes periciales de ingeniería en Almería. Perito judicial para juzgados, abogados, aseguradoras y particulares. Informes rigurosos, ratificación en sala y presupuesto sin compromiso.",
+  keywords: [
+    "peritaciones judiciales Almería",
+    "perito judicial Almería",
+    "perito ingeniero Almería",
+    "informes periciales Almería",
+    "dictamen pericial Almería",
+    "perito seguros Almería",
+    "perito humedades Almería",
+    "perito incendios Almería",
+  ],
+  alternates: {
+    canonical: "/peritaciones-judiciales",
+    languages: { "es-ES": "/peritaciones-judiciales" },
+  },
   openGraph: {
     type: "article",
+    locale: "es_ES",
     url: `${siteUrl}/peritaciones-judiciales`,
-    title: "Peritaciones Judiciales en Almería",
+    siteName: "Abaco Ingeniería",
+    title: "Peritaciones Judiciales en Almería | Perito Ingeniero",
     description:
       "Informes periciales de ingeniería para procedimientos judiciales en Almería.",
+    images: [
+      {
+        url: "/images/og-abaco.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Peritaciones judiciales en Almería – Abaco Ingeniería",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Peritaciones Judiciales en Almería",
+    description: "Perito ingeniero judicial en Almería.",
     images: ["/images/og-abaco.jpg"],
   },
 };
@@ -52,24 +80,54 @@ const faqLd = {
       name: "¿Qué es un informe pericial judicial?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Un dictamen técnico redactado por un perito para aportar evidencia objetiva en un procedimiento judicial. Puede ser de parte o designado por el juzgado.",
+        text: "Un dictamen técnico redactado por un perito cualificado para aportar evidencia objetiva en un procedimiento judicial. Puede ser de parte —contratado por una de las partes— o emitido por un perito designado judicialmente. Tiene valor probatorio y debe ser defendible en sala.",
       },
     },
     {
       "@type": "Question",
-      name: "¿En qué materias intervenís?",
+      name: "¿En qué materias intervenís como perito ingeniero?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Patologías constructivas, humedades, valoraciones de daños, incendios, accidentes, vehículos, instalaciones eléctricas y mecánicas, entre otras.",
+        text: "Patologías constructivas, humedades, grietas, aluminosis, defectos de ejecución, valoraciones de daños, incendios, accidentes laborales, vehículos, maquinaria, instalaciones eléctricas, térmicas y mecánicas, reclamaciones a aseguradoras y comunidades de propietarios.",
       },
     },
     {
       "@type": "Question",
-      name: "¿Ratificáis el informe en sala?",
+      name: "¿Ratificáis el informe pericial en sala?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Sí. Comparecemos ante el juzgado para ratificar y defender el informe cuando el procedimiento lo requiere.",
+        text: "Sí. Comparecemos ante el juzgado para ratificar y defender el informe cuando el procedimiento lo requiere, respondiendo a las preguntas de las partes y del juez.",
       },
+    },
+    {
+      "@type": "Question",
+      name: "¿Cuánto tarda elaborar un informe pericial?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "El plazo habitual es de 15 a 30 días desde la visita de inspección, dependiendo de la complejidad del caso y de la documentación disponible. En casos urgentes con plazos procesales ajustados podemos priorizar la entrega.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "¿Cuánto cuesta una peritación judicial en Almería?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Valoramos cada caso en una consulta previa sin coste. El presupuesto depende del alcance del dictamen, las mediciones necesarias y la eventual ratificación en sala. Emitimos factura con IVA.",
+      },
+    },
+  ],
+};
+
+const breadcrumbLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Inicio", item: siteUrl },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Peritaciones Judiciales en Almería",
+      item: `${siteUrl}/peritaciones-judiciales`,
     },
   ],
 };
@@ -84,6 +142,10 @@ export default function PeritacionesJudicialesPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
       />
 
       <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/95 backdrop-blur">
@@ -104,6 +166,14 @@ export default function PeritacionesJudicialesPage() {
           </nav>
         </div>
       </header>
+
+      <nav aria-label="Migas de pan" className="mx-auto max-w-7xl px-6 pt-4 text-sm text-slate-500 lg:px-8">
+        <ol className="flex flex-wrap items-center gap-2">
+          <li><Link href="/" className="hover:text-slate-900">Inicio</Link></li>
+          <li aria-hidden>›</li>
+          <li aria-current="page" className="text-slate-700">Peritaciones Judiciales en Almería</li>
+        </ol>
+      </nav>
 
       <section className="bg-slate-900 text-white">
         <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
@@ -149,6 +219,28 @@ export default function PeritacionesJudicialesPage() {
             <li><strong>4. Ratificación en sala</strong> — defensa del informe ante el juzgado si procede.</li>
           </ol>
         </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
+        <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Cobertura y enlaces</h2>
+        <p className="mt-4 text-slate-700 leading-relaxed">
+          Intervenimos en toda la provincia de Almería: capital, El Ejido,
+          Roquetas de Mar, Vícar, Níjar, Huércal-Overa, Adra, Berja, Cuevas del
+          Almanzora, Vera, Mojácar y Carboneras. Trabajamos con juzgados,
+          abogados, aseguradoras y particulares.
+        </p>
+        <ul className="mt-6 space-y-2 text-slate-700">
+          <li>·{" "}
+            <Link href="/licencia-de-actividad" className="text-sky-700 underline hover:no-underline">
+              Licencia de actividad y apertura en Almería
+            </Link>
+          </li>
+          <li>·{" "}
+            <Link href="/fichas-tecnicas" className="text-sky-700 underline hover:no-underline">
+              Fichas técnicas reducidas
+            </Link>
+          </li>
+        </ul>
       </section>
 
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">

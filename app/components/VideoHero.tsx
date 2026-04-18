@@ -9,13 +9,21 @@ export default function VideoHero({
   videoSrc = "https://videos.pexels.com/video-files/3195394/3195394-uhd_2560_1440_25fps.mp4",
 }: VideoHeroProps) {
   return (
-    <section className="relative h-screen min-h-[600px] overflow-hidden text-white">
+    <section className="relative h-screen min-h-[600px] overflow-hidden bg-slate-900 text-white">
+      {/* ── FALLBACK (se ve siempre mientras carga o si el video falla) ── */}
+      <div
+        className="absolute inset-0 bg-cover bg-center"
+        style={{ backgroundImage: "url('/images/1.avif')" }}
+      />
+
       {/* ── VIDEO DE FONDO ── */}
       <video
         autoPlay
         muted
         loop
         playsInline
+        preload="auto"
+        poster="/images/1.avif"
         className="absolute inset-0 h-full w-full object-cover"
       >
         <source src={videoSrc} type="video/mp4" />
