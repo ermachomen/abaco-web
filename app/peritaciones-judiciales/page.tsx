@@ -227,12 +227,13 @@ export default function PeritacionesJudicialesPage() {
       </section>
 
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
-        <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Cobertura y enlaces</h2>
+        <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Cobertura: Almería, Málaga y Murcia</h2>
         <p className="mt-4 text-slate-700 leading-relaxed">
-          Intervenimos en toda la provincia de Almería: capital, El Ejido,
-          Roquetas de Mar, Vícar, Níjar, Huércal-Overa, Adra, Berja, Cuevas del
-          Almanzora, Vera, Mojácar y Carboneras. Trabajamos con juzgados,
-          abogados, aseguradoras y particulares.
+          Intervenimos como perito judicial en las provincias de{" "}
+          <strong>Almería</strong>, <strong>Málaga</strong> y{" "}
+          <strong>Murcia</strong>. Colaboramos con juzgados, abogados,
+          aseguradoras y particulares, tanto en informes de parte como en
+          designaciones judiciales.
         </p>
         <ul className="mt-6 space-y-2 text-slate-700">
           <li>·{" "}

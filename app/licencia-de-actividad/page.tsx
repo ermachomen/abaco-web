@@ -263,17 +263,46 @@ export default function LicenciaActividadPage() {
       </section>
 
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
-        <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Zonas de actuación en Almería</h2>
+        <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Zonas de actuación: Almería, Málaga y Murcia</h2>
         <p className="mt-4 text-slate-700 leading-relaxed">
-          Trabajamos en toda la provincia de Almería: capital y barrios (Centro,
-          Zapillo, Nueva Almería, Oliveros, Los Ángeles, Torrecárdenas), y
-          municipios del área metropolitana como El Ejido, Roquetas de Mar,
-          Vícar, Almerimar, Huércal de Almería, Viator, Níjar, Huércal-Overa,
-          Adra, Berja, Cuevas del Almanzora, Vera, Mojácar y Carboneras.
-          Presentación telemática en todos los ayuntamientos.
+          Trabajamos en las provincias de <strong>Almería</strong>,{" "}
+          <strong>Málaga</strong> y <strong>Murcia</strong>. En Almería: capital
+          (Centro, Zapillo, Nueva Almería, Oliveros, Torrecárdenas), El Ejido,
+          Roquetas de Mar, Vícar, Almerimar, Huércal de Almería, Viator, Níjar,
+          Huércal-Overa, Adra, Berja, Cuevas del Almanzora, Vera, Mojácar y
+          Carboneras. En Málaga: capital, Marbella, Estepona, Fuengirola,
+          Torremolinos, Benalmádena, Mijas, Vélez-Málaga, Ronda y Antequera.
+          En Murcia: capital, Cartagena, Lorca, Molina de Segura, Alcantarilla,
+          Águilas, Mazarrón, San Javier y Totana. Presentación telemática en
+          todos los ayuntamientos.
         </p>
-        <h3 className="mt-10 text-xl font-semibold">Enlaces de interés</h3>
+        <h3 className="mt-10 text-xl font-semibold">Guías y servicios relacionados</h3>
         <ul className="mt-4 space-y-2 text-slate-700">
+          <li>·{" "}
+            <Link href="/licencia-bar-restaurante-almeria" className="text-sky-700 underline hover:no-underline">
+              Licencia de apertura para bar y restaurante en Almería
+            </Link>
+          </li>
+          <li>·{" "}
+            <Link href="/precio-licencia-actividad-almeria" className="text-sky-700 underline hover:no-underline">
+              Cuánto cuesta una licencia de actividad en Almería
+            </Link>
+          </li>
+          <li>·{" "}
+            <Link href="/licencia-actividad-roquetas-de-mar" className="text-sky-700 underline hover:no-underline">
+              Licencia de actividad en Roquetas de Mar
+            </Link>
+          </li>
+          <li>·{" "}
+            <Link href="/licencia-actividad-el-ejido" className="text-sky-700 underline hover:no-underline">
+              Licencia de actividad en El Ejido
+            </Link>
+          </li>
+          <li>·{" "}
+            <Link href="/licencia-actividad-vicar" className="text-sky-700 underline hover:no-underline">
+              Licencia de actividad en Vícar
+            </Link>
+          </li>
           <li>·{" "}
             <Link href="/peritaciones-judiciales" className="text-sky-700 underline hover:no-underline">
               Peritaciones judiciales en Almería
@@ -282,11 +311,6 @@ export default function LicenciaActividadPage() {
           <li>·{" "}
             <Link href="/fichas-tecnicas" className="text-sky-700 underline hover:no-underline">
               Fichas técnicas reducidas
-            </Link>
-          </li>
-          <li>·{" "}
-            <Link href="/" className="text-sky-700 underline hover:no-underline">
-              Inicio – Abaco Ingeniería
             </Link>
           </li>
         </ul>

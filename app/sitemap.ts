@@ -36,5 +36,40 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
       alternates: alt("/fichas-tecnicas"),
     },
+    {
+      url: `${siteUrl}/licencia-bar-restaurante-almeria`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.8,
+      alternates: alt("/licencia-bar-restaurante-almeria"),
+    },
+    {
+      url: `${siteUrl}/precio-licencia-actividad-almeria`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.8,
+      alternates: alt("/precio-licencia-actividad-almeria"),
+    },
+    {
+      url: `${siteUrl}/licencia-actividad-roquetas-de-mar`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.8,
+      alternates: alt("/licencia-actividad-roquetas-de-mar"),
+    },
+    {
+      url: `${siteUrl}/licencia-actividad-el-ejido`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.8,
+      alternates: alt("/licencia-actividad-el-ejido"),
+    },
+    {
+      url: `${siteUrl}/licencia-actividad-vicar`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.8,
+      alternates: alt("/licencia-actividad-vicar"),
+    },
   ];
 }
