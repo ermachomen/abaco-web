@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import FichaForm from "../components/FichaForm";
+import SiteFooter from "../components/SiteFooter";
 
 const siteUrl = "https://www.ingenierial.es";
 
@@ -173,14 +174,27 @@ export default function FichasTecnicasPage() {
               priority
             />
           </Link>
-          <Link
-            href="/#contacto"
-            className="rounded-xl bg-slate-900 px-4 py-2 text-sm font-semibold text-white transition hover:bg-slate-800"
-          >
-            Contacto
-          </Link>
+          <div className="flex items-center gap-4">
+            <a href="tel:+34670607830" className="hidden text-sm font-medium text-slate-600 hover:text-sky-700 md:inline">
+              670 607 830
+            </a>
+            <Link
+              href="/#contacto"
+              className="rounded-xl bg-slate-900 px-4 py-2 text-sm font-semibold text-white transition hover:bg-slate-800"
+            >
+              Contacto
+            </Link>
+          </div>
         </div>
       </header>
+
+      <nav aria-label="Migas de pan" className="mx-auto max-w-7xl px-6 pt-4 text-sm text-slate-500 lg:px-8">
+        <ol className="flex flex-wrap items-center gap-2">
+          <li><Link href="/" className="hover:text-slate-900">Inicio</Link></li>
+          <li aria-hidden>›</li>
+          <li aria-current="page" className="text-slate-700">Fichas técnicas reducidas</li>
+        </ol>
+      </nav>
 
       {/* ── HERO ── */}
       <section className="relative overflow-hidden bg-slate-900 text-white">
@@ -327,16 +341,7 @@ export default function FichasTecnicasPage() {
       </section>
 
       {/* ── FOOTER ── */}
-      <footer className="border-t border-slate-200 bg-white">
-        <div className="mx-auto max-w-7xl px-6 py-8 lg:px-8 flex flex-col items-center justify-between gap-4 sm:flex-row">
-          <Link href="/">
-            <Image src="/images/logo-abaco.jpeg" alt="Abaco Ingeniería" width={120} height={40} />
-          </Link>
-          <p className="text-sm text-slate-500">
-            © {new Date().getFullYear()} abacoingeniería®. Todos los derechos reservados.
-          </p>
-        </div>
-      </footer>
+      <SiteFooter />
 
       {/* ── BOTÓN FLOTANTE WHATSAPP ── */}
       <a

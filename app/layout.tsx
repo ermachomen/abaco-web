@@ -122,8 +122,20 @@ const jsonLd = {
       telephone: "+34670607830",
       email: "info@abacoingenieria.es",
       priceRange: "€€",
+      foundingDate: "1983",
+      slogan: "Ingeniería de confianza. Décadas de experiencia a tu servicio.",
+      knowsLanguage: ["es"],
+      founder: {
+        "@type": "Person",
+        name: "Manuel Marín Vicente",
+        jobTitle: "Ingeniero Técnico Industrial",
+        hasCredential: {
+          "@type": "EducationalOccupationalCredential",
+          credentialCategory: "Ingeniero Técnico Industrial colegiado",
+        },
+      },
       description:
-        "Empresa de ingeniería y consultoría técnica en Almería. Proyectos de licencia de actividad, peritaciones judiciales, fichas técnicas y asesoramiento.",
+        "Oficina técnica de ingeniería en Almería con más de 40 años de trayectoria. Proyectos de licencia de actividad, peritaciones judiciales, fichas técnicas reducidas, homologaciones y consultoría.",
       address: {
         "@type": "PostalAddress",
         streetAddress: "Carretera de Ronda, 293",

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import ContactForm from "../components/ContactForm";
+import SiteFooter from "../components/SiteFooter";
 
 const siteUrl = "https://www.ingenierial.es";
 const path = "/licencia-actividad-vicar";
@@ -186,11 +187,7 @@ export default function LicenciaVicar() {
         </div>
       </section>
 
-      <footer className="border-t border-slate-200 bg-white">
-        <div className="mx-auto max-w-7xl px-6 py-8 text-sm text-slate-500 lg:px-8">
-          © {new Date().getFullYear()} Abaco Ingeniería · Carretera de Ronda, 293 · 04001 Almería
-        </div>
-      </footer>
+      <SiteFooter />
     </main>
   );
 }

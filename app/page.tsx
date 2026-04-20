@@ -2,6 +2,7 @@ import Image from "next/image";
 import ScrollReveal from "./components/ScrollReveal";
 import ContactForm from "./components/ContactForm";
 import VideoHero from "./components/VideoHero";
+import SiteFooter from "./components/SiteFooter";
 
 export default function Home() {
   return (
@@ -42,6 +43,23 @@ export default function Home() {
       {/* ── HERO CON VIDEO ── */}
       <VideoHero />
 
+      {/* ── BANDA DE CONFIANZA ── */}
+      <section aria-label="Datos de Abaco Ingeniería" className="border-b border-slate-200 bg-white">
+        <div className="mx-auto grid max-w-7xl grid-cols-2 gap-6 px-6 py-10 md:grid-cols-4 lg:px-8">
+          {[
+            ["+40", "años de experiencia"],
+            ["+1.000", "proyectos tramitados"],
+            ["3", "provincias de actuación"],
+            ["100%", "ingeniero colegiado"],
+          ].map(([num, label]) => (
+            <div key={label} className="text-center">
+              <p className="text-3xl font-bold tracking-tight text-sky-700 sm:text-4xl">{num}</p>
+              <p className="mt-1 text-xs font-medium uppercase tracking-widest text-slate-500">{label}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
       {/* ── QUIÉNES SOMOS ── */}
       <section id="quienes" className="bg-white">
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
@@ -54,11 +72,15 @@ export default function Home() {
                 <div className="relative overflow-hidden rounded-3xl shadow-lg">
                   <Image
                     src="/images/manuel.png"
-                    alt="Manuel Marín Vicente"
+                    alt="Manuel Marín Vicente, Ingeniero Técnico Industrial"
                     width={560}
                     height={600}
                     className="h-auto w-full object-cover"
                   />
+                </div>
+                <div className="absolute -bottom-4 -right-4 hidden rounded-2xl bg-white p-4 shadow-xl ring-1 ring-slate-200 sm:block">
+                  <p className="text-xs font-semibold uppercase tracking-widest text-sky-700">Desde 1983</p>
+                  <p className="mt-1 text-sm font-bold text-slate-900">Colegiado · Ingeniero Técnico Industrial</p>
                 </div>
               </div>
             </ScrollReveal>
@@ -69,28 +91,52 @@ export default function Home() {
                   Quiénes somos
                 </p>
                 <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-                  Oficina Técnica de Ingeniería Industrial y Civil
+                  Oficina técnica con más de 40 años de trayectoria
                 </h2>
                 <p className="mt-6 text-base leading-8 text-slate-600">
-                  Al frente de abacoingeniería® está Manuel Marín Vicente,
-                  Ingeniero Técnico Industrial desde 1983. Con una trayectoria
-                  impecable, Manuel lidera el equipo ofreciendo una atención
-                  personalizada y un asesoramiento experto.
+                  Al frente de <strong>abacoingeniería®</strong> está{" "}
+                  <strong>Manuel Marín Vicente</strong>, Ingeniero Técnico
+                  Industrial colegiado <strong>desde 1983</strong>. Décadas
+                  avalando proyectos técnicos, peritaciones y homologaciones
+                  para particulares, empresas y administraciones en toda
+                  España.
                 </p>
                 <p className="mt-4 text-base leading-8 text-slate-600">
-                  Él mismo estudia cada caso para encontrar la mejor solución,
-                  asumiendo la responsabilidad directa de cada proyecto.
+                  Él mismo estudia cada caso, asume la responsabilidad directa
+                  del proyecto y garantiza una solución adaptada. Trato
+                  cercano, rigor técnico y actualización constante ante la
+                  normativa vigente.
                 </p>
+
+                {/* Valores */}
+                <ul className="mt-6 grid gap-3 sm:grid-cols-2">
+                  {[
+                    ["Rigor técnico", "Cada proyecto se estudia al detalle."],
+                    ["Trato cercano", "Acompañamos en cada fase del trámite."],
+                    ["Disponibilidad", "Respuesta ágil, presupuesto cerrado."],
+                    ["Actualización", "Al día con la normativa vigente."],
+                  ].map(([t, d]) => (
+                    <li key={t} className="rounded-xl border border-slate-200 bg-slate-50 px-4 py-3">
+                      <p className="text-sm font-semibold text-slate-900">{t}</p>
+                      <p className="mt-0.5 text-xs text-slate-600">{d}</p>
+                    </li>
+                  ))}
+                </ul>
 
                 {/* Firma */}
                 <div className="mt-8 border-l-2 border-sky-500 pl-4">
                   <p className="font-bold text-slate-900">Manuel Marín Vicente</p>
-                  <p className="text-sm text-sky-700">Ingeniero Técnico Industrial</p>
+                  <p className="text-sm text-sky-700">Ingeniero Técnico Industrial · Colegiado desde 1983</p>
                 </div>
 
-                <a href="#servicios" className="mt-8 inline-block rounded-xl bg-slate-900 px-6 py-3 text-sm font-semibold text-white transition hover:bg-slate-800">
-                  Qué servicios ofrecemos
-                </a>
+                <div className="mt-8 flex flex-wrap gap-3">
+                  <a href="#servicios" className="inline-block rounded-xl bg-slate-900 px-6 py-3 text-sm font-semibold text-white transition hover:bg-slate-800">
+                    Qué servicios ofrecemos
+                  </a>
+                  <a href="tel:+34670607830" className="inline-block rounded-xl border border-slate-300 px-6 py-3 text-sm font-semibold text-slate-900 transition hover:border-sky-500 hover:text-sky-700">
+                    Llamar 670 607 830
+                  </a>
+                </div>
               </div>
             </ScrollReveal>
           </div>
@@ -323,38 +369,146 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── PROYECTOS ── */}
+      {/* ── PROYECTOS / CASOS ── */}
       <section id="proyectos" className="bg-white">
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
           <ScrollReveal direction="up">
-          <div className="max-w-3xl">
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-700">
-              Proyectos
-            </p>
-            <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-              Tu asunto, en manos expertas
-            </h2>
-            <p className="mt-4 text-lg text-slate-600">
-              Cada proyecto refleja nuestro compromiso con la precisión, la
-              seguridad y la eficiencia en todas las áreas en las que operamos.
-              Nuestra misión es ofrecer un servicio de excelencia, con total
-              disponibilidad y máxima implicación en cada caso.
-            </p>
+            <div className="max-w-3xl">
+              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-700">
+                Casos y proyectos
+              </p>
+              <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
+                Tu asunto, en manos expertas
+              </h2>
+              <p className="mt-4 text-lg text-slate-600">
+                Cada proyecto refleja nuestro compromiso con la precisión, la
+                seguridad y la eficiencia. Estos son algunos de los ámbitos en
+                los que intervenimos de forma habitual.
+              </p>
+            </div>
+          </ScrollReveal>
 
-            <ul className="mt-6 space-y-3 text-slate-600">
-              <li>• Proyectos de apertura de locales comerciales</li>
-              <li>• Legalización de instalaciones industriales</li>
-              <li>• Homologación de vehículos importados</li>
-              <li>• Informes periciales para procedimientos judiciales</li>
-              <li>• Tasaciones técnicas de inmuebles e industrias</li>
-              <li>• Certificados e informes para trámites administrativos</li>
-            </ul>
+          <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            {[
+              {
+                sector: "Hostelería",
+                title: "Licencias de bar, restaurante y cafetería",
+                desc: "Proyecto técnico, salida de humos, aislamiento acústico y tramitación telemática ante el ayuntamiento.",
+                metric: "+200 licencias",
+                delay: 0,
+              },
+              {
+                sector: "Industria",
+                title: "Legalización de naves e instalaciones",
+                desc: "Memorias, cálculos eléctricos (REBT), contra incendios y climatización (RITE) para puesta en marcha.",
+                metric: "Andalucía y Murcia",
+                delay: 100,
+              },
+              {
+                sector: "Comercio",
+                title: "Apertura de locales y cambios de titularidad",
+                desc: "Declaración responsable, adecuación a normativa y acompañamiento hasta la apertura efectiva.",
+                metric: "Entrega 7–15 días",
+                delay: 200,
+              },
+              {
+                sector: "Judicial",
+                title: "Peritaciones e informes periciales",
+                desc: "Reconstrucción de siniestros, patologías constructivas, valoraciones y ratificación en sala.",
+                metric: "Juzgados y aseguradoras",
+                delay: 0,
+              },
+              {
+                sector: "Automoción",
+                title: "Fichas técnicas y homologaciones",
+                desc: "Matriculación, rehabilitación, catalogación de históricos y reformas. Ámbito nacional.",
+                metric: "Trámite online",
+                delay: 100,
+              },
+              {
+                sector: "Valoraciones",
+                title: "Tasaciones de inmuebles e industrias",
+                desc: "Valoraciones técnicas para compraventa, herencias, procedimientos y operaciones financieras.",
+                metric: "Informes firmados",
+                delay: 200,
+              },
+            ].map(({ sector, title, desc, metric, delay }) => (
+              <ScrollReveal key={title} direction="up" delay={delay}>
+                <article className="h-full rounded-3xl border border-slate-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
+                  <p className="text-xs font-semibold uppercase tracking-widest text-sky-700">{sector}</p>
+                  <h3 className="mt-3 text-lg font-semibold text-slate-900">{title}</h3>
+                  <p className="mt-3 text-sm leading-6 text-slate-600">{desc}</p>
+                  <p className="mt-5 inline-flex items-center gap-2 rounded-full bg-sky-50 px-3 py-1 text-xs font-semibold text-sky-700">
+                    {metric}
+                  </p>
+                </article>
+              </ScrollReveal>
+            ))}
+          </div>
 
-            <a href="#contacto" className="mt-8 inline-block rounded-xl bg-slate-900 px-6 py-3 text-sm font-semibold text-white transition hover:bg-slate-800">
+          <div className="mt-12">
+            <a href="#contacto" className="inline-block rounded-xl bg-slate-900 px-6 py-3 text-sm font-semibold text-white transition hover:bg-slate-800">
               Solicitar estudio de tu caso
             </a>
           </div>
+        </div>
+      </section>
+
+      {/* ── TESTIMONIOS ── */}
+      <section aria-label="Testimonios de clientes" className="bg-sky-50">
+        <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
+          <ScrollReveal direction="up">
+            <div className="max-w-2xl">
+              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-700">
+                Clientes satisfechos
+              </p>
+              <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
+                Lo que dicen de nuestro trabajo
+              </h2>
+            </div>
           </ScrollReveal>
+
+          <div className="mt-10 grid gap-6 md:grid-cols-3">
+            {[
+              {
+                quote: "Resolvieron la licencia de mi restaurante en tiempo récord. Explicaciones claras desde el primer día y presupuesto cerrado sin sorpresas.",
+                author: "Laura G.",
+                role: "Hostelería · Almería",
+                delay: 0,
+              },
+              {
+                quote: "Informe pericial impecable y defensa técnica en sala. Profesionalidad absoluta y rigor en cada detalle del análisis.",
+                author: "Javier M.",
+                role: "Abogado · Murcia",
+                delay: 100,
+              },
+              {
+                quote: "Legalizaron la nave y las instalaciones eléctricas en nuestra ampliación. Trato cercano y todo dentro del plazo acordado.",
+                author: "María S.",
+                role: "Industria · Málaga",
+                delay: 200,
+              },
+            ].map(({ quote, author, role, delay }) => (
+              <ScrollReveal key={author} direction="up" delay={delay}>
+                <figure className="h-full rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-200">
+                  <div aria-hidden className="flex gap-0.5 text-amber-400">
+                    {Array.from({ length: 5 }).map((_, i) => (
+                      <svg key={i} viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4">
+                        <path d="M10 15.27l-5.18 3.04 1.4-5.98L1.46 7.97l6.09-.52L10 1.82l2.45 5.63 6.09.52-4.76 4.36 1.4 5.98z" />
+                      </svg>
+                    ))}
+                  </div>
+                  <blockquote className="mt-4 text-sm leading-7 text-slate-700">
+                    “{quote}”
+                  </blockquote>
+                  <figcaption className="mt-5 border-t border-slate-100 pt-4">
+                    <p className="text-sm font-semibold text-slate-900">{author}</p>
+                    <p className="text-xs text-slate-500">{role}</p>
+                  </figcaption>
+                </figure>
+              </ScrollReveal>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -392,16 +546,31 @@ export default function Home() {
               </a>
 
               <div className="mt-8 grid gap-4 sm:grid-cols-2">
-                {[
-                  ["Llámanos", "670 607 830"],
-                  ["E-mail", "info@abacoingenieria.es"],
-                  ["Dirección postal", "Carretera de Ronda, 293\nEntresuelo 2\n04009 Almería"],
-                ].map(([label, value]) => (
-                  <div key={label} className="rounded-2xl border border-white/10 bg-white/5 p-5">
-                    <p className="text-xs font-semibold uppercase tracking-widest text-sky-300">{label}</p>
-                    <p className="mt-2 text-sm leading-6 text-slate-300 whitespace-pre-line">{value}</p>
-                  </div>
-                ))}
+                <a href="tel:+34670607830" className="rounded-2xl border border-white/10 bg-white/5 p-5 transition hover:border-sky-400/50 hover:bg-sky-500/10">
+                  <p className="text-xs font-semibold uppercase tracking-widest text-sky-300">Llámanos</p>
+                  <p className="mt-2 text-sm leading-6 text-slate-300">670 607 830</p>
+                </a>
+                <a href="mailto:info@abacoingenieria.es" className="rounded-2xl border border-white/10 bg-white/5 p-5 transition hover:border-sky-400/50 hover:bg-sky-500/10">
+                  <p className="text-xs font-semibold uppercase tracking-widest text-sky-300">E-mail</p>
+                  <p className="mt-2 text-sm leading-6 text-slate-300 break-all">info@abacoingenieria.es</p>
+                </a>
+                <a
+                  href="https://maps.google.com/?q=Carretera+de+Ronda+293+Almer%C3%ADa"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="rounded-2xl border border-white/10 bg-white/5 p-5 sm:col-span-2 transition hover:border-sky-400/50 hover:bg-sky-500/10"
+                >
+                  <p className="text-xs font-semibold uppercase tracking-widest text-sky-300">Dirección postal</p>
+                  <p className="mt-2 text-sm leading-6 text-slate-300 whitespace-pre-line">
+                    {"Carretera de Ronda, 293\nEntresuelo 2\n04009 Almería"}
+                  </p>
+                </a>
+                <div className="rounded-2xl border border-white/10 bg-white/5 p-5 sm:col-span-2">
+                  <p className="text-xs font-semibold uppercase tracking-widest text-sky-300">Horario</p>
+                  <p className="mt-2 text-sm leading-6 text-slate-300">
+                    Lun–Vie 9:00–14:00 · Lun–Jue 16:00–19:00
+                  </p>
+                </div>
               </div>
             </div>
             </ScrollReveal>
@@ -432,19 +601,7 @@ export default function Home() {
       </a>
 
       {/* ── FOOTER ── */}
-      <footer className="border-t border-slate-200 bg-white">
-        <div className="mx-auto max-w-7xl px-6 py-8 lg:px-8 flex flex-col items-center justify-between gap-4 sm:flex-row">
-          <Image
-            src="/images/logo-abaco.jpeg"
-            alt="Abaco Ingeniería"
-            width={120}
-            height={40}
-          />
-          <p className="text-sm text-slate-500">
-            © {new Date().getFullYear()} abacoingeniería®. Todos los derechos reservados.
-          </p>
-        </div>
-      </footer>
+      <SiteFooter />
     </main>
   );
 }

@@ -71,5 +71,33 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
       alternates: alt("/licencia-actividad-vicar"),
     },
+    {
+      url: `${siteUrl}/guia-licencia-actividad`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.7,
+      alternates: alt("/guia-licencia-actividad"),
+    },
+    {
+      url: `${siteUrl}/aviso-legal`,
+      lastModified: now,
+      changeFrequency: "yearly",
+      priority: 0.2,
+      alternates: alt("/aviso-legal"),
+    },
+    {
+      url: `${siteUrl}/politica-privacidad`,
+      lastModified: now,
+      changeFrequency: "yearly",
+      priority: 0.2,
+      alternates: alt("/politica-privacidad"),
+    },
+    {
+      url: `${siteUrl}/politica-cookies`,
+      lastModified: now,
+      changeFrequency: "yearly",
+      priority: 0.2,
+      alternates: alt("/politica-cookies"),
+    },
   ];
 }
