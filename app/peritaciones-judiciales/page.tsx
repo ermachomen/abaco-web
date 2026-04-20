@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import ContactForm from "../components/ContactForm";
 import SiteFooter from "../components/SiteFooter";
+import Logo from "../components/Logo";
 
 const siteUrl = "https://www.abacoingenieria.es";
 
@@ -157,13 +158,7 @@ export default function PeritacionesJudicialesPage() {
       <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/95 backdrop-blur">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
           <Link href="/" className="flex items-center gap-3">
-            <Image
-              src="/images/logo-abaco.jpeg"
-              alt="Abaco Ingeniería"
-              width={170}
-              height={60}
-              priority
-            />
+            <Logo className="h-11 w-auto" />
           </Link>
           <nav className="hidden items-center gap-6 md:flex">
             <Link href="/" className="text-sm font-medium text-slate-600 hover:text-slate-900">Inicio</Link>

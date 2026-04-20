@@ -1,5 +1,5 @@
-import Image from "next/image";
 import Link from "next/link";
+import Logo from "./Logo";
 
 export default function SiteFooter() {
   const year = new Date().getFullYear();
@@ -11,12 +11,7 @@ export default function SiteFooter() {
           {/* Empresa */}
           <div>
             <Link href="/" aria-label="Abaco Ingeniería - inicio">
-              <Image
-                src="/images/logo-abaco.jpeg"
-                alt="Abaco Ingeniería"
-                width={150}
-                height={50}
-              />
+              <Logo className="h-10 w-auto" />
             </Link>
             <p className="mt-4 text-sm leading-6 text-slate-600">
               Oficina técnica de ingeniería industrial y civil en Almería.

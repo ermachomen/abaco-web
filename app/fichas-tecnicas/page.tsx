@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import FichaForm from "../components/FichaForm";
 import SiteFooter from "../components/SiteFooter";
+import Logo from "../components/Logo";
 
 const siteUrl = "https://www.abacoingenieria.es";
 
@@ -166,13 +167,7 @@ export default function FichasTecnicasPage() {
       <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/95 backdrop-blur">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
           <Link href="/">
-            <Image
-              src="/images/logo-abaco.jpeg"
-              alt="Abaco Ingeniería"
-              width={170}
-              height={60}
-              priority
-            />
+            <Logo className="h-11 w-auto" />
           </Link>
           <div className="flex items-center gap-4">
             <a href="tel:+34670607830" className="hidden text-sm font-medium text-slate-600 hover:text-sky-700 md:inline">
