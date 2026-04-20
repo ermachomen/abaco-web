@@ -4,7 +4,7 @@ import Image from "next/image";
 import ContactForm from "../components/ContactForm";
 import SiteFooter from "../components/SiteFooter";
 
-const siteUrl = "https://www.ingenierial.es";
+const siteUrl = "https://www.abacoingenieria.es";
 
 export const metadata: Metadata = {
   title: "Peritaciones Judiciales en Almería | Perito Ingeniero Colegiado",

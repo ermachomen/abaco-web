@@ -3,7 +3,7 @@ import Link from "next/link";
 import SiteHeader from "../components/SiteHeader";
 import SiteFooter from "../components/SiteFooter";
 
-const siteUrl = "https://www.ingenierial.es";
+const siteUrl = "https://www.abacoingenieria.es";
 
 export const metadata: Metadata = {
   title: "Política de Cookies",

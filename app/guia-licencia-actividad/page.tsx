@@ -4,7 +4,7 @@ import SiteHeader from "../components/SiteHeader";
 import SiteFooter from "../components/SiteFooter";
 import GuideForm from "../components/GuideForm";
 
-const siteUrl = "https://www.ingenierial.es";
+const siteUrl = "https://www.abacoingenieria.es";
 const path = "/guia-licencia-actividad";
 
 export const metadata: Metadata = {

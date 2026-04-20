@@ -2,7 +2,7 @@
 
 import nodemailer from "nodemailer";
 
-const siteUrl = "https://www.ingenierial.es";
+const siteUrl = "https://www.abacoingenieria.es";
 
 export async function sendGuideEmail(formData: FormData) {
   const nombre = (formData.get("nombre") as string | null)?.trim() ?? "";

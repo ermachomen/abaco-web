@@ -4,7 +4,7 @@ import Link from "next/link";
 import FichaForm from "../components/FichaForm";
 import SiteFooter from "../components/SiteFooter";
 
-const siteUrl = "https://www.ingenierial.es";
+const siteUrl = "https://www.abacoingenieria.es";
 
 export const metadata: Metadata = {
   title: "Fichas Técnicas Reducidas para Vehículos | Abaco Ingeniería",
