@@ -33,7 +33,7 @@ export default function Home() {
             <a href="#proyectos" className="text-sm font-medium text-slate-600 transition hover:text-slate-900">
               Proyectos
             </a>
-            <a href="#contacto" className="rounded-xl bg-slate-900 px-4 py-2 text-sm font-semibold text-white transition hover:bg-slate-800">
+            <a href="#contacto" className="rounded-xl bg-brand-navy px-4 py-2 text-sm font-semibold text-white transition hover:bg-brand-navy-dark">
               Contacto
             </a>
           </nav>
@@ -53,7 +53,7 @@ export default function Home() {
             ["100%", "ingeniero colegiado"],
           ].map(([num, label]) => (
             <div key={label} className="text-center">
-              <p className="text-3xl font-bold tracking-tight text-sky-700 sm:text-4xl">{num}</p>
+              <p className="text-3xl font-bold tracking-tight text-brand-navy sm:text-4xl">{num}</p>
               <p className="mt-1 text-xs font-medium uppercase tracking-widest text-slate-500">{label}</p>
             </div>
           ))}
@@ -79,7 +79,7 @@ export default function Home() {
                   />
                 </div>
                 <div className="absolute -bottom-4 -right-4 hidden rounded-2xl bg-white p-4 shadow-xl ring-1 ring-slate-200 sm:block">
-                  <p className="text-xs font-semibold uppercase tracking-widest text-sky-700">Desde 1983</p>
+                  <p className="text-xs font-semibold uppercase tracking-widest text-brand-navy">Desde 1983</p>
                   <p className="mt-1 text-sm font-bold text-slate-900">Colegiado · Ingeniero Técnico Industrial</p>
                 </div>
               </div>
@@ -87,7 +87,7 @@ export default function Home() {
 
             <ScrollReveal direction="right" delay={150}>
               <div>
-                <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-700">
+                <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-navy">
                   Quiénes somos
                 </p>
                 <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
@@ -124,16 +124,16 @@ export default function Home() {
                 </ul>
 
                 {/* Firma */}
-                <div className="mt-8 border-l-2 border-sky-500 pl-4">
+                <div className="mt-8 border-l-2 border-brand-navy pl-4">
                   <p className="font-bold text-slate-900">Manuel Marín Vicente</p>
-                  <p className="text-sm text-sky-700">Ingeniero Técnico Industrial · Colegiado desde 1983</p>
+                  <p className="text-sm text-brand-navy">Ingeniero Técnico Industrial · Colegiado desde 1983</p>
                 </div>
 
                 <div className="mt-8 flex flex-wrap gap-3">
-                  <a href="#servicios" className="inline-block rounded-xl bg-slate-900 px-6 py-3 text-sm font-semibold text-white transition hover:bg-slate-800">
+                  <a href="#servicios" className="inline-block rounded-xl bg-brand-navy px-6 py-3 text-sm font-semibold text-white transition hover:bg-brand-navy-dark">
                     Qué servicios ofrecemos
                   </a>
-                  <a href="tel:+34670607830" className="inline-block rounded-xl border border-slate-300 px-6 py-3 text-sm font-semibold text-slate-900 transition hover:border-sky-500 hover:text-sky-700">
+                  <a href="tel:+34670607830" className="inline-block rounded-xl border border-slate-300 px-6 py-3 text-sm font-semibold text-slate-900 transition hover:border-sky-500 hover:text-brand-navy">
                     Llamar 670 607 830
                   </a>
                 </div>
@@ -161,7 +161,7 @@ export default function Home() {
       <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
         <ScrollReveal direction="up">
         <div className="max-w-3xl">
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-700">
+          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-navy">
             Nuestros servicios
           </p>
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
@@ -201,7 +201,7 @@ export default function Home() {
                   ["Mediciones", "Ejecución y comprobación precisa de mediciones para tus proyectos."],
                 ].map(([label, desc]) => (
                   <li key={label}>
-                    <p className="text-sm font-semibold text-sky-700">{label}</p>
+                    <p className="text-sm font-semibold text-brand-navy">{label}</p>
                     <p className="text-sm leading-6 text-slate-600">{desc}</p>
                   </li>
                 ))}
@@ -210,10 +210,10 @@ export default function Home() {
                 Trabajamos en la apertura de negocios, ampliaciones de instalaciones, cambios de uso y adecuación de espacios a normativa vigente.
               </p>
               <div className="mt-6 flex flex-wrap gap-4">
-                <a href="/licencia-de-actividad" className="inline-block rounded-xl bg-sky-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-sky-500">
+                <a href="/licencia-de-actividad" className="inline-block rounded-xl bg-brand-navy px-4 py-2 text-sm font-semibold text-white transition hover:bg-brand-navy-dark">
                   Licencia de actividad →
                 </a>
-                <a href="#contacto" className="inline-block text-sm font-semibold text-slate-900 underline underline-offset-4 hover:text-sky-700 self-center">
+                <a href="#contacto" className="inline-block text-sm font-semibold text-slate-900 underline underline-offset-4 hover:text-brand-navy self-center">
                   Contáctanos
                 </a>
               </div>
@@ -241,7 +241,7 @@ export default function Home() {
                   ["Asesoramiento especializado", "Estudios previos para la importación y documentación necesaria."],
                 ].map(([label, desc]) => (
                   <li key={label}>
-                    <p className="text-sm font-semibold text-sky-700">{label}</p>
+                    <p className="text-sm font-semibold text-brand-navy">{label}</p>
                     <p className="text-sm leading-6 text-slate-600">{desc}</p>
                   </li>
                 ))}
@@ -250,10 +250,10 @@ export default function Home() {
                 Gestionamos procesos completos de matriculación, importación y legalización, evitando errores y reduciendo tiempos en ITV y trámites administrativos.
               </p>
               <div className="mt-6 flex flex-wrap gap-4">
-                <a href="/fichas-tecnicas" className="inline-block rounded-xl bg-sky-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-sky-500">
+                <a href="/fichas-tecnicas" className="inline-block rounded-xl bg-brand-navy px-4 py-2 text-sm font-semibold text-white transition hover:bg-brand-navy-dark">
                   Solicitar ficha técnica →
                 </a>
-                <a href="#contacto" className="inline-block text-sm font-semibold text-slate-900 underline underline-offset-4 hover:text-sky-700 self-center">
+                <a href="#contacto" className="inline-block text-sm font-semibold text-slate-900 underline underline-offset-4 hover:text-brand-navy self-center">
                   Contacto
                 </a>
               </div>
@@ -282,7 +282,7 @@ export default function Home() {
                   ["Control de contratistas", "Supervisión para evitar desviaciones y asegurar que la ejecución respete el proyecto aprobado."],
                 ].map(([label, desc]) => (
                   <li key={label}>
-                    <p className="text-sm font-semibold text-sky-700">{label}</p>
+                    <p className="text-sm font-semibold text-brand-navy">{label}</p>
                     <p className="text-sm leading-6 text-slate-600">{desc}</p>
                   </li>
                 ))}
@@ -290,7 +290,7 @@ export default function Home() {
               <p className="mt-4 text-sm text-slate-600">
                 Te ayudamos a tomar decisiones técnicas con seguridad, minimizando riesgos y asegurando la viabilidad de tu inversión.
               </p>
-              <a href="#contacto" className="mt-6 inline-block text-sm font-semibold text-slate-900 underline underline-offset-4 hover:text-sky-700">
+              <a href="#contacto" className="mt-6 inline-block text-sm font-semibold text-slate-900 underline underline-offset-4 hover:text-brand-navy">
                 Contáctanos →
               </a>
             </div>
@@ -311,7 +311,7 @@ export default function Home() {
                 ["Topografía y reportajes", "Reconocimientos técnicos, fotografía y documentación gráfica de proyectos."],
               ].map(([label, desc]) => (
                 <li key={label}>
-                  <p className="text-sm font-semibold text-sky-700">{label}</p>
+                  <p className="text-sm font-semibold text-brand-navy">{label}</p>
                   <p className="text-sm leading-6 text-slate-600">{desc}</p>
                 </li>
               ))}
@@ -320,10 +320,10 @@ export default function Home() {
               Actuamos como soporte técnico en procesos judiciales, compraventas, auditorías y evaluaciones técnicas especializadas.
             </p>
             <div className="mt-6 flex flex-wrap gap-4">
-              <a href="/peritaciones-judiciales" className="inline-block rounded-xl bg-sky-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-sky-500">
+              <a href="/peritaciones-judiciales" className="inline-block rounded-xl bg-brand-navy px-4 py-2 text-sm font-semibold text-white transition hover:bg-brand-navy-dark">
                 Peritaciones judiciales →
               </a>
-              <a href="#contacto" className="inline-block text-sm font-semibold text-slate-900 underline underline-offset-4 hover:text-sky-700 self-center">
+              <a href="#contacto" className="inline-block text-sm font-semibold text-slate-900 underline underline-offset-4 hover:text-brand-navy self-center">
                 Contáctanos
               </a>
             </div>
@@ -334,7 +334,7 @@ export default function Home() {
       </section>
 
       {/* ── CÓMO TRABAJAMOS ── */}
-      <section id="metodo" className="relative overflow-hidden bg-sky-950 text-white">
+      <section id="metodo" className="relative overflow-hidden bg-brand-navy-dark text-white">
         <div aria-hidden className="pointer-events-none absolute -right-40 -top-40 h-[500px] w-[500px] rounded-full bg-sky-600/15 blur-3xl" />
         <div aria-hidden className="pointer-events-none absolute -bottom-32 left-0 h-[400px] w-[400px] rounded-full bg-indigo-600/10 blur-3xl" />
         <div className="relative mx-auto max-w-7xl px-6 py-20 lg:px-8">
@@ -374,7 +374,7 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
           <ScrollReveal direction="up">
             <div className="max-w-3xl">
-              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-700">
+              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-navy">
                 Casos y proyectos
               </p>
               <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
@@ -435,10 +435,10 @@ export default function Home() {
             ].map(({ sector, title, desc, metric, delay }) => (
               <ScrollReveal key={title} direction="up" delay={delay}>
                 <article className="h-full rounded-3xl border border-slate-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
-                  <p className="text-xs font-semibold uppercase tracking-widest text-sky-700">{sector}</p>
+                  <p className="text-xs font-semibold uppercase tracking-widest text-brand-navy">{sector}</p>
                   <h3 className="mt-3 text-lg font-semibold text-slate-900">{title}</h3>
                   <p className="mt-3 text-sm leading-6 text-slate-600">{desc}</p>
-                  <p className="mt-5 inline-flex items-center gap-2 rounded-full bg-sky-50 px-3 py-1 text-xs font-semibold text-sky-700">
+                  <p className="mt-5 inline-flex items-center gap-2 rounded-full bg-sky-50 px-3 py-1 text-xs font-semibold text-brand-navy">
                     {metric}
                   </p>
                 </article>
@@ -447,7 +447,7 @@ export default function Home() {
           </div>
 
           <div className="mt-12">
-            <a href="#contacto" className="inline-block rounded-xl bg-slate-900 px-6 py-3 text-sm font-semibold text-white transition hover:bg-slate-800">
+            <a href="#contacto" className="inline-block rounded-xl bg-brand-navy px-6 py-3 text-sm font-semibold text-white transition hover:bg-brand-navy-dark">
               Solicitar estudio de tu caso
             </a>
           </div>
@@ -459,7 +459,7 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
           <ScrollReveal direction="up">
             <div className="max-w-2xl">
-              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-700">
+              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-navy">
                 Clientes satisfechos
               </p>
               <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
