@@ -1,13 +1,68 @@
 "use client";
 
+import { useEffect, useRef, useState } from "react";
+
 interface VideoHeroProps {
   /** Reemplaza esta URL con tu propio video (.mp4 recomendado) o uno de Pexels/stock */
   videoSrc?: string;
 }
 
+const FADE_MS = 1400;
+
 export default function VideoHero({
-  videoSrc = "https://videos.pexels.com/video-files/3195394/3195394-uhd_2560_1440_25fps.mp4",
+  videoSrc = "https://videos.pexels.com/video-files/33191935/14145793_2560_1440_30fps.mp4",
 }: VideoHeroProps) {
+  const videoARef = useRef<HTMLVideoElement>(null);
+  const videoBRef = useRef<HTMLVideoElement>(null);
+  const transitioningRef = useRef(false);
+  const [activeVideo, setActiveVideo] = useState<"A" | "B">("A");
+
+  useEffect(() => {
+    const a = videoARef.current;
+    const b = videoBRef.current;
+    if (!a || !b) return;
+
+    const handleTimeUpdate = (e: Event) => {
+      const video = e.currentTarget as HTMLVideoElement;
+      if (!video.duration || isNaN(video.duration)) return;
+
+      const isActive =
+        (video === a && activeVideo === "A") ||
+        (video === b && activeVideo === "B");
+      if (!isActive || transitioningRef.current) return;
+
+      const fadeSeconds = FADE_MS / 1000;
+      if (video.duration - video.currentTime > fadeSeconds) return;
+
+      transitioningRef.current = true;
+      const next = activeVideo === "A" ? b : a;
+      next.currentTime = 0;
+      void next.play().catch(() => undefined);
+      setActiveVideo(activeVideo === "A" ? "B" : "A");
+
+      // Tras la transición, rearma el video saliente para el siguiente ciclo.
+      window.setTimeout(() => {
+        try {
+          video.pause();
+          video.currentTime = 0;
+        } catch {
+          // ignore — algunos navegadores pueden rechazar el seek
+        }
+        transitioningRef.current = false;
+      }, FADE_MS);
+    };
+
+    a.addEventListener("timeupdate", handleTimeUpdate);
+    b.addEventListener("timeupdate", handleTimeUpdate);
+    return () => {
+      a.removeEventListener("timeupdate", handleTimeUpdate);
+      b.removeEventListener("timeupdate", handleTimeUpdate);
+    };
+  }, [activeVideo]);
+
+  const videoClass = "absolute inset-0 h-full w-full object-cover transition-opacity ease-in-out";
+  const videoStyle = { transitionDuration: `${FADE_MS}ms` };
+
   return (
     <section className="relative h-screen min-h-[600px] overflow-hidden bg-slate-900 text-white">
       {/* ── FALLBACK (se ve siempre mientras carga o si el video falla) ── */}
@@ -16,15 +71,29 @@ export default function VideoHero({
         style={{ backgroundImage: "url('/images/1.avif')" }}
       />
 
-      {/* ── VIDEO DE FONDO ── */}
+      {/* ── VIDEO A ── */}
       <video
+        ref={videoARef}
         autoPlay
         muted
-        loop
         playsInline
         preload="auto"
         poster="/images/1.avif"
-        className="absolute inset-0 h-full w-full object-cover"
+        className={`${videoClass} ${activeVideo === "A" ? "opacity-100" : "opacity-0"}`}
+        style={videoStyle}
+      >
+        <source src={videoSrc} type="video/mp4" />
+      </video>
+
+      {/* ── VIDEO B (crossfade para loop sin corte) ── */}
+      <video
+        ref={videoBRef}
+        muted
+        playsInline
+        preload="auto"
+        className={`${videoClass} ${activeVideo === "B" ? "opacity-100" : "opacity-0"}`}
+        style={videoStyle}
+        aria-hidden
       >
         <source src={videoSrc} type="video/mp4" />
       </video>
