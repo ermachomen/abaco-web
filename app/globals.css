@@ -5,10 +5,12 @@
   --foreground: #171717;
 
   /* Paleta marca Abaco Ingeniería (extraída del logo) */
-  --brand-navy: #2c4a7c;
-  --brand-navy-dark: #1f3659;
-  --brand-navy-light: #3e5f9a;
+  --brand-navy: #1d3fc4;
+  --brand-navy-dark: #152c99;
+  --brand-navy-light: #4560d8;
   --brand-steel: #94a3b8;
+  --brand-red: #e31b23;
+  --brand-yellow: #f5c518;
 }
 
 @theme inline {
@@ -21,6 +23,8 @@
   --color-brand-navy-dark: var(--brand-navy-dark);
   --color-brand-navy-light: var(--brand-navy-light);
   --color-brand-steel: var(--brand-steel);
+  --color-brand-red: var(--brand-red);
+  --color-brand-yellow: var(--brand-yellow);
 }
 
 body {
