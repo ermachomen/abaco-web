@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const siteUrl = "https://www.abacoingenieria.es";
+const siteUrl = "https://www.ingenierial.es";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),

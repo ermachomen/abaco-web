@@ -5,7 +5,7 @@ import ContactForm from "../components/ContactForm";
 import SiteFooter from "../components/SiteFooter";
 import Logo from "../components/Logo";
 
-const siteUrl = "https://www.abacoingenieria.es";
+const siteUrl = "https://www.ingenierial.es";
 const path = "/licencia-actividad-el-ejido";
 const municipio = "El Ejido";
 

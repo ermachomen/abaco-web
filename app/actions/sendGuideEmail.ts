@@ -2,7 +2,7 @@
 
 import nodemailer from "nodemailer";
 
-const siteUrl = "https://www.abacoingenieria.es";
+const siteUrl = "https://www.ingenierial.es";
 
 export async function sendGuideEmail(formData: FormData) {
   const nombre = (formData.get("nombre") as string | null)?.trim() ?? "";
@@ -61,7 +61,7 @@ export async function sendGuideEmail(formData: FormData) {
           </p>
           <p style="margin-top:28px;font-size:12px;color:#94a3b8;">
             Abaco Ingeniería · Ctra. de Ronda, 293, Entresuelo 2 · 04009 Almería<br/>
-            Recibes este correo porque lo has solicitado en abacoingenieria.es.
+            Recibes este correo porque lo has solicitado en ingenierial.es.
           </p>
         </div>
       `,

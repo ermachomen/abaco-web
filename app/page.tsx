@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import ScrollReveal from "./components/ScrollReveal";
 import ContactForm from "./components/ContactForm";
 import VideoHero from "./components/VideoHero";
@@ -11,22 +12,22 @@ export default function Home() {
       {/* ── HEADER ── */}
       <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/95 backdrop-blur">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
-          <a href="#" className="flex items-center gap-3" aria-label="Abaco Ingeniería - inicio">
+          <Link href="/" className="flex items-center gap-3" aria-label="Abaco Ingeniería - inicio">
             <Logo className="h-11 w-auto" />
-          </a>
+          </Link>
 
-          <nav className="hidden items-center gap-8 md:flex">
+          <nav className="hidden items-center gap-7 md:flex">
+            <Link href="/licencia-de-actividad" className="text-sm font-medium text-slate-600 transition hover:text-slate-900">
+              Licencia de actividad
+            </Link>
+            <Link href="/peritaciones-judiciales" className="text-sm font-medium text-slate-600 transition hover:text-slate-900">
+              Peritaciones
+            </Link>
+            <Link href="/fichas-tecnicas" className="text-sm font-medium text-slate-600 transition hover:text-slate-900">
+              Vehículos
+            </Link>
             <a href="#quienes" className="text-sm font-medium text-slate-600 transition hover:text-slate-900">
               Quiénes somos
-            </a>
-            <a href="#servicios" className="text-sm font-medium text-slate-600 transition hover:text-slate-900">
-              Servicios
-            </a>
-            <a href="#metodo" className="text-sm font-medium text-slate-600 transition hover:text-slate-900">
-              Cómo trabajamos
-            </a>
-            <a href="#proyectos" className="text-sm font-medium text-slate-600 transition hover:text-slate-900">
-              Proyectos
             </a>
             <a href="#contacto" className="rounded-xl bg-brand-navy px-4 py-2 text-sm font-semibold text-white transition hover:bg-brand-navy-dark">
               Contacto

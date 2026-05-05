@@ -3,7 +3,7 @@ import Link from "next/link";
 import SiteHeader from "../components/SiteHeader";
 import SiteFooter from "../components/SiteFooter";
 
-const siteUrl = "https://www.abacoingenieria.es";
+const siteUrl = "https://www.ingenierial.es";
 
 export const metadata: Metadata = {
   title: "Aviso Legal",
@@ -53,7 +53,7 @@ export default function AvisoLegalPage() {
               <li><strong>Domicilio:</strong> Carretera de Ronda, 293, Entresuelo 2 · 04009 Almería</li>
               <li><strong>Teléfono:</strong> <a href="tel:+34670607830" className="text-sky-700 underline hover:no-underline">670 607 830</a></li>
               <li><strong>E-mail:</strong> <a href="mailto:info@abacoingenieria.es" className="text-sky-700 underline hover:no-underline">info@abacoingenieria.es</a></li>
-              <li><strong>Dominio:</strong> www.abacoingenieria.es</li>
+              <li><strong>Dominio:</strong> www.ingenierial.es</li>
             </ul>
             <p className="mt-3 text-sm text-slate-500">
               Si necesitas solicitar el NIF o el número de colegiado concreto,
