@@ -129,8 +129,8 @@ export default function Home() {
                   <a href="#servicios" className="inline-block rounded-xl bg-brand-navy px-6 py-3 text-sm font-semibold text-white transition hover:bg-brand-navy-dark">
                     Qué servicios ofrecemos
                   </a>
-                  <a href="tel:+34670607830" className="inline-block rounded-xl border border-slate-300 px-6 py-3 text-sm font-semibold text-slate-900 transition hover:border-sky-500 hover:text-brand-navy">
-                    Llamar 670 607 830
+                  <a href="tel:+34687465486" className="inline-block rounded-xl border border-slate-300 px-6 py-3 text-sm font-semibold text-slate-900 transition hover:border-sky-500 hover:text-brand-navy">
+                    Llamar 687 465 486
                   </a>
                 </div>
               </div>
@@ -542,9 +542,9 @@ export default function Home() {
               </a>
 
               <div className="mt-8 grid gap-4 sm:grid-cols-2">
-                <a href="tel:+34670607830" className="rounded-2xl border border-white/10 bg-white/5 p-5 transition hover:border-sky-400/50 hover:bg-sky-500/10">
+                <a href="tel:+34687465486" className="rounded-2xl border border-white/10 bg-white/5 p-5 transition hover:border-sky-400/50 hover:bg-sky-500/10">
                   <p className="text-xs font-semibold uppercase tracking-widest text-sky-300">Llámanos</p>
-                  <p className="mt-2 text-sm leading-6 text-slate-300">670 607 830</p>
+                  <p className="mt-2 text-sm leading-6 text-slate-300">687 465 486</p>
                 </a>
                 <a href="mailto:info@abacoingenieria.es" className="rounded-2xl border border-white/10 bg-white/5 p-5 transition hover:border-sky-400/50 hover:bg-sky-500/10">
                   <p className="text-xs font-semibold uppercase tracking-widest text-sky-300">E-mail</p>

@@ -119,7 +119,7 @@ const jsonLd = {
         height: 1024,
       },
       image: `${siteUrl}/images/og-abaco.jpg`,
-      telephone: "+34670607830",
+      telephone: "+34687465486",
       email: "info@abacoingenieria.es",
       priceRange: "€€",
       foundingDate: "1983",
@@ -175,7 +175,7 @@ const jsonLd = {
         {
           "@type": "ContactPoint",
           contactType: "customer service",
-          telephone: "+34670607830",
+          telephone: "+34687465486",
           email: "info@abacoingenieria.es",
           areaServed: "ES",
           availableLanguage: ["Spanish"],
@@ -183,7 +183,7 @@ const jsonLd = {
       ],
       sameAs: [
         "https://www.instagram.com/abacoingenieria",
-        "https://wa.me/34670607830",
+        "https://wa.me/34687465486",
       ],
     },
     {

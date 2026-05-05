@@ -51,7 +51,7 @@ export default function AvisoLegalPage() {
               <li><strong>Titular:</strong> Manuel Marín Vicente (abacoingeniería®)</li>
               <li><strong>Actividad:</strong> Oficina técnica de ingeniería industrial y civil</li>
               <li><strong>Domicilio:</strong> Carretera de Ronda, 293, Entresuelo 2 · 04009 Almería</li>
-              <li><strong>Teléfono:</strong> <a href="tel:+34670607830" className="text-sky-700 underline hover:no-underline">670 607 830</a></li>
+              <li><strong>Teléfono:</strong> <a href="tel:+34687465486" className="text-sky-700 underline hover:no-underline">687 465 486</a></li>
               <li><strong>E-mail:</strong> <a href="mailto:info@abacoingenieria.es" className="text-sky-700 underline hover:no-underline">info@abacoingenieria.es</a></li>
               <li><strong>Dominio:</strong> www.ingenierial.es</li>
             </ul>

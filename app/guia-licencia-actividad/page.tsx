@@ -166,8 +166,8 @@ export default function GuiaLicenciaActividadPage() {
             licencia, sin compromiso.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
-            <a href="tel:+34670607830" className="rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-400">
-              Llamar 670 607 830
+            <a href="tel:+34687465486" className="rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-400">
+              Llamar 687 465 486
             </a>
             <Link href="/#contacto" className="rounded-xl border border-slate-600 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800">
               Escribir por formulario

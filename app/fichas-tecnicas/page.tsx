@@ -58,7 +58,7 @@ const serviceLd = {
     "@id": `${siteUrl}/#organization`,
     name: "Abaco Ingeniería",
     url: siteUrl,
-    telephone: "+34670607830",
+    telephone: "+34687465486",
     email: "info@abacoingenieria.es",
     priceRange: "€€",
     image: `${siteUrl}/images/og-abaco.jpg`,
@@ -170,8 +170,8 @@ export default function FichasTecnicasPage() {
             <Logo className="h-11 w-auto" />
           </Link>
           <div className="flex items-center gap-4">
-            <a href="tel:+34670607830" className="hidden text-sm font-medium text-slate-600 hover:text-sky-700 md:inline">
-              670 607 830
+            <a href="tel:+34687465486" className="hidden text-sm font-medium text-slate-600 hover:text-sky-700 md:inline">
+              687 465 486
             </a>
             <Link
               href="/#contacto"

@@ -59,7 +59,7 @@ const serviceLd = {
     "@id": `${siteUrl}/#organization`,
     name: "Abaco Ingeniería",
     url: siteUrl,
-    telephone: "+34670607830",
+    telephone: "+34687465486",
     email: "info@abacoingenieria.es",
     priceRange: "€€",
     image: `${siteUrl}/images/og-abaco.jpg`,
@@ -189,7 +189,7 @@ export default function PeritacionesJudicialesPage() {
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a href="#contacto" className="rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-400">Consultar caso</a>
-            <a href="tel:+34670607830" className="rounded-xl border border-slate-600 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800">Llamar 670 607 830</a>
+            <a href="tel:+34687465486" className="rounded-xl border border-slate-600 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800">Llamar 687 465 486</a>
           </div>
         </div>
       </section>

@@ -57,8 +57,8 @@ export default function SiteFooter() {
             </h3>
             <ul className="mt-4 space-y-2 text-sm">
               <li>
-                <a href="tel:+34670607830" className="hover:text-sky-700">
-                  670 607 830
+                <a href="tel:+34687465486" className="hover:text-sky-700">
+                  687 465 486
                 </a>
               </li>
               <li>
