@@ -98,7 +98,15 @@ export async function sendGuideEmail(formData: FormData) {
 
     return { success: true };
   } catch (error) {
-    console.error("Error enviando guía:", error);
-    return { success: false, error: "Error al enviar la guía. Inténtalo de nuevo." };
+    const err = error as NodeJS.ErrnoException & { code?: string; responseCode?: number };
+    console.error("Error enviando guía:", err);
+
+    if (err.code === "EAUTH" || err.responseCode === 535) {
+      return { success: false, error: "Servicio de correo temporalmente no disponible. Llámanos al 687 465 486." };
+    }
+    if (!process.env.EMAIL_USER || !process.env.EMAIL_PASS) {
+      return { success: false, error: "Servicio de correo no configurado. Llámanos al 687 465 486." };
+    }
+    return { success: false, error: "Error al enviar la guía. Llámanos al 687 465 486 o escribe a info@abacoingenieria.es." };
   }
 }

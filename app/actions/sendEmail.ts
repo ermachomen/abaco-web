@@ -60,7 +60,16 @@ export async function sendEmail(formData: FormData) {
 
     return { success: true };
   } catch (error) {
-    console.error("Error enviando email:", error);
-    return { success: false, error: "Error al enviar el mensaje. Inténtalo de nuevo." };
+    const err = error as NodeJS.ErrnoException & { code?: string; responseCode?: number };
+    console.error("Error enviando email:", err);
+
+    // Mensajes más claros según el tipo de fallo
+    if (err.code === "EAUTH" || err.responseCode === 535) {
+      return { success: false, error: "Servicio de correo temporalmente no disponible. Por favor llámanos al 687 465 486 o escríbenos a info@abacoingenieria.es." };
+    }
+    if (!process.env.EMAIL_USER || !process.env.EMAIL_PASS) {
+      return { success: false, error: "Servicio de correo no configurado. Por favor llámanos al 687 465 486." };
+    }
+    return { success: false, error: "Error al enviar el mensaje. Llámanos al 687 465 486 o escríbenos a info@abacoingenieria.es." };
   }
 }

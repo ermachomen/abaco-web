@@ -108,7 +108,15 @@ export async function sendFichaEmail(formData: FormData) {
 
     return { success: true };
   } catch (error) {
-    console.error("Error enviando email ficha:", error);
-    return { success: false, error: "Error al enviar la solicitud. Inténtalo de nuevo." };
+    const err = error as NodeJS.ErrnoException & { code?: string; responseCode?: number };
+    console.error("Error enviando email ficha:", err);
+
+    if (err.code === "EAUTH" || err.responseCode === 535) {
+      return { success: false, error: "Servicio de correo temporalmente no disponible. Llámanos al 687 465 486 o escribe a info@abacoingenieria.es con los datos del vehículo." };
+    }
+    if (!process.env.EMAIL_USER || !process.env.EMAIL_PASS) {
+      return { success: false, error: "Servicio de correo no configurado. Llámanos al 687 465 486." };
+    }
+    return { success: false, error: "Error al enviar la solicitud. Llámanos al 687 465 486 o escribe a info@abacoingenieria.es." };
   }
 }
