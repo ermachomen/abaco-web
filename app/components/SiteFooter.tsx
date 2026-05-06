@@ -29,10 +29,13 @@ export default function SiteFooter() {
             </h3>
             <ul className="mt-4 space-y-2 text-sm">
               <li><Link href="/licencia-de-actividad" className="hover:text-sky-700">Licencia de actividad</Link></li>
-              <li><Link href="/licencia-bar-restaurante-almeria" className="hover:text-sky-700">Licencia bar y restaurante</Link></li>
-              <li><Link href="/fichas-tecnicas" className="hover:text-sky-700">Fichas técnicas reducidas</Link></li>
               <li><Link href="/peritaciones-judiciales" className="hover:text-sky-700">Peritaciones judiciales</Link></li>
-              <li><Link href="/guia-licencia-actividad" className="hover:text-sky-700">Guía gratuita de licencia</Link></li>
+              <li><Link href="/fichas-tecnicas" className="hover:text-sky-700">Homologación de vehículos</Link></li>
+              <li><Link href="/homologacion-coche-importado" className="hover:text-sky-700">Coche importado</Link></li>
+              <li><Link href="/homologacion-coche-usa" className="hover:text-sky-700">Coche americano (USA)</Link></li>
+              <li><Link href="/pasar-itv-coche-extranjero" className="hover:text-sky-700">Pasar ITV coche extranjero</Link></li>
+              <li><Link href="/homologacion-vehiculo-historico" className="hover:text-sky-700">Vehículo histórico</Link></li>
+              <li><Link href="/homologacion-reforma-vehiculo" className="hover:text-sky-700">Reformas de vehículos</Link></li>
             </ul>
           </nav>
 
