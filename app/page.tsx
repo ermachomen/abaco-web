@@ -16,12 +16,15 @@ export default function Home() {
             <Logo className="h-11 w-auto" />
           </Link>
 
-          <nav className="hidden items-center gap-7 md:flex">
+          <nav className="hidden items-center gap-6 md:flex">
             <Link href="/licencia-de-actividad" className="text-sm font-medium text-slate-600 transition hover:text-slate-900">
-              Licencia de actividad
+              Licencias
             </Link>
             <Link href="/peritaciones-judiciales" className="text-sm font-medium text-slate-600 transition hover:text-slate-900">
               Peritaciones
+            </Link>
+            <Link href="/tasaciones" className="text-sm font-medium text-slate-600 transition hover:text-slate-900">
+              Tasaciones
             </Link>
             <Link href="/fichas-tecnicas" className="text-sm font-medium text-slate-600 transition hover:text-slate-900">
               Vehículos
@@ -45,7 +48,7 @@ export default function Home() {
           {[
             ["+40", "años de experiencia"],
             ["+1.000", "proyectos tramitados"],
-            ["3", "provincias de actuación"],
+            ["España", "ámbito nacional"],
             ["100%", "ingeniero colegiado"],
           ].map(([num, label]) => (
             <div key={label} className="text-center">

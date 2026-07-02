@@ -1,25 +1,28 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import Image from "next/image";
 import ContactForm from "../components/ContactForm";
 import SiteFooter from "../components/SiteFooter";
 import Logo from "../components/Logo";
+import { CITIES } from "../_data/cities";
 
 const siteUrl = "https://www.ingenierial.es";
 
 export const metadata: Metadata = {
-  title: "Peritaciones Judiciales en Almería | Perito Ingeniero Colegiado",
+  title: "Peritaciones Judiciales en Toda España · Perito Ingeniero Colegiado",
   description:
-    "Peritaciones judiciales e informes periciales de ingeniería en Almería. Perito judicial para juzgados, abogados, aseguradoras y particulares. Informes rigurosos, ratificación en sala y presupuesto sin compromiso.",
+    "Peritaciones judiciales e informes periciales de ingeniería en toda España. Perito judicial para juzgados, abogados, aseguradoras y particulares. Patologías, humedades, incendios, accidentes laborales, valoraciones. Ratificación en sala.",
   keywords: [
-    "peritaciones judiciales Almería",
-    "perito judicial Almería",
-    "perito ingeniero Almería",
-    "informes periciales Almería",
-    "dictamen pericial Almería",
-    "perito seguros Almería",
-    "perito humedades Almería",
-    "perito incendios Almería",
+    "peritaciones judiciales",
+    "perito judicial ingeniero",
+    "perito ingeniero",
+    "informes periciales España",
+    "dictamen pericial",
+    "perito seguros",
+    "perito humedades",
+    "perito incendios",
+    "perito accidentes",
+    "perito patologías constructivas",
+    "perito comunidades de propietarios",
   ],
   alternates: {
     canonical: "/peritaciones-judiciales",
@@ -30,22 +33,22 @@ export const metadata: Metadata = {
     locale: "es_ES",
     url: `${siteUrl}/peritaciones-judiciales`,
     siteName: "Abaco Ingeniería",
-    title: "Peritaciones Judiciales en Almería | Perito Ingeniero",
+    title: "Peritaciones Judiciales · Toda España · Perito Ingeniero",
     description:
-      "Informes periciales de ingeniería para procedimientos judiciales en Almería.",
+      "Informes periciales de ingeniería para procedimientos judiciales en toda España.",
     images: [
       {
         url: "/images/og-abaco.jpg",
         width: 1200,
         height: 630,
-        alt: "Peritaciones judiciales en Almería – Abaco Ingeniería",
+        alt: "Peritaciones judiciales – Abaco Ingeniería",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Peritaciones Judiciales en Almería",
-    description: "Perito ingeniero judicial en Almería.",
+    title: "Peritaciones Judiciales · Toda España",
+    description: "Perito ingeniero judicial colegiado.",
     images: ["/images/og-abaco.jpg"],
   },
 };
@@ -72,10 +75,10 @@ const serviceLd = {
       addressCountry: "ES",
     },
   },
-  areaServed: { "@type": "AdministrativeArea", name: "Almería" },
+  areaServed: { "@type": "Country", name: "España" },
   url: `${siteUrl}/peritaciones-judiciales`,
   description:
-    "Informes periciales judiciales de ingeniería para juzgados, abogados, aseguradoras y particulares en Almería.",
+    "Informes periciales judiciales de ingeniería para juzgados, abogados, aseguradoras y particulares en toda España.",
 };
 
 const faqLd = {
@@ -172,20 +175,21 @@ export default function PeritacionesJudicialesPage() {
         <ol className="flex flex-wrap items-center gap-2">
           <li><Link href="/" className="hover:text-slate-900">Inicio</Link></li>
           <li aria-hidden>›</li>
-          <li aria-current="page" className="text-slate-700">Peritaciones Judiciales en Almería</li>
+          <li aria-current="page" className="text-slate-700">Peritaciones Judiciales</li>
         </ol>
       </nav>
 
       <section className="bg-slate-900 text-white">
         <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
-          <p className="text-sm font-semibold uppercase tracking-wider text-sky-400">Servicio · Almería</p>
+          <p className="text-sm font-semibold uppercase tracking-wider text-sky-400">Servicio nacional · Perito ingeniero colegiado</p>
           <h1 className="mt-4 text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">
-            Peritaciones Judiciales en Almería
+            Peritaciones Judiciales en toda España
           </h1>
           <p className="mt-6 max-w-2xl text-lg text-slate-300">
             Informes periciales de ingeniería rigurosos y defendibles para
             procedimientos judiciales. Trabajamos con juzgados, abogados,
-            aseguradoras y particulares.
+            aseguradoras y particulares en cualquier provincia. Ratificación en
+            sala. Más de 40 años de experiencia.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a href="#contacto" className="rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-400">Consultar caso</a>
@@ -222,26 +226,30 @@ export default function PeritacionesJudicialesPage() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
-        <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Cobertura: Almería, Málaga y Murcia</h2>
-        <p className="mt-4 text-slate-700 leading-relaxed">
-          Intervenimos como perito judicial en las provincias de{" "}
-          <strong>Almería</strong>, <strong>Málaga</strong> y{" "}
-          <strong>Murcia</strong>. Colaboramos con juzgados, abogados,
-          aseguradoras y particulares, tanto en informes de parte como en
-          designaciones judiciales.
+      <section className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
+        <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Peritos por capital de provincia</h2>
+        <p className="mt-4 max-w-3xl text-slate-700 leading-relaxed">
+          Comparecemos como perito judicial en juzgados de toda España.
+          Tenemos páginas dedicadas para las principales capitales con
+          información sobre los partidos judiciales y las particularidades
+          locales.
         </p>
-        <ul className="mt-6 space-y-2 text-slate-700">
-          <li>·{" "}
-            <Link href="/licencia-de-actividad" className="text-sky-700 underline hover:no-underline">
-              Licencia de actividad y apertura en Almería
+        <div className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
+          {CITIES.map((c) => (
+            <Link
+              key={c.slug}
+              href={`/peritaciones-${c.slug}`}
+              className="rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm font-medium text-slate-700 transition hover:border-brand-navy hover:text-brand-navy"
+            >
+              Peritos en {c.nombre} →
             </Link>
-          </li>
-          <li>·{" "}
-            <Link href="/fichas-tecnicas" className="text-sky-700 underline hover:no-underline">
-              Fichas técnicas reducidas
-            </Link>
-          </li>
+          ))}
+        </div>
+        <h3 className="mt-12 text-xl font-semibold">Servicios relacionados</h3>
+        <ul className="mt-4 grid gap-2 text-slate-700 md:grid-cols-2">
+          <li>· <Link href="/licencia-de-actividad" className="text-brand-navy underline hover:no-underline">Licencias de actividad y apertura</Link></li>
+          <li>· <Link href="/tasaciones" className="text-brand-navy underline hover:no-underline">Tasaciones técnicas</Link></li>
+          <li>· <Link href="/fichas-tecnicas" className="text-brand-navy underline hover:no-underline">Homologación de vehículos</Link></li>
         </ul>
       </section>
 

@@ -18,33 +18,32 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
     default:
-      "Licencias de Actividad y Peritaciones Judiciales en Almería | Abaco Ingeniería",
+      "Abaco Ingeniería · Licencias, Peritaciones, Tasaciones y Homologaciones en toda España",
     template: "%s | Abaco Ingeniería",
   },
   description:
-    "Ingeniería en Almería especializada en proyectos para licencia de actividad y peritaciones judiciales. Tramitación ágil, informes periciales rigurosos y asesoramiento técnico para particulares, empresas y abogados.",
+    "Oficina técnica nacional con más de 40 años de trayectoria. Licencias de apertura, peritaciones judiciales, tasaciones técnicas y homologación de vehículos en toda España. Servicio 100% online con firma digital FNMT.",
   keywords: [
-    "licencia de actividad Almería",
-    "licencia de apertura Almería",
-    "licencia de actividad Málaga",
-    "licencia de apertura Málaga",
-    "licencia de actividad Murcia",
-    "licencia de apertura Murcia",
-    "proyecto licencia de actividad",
-    "proyecto licencia de apertura",
+    "ingeniería nacional",
+    "ingeniero técnico industrial",
+    "oficina técnica España",
+    "licencia de actividad España",
+    "licencia de apertura España",
+    "proyecto técnico de actividad",
     "proyecto apertura local",
-    "ingeniero Almería",
-    "ingeniero Málaga",
-    "ingeniero Murcia",
-    "peritaciones judiciales Almería",
-    "peritaciones judiciales Málaga",
-    "peritaciones judiciales Murcia",
+    "peritaciones judiciales España",
     "perito judicial ingeniero",
     "informes periciales",
+    "tasaciones técnicas",
+    "tasación inmueble",
+    "tasación judicial",
     "ficha técnica reducida",
-    "homologación vehículos",
+    "homologación coche importado",
+    "homologación vehículo USA",
+    "pasar ITV coche extranjero",
     "consultoría técnica",
-    "tramitación licencia apertura",
+    "ingeniero colegiado",
+    "firma digital FNMT",
     "Abaco Ingeniería",
   ],
   authors: [{ name: "Abaco Ingeniería", url: siteUrl }],
@@ -81,24 +80,24 @@ export const metadata: Metadata = {
     url: siteUrl,
     siteName: "Abaco Ingeniería",
     title:
-      "Licencias de Actividad y Peritaciones Judiciales en Almería | Abaco Ingeniería",
+      "Abaco Ingeniería · Licencias, Peritaciones, Tasaciones y Homologaciones en toda España",
     description:
-      "Proyectos para licencia de actividad y peritaciones judiciales en Almería. Tramitación ágil e informes periciales rigurosos.",
+      "Oficina técnica nacional con más de 40 años de trayectoria. Servicios técnicos para particulares, empresas y administraciones en toda España. 100% online con firma digital FNMT.",
     images: [
       {
         url: "/images/og-abaco.jpg",
         width: 1200,
         height: 630,
-        alt: "Abaco Ingeniería – Consultoría técnica en Almería",
+        alt: "Abaco Ingeniería – Oficina técnica nacional",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
     title:
-      "Licencias de Actividad y Peritaciones Judiciales en Almería",
+      "Abaco Ingeniería · Licencias, Peritaciones, Tasaciones y Homologaciones",
     description:
-      "Proyectos para licencia de actividad y peritaciones judiciales en Almería.",
+      "Oficina técnica nacional. Servicio 100% online con firma digital FNMT.",
     images: ["/images/og-abaco.jpg"],
   },
 };
@@ -135,7 +134,7 @@ const jsonLd = {
         },
       },
       description:
-        "Oficina técnica de ingeniería en Almería con más de 40 años de trayectoria. Proyectos de licencia de actividad, peritaciones judiciales, fichas técnicas reducidas, homologaciones y consultoría.",
+        "Oficina técnica nacional con más de 40 años de trayectoria. Licencias de apertura, peritaciones judiciales, tasaciones técnicas, fichas técnicas reducidas y homologación de vehículos en toda España. Sede en Almería, servicio 100% online con firma digital FNMT.",
       address: {
         "@type": "PostalAddress",
         streetAddress: "Carretera de Ronda, 293",
@@ -149,14 +148,7 @@ const jsonLd = {
         latitude: 36.8381,
         longitude: -2.4597,
       },
-      areaServed: [
-        { "@type": "AdministrativeArea", name: "Almería" },
-        { "@type": "AdministrativeArea", name: "Málaga" },
-        { "@type": "AdministrativeArea", name: "Murcia" },
-        { "@type": "AdministrativeArea", name: "Andalucía" },
-        { "@type": "AdministrativeArea", name: "Región de Murcia" },
-        { "@type": "Country", name: "España" },
-      ],
+      areaServed: { "@type": "Country", name: "España" },
       openingHoursSpecification: [
         {
           "@type": "OpeningHoursSpecification",
@@ -208,9 +200,9 @@ const jsonLd = {
       name: "Proyecto para Licencia de Actividad",
       provider: { "@id": `${siteUrl}/#organization` },
       serviceType: "Proyecto técnico y tramitación de licencia de actividad",
-      areaServed: { "@type": "AdministrativeArea", name: "Almería" },
+      areaServed: { "@type": "Country", name: "España" },
       description:
-        "Redacción de proyecto técnico y tramitación completa de la licencia de actividad para locales, comercios e industrias en Almería.",
+        "Redacción de proyecto técnico y tramitación completa de la licencia de actividad para locales, comercios e industrias en toda España.",
     },
     {
       "@type": "Service",
@@ -218,9 +210,9 @@ const jsonLd = {
       name: "Peritaciones Judiciales",
       provider: { "@id": `${siteUrl}/#organization` },
       serviceType: "Informes periciales judiciales de ingeniería",
-      areaServed: { "@type": "AdministrativeArea", name: "Almería" },
+      areaServed: { "@type": "Country", name: "España" },
       description:
-        "Peritaciones judiciales e informes periciales de ingeniería para procedimientos judiciales, aseguradoras y particulares en Almería.",
+        "Peritaciones judiciales e informes periciales de ingeniería para procedimientos judiciales, aseguradoras y particulares en toda España.",
     },
   ],
 };

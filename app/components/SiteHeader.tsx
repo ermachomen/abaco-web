@@ -8,11 +8,12 @@ export default function SiteHeader() {
         <Link href="/" className="flex items-center gap-3" aria-label="Abaco Ingeniería - inicio">
           <Logo className="h-11 w-auto" />
         </Link>
-        <nav className="hidden items-center gap-6 md:flex">
+        <nav className="hidden items-center gap-5 md:flex">
           <Link href="/" className="text-sm font-medium text-slate-600 hover:text-slate-900">Inicio</Link>
           <Link href="/licencia-de-actividad" className="text-sm font-medium text-slate-600 hover:text-slate-900">Licencias</Link>
           <Link href="/peritaciones-judiciales" className="text-sm font-medium text-slate-600 hover:text-slate-900">Peritaciones</Link>
-          <Link href="/fichas-tecnicas" className="text-sm font-medium text-slate-600 hover:text-slate-900">Fichas técnicas</Link>
+          <Link href="/tasaciones" className="text-sm font-medium text-slate-600 hover:text-slate-900">Tasaciones</Link>
+          <Link href="/fichas-tecnicas" className="text-sm font-medium text-slate-600 hover:text-slate-900">Vehículos</Link>
           <a href="tel:+34687465486" className="text-sm font-medium text-slate-600 hover:text-brand-navy">687 465 486</a>
           <Link href="/#contacto" className="rounded-xl bg-brand-navy px-4 py-2 text-sm font-semibold text-white transition hover:bg-brand-navy-dark">Contactar</Link>
         </nav>

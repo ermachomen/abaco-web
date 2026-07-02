@@ -118,9 +118,9 @@ export default function VideoHero({
 
             {/* Título */}
             <h1 className="text-5xl font-bold leading-[1.1] tracking-tight sm:text-6xl lg:text-7xl">
-              <span className="text-white">Consultoría de </span>
+              <span className="text-white">Oficina técnica de </span>
               <span className="text-sky-400">Ingeniería</span>
-              <span className="text-white"> en Almería</span>
+              <span className="text-white"> en toda España</span>
             </h1>
 
             {/* Descripción */}

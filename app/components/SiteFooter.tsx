@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Logo from "./Logo";
+import { CITIES } from "../_data/cities";
 
 export default function SiteFooter() {
   const year = new Date().getFullYear();
@@ -14,8 +15,8 @@ export default function SiteFooter() {
               <Logo className="h-10 w-auto" />
             </Link>
             <p className="mt-4 text-sm leading-6 text-slate-600">
-              Oficina técnica de ingeniería industrial y civil en Almería.
-              Ingeniero colegiado desde 1983.
+              Oficina técnica de ingeniería con cobertura nacional.
+              Ingeniero colegiado desde 1983. Sede en Almería.
             </p>
             <p className="mt-3 text-xs text-slate-500">
               abacoingeniería® · Marca registrada
@@ -28,28 +29,34 @@ export default function SiteFooter() {
               Servicios
             </h3>
             <ul className="mt-4 space-y-2 text-sm">
-              <li><Link href="/licencia-de-actividad" className="hover:text-sky-700">Licencia de actividad</Link></li>
+              <li><Link href="/licencia-de-actividad" className="hover:text-sky-700">Licencias de actividad</Link></li>
               <li><Link href="/peritaciones-judiciales" className="hover:text-sky-700">Peritaciones judiciales</Link></li>
+              <li><Link href="/tasaciones" className="hover:text-sky-700">Tasaciones técnicas</Link></li>
               <li><Link href="/fichas-tecnicas" className="hover:text-sky-700">Homologación de vehículos</Link></li>
-              <li><Link href="/homologacion-coche-importado" className="hover:text-sky-700">Coche importado</Link></li>
-              <li><Link href="/homologacion-coche-usa" className="hover:text-sky-700">Coche americano (USA)</Link></li>
-              <li><Link href="/pasar-itv-coche-extranjero" className="hover:text-sky-700">Pasar ITV coche extranjero</Link></li>
-              <li><Link href="/homologacion-vehiculo-historico" className="hover:text-sky-700">Vehículo histórico</Link></li>
-              <li><Link href="/homologacion-reforma-vehiculo" className="hover:text-sky-700">Reformas de vehículos</Link></li>
+              <li><Link href="/homologacion-coche-importado" className="hover:text-sky-700">· Coche importado</Link></li>
+              <li><Link href="/homologacion-coche-usa" className="hover:text-sky-700">· Coche americano (USA)</Link></li>
+              <li><Link href="/pasar-itv-coche-extranjero" className="hover:text-sky-700">· Pasar ITV coche extranjero</Link></li>
+              <li><Link href="/homologacion-vehiculo-historico" className="hover:text-sky-700">· Vehículo histórico</Link></li>
+              <li><Link href="/homologacion-reforma-vehiculo" className="hover:text-sky-700">· Reformas de vehículos</Link></li>
             </ul>
           </nav>
 
-          {/* Zonas */}
-          <nav aria-label="Zonas de actuación">
+          {/* Por capitales */}
+          <nav aria-label="Servicios por capital de provincia">
             <h3 className="text-sm font-semibold uppercase tracking-widest text-slate-900">
-              Zonas
+              Por capitales
             </h3>
-            <ul className="mt-4 space-y-2 text-sm">
-              <li><Link href="/precio-licencia-actividad-almeria" className="hover:text-sky-700">Precio licencia Almería</Link></li>
-              <li><Link href="/licencia-actividad-roquetas-de-mar" className="hover:text-sky-700">Roquetas de Mar</Link></li>
-              <li><Link href="/licencia-actividad-el-ejido" className="hover:text-sky-700">El Ejido</Link></li>
-              <li><Link href="/licencia-actividad-vicar" className="hover:text-sky-700">Vícar</Link></li>
-              <li className="text-slate-500">Almería · Málaga · Murcia</li>
+            <ul className="mt-4 space-y-1.5 text-sm">
+              {CITIES.map((c) => (
+                <li key={c.slug}>
+                  <span className="text-slate-700">{c.nombre}: </span>
+                  <Link href={`/licencia-actividad-${c.slug}`} className="text-xs hover:text-sky-700">Licencias</Link>
+                  <span className="text-slate-300"> · </span>
+                  <Link href={`/peritaciones-${c.slug}`} className="text-xs hover:text-sky-700">Peritos</Link>
+                  <span className="text-slate-300"> · </span>
+                  <Link href={`/tasaciones-${c.slug}`} className="text-xs hover:text-sky-700">Tasaciones</Link>
+                </li>
+              ))}
             </ul>
           </nav>
 
@@ -70,6 +77,8 @@ export default function SiteFooter() {
                 </a>
               </li>
               <li className="text-slate-600">
+                Sede principal
+                <br />
                 Ctra. de Ronda, 293 · Entresuelo 2
                 <br />
                 04009 Almería
