@@ -30,6 +30,7 @@ export default function SiteFooter() {
             </h3>
             <ul className="mt-4 space-y-2 text-sm">
               <li><Link href="/licencia-de-actividad" className="hover:text-sky-700">Licencias de actividad</Link></li>
+              <li><Link href="/proyecto-de-actividad" className="hover:text-sky-700">Proyecto de actividad</Link></li>
               <li><Link href="/peritaciones-judiciales" className="hover:text-sky-700">Peritaciones judiciales</Link></li>
               <li><Link href="/tasaciones" className="hover:text-sky-700">Tasaciones técnicas</Link></li>
               <li><Link href="/fichas-tecnicas" className="hover:text-sky-700">Homologación de vehículos</Link></li>

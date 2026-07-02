@@ -106,6 +106,14 @@ const faqLd = {
     },
     {
       "@type": "Question",
+      name: "¿Es lo mismo licencia de actividad, licencia de apertura y proyecto de actividad?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Licencia de actividad y licencia de apertura son dos nombres para la misma autorización municipal. El proyecto de actividad (o proyecto de apertura) es el documento técnico firmado por ingeniero colegiado que se presenta para obtenerla: memoria, planos y justificación del cumplimiento normativo. Nosotros redactamos el proyecto y tramitamos la licencia completa.",
+      },
+    },
+    {
+      "@type": "Question",
       name: "¿Qué diferencia hay entre licencia de actividad y declaración responsable?",
       acceptedAnswer: {
         "@type": "Answer",
@@ -231,6 +239,27 @@ export default function LicenciaActividadPage() {
             posteriores. Nos encargamos de analizarlo, redactar el proyecto y
             presentarlo telemáticamente en tu nombre en cualquier ayuntamiento
             de España.
+          </p>
+        </div>
+
+        <div className="mt-10 rounded-2xl border border-sky-100 bg-sky-50 p-6">
+          <h3 className="text-xl font-semibold text-slate-900">
+            ¿Licencia de actividad, licencia de apertura o proyecto de actividad?
+          </h3>
+          <p className="mt-3 text-slate-700 leading-relaxed">
+            Son tres nombres que suelen confundirse pero forman parte del mismo
+            trámite. <strong>Licencia de actividad</strong> y{" "}
+            <strong>licencia de apertura</strong> son la misma autorización
+            municipal: la primera pone el foco en la actividad que se ejerce y
+            la segunda en la apertura del local, pero los ayuntamientos las usan
+            indistintamente. El{" "}
+            <Link href="/proyecto-de-actividad" className="text-brand-navy underline hover:no-underline">
+              <strong>proyecto de actividad</strong>
+            </Link>{" "}
+            (también llamado <em>proyecto de apertura</em> o <em>memoria
+            técnica</em>) es el documento firmado por ingeniero colegiado que se
+            presenta para conseguirla. Nosotros nos encargamos de las dos cosas:
+            redactamos el proyecto y tramitamos la licencia hasta la resolución.
           </p>
         </div>
       </section>

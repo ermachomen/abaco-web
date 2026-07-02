@@ -72,6 +72,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
       alternates: alt("/fichas-tecnicas"),
     },
+    {
+      url: `${siteUrl}/proyecto-de-actividad`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.85,
+      alternates: alt("/proyecto-de-actividad"),
+    },
 
     // ── Landings de vehículos ──
     {

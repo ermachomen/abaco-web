@@ -111,26 +111,48 @@ export const CITIES: CityData[] = [
 export const SERVICIOS = {
   "licencia-actividad": {
     nombre: "Licencias de Actividad",
+    // Usado en title y H1: cubre el clúster de sinónimos con más búsqueda
+    nombreSeo: "Licencia de Actividad y Apertura",
     nombreCorto: "Licencia de actividad",
-    descripcionCorta: "Proyecto técnico y tramitación de licencias de apertura, declaraciones responsables y proyectos de actividad para locales, comercios, hostelería e industrias.",
+    descripcionCorta: "Proyecto de actividad y tramitación de licencias de apertura, declaraciones responsables y cambios de titularidad para locales, comercios, hostelería e industrias.",
     hubPath: "/licencia-de-actividad",
     pathPrefix: "/licencia-actividad-",
   },
   peritaciones: {
     nombre: "Peritaciones Judiciales",
+    nombreSeo: "Perito Judicial e Informes Periciales",
     nombreCorto: "Peritaciones",
-    descripcionCorta: "Informes periciales de ingeniería para juzgados, abogados, aseguradoras y particulares. Patologías constructivas, valoraciones, incendios, daños, accidentes y ratificación en sala.",
+    descripcionCorta: "Informes y dictámenes periciales de ingeniería para juzgados, abogados, aseguradoras y particulares. Perito de parte y designación judicial: patologías, incendios, daños, accidentes. Ratificación en sala.",
     hubPath: "/peritaciones-judiciales",
     pathPrefix: "/peritaciones-",
   },
   tasaciones: {
     nombre: "Tasaciones Técnicas",
+    nombreSeo: "Tasaciones y Valoraciones",
     nombreCorto: "Tasaciones",
-    descripcionCorta: "Tasaciones técnicas y valoraciones de inmuebles, maquinaria, vehículos e industrias para herencias, divorcios, operaciones financieras y procedimientos administrativos.",
+    descripcionCorta: "Tasaciones técnicas y valoraciones de inmuebles, maquinaria, vehículos e industrias por perito tasador para herencias, divorcios, Hacienda y procedimientos judiciales.",
     hubPath: "/tasaciones",
     pathPrefix: "/tasaciones-",
   },
 } as const;
+
+/**
+ * Enlaces locales adicionales por ciudad y servicio (silo local).
+ * Se muestran en la landing de esa ciudad para reforzar el linkado interno
+ * hacia las páginas long-tail ya existentes.
+ */
+export const CITY_EXTRA_LINKS: Partial<Record<Servicio, Record<string, { label: string; href: string }[]>>> = {
+  "licencia-actividad": {
+    almeria: [
+      { label: "Licencia de bar y restaurante en Almería", href: "/licencia-bar-restaurante-almeria" },
+      { label: "Cuánto cuesta una licencia de actividad en Almería", href: "/precio-licencia-actividad-almeria" },
+      { label: "Licencia de actividad en Roquetas de Mar", href: "/licencia-actividad-roquetas-de-mar" },
+      { label: "Licencia de actividad en El Ejido", href: "/licencia-actividad-el-ejido" },
+      { label: "Licencia de actividad en Vícar", href: "/licencia-actividad-vicar" },
+      { label: "Guía gratuita: checklist de licencia de actividad", href: "/guia-licencia-actividad" },
+    ],
+  },
+};
 
 /** Devuelve la ruta absoluta a una landing de servicio + ciudad */
 export function cityServicePath(servicio: Servicio, citySlug: string): string {

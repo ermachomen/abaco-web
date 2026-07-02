@@ -5,6 +5,7 @@ import Logo from "./Logo";
 import {
   CITIES,
   CITY_CONTEXT,
+  CITY_EXTRA_LINKS,
   CITY_FAQS,
   SERVICIOS,
   type Servicio,
@@ -34,6 +35,7 @@ export default function CityLandingTemplate({ servicio, citySlug }: CityLandingP
   const path = `${config.pathPrefix}${citySlug}`;
   const contextoLocal = CITY_CONTEXT[servicio][citySlug];
   const faqs = CITY_FAQS[servicio][citySlug];
+  const extraLinks = CITY_EXTRA_LINKS[servicio]?.[citySlug] ?? [];
 
   // Ciudades hermanas para linkado interno (todas menos la actual)
   const otrasCiudades = CITIES.filter((c) => c.slug !== citySlug);
@@ -42,7 +44,7 @@ export default function CityLandingTemplate({ servicio, citySlug }: CityLandingP
   const serviceLd = {
     "@context": "https://schema.org",
     "@type": "Service",
-    name: `${config.nombre} en ${city.nombre}`,
+    name: `${config.nombreSeo} en ${city.nombre}`,
     serviceType: config.descripcionCorta,
     provider: {
       "@type": "LocalBusiness",
@@ -135,7 +137,7 @@ export default function CityLandingTemplate({ servicio, citySlug }: CityLandingP
             {config.nombre} · {city.nombre}
           </p>
           <h1 className="mt-4 text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">
-            {config.nombre} {city.preposicion} {city.nombre}
+            {config.nombreSeo} {city.preposicion} {city.nombre}
           </h1>
           <p className="mt-6 max-w-2xl text-lg text-slate-300">
             {config.descripcionCorta} Servicio en {city.nombre} y resto de la
@@ -156,11 +158,27 @@ export default function CityLandingTemplate({ servicio, citySlug }: CityLandingP
       {/* ── CONTEXTO LOCAL ── */}
       <section className="mx-auto max-w-5xl px-6 py-16 lg:px-8 lg:py-20">
         <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-          {config.nombre} {city.preposicion} {city.nombre}: lo que necesitas saber
+          {config.nombreSeo} {city.preposicion} {city.nombre}: lo que necesitas saber
         </h2>
         <div className="mt-6 space-y-4 text-slate-700 leading-relaxed">
           <p>{contextoLocal}</p>
         </div>
+        {extraLinks.length > 0 && (
+          <div className="mt-10 rounded-2xl border border-sky-100 bg-sky-50 p-6">
+            <h3 className="text-lg font-semibold text-slate-900">
+              Páginas específicas para {city.nombre} y provincia
+            </h3>
+            <ul className="mt-4 grid gap-2 text-sm md:grid-cols-2">
+              {extraLinks.map((l) => (
+                <li key={l.href}>
+                  <Link href={l.href} className="text-brand-navy underline hover:no-underline">
+                    {l.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
       </section>
 
       {/* ── SERVICIO 100% ONLINE ── */}
@@ -276,7 +294,7 @@ export function buildCityLandingMetadata(servicio: Servicio, citySlug: string) {
   const path = `${config.pathPrefix}${citySlug}`;
 
   return {
-    title: `${config.nombre} ${city.preposicion} ${city.nombre} · Ingeniero Colegiado`,
+    title: `${config.nombreSeo} ${city.preposicion} ${city.nombre} · Ingeniero Colegiado`,
     description: `${config.descripcionCorta} Servicio en ${city.nombre} y ${city.provincia}. Ingeniero técnico colegiado, firma digital FNMT, presupuesto cerrado.`,
     keywords: buildKeywords(servicio, city),
     alternates: { canonical: path, languages: { "es-ES": path } },
@@ -285,20 +303,20 @@ export function buildCityLandingMetadata(servicio: Servicio, citySlug: string) {
       locale: "es_ES",
       url: `${siteUrl}${path}`,
       siteName: "Abaco Ingeniería",
-      title: `${config.nombre} ${city.preposicion} ${city.nombre}`,
+      title: `${config.nombreSeo} ${city.preposicion} ${city.nombre}`,
       description: config.descripcionCorta,
       images: [
         {
           url: "/images/og-abaco.jpg",
           width: 1200,
           height: 630,
-          alt: `${config.nombre} ${city.preposicion} ${city.nombre} – Abaco Ingeniería`,
+          alt: `${config.nombreSeo} ${city.preposicion} ${city.nombre} – Abaco Ingeniería`,
         },
       ],
     },
     twitter: {
       card: "summary_large_image" as const,
-      title: `${config.nombre} ${city.preposicion} ${city.nombre}`,
+      title: `${config.nombreSeo} ${city.preposicion} ${city.nombre}`,
       description: `${config.nombreCorto} con ingeniero colegiado, ámbito nacional.`,
       images: ["/images/og-abaco.jpg"],
     },
@@ -326,7 +344,9 @@ function buildKeywords(servicio: Servicio, city: CityData): string[] {
         `perito judicial ${c}`,
         `perito ingeniero ${c}`,
         `informes periciales ${c}`,
+        `informe pericial ${c}`,
         `dictamen pericial ${c}`,
+        `perito de parte ${c}`,
         `perito seguros ${c}`,
         `perito humedades ${c}`,
         `perito incendios ${c}`,
@@ -336,6 +356,7 @@ function buildKeywords(servicio: Servicio, city: CityData): string[] {
       return [
         `tasaciones ${c}`,
         `tasación inmueble ${c}`,
+        `valoración inmueble ${c}`,
         `tasación vivienda ${c}`,
         `tasación local comercial ${c}`,
         `tasación nave industrial ${c}`,
@@ -343,6 +364,7 @@ function buildKeywords(servicio: Servicio, city: CityData): string[] {
         `tasación herencia ${c}`,
         `tasación divorcio ${c}`,
         `perito tasador ${c}`,
+        `valoraciones técnicas ${c}`,
       ];
   }
 }
