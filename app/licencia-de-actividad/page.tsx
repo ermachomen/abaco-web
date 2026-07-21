@@ -4,6 +4,18 @@ import ContactForm from "../components/ContactForm";
 import SiteFooter from "../components/SiteFooter";
 import Logo from "../components/Logo";
 import { CITIES } from "../_data/cities";
+import { MUNICIPIOS_ALMERIA } from "../_data/almeria-municipios";
+
+// Municipios de Almería con página propia (incluye los ya existentes)
+const MUNICIPIOS_EXISTENTES = [
+  { slug: "el-ejido", nombre: "El Ejido" },
+  { slug: "roquetas-de-mar", nombre: "Roquetas de Mar" },
+  { slug: "vicar", nombre: "Vícar" },
+];
+const MUNICIPIOS_LICENCIA = [
+  ...MUNICIPIOS_EXISTENTES,
+  ...MUNICIPIOS_ALMERIA.map((m) => ({ slug: m.slug, nombre: m.nombre })),
+].sort((a, b) => a.nombre.localeCompare(b.nombre, "es"));
 
 const siteUrl = "https://www.ingenierial.es";
 
@@ -313,6 +325,25 @@ export default function LicenciaActividadPage() {
             </Link>
           ))}
         </div>
+        <h3 className="mt-14 text-2xl font-bold tracking-tight">Licencias por municipio de Almería</h3>
+        <p className="mt-4 max-w-3xl text-slate-700 leading-relaxed">
+          Somos oficina técnica con sede en Almería. Nos desplazamos sin coste a
+          cualquier municipio de la provincia y conocemos las particularidades
+          de cada ayuntamiento, desde los almacenes hortofrutícolas del Poniente
+          hasta las naves de mármol del Almanzora o la hostelería del Levante.
+        </p>
+        <div className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          {MUNICIPIOS_LICENCIA.map((mun) => (
+            <Link
+              key={mun.slug}
+              href={`/licencia-actividad-${mun.slug}`}
+              className="rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm font-medium text-slate-700 transition hover:border-brand-navy hover:text-brand-navy"
+            >
+              Licencia en {mun.nombre} →
+            </Link>
+          ))}
+        </div>
+
         <h3 className="mt-12 text-xl font-semibold">Guías y servicios relacionados</h3>
         <ul className="mt-4 grid gap-2 text-slate-700 md:grid-cols-2">
           <li>· <Link href="/licencia-bar-restaurante-almeria" className="text-brand-navy underline hover:no-underline">Licencia de bar y restaurante en Almería</Link></li>

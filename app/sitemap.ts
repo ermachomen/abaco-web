@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { CITIES } from "./_data/cities";
+import { MUNICIPIOS_ALMERIA } from "./_data/almeria-municipios";
 
 const siteUrl = "https://www.ingenierial.es";
 
@@ -8,6 +9,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const alt = (path: string) => ({
     languages: { "es-ES": `${siteUrl}${path}` },
   });
+
+  const municipioLandings = MUNICIPIOS_ALMERIA.map((m) => ({
+    url: `${siteUrl}/licencia-actividad-${m.slug}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.75,
+    alternates: alt(`/licencia-actividad-${m.slug}`),
+  }));
 
   const cityLandings = CITIES.flatMap((c) => [
     {
@@ -160,6 +169,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
       alternates: alt("/guia-licencia-actividad"),
     },
+
+    // ── Landings por municipio de Almería ──
+    ...municipioLandings,
 
     // ── 30 landings por capital ──
     ...cityLandings,
