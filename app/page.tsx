@@ -394,6 +394,7 @@ export default function Home() {
                 title: "Licencias de bar, restaurante y cafetería",
                 desc: "Proyecto técnico, salida de humos, aislamiento acústico y tramitación telemática ante el ayuntamiento.",
                 metric: "+200 licencias",
+                href: "/licencia-bar-restaurante-almeria",
                 delay: 0,
               },
               {
@@ -401,6 +402,7 @@ export default function Home() {
                 title: "Legalización de naves e instalaciones",
                 desc: "Memorias, cálculos eléctricos (REBT), contra incendios y climatización (RITE) para puesta en marcha.",
                 metric: "Andalucía y Murcia",
+                href: "/legalizacion-instalaciones-almeria",
                 delay: 100,
               },
               {
@@ -408,6 +410,7 @@ export default function Home() {
                 title: "Apertura de locales y cambios de titularidad",
                 desc: "Declaración responsable, adecuación a normativa y acompañamiento hasta la apertura efectiva.",
                 metric: "Entrega 7–15 días",
+                href: "/licencia-de-actividad",
                 delay: 200,
               },
               {
@@ -415,6 +418,7 @@ export default function Home() {
                 title: "Peritaciones e informes periciales",
                 desc: "Reconstrucción de siniestros, patologías constructivas, valoraciones y ratificación en sala.",
                 metric: "Juzgados y aseguradoras",
+                href: "/peritaciones-judiciales",
                 delay: 0,
               },
               {
@@ -422,6 +426,7 @@ export default function Home() {
                 title: "Fichas técnicas y homologaciones",
                 desc: "Matriculación, rehabilitación, catalogación de históricos y reformas. Ámbito nacional.",
                 metric: "Trámite online",
+                href: "/fichas-tecnicas",
                 delay: 100,
               },
               {
@@ -429,18 +434,22 @@ export default function Home() {
                 title: "Tasaciones de inmuebles e industrias",
                 desc: "Valoraciones técnicas para compraventa, herencias, procedimientos y operaciones financieras.",
                 metric: "Informes firmados",
+                href: "/tasaciones",
                 delay: 200,
               },
-            ].map(({ sector, title, desc, metric, delay }) => (
+            ].map(({ sector, title, desc, metric, href, delay }) => (
               <ScrollReveal key={title} direction="up" delay={delay}>
-                <article className="h-full rounded-3xl border border-slate-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
+                <Link
+                  href={href}
+                  className="group block h-full rounded-3xl border border-slate-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:border-brand-navy hover:shadow-md"
+                >
                   <p className="text-xs font-semibold uppercase tracking-widest text-brand-navy">{sector}</p>
-                  <h3 className="mt-3 text-lg font-semibold text-slate-900">{title}</h3>
+                  <h3 className="mt-3 text-lg font-semibold text-slate-900 group-hover:text-brand-navy">{title}</h3>
                   <p className="mt-3 text-sm leading-6 text-slate-600">{desc}</p>
                   <p className="mt-5 inline-flex items-center gap-2 rounded-full bg-sky-50 px-3 py-1 text-xs font-semibold text-brand-navy">
                     {metric}
                   </p>
-                </article>
+                </Link>
               </ScrollReveal>
             ))}
           </div>
