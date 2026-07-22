@@ -46,6 +46,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     alternates: alt(`/${slug}`),
   }));
 
+  const tasacionesEspecialidades = [
+    "tasacion-pericial-contradictoria-almeria",
+    "tasacion-herencia-divorcio-almeria",
+    "tasacion-maquinaria-industrial-almeria",
+    "tasacion-nave-industrial-almeria",
+    "precio-tasacion-almeria",
+  ].map((slug) => ({
+    url: `${siteUrl}/${slug}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
+    alternates: alt(`/${slug}`),
+  }));
+
   const cityLandings = CITIES.flatMap((c) => [
     {
       url: `${siteUrl}/licencia-actividad-${c.slug}`,
@@ -227,6 +241,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     // ── Peritaciones especializadas ──
     ...peritacionesEspecialidades,
+
+    // ── Tasaciones especializadas ──
+    ...tasacionesEspecialidades,
 
     // ── 30 landings por capital ──
     ...cityLandings,

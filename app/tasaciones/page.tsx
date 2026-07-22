@@ -237,6 +237,30 @@ export default function TasacionesPage() {
         </div>
       </section>
 
+      <section className="bg-slate-50">
+        <div className="mx-auto max-w-5xl px-6 py-16 lg:px-8">
+          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Tasaciones especializadas en Almería</h2>
+          <p className="mt-4 max-w-3xl text-slate-700">Páginas dedicadas por tipo de bien y finalidad, con el detalle de cada caso:</p>
+          <div className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {[
+              ["/tasacion-herencia-divorcio-almeria", "Herencia, divorcio y extinción de condominio"],
+              ["/tasacion-pericial-contradictoria-almeria", "Pericial contradictoria (Hacienda)"],
+              ["/tasacion-nave-industrial-almeria", "Nave industrial, local y terreno"],
+              ["/tasacion-maquinaria-industrial-almeria", "Maquinaria industrial y agrícola"],
+              ["/precio-tasacion-almeria", "Precio de una tasación"],
+            ].map(([href, label]) => (
+              <Link
+                key={href}
+                href={href}
+                className="rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm font-medium text-slate-700 transition hover:border-brand-navy hover:text-brand-navy"
+              >
+                {label} →
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="bg-slate-900 text-white">
         <div className="mx-auto max-w-4xl px-6 py-16 lg:px-8">
           <h2 className="text-2xl font-bold mb-10 text-center">Preguntas frecuentes</h2>
