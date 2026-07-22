@@ -118,6 +118,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.85,
       alternates: alt("/legalizacion-instalaciones-almeria"),
     },
+    {
+      url: `${siteUrl}/proyecto-nave-industrial-almeria`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.85,
+      alternates: alt("/proyecto-nave-industrial-almeria"),
+    },
 
     // ── Landings de vehículos ──
     {
