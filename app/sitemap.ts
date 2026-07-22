@@ -88,6 +88,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.85,
       alternates: alt("/proyecto-de-actividad"),
     },
+    {
+      url: `${siteUrl}/ingenieria-industrial-almeria`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.9,
+      alternates: alt("/ingenieria-industrial-almeria"),
+    },
+    {
+      url: `${siteUrl}/legalizacion-instalaciones-almeria`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.85,
+      alternates: alt("/legalizacion-instalaciones-almeria"),
+    },
 
     // ── Landings de vehículos ──
     {
