@@ -346,6 +346,9 @@ export default function LicenciaActividadPage() {
 
         <h3 className="mt-12 text-xl font-semibold">Guías y servicios relacionados</h3>
         <ul className="mt-4 grid gap-2 text-slate-700 md:grid-cols-2">
+          <li>· <Link href="/proyecto-de-actividad-almeria" className="text-brand-navy underline hover:no-underline">Proyecto de actividad en Almería</Link></li>
+          <li>· <Link href="/declaracion-responsable-actividad-almeria" className="text-brand-navy underline hover:no-underline">Declaración responsable de actividad</Link></li>
+          <li>· <Link href="/cambio-titularidad-licencia-actividad-almeria" className="text-brand-navy underline hover:no-underline">Cambio de titularidad de licencia</Link></li>
           <li>· <Link href="/licencia-bar-restaurante-almeria" className="text-brand-navy underline hover:no-underline">Licencia de bar y restaurante en Almería</Link></li>
           <li>· <Link href="/precio-licencia-actividad-almeria" className="text-brand-navy underline hover:no-underline">Cuánto cuesta una licencia de actividad</Link></li>
           <li>· <Link href="/licencia-actividad-roquetas-de-mar" className="text-brand-navy underline hover:no-underline">Licencia en Roquetas de Mar</Link></li>

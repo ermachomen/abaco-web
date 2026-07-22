@@ -73,6 +73,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     alternates: alt(`/${slug}`),
   }));
 
+  const licenciasSubtemas = [
+    "proyecto-de-actividad-almeria",
+    "declaracion-responsable-actividad-almeria",
+    "cambio-titularidad-licencia-actividad-almeria",
+  ].map((slug) => ({
+    url: `${siteUrl}/${slug}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
+    alternates: alt(`/${slug}`),
+  }));
+
   const cityLandings = CITIES.flatMap((c) => [
     {
       url: `${siteUrl}/licencia-actividad-${c.slug}`,
@@ -260,6 +272,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     // ── Homologación de vehículos (Almería) ──
     ...vehiculosAlmeria,
+
+    // ── Licencias: subtemas (Almería) ──
+    ...licenciasSubtemas,
 
     // ── 30 landings por capital ──
     ...cityLandings,
