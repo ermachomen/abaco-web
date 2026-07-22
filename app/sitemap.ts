@@ -34,6 +34,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     alternates: alt(`/${slug}`),
   }));
 
+  const peritacionesEspecialidades = [
+    "perito-ingeniero-industrial-almeria",
+    "perito-seguros-almeria",
+    "perito-humedades-vicios-ocultos-almeria",
+  ].map((slug) => ({
+    url: `${siteUrl}/${slug}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
+    alternates: alt(`/${slug}`),
+  }));
+
   const cityLandings = CITIES.flatMap((c) => [
     {
       url: `${siteUrl}/licencia-actividad-${c.slug}`,
@@ -212,6 +224,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     // ── Silo de legalización de instalaciones ──
     ...legalizacionSilo,
+
+    // ── Peritaciones especializadas ──
+    ...peritacionesEspecialidades,
 
     // ── 30 landings por capital ──
     ...cityLandings,

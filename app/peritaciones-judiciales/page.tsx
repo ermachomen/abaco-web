@@ -245,6 +245,27 @@ export default function PeritacionesJudicialesPage() {
             </Link>
           ))}
         </div>
+        <h3 className="mt-12 text-xl font-semibold">Peritajes especializados</h3>
+        <p className="mt-3 max-w-3xl text-slate-700">
+          Somos ingenieros técnicos industriales: peritamos con solvencia lo que
+          un generalista no cubre. Especialidades con página propia en Almería:
+        </p>
+        <div className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          {[
+            ["/perito-ingeniero-industrial-almeria", "Perito ingeniero industrial"],
+            ["/perito-seguros-almeria", "Perito de seguros y contraperitaje"],
+            ["/perito-humedades-vicios-ocultos-almeria", "Perito de humedades y vicios ocultos"],
+          ].map(([href, label]) => (
+            <Link
+              key={href}
+              href={href}
+              className="rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm font-medium text-slate-700 transition hover:border-brand-navy hover:text-brand-navy"
+            >
+              {label} →
+            </Link>
+          ))}
+        </div>
+
         <h3 className="mt-12 text-xl font-semibold">Servicios relacionados</h3>
         <ul className="mt-4 grid gap-2 text-slate-700 md:grid-cols-2">
           <li>· <Link href="/licencia-de-actividad" className="text-brand-navy underline hover:no-underline">Licencias de actividad y apertura</Link></li>
