@@ -136,7 +136,7 @@ const tiposVehiculo = [
   },
   {
     titulo: "Vehículo histórico / clásico",
-    desc: "Catalogación de vehículos con más de 30 años, antigüedades de interés y vehículos de colección. Matriculación con placa histórica.",
+    desc: "Clasificación de vehículos con más de 30 años (RD 892/2024), antigüedades de interés y vehículos de colección. Matriculación con placa histórica.",
     href: "/homologacion-vehiculo-historico",
   },
   {
@@ -153,6 +153,11 @@ const tiposVehiculo = [
     titulo: "Rehabilitación tras baja",
     desc: "Recuperación de vehículos dados de baja definitiva en Tráfico para volverlos a matricular y circular legalmente.",
     href: "/fichas-tecnicas",
+  },
+  {
+    titulo: "Homologación de vehículos en Almería",
+    desc: "¿Estás en Almería o provincia? Hub local con ficha reducida, camper, enganche e histórico, y desplazamiento a Almería, El Ejido y Huércal.",
+    href: "/homologacion-vehiculos-almeria",
   },
 ];
 

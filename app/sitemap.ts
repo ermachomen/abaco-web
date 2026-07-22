@@ -60,6 +60,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     alternates: alt(`/${slug}`),
   }));
 
+  const vehiculosAlmeria = [
+    "homologacion-vehiculos-almeria",
+    "ficha-tecnica-reducida-almeria",
+    "homologacion-camper-almeria",
+    "homologacion-enganche-remolque-almeria",
+  ].map((slug) => ({
+    url: `${siteUrl}/${slug}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
+    alternates: alt(`/${slug}`),
+  }));
+
   const cityLandings = CITIES.flatMap((c) => [
     {
       url: `${siteUrl}/licencia-actividad-${c.slug}`,
@@ -244,6 +257,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     // ── Tasaciones especializadas ──
     ...tasacionesEspecialidades,
+
+    // ── Homologación de vehículos (Almería) ──
+    ...vehiculosAlmeria,
 
     // ── 30 landings por capital ──
     ...cityLandings,

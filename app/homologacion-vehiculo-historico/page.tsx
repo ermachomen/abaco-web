@@ -8,17 +8,17 @@ const siteUrl = "https://www.ingenierial.es";
 const path = "/homologacion-vehiculo-historico";
 
 export const metadata: Metadata = {
-  title: "Catalogación y Matriculación de Vehículo Histórico · Toda España",
+  title: "Clasificación y Matriculación de Vehículo Histórico · Toda España",
   description:
-    "Tramitación completa para catalogar tu coche o moto como vehículo histórico: informe técnico, inspección, matriculación con placa histórica. Ámbito nacional, ingeniero colegiado, presupuesto cerrado.",
+    "Tramitación completa para clasificar tu coche o moto como vehículo histórico: informe técnico, inspección, matriculación con placa histórica. Ámbito nacional, ingeniero colegiado, presupuesto cerrado.",
   keywords: [
     "homologación vehículo histórico",
-    "catalogación vehículo histórico",
+    "clasificación vehículo histórico",
     "matricular coche clásico España",
     "ficha técnica vehículo histórico",
     "placa histórica coche",
     "ingeniero coche clásico",
-    "RD 1247/1995 vehículo histórico",
+    "RD 892/2024 vehículo histórico",
     "rematriculación clásico",
   ],
   alternates: { canonical: path, languages: { "es-ES": path } },
@@ -27,19 +27,19 @@ export const metadata: Metadata = {
     locale: "es_ES",
     url: `${siteUrl}${path}`,
     siteName: "Abaco Ingeniería",
-    title: "Catalogación de Vehículo Histórico en España",
+    title: "Clasificación de Vehículo Histórico en España",
     description:
-      "Catalogamos tu coche o moto como vehículo histórico ante el laboratorio oficial. Tramitación nacional, online.",
+      "Clasificamos tu coche o moto como vehículo histórico ante el laboratorio oficial. Tramitación nacional, online.",
     images: [{ url: "/images/og-abaco.jpg", width: 1200, height: 630, alt: "Vehículo histórico – Abaco Ingeniería" }],
   },
-  twitter: { card: "summary_large_image", title: "Vehículo Histórico", description: "Catalogación y matriculación con placa histórica.", images: ["/images/og-abaco.jpg"] },
+  twitter: { card: "summary_large_image", title: "Vehículo Histórico", description: "Clasificación y matriculación con placa histórica.", images: ["/images/og-abaco.jpg"] },
 };
 
 const serviceLd = {
   "@context": "https://schema.org",
   "@type": "Service",
-  name: "Catalogación de Vehículo Histórico",
-  serviceType: "Tramitación de catalogación y matriculación de vehículos clásicos",
+  name: "Clasificación de Vehículo Histórico",
+  serviceType: "Tramitación de clasificación y matriculación de vehículos clásicos",
   provider: {
     "@type": "LocalBusiness",
     "@id": `${siteUrl}/#organization`,
@@ -55,7 +55,7 @@ const serviceLd = {
   areaServed: { "@type": "Country", name: "España" },
   url: `${siteUrl}${path}`,
   description:
-    "Tramitación completa para catalogar coches y motos como vehículos históricos en España conforme al RD 1247/1995: informe técnico, presentación ante laboratorio oficial y matriculación con placa histórica.",
+    "Tramitación completa para clasificar coches y motos como vehículos históricos en España conforme al RD 892/2024: informe técnico, presentación ante laboratorio oficial y matriculación con placa histórica.",
 };
 
 const faqs = [
@@ -68,20 +68,20 @@ const faqs = [
     a: "Exención del impuesto de circulación en muchos municipios, exención de la ITV de pago en algunos casos, posibilidad de circular en zonas de bajas emisiones (ZBE) sin restricciones, y una matriculación con placa histórica que aumenta el valor de coleccionismo del vehículo.",
   },
   {
-    q: "¿Cuál es el proceso completo para catalogarlo?",
-    a: "1) Informe técnico previo (lo redactamos nosotros). 2) Inspección por laboratorio oficial autorizado. 3) Resolución del órgano competente de la comunidad autónoma. 4) Inspección ITV específica de vehículo histórico. 5) Matriculación en DGT con placa histórica.",
+    q: "¿Cuál es el proceso completo para clasificarlo como histórico?",
+    a: "Desde el RD 892/2024 (en vigor el 1 de octubre de 2024) la clasificación la resuelve directamente la Jefatura Provincial de Tráfico de la DGT, ya no la comunidad autónoma. El proceso: 1) Informe técnico previo (lo redactamos nosotros). 2) Inspección por laboratorio oficial, salvo el grupo A de vehículos ya matriculados en España, que puede clasificarse sin inspección previa. 3) Resolución de la DGT. 4) Inspección ITV específica de vehículo histórico. 5) Matriculación con placa histórica.",
   },
   {
     q: "¿Cuánto tarda y cuánto cuesta?",
     a: "El proceso completo suele tardar 2-4 meses por la inspección del laboratorio oficial. El informe técnico parte de 250 € + IVA. Las tasas del laboratorio rondan 200-400 €. Tasas DGT y placa histórica: 100-150 €. Damos presupuesto cerrado tras revisar el caso.",
   },
   {
-    q: "¿Puedo catalogar también motos clásicas?",
+    q: "¿Puedo clasificar también motos clásicas?",
     a: "Sí. El procedimiento es el mismo para motocicletas, ciclomotores y vehículos de tres ruedas. Los criterios de antigüedad (30 años) y conservación se aplican igual.",
   },
   {
     q: "¿Y si el coche importado de USA es clásico?",
-    a: "Es uno de los casos más interesantes. Un Mustang del 67, Chevrolet del 57 o Cadillac de los 80 puede catalogarse como histórico, lo que reduce las exigencias de adaptación de luces y velocímetro a la circulación actual y simplifica la matriculación.",
+    a: "Es uno de los casos más interesantes. Un Mustang del 67, Chevrolet del 57 o Cadillac de los 80 puede clasificarse como histórico, lo que reduce las exigencias de adaptación de luces y velocímetro a la circulación actual y simplifica la matriculación.",
   },
 ];
 
@@ -127,9 +127,9 @@ export default function HomologacionVehiculoHistoricoPage() {
       <section className="bg-slate-900 text-white">
         <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
           <p className="text-sm font-semibold uppercase tracking-wider text-sky-400">Coches y motos clásicos</p>
-          <h1 className="mt-4 text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">Catalogación de Vehículo Histórico</h1>
+          <h1 className="mt-4 text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">Clasificación de Vehículo Histórico</h1>
           <p className="mt-6 max-w-2xl text-lg text-slate-300">
-            Tramitamos la documentación técnica para catalogar tu coche o moto
+            Tramitamos la documentación técnica para clasificar tu coche o moto
             con más de 30 años como vehículo histórico ante el laboratorio
             oficial autorizado. Matriculación con placa histórica, exenciones
             fiscales y libre circulación en ZBE.
@@ -145,8 +145,8 @@ export default function HomologacionVehiculoHistoricoPage() {
         <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">¿Qué es un vehículo histórico ante la DGT?</h2>
         <div className="mt-6 space-y-4 text-slate-700 leading-relaxed">
           <p>
-            La catalogación como <strong>vehículo histórico</strong> está
-            regulada por el <strong>RD 1247/1995</strong> y se concede a
+            La clasificación como <strong>vehículo histórico</strong> está
+            regulada por el <strong>RD 892/2024</strong> y se concede a
             vehículos que cumplen tres condiciones:
           </p>
           <ul className="list-disc space-y-2 pl-6">
@@ -164,7 +164,7 @@ export default function HomologacionVehiculoHistoricoPage() {
 
       <section className="bg-sky-50">
         <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
-          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Ventajas de la catalogación</h2>
+          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Ventajas de la clasificación</h2>
           <div className="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
             {[
               ["Impuesto de circulación", "Exención total o reducción importante en muchos municipios."],
@@ -196,7 +196,7 @@ export default function HomologacionVehiculoHistoricoPage() {
       <section id="formulario" className="bg-gradient-to-b from-slate-50 to-white">
         <div className="mx-auto max-w-4xl px-6 py-16 lg:px-8">
           <div className="mb-10 text-center">
-            <h2 className="text-3xl font-bold tracking-tight text-slate-900">Solicita la catalogación de tu clásico</h2>
+            <h2 className="text-3xl font-bold tracking-tight text-slate-900">Solicita la clasificación de tu clásico</h2>
             <p className="mt-3 text-base text-slate-600">Indícanos marca, modelo y año del vehículo y te respondemos con presupuesto cerrado.</p>
           </div>
           <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm"><FichaForm /></div>
