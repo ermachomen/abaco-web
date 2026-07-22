@@ -172,6 +172,33 @@ export default function Page() {
       </section>
 
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
+        <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Tipos de legalización que tramitamos</h2>
+        <p className="mt-4 max-w-3xl text-slate-700 leading-relaxed">
+          Cada instalación tiene su normativa y su trámite. Entra en el servicio
+          que necesitas para ver los detalles, plazos y qué documentación exige:
+        </p>
+        <div className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          {[
+            ["/legalizacion-instalaciones-electricas-almeria", "Instalaciones eléctricas (baja tensión)"],
+            ["/boletin-electrico-almeria", "Boletín eléctrico (CIE)"],
+            ["/legalizacion-alta-tension-almeria", "Alta tensión y centros de transformación"],
+            ["/legalizacion-climatizacion-almeria", "Climatización y aire acondicionado (RITE)"],
+            ["/legalizacion-contra-incendios-almeria", "Protección contra incendios (PCI)"],
+            ["/legalizacion-placas-solares-almeria", "Placas solares y autoconsumo"],
+            ["/registro-industrial-almeria", "Registro industrial"],
+          ].map(([href, label]) => (
+            <Link
+              key={href}
+              href={href}
+              className="rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm font-medium text-slate-700 transition hover:border-sky-500 hover:text-sky-700"
+            >
+              {label} →
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Preguntas frecuentes</h2>
         <div className="mt-8 space-y-6">
           {faqs.map((f) => (

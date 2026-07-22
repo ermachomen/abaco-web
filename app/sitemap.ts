@@ -18,6 +18,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
     alternates: alt(`/licencia-actividad-${m.slug}`),
   }));
 
+  const legalizacionSilo = [
+    "legalizacion-instalaciones-electricas-almeria",
+    "boletin-electrico-almeria",
+    "legalizacion-alta-tension-almeria",
+    "legalizacion-climatizacion-almeria",
+    "legalizacion-contra-incendios-almeria",
+    "legalizacion-placas-solares-almeria",
+    "registro-industrial-almeria",
+  ].map((slug) => ({
+    url: `${siteUrl}/${slug}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
+    alternates: alt(`/${slug}`),
+  }));
+
   const cityLandings = CITIES.flatMap((c) => [
     {
       url: `${siteUrl}/licencia-actividad-${c.slug}`,
@@ -186,6 +202,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     // ── Landings por municipio de Almería ──
     ...municipioLandings,
+
+    // ── Silo de legalización de instalaciones ──
+    ...legalizacionSilo,
 
     // ── 30 landings por capital ──
     ...cityLandings,
