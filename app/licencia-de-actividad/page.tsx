@@ -350,6 +350,7 @@ export default function LicenciaActividadPage() {
           <li>· <Link href="/declaracion-responsable-actividad-almeria" className="text-brand-navy underline hover:no-underline">Declaración responsable de actividad</Link></li>
           <li>· <Link href="/cambio-titularidad-licencia-actividad-almeria" className="text-brand-navy underline hover:no-underline">Cambio de titularidad de licencia</Link></li>
           <li>· <Link href="/licencia-bar-restaurante-almeria" className="text-brand-navy underline hover:no-underline">Licencia de bar y restaurante en Almería</Link></li>
+          <li>· <Link href="/licencia-discoteca-pub-almeria" className="text-brand-navy underline hover:no-underline">Licencia de discoteca, pub y ocio nocturno</Link></li>
           <li>· <Link href="/precio-licencia-actividad-almeria" className="text-brand-navy underline hover:no-underline">Cuánto cuesta una licencia de actividad</Link></li>
           <li>· <Link href="/licencia-actividad-roquetas-de-mar" className="text-brand-navy underline hover:no-underline">Licencia en Roquetas de Mar</Link></li>
           <li>· <Link href="/licencia-actividad-el-ejido" className="text-brand-navy underline hover:no-underline">Licencia en El Ejido</Link></li>

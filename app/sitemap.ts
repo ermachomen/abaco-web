@@ -38,6 +38,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "perito-ingeniero-industrial-almeria",
     "perito-seguros-almeria",
     "perito-humedades-vicios-ocultos-almeria",
+    "perito-incendios-almeria",
   ].map((slug) => ({
     url: `${siteUrl}/${slug}`,
     lastModified: now,
@@ -51,6 +52,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "tasacion-herencia-divorcio-almeria",
     "tasacion-maquinaria-industrial-almeria",
     "tasacion-nave-industrial-almeria",
+    "tasacion-vehiculos-almeria",
     "precio-tasacion-almeria",
   ].map((slug) => ({
     url: `${siteUrl}/${slug}`,
@@ -77,6 +79,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "proyecto-de-actividad-almeria",
     "declaracion-responsable-actividad-almeria",
     "cambio-titularidad-licencia-actividad-almeria",
+    "licencia-discoteca-pub-almeria",
   ].map((slug) => ({
     url: `${siteUrl}/${slug}`,
     lastModified: now,

@@ -247,6 +247,7 @@ export default function TasacionesPage() {
               ["/tasacion-pericial-contradictoria-almeria", "Pericial contradictoria (Hacienda)"],
               ["/tasacion-nave-industrial-almeria", "Nave industrial, local y terreno"],
               ["/tasacion-maquinaria-industrial-almeria", "Maquinaria industrial y agrícola"],
+              ["/tasacion-vehiculos-almeria", "Vehículos, flotas y clásicos"],
               ["/precio-tasacion-almeria", "Precio de una tasación"],
             ].map(([href, label]) => (
               <Link
