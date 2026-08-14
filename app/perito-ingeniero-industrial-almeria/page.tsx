@@ -9,7 +9,7 @@ const path = "/perito-ingeniero-industrial-almeria";
 
 export const metadata: Metadata = {
   title: "Perito Ingeniero Industrial en Almería · Colegiado 1983",
-  description: "Perito ingeniero industrial en Almería: incendios de origen eléctrico, instalaciones BT/AT, maquinaria y accidentes. Colegiado desde 1983, de parte y judicial. 687 46 54 86.",
+  description: "Perito ingeniero industrial en Almería: incendios de origen eléctrico, instalaciones BT/AT, maquinaria y accidentes. Colegiado desde 1983, de parte y judicial. 670 60 78 30.",
   keywords: ["perito ingeniero industrial almería","perito ingeniero técnico industrial almería","perito incendios eléctricos almería","perito causa y origen incendio almería","perito instalaciones eléctricas almería","perito maquinaria almería","perito industrial almería","perito de parte almería","perito judicial ingeniero almería","dictamen pericial ingeniería almería","perito eléctrico almería"],
   alternates: { canonical: path, languages: { "es-ES": path } },
   openGraph: {
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.ingenierial.es/perito-ingeniero-industrial-almeria",
     siteName: "Abaco Ingeniería",
     title: "Perito ingeniero industrial en Almería",
-    description: "Perito ingeniero industrial en Almería: incendios de origen eléctrico, instalaciones BT/AT, maquinaria y accidentes. Colegiado desde 1983, de parte y judicial. 687 46 54 86.",
+    description: "Perito ingeniero industrial en Almería: incendios de origen eléctrico, instalaciones BT/AT, maquinaria y accidentes. Colegiado desde 1983, de parte y judicial. 670 60 78 30.",
     images: [{ url: "/images/og-abaco.jpg", width: 1200, height: 630, alt: "Perito ingeniero industrial en Almería – Abaco Ingeniería" }],
   },
   twitter: { card: "summary_large_image", title: "Perito ingeniero industrial en Almería", description: "Ingeniero técnico industrial colegiado en Almería.", images: ["/images/og-abaco.jpg"] },
@@ -33,7 +33,7 @@ const serviceLd = {
     "@id": "https://www.ingenierial.es/#organization",
     name: "Abaco Ingeniería",
     url: siteUrl,
-    telephone: "+34687465486",
+    telephone: "+34670607830",
     email: "info@abacoingenieria.es",
     priceRange: "€€",
     image: "https://www.ingenierial.es/images/og-abaco.jpg",
@@ -46,7 +46,7 @@ const serviceLd = {
     { "@type": "Country", name: "España" },
   ],
   url: "https://www.ingenierial.es/perito-ingeniero-industrial-almeria",
-  description: "Perito ingeniero industrial en Almería: incendios de origen eléctrico, instalaciones BT/AT, maquinaria y accidentes. Colegiado desde 1983, de parte y judicial. 687 46 54 86.",
+  description: "Perito ingeniero industrial en Almería: incendios de origen eléctrico, instalaciones BT/AT, maquinaria y accidentes. Colegiado desde 1983, de parte y judicial. 670 60 78 30.",
 };
 
 const faqs = [
@@ -145,7 +145,7 @@ export default function Page() {
           <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Dictámenes técnicos sobre instalaciones eléctricas, incendios de origen eléctrico, maquinaria y accidentes industriales. Perito de parte y de designación judicial, ingeniero técnico industrial colegiado desde 1983, con ratificación en sala en Almería capital y provincia."}</p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a href="#contacto" className="rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-400">Solicitar presupuesto</a>
-            <a href="tel:+34687465486" className="rounded-xl border border-slate-600 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800">Llamar 687 465 486</a>
+            <a href="tel:+34670607830" className="rounded-xl border border-slate-600 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800">Llamar 670 607 830</a>
           </div>
         </div>
       </section>

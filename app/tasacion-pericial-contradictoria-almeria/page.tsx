@@ -33,7 +33,7 @@ const serviceLd = {
     "@id": "https://www.ingenierial.es/#organization",
     name: "Abaco Ingeniería",
     url: siteUrl,
-    telephone: "+34687465486",
+    telephone: "+34670607830",
     email: "info@abacoingenieria.es",
     priceRange: "€€",
     image: "https://www.ingenierial.es/images/og-abaco.jpg",
@@ -72,7 +72,7 @@ const faqs = [
   },
   {
     "q": "¿Trabajáis en Almería y de forma online?",
-    "a": "Somos oficina técnica con sede en Almería, con ingeniero técnico industrial colegiado desde 1983 y más de cuarenta años de experiencia. Firmamos con certificado digital FNMT, así que tramitamos el 100% online en toda España y nos desplazamos a inspeccionar el inmueble en Almería capital y provincia, como El Ejido, Roquetas de Mar, Níjar o Huércal-Overa, y también a Granada, Málaga y Murcia. Estudio previo gratuito y respuesta en menos de 24 horas en el 687 46 54 86."
+    "a": "Somos oficina técnica con sede en Almería, con ingeniero técnico industrial colegiado desde 1983 y más de cuarenta años de experiencia. Firmamos con certificado digital FNMT, así que tramitamos el 100% online en toda España y nos desplazamos a inspeccionar el inmueble en Almería capital y provincia, como El Ejido, Roquetas de Mar, Níjar o Huércal-Overa, y también a Granada, Málaga y Murcia. Estudio previo gratuito y respuesta en menos de 24 horas en el 670 60 78 30."
   }
 ];
 
@@ -145,7 +145,7 @@ export default function Page() {
           <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Informe pericial de ingeniero colegiado para recurrir la comprobación de valores y el valor de referencia del Catastro en ITP e ISD ante la Agencia Tributaria de Andalucía y el TEAR."}</p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a href="#contacto" className="rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-400">Solicitar presupuesto</a>
-            <a href="tel:+34687465486" className="rounded-xl border border-slate-600 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800">Llamar 687 465 486</a>
+            <a href="tel:+34670607830" className="rounded-xl border border-slate-600 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800">Llamar 670 607 830</a>
           </div>
         </div>
       </section>

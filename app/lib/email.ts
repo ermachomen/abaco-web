@@ -40,7 +40,7 @@ export interface SendMailResult {
 }
 
 const FALLBACK_CONTACT =
-  "Llámanos al 687 465 486 o escríbenos a info@abacoingenieria.es.";
+  "Llámanos al 670 607 830 o escríbenos a info@abacoingenieria.es.";
 
 export async function sendMail(options: SendMailOptions): Promise<SendMailResult> {
   if (!process.env.RESEND_API_KEY) {

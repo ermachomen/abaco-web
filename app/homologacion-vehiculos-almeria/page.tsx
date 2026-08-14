@@ -9,7 +9,7 @@ const path = "/homologacion-vehiculos-almeria";
 
 export const metadata: Metadata = {
   title: "Homologación de Vehículos en Almería · Ingeniero Colegiado",
-  description: "Homologación de vehículos y fichas técnicas en Almería: coche importado, americano, reformas, camper, enganche e histórico. Ingeniero colegiado desde 1983. 687 46 54 86.",
+  description: "Homologación de vehículos y fichas técnicas en Almería: coche importado, americano, reformas, camper, enganche e histórico. Ingeniero colegiado desde 1983. 670 60 78 30.",
   keywords: ["homologación de vehículos almería","homologar coche importado almería","ficha técnica reducida almería","homologación camper almería","homologación enganche remolque almería","ingeniero homologación vehículos almería","reformas de vehículos almería","homologación coche americano almería","ITV coche extranjero almería","homologación vehículo histórico almería"],
   alternates: { canonical: path, languages: { "es-ES": path } },
   openGraph: {
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.ingenierial.es/homologacion-vehiculos-almeria",
     siteName: "Abaco Ingeniería",
     title: "Homologación de vehículos en Almería",
-    description: "Homologación de vehículos y fichas técnicas en Almería: coche importado, americano, reformas, camper, enganche e histórico. Ingeniero colegiado desde 1983. 687 46 54 86.",
+    description: "Homologación de vehículos y fichas técnicas en Almería: coche importado, americano, reformas, camper, enganche e histórico. Ingeniero colegiado desde 1983. 670 60 78 30.",
     images: [{ url: "/images/og-abaco.jpg", width: 1200, height: 630, alt: "Homologación de vehículos en Almería – Abaco Ingeniería" }],
   },
   twitter: { card: "summary_large_image", title: "Homologación de vehículos en Almería", description: "Ingeniero técnico industrial colegiado en Almería.", images: ["/images/og-abaco.jpg"] },
@@ -33,7 +33,7 @@ const serviceLd = {
     "@id": "https://www.ingenierial.es/#organization",
     name: "Abaco Ingeniería",
     url: siteUrl,
-    telephone: "+34687465486",
+    telephone: "+34670607830",
     email: "info@abacoingenieria.es",
     priceRange: "€€",
     image: "https://www.ingenierial.es/images/og-abaco.jpg",
@@ -46,7 +46,7 @@ const serviceLd = {
     { "@type": "Country", name: "España" },
   ],
   url: "https://www.ingenierial.es/homologacion-vehiculos-almeria",
-  description: "Homologación de vehículos y fichas técnicas en Almería: coche importado, americano, reformas, camper, enganche e histórico. Ingeniero colegiado desde 1983. 687 46 54 86.",
+  description: "Homologación de vehículos y fichas técnicas en Almería: coche importado, americano, reformas, camper, enganche e histórico. Ingeniero colegiado desde 1983. 670 60 78 30.",
 };
 
 const faqs = [
@@ -145,7 +145,7 @@ export default function Page() {
           <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Coche importado, americano, reformas, camper, enganche, ficha técnica reducida y vehículo histórico: un único ingeniero técnico colegiado para toda la provincia, online con firma FNMT o presencial en Almería."}</p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a href="#contacto" className="rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-400">Solicitar presupuesto</a>
-            <a href="tel:+34687465486" className="rounded-xl border border-slate-600 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800">Llamar 687 465 486</a>
+            <a href="tel:+34670607830" className="rounded-xl border border-slate-600 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800">Llamar 670 607 830</a>
           </div>
         </div>
       </section>

@@ -33,7 +33,7 @@ const serviceLd = {
     "@id": "https://www.ingenierial.es/#organization",
     name: "Abaco Ingeniería",
     url: siteUrl,
-    telephone: "+34687465486",
+    telephone: "+34670607830",
     email: "info@abacoingenieria.es",
     priceRange: "€€",
     image: "https://www.ingenierial.es/images/og-abaco.jpg",
@@ -106,7 +106,7 @@ const bloques = [
   },
   {
     "titulo": "Presupuesto cerrado y adaptado a tu furgoneta",
-    "cuerpo": "El precio depende de cuántas reformas sumes. Una camperización sencilla, solo mobiliario y eléctrica básica, tiene un ticket contenido; añadir techo elevable, gas y cambio de clasificación sube el importe porque implica proyecto estructural y más certificados. A eso se añade la tasa de la ITV de reforma. Frente a los kits genéricos que no contemplan tu vehículo, dimensionamos el proyecto a tu furgoneta concreta y te damos un precio cerrado antes de empezar. Estudio previo gratis y respuesta en 24 horas en el 687 46 54 86."
+    "cuerpo": "El precio depende de cuántas reformas sumes. Una camperización sencilla, solo mobiliario y eléctrica básica, tiene un ticket contenido; añadir techo elevable, gas y cambio de clasificación sube el importe porque implica proyecto estructural y más certificados. A eso se añade la tasa de la ITV de reforma. Frente a los kits genéricos que no contemplan tu vehículo, dimensionamos el proyecto a tu furgoneta concreta y te damos un precio cerrado antes de empezar. Estudio previo gratis y respuesta en 24 horas en el 670 60 78 30."
   }
 ];
 
@@ -145,7 +145,7 @@ export default function Page() {
           <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Cambio de clasificación a vivienda o autocaravana, techo elevable con proyecto técnico e ITV de reforma. Ingeniero técnico industrial colegiado con sede en Almería."}</p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a href="#contacto" className="rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-400">Solicitar presupuesto</a>
-            <a href="tel:+34687465486" className="rounded-xl border border-slate-600 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800">Llamar 687 465 486</a>
+            <a href="tel:+34670607830" className="rounded-xl border border-slate-600 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800">Llamar 670 607 830</a>
           </div>
         </div>
       </section>

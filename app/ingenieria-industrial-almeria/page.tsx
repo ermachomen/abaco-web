@@ -9,7 +9,7 @@ const path = "/ingenieria-industrial-almeria";
 
 export const metadata: Metadata = {
   title: "Ingeniería Industrial en Almería · Oficina Técnica",
-  description: "Oficina técnica y estudio de ingeniería industrial en Almería. Ingeniero colegiado desde 1983, online con FNMT y presencial. Presupuesto: 687 46 54 86.",
+  description: "Oficina técnica y estudio de ingeniería industrial en Almería. Ingeniero colegiado desde 1983, online con FNMT y presencial. Presupuesto: 670 60 78 30.",
   keywords: ["ingeniería industrial almería","ingeniero industrial almería","oficina técnica almería","estudio de ingeniería almería","empresa de ingeniería almería","gabinete de ingeniería almería","ingeniero técnico industrial almería","servicios de ingeniería industrial almería","consultoría industrial almería","ingeniería en almería capital","ingeniero que firme proyecto almería","proyecto de nave industrial almería"],
   alternates: { canonical: path, languages: { "es-ES": path } },
   openGraph: {
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.ingenierial.es/ingenieria-industrial-almeria",
     siteName: "Abaco Ingeniería",
     title: "Ingeniería industrial en Almería: oficina técnica y estudio de ingeniería",
-    description: "Oficina técnica y estudio de ingeniería industrial en Almería. Ingeniero colegiado desde 1983, online con FNMT y presencial. Presupuesto: 687 46 54 86.",
+    description: "Oficina técnica y estudio de ingeniería industrial en Almería. Ingeniero colegiado desde 1983, online con FNMT y presencial. Presupuesto: 670 60 78 30.",
     images: [{ url: "/images/og-abaco.jpg", width: 1200, height: 630, alt: "Ingeniería industrial en Almería: oficina técnica y estudio de ingeniería – Abaco Ingeniería" }],
   },
   twitter: { card: "summary_large_image", title: "Ingeniería industrial en Almería: oficina técnica y estudio de ingeniería", description: "Ingeniero técnico industrial colegiado en Almería.", images: ["/images/og-abaco.jpg"] },
@@ -33,7 +33,7 @@ const serviceLd = {
     "@id": "https://www.ingenierial.es/#organization",
     name: "Abaco Ingeniería",
     url: siteUrl,
-    telephone: "+34687465486",
+    telephone: "+34670607830",
     email: "info@abacoingenieria.es",
     priceRange: "€€",
     image: "https://www.ingenierial.es/images/og-abaco.jpg",
@@ -46,7 +46,7 @@ const serviceLd = {
     { "@type": "Country", name: "España" },
   ],
   url: "https://www.ingenierial.es/ingenieria-industrial-almeria",
-  description: "Oficina técnica y estudio de ingeniería industrial en Almería. Ingeniero colegiado desde 1983, online con FNMT y presencial. Presupuesto: 687 46 54 86.",
+  description: "Oficina técnica y estudio de ingeniería industrial en Almería. Ingeniero colegiado desde 1983, online con FNMT y presencial. Presupuesto: 670 60 78 30.",
 };
 
 const faqs = [
@@ -72,7 +72,7 @@ const faqs = [
   },
   {
     "q": "¿Cómo pido presupuesto y cuánto cuesta?",
-    "a": "Cuéntanos tu caso por teléfono en el 687 46 54 86 o a través de la web y hacemos un estudio previo gratuito. Con esa información te damos un presupuesto cerrado, sin sorpresas: sabrás lo que cuesta antes de empezar. Cada proyecto es distinto, por eso preferimos ver el tuyo en lugar de darte una tarifa genérica."
+    "a": "Cuéntanos tu caso por teléfono en el 670 60 78 30 o a través de la web y hacemos un estudio previo gratuito. Con esa información te damos un presupuesto cerrado, sin sorpresas: sabrás lo que cuesta antes de empezar. Cada proyecto es distinto, por eso preferimos ver el tuyo en lugar de darte una tarifa genérica."
   }
 ];
 
@@ -145,7 +145,7 @@ export default function Page() {
           <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Oficina técnica y estudio de ingeniería industrial en Almería, con ingeniero colegiado desde 1983. Proyectos, legalizaciones, licencias, peritaciones y tasaciones, 100% online con firma FNMT en toda España y atención presencial en Almería capital y provincia."}</p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a href="#contacto" className="rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-400">Solicitar presupuesto</a>
-            <a href="tel:+34687465486" className="rounded-xl border border-slate-600 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800">Llamar 687 465 486</a>
+            <a href="tel:+34670607830" className="rounded-xl border border-slate-600 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800">Llamar 670 607 830</a>
           </div>
         </div>
       </section>

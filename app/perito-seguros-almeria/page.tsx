@@ -9,7 +9,7 @@ const path = "/perito-seguros-almeria";
 
 export const metadata: Metadata = {
   title: "Perito de Seguros y Contraperitaje en Almería | Art. 38 LCS",
-  description: "Perito de seguros de parte en Almería para contraperitaje y reclamación de siniestros: incendio, agua, maquinaria y vehículos. Segundo y tercer perito, art. 38 LCS. 687 46 54 86.",
+  description: "Perito de seguros de parte en Almería para contraperitaje y reclamación de siniestros: incendio, agua, maquinaria y vehículos. Segundo y tercer perito, art. 38 LCS. 670 60 78 30.",
   keywords: ["perito de seguros almería","contraperitaje almería","perito de parte seguros","artículo 38 ley contrato de seguro","tasación pericial contradictoria","reclamación siniestro almería","perito incendios almería","perito daños por agua almería","siniestro total valor venal","perito seguros vehículo almería","segundo y tercer perito seguro","reclamar indemnización aseguradora"],
   alternates: { canonical: path, languages: { "es-ES": path } },
   openGraph: {
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.ingenierial.es/perito-seguros-almeria",
     siteName: "Abaco Ingeniería",
     title: "Perito de seguros y contraperitaje en Almería",
-    description: "Perito de seguros de parte en Almería para contraperitaje y reclamación de siniestros: incendio, agua, maquinaria y vehículos. Segundo y tercer perito, art. 38 LCS. 687 46 54 86.",
+    description: "Perito de seguros de parte en Almería para contraperitaje y reclamación de siniestros: incendio, agua, maquinaria y vehículos. Segundo y tercer perito, art. 38 LCS. 670 60 78 30.",
     images: [{ url: "/images/og-abaco.jpg", width: 1200, height: 630, alt: "Perito de seguros y contraperitaje en Almería – Abaco Ingeniería" }],
   },
   twitter: { card: "summary_large_image", title: "Perito de seguros y contraperitaje en Almería", description: "Ingeniero técnico industrial colegiado en Almería.", images: ["/images/og-abaco.jpg"] },
@@ -33,7 +33,7 @@ const serviceLd = {
     "@id": "https://www.ingenierial.es/#organization",
     name: "Abaco Ingeniería",
     url: siteUrl,
-    telephone: "+34687465486",
+    telephone: "+34670607830",
     email: "info@abacoingenieria.es",
     priceRange: "€€",
     image: "https://www.ingenierial.es/images/og-abaco.jpg",
@@ -46,7 +46,7 @@ const serviceLd = {
     { "@type": "Country", name: "España" },
   ],
   url: "https://www.ingenierial.es/perito-seguros-almeria",
-  description: "Perito de seguros de parte en Almería para contraperitaje y reclamación de siniestros: incendio, agua, maquinaria y vehículos. Segundo y tercer perito, art. 38 LCS. 687 46 54 86.",
+  description: "Perito de seguros de parte en Almería para contraperitaje y reclamación de siniestros: incendio, agua, maquinaria y vehículos. Segundo y tercer perito, art. 38 LCS. 670 60 78 30.",
 };
 
 const faqs = [
@@ -72,7 +72,7 @@ const faqs = [
   },
   {
     "q": "¿Cuánto cuesta y cómo empezamos?",
-    "a": "Primero estudiamos tu caso sin coste: nos cuentas el siniestro, nos pasas la póliza y la propuesta de la aseguradora, y valoramos si hay recorrido para reclamar. Con eso te damos un presupuesto cerrado del informe pericial, sin sorpresas. Llámanos al 687 46 54 86 o escríbenos desde la web. Cuanto antes actúes, más margen tienes: los plazos del artículo 38 y de la reclamación corren."
+    "a": "Primero estudiamos tu caso sin coste: nos cuentas el siniestro, nos pasas la póliza y la propuesta de la aseguradora, y valoramos si hay recorrido para reclamar. Con eso te damos un presupuesto cerrado del informe pericial, sin sorpresas. Llámanos al 670 60 78 30 o escríbenos desde la web. Cuanto antes actúes, más margen tienes: los plazos del artículo 38 y de la reclamación corren."
   }
 ];
 
@@ -145,7 +145,7 @@ export default function Page() {
           <p className="mt-6 max-w-2xl text-lg text-slate-300">{"¿Discrepas de tu aseguradora tras un siniestro? Informe pericial de parte que firma un ingeniero técnico industrial colegiado desde 1983, para reclamar la indemnización justa por la vía del artículo 38 LCS o judicial. Online en toda España y presencial en Almería."}</p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a href="#contacto" className="rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-400">Solicitar presupuesto</a>
-            <a href="tel:+34687465486" className="rounded-xl border border-slate-600 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800">Llamar 687 465 486</a>
+            <a href="tel:+34670607830" className="rounded-xl border border-slate-600 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800">Llamar 670 607 830</a>
           </div>
         </div>
       </section>

@@ -70,7 +70,7 @@ const serviceLd = {
     "@id": `${siteUrl}/#organization`,
     name: "Abaco Ingeniería",
     url: siteUrl,
-    telephone: "+34687465486",
+    telephone: "+34670607830",
     email: "info@abacoingenieria.es",
     priceRange: "€€",
     image: `${siteUrl}/images/og-abaco.jpg`,
@@ -242,8 +242,8 @@ export default function FichasTecnicasPage() {
             <Logo className="h-11 w-auto" />
           </Link>
           <div className="flex items-center gap-4">
-            <a href="tel:+34687465486" className="hidden text-sm font-medium text-slate-600 hover:text-brand-navy md:inline">
-              687 465 486
+            <a href="tel:+34670607830" className="hidden text-sm font-medium text-slate-600 hover:text-brand-navy md:inline">
+              670 607 830
             </a>
             <Link
               href="/#contacto"
@@ -302,10 +302,10 @@ export default function FichasTecnicasPage() {
               Solicitar presupuesto
             </a>
             <a
-              href="tel:+34687465486"
+              href="tel:+34670607830"
               className="rounded-xl border border-slate-600 px-6 py-3 text-sm font-semibold text-white transition hover:bg-slate-800"
             >
-              Llamar 687 465 486
+              Llamar 670 607 830
             </a>
           </div>
           <p className="mt-6 text-sm text-slate-400">

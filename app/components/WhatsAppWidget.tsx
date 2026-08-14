@@ -2,9 +2,9 @@
 
 import { useEffect, useRef, useState } from "react";
 
-const WA_NUMBER = "34687465486"; // WhatsApp: prefijo país + móvil, sin +
-const TEL = "+34687465486";
-const TEL_DISPLAY = "687 465 486";
+const WA_NUMBER = "34670607830"; // WhatsApp: prefijo país + móvil, sin +
+const TEL = "+34670607830";
+const TEL_DISPLAY = "670 607 830";
 
 const DEFAULT_MSG =
   "Hola, me gustaría información sobre sus servicios de ingeniería.";
