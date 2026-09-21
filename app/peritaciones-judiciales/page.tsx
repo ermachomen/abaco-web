@@ -256,6 +256,7 @@ export default function PeritacionesJudicialesPage() {
             ["/perito-seguros-almeria", "Perito de seguros y contraperitaje"],
             ["/perito-humedades-vicios-ocultos-almeria", "Perito de humedades y vicios ocultos"],
             ["/perito-incendios-almeria", "Perito de incendios (causa y origen)"],
+            ["/perito-accidentes-almeria", "Perito de accidentes laborales y maquinaria"],
           ].map(([href, label]) => (
             <Link
               key={href}

@@ -39,6 +39,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "perito-seguros-almeria",
     "perito-humedades-vicios-ocultos-almeria",
     "perito-incendios-almeria",
+    "perito-accidentes-almeria",
   ].map((slug) => ({
     url: `${siteUrl}/${slug}`,
     lastModified: now,
