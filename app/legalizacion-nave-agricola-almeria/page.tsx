@@ -187,7 +187,6 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 pb-16 lg:px-8">
         <h2 className="text-2xl font-bold">Servicios relacionados</h2>
         <ul className="mt-4 grid gap-2 text-slate-700 md:grid-cols-2">
-          <li>·{" "}<Link href="/legalizacion-invernadero-almeria" className="text-sky-700 underline hover:no-underline">Legalización de invernaderos en Almería</Link></li>
           <li>·{" "}<Link href="/proyecto-almacen-hortofruticola-almeria" className="text-sky-700 underline hover:no-underline">Proyecto de almacén hortofrutícola</Link></li>
           <li>·{" "}<Link href="/proyecto-nave-industrial-almeria" className="text-sky-700 underline hover:no-underline">Proyecto de nave industrial</Link></li>
           <li>·{" "}<Link href="/tasacion-nave-industrial-almeria" className="text-sky-700 underline hover:no-underline">Tasación de nave y terreno</Link></li>

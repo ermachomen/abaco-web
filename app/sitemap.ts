@@ -89,7 +89,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }));
 
   const agroIndustrial = [
-    "legalizacion-invernadero-almeria",
     "proyecto-almacen-hortofruticola-almeria",
     "legalizacion-camara-frigorifica-almeria",
     "fotovoltaica-riego-agricola-almeria",

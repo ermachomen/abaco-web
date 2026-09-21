@@ -188,7 +188,6 @@ export default function Page() {
         <h2 className="text-2xl font-bold">Servicios relacionados</h2>
         <ul className="mt-4 grid gap-2 text-slate-700 md:grid-cols-2">
           <li>·{" "}<Link href="/legalizacion-placas-solares-almeria" className="text-sky-700 underline hover:no-underline">Legalización de placas solares en Almería</Link></li>
-          <li>·{" "}<Link href="/legalizacion-invernadero-almeria" className="text-sky-700 underline hover:no-underline">Legalización de invernaderos</Link></li>
           <li>·{" "}<Link href="/legalizacion-instalaciones-electricas-almeria" className="text-sky-700 underline hover:no-underline">Legalización de instalaciones eléctricas</Link></li>
           <li>·{" "}<Link href="/boletin-electrico-almeria" className="text-sky-700 underline hover:no-underline">Boletín eléctrico</Link></li>
           <li>·{" "}<Link href="/ingenieria-industrial-almeria" className="text-sky-700 underline hover:no-underline">Oficina técnica en Almería</Link></li>

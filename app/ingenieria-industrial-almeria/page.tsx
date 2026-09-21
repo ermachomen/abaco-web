@@ -194,7 +194,6 @@ export default function Page() {
           </p>
           <ul className="mt-6 grid gap-3 sm:grid-cols-2">
             {[
-              ["/legalizacion-invernadero-almeria", "Legalización de invernaderos"],
               ["/proyecto-almacen-hortofruticola-almeria", "Proyecto de almacén hortofrutícola"],
               ["/legalizacion-camara-frigorifica-almeria", "Legalización de cámaras frigoríficas"],
               ["/fotovoltaica-riego-agricola-almeria", "Fotovoltaica y bombeo solar para riego"],
