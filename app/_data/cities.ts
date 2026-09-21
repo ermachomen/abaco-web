@@ -137,6 +137,52 @@ export const SERVICIOS = {
 } as const;
 
 /**
+ * Especialidades por servicio. Se renderizan en cada landing de ciudad para
+ * dar cuerpo real a la página (el problema antes era que Google usaba el pie
+ * de página como snippet por falta de contenido) y para declarar la
+ * disciplina concreta, evitando encajar en consultas de otras especialidades.
+ * El enlace solo se muestra en Almería, donde existen las páginas hijas.
+ */
+export const ESPECIALIDADES: Record<
+  Servicio,
+  { titulo: string; items: { titulo: string; cuerpo: string; href?: string }[] }
+> = {
+  "licencia-actividad": {
+    titulo: "Trámites de licencia que resolvemos",
+    items: [
+      { titulo: "Proyecto técnico de actividad", cuerpo: "Redacción del proyecto que exige el ayuntamiento cuando la actividad es calificada: distribución, aforo, accesibilidad, instalaciones, protección contra incendios y justificación ambiental.", href: "/proyecto-de-actividad-almeria" },
+      { titulo: "Declaración responsable", cuerpo: "Para actividades inocuas o de menor incidencia, la vía más ágil: documentación técnica y certificado que permiten iniciar la actividad desde su presentación, asumiendo el titular la responsabilidad del cumplimiento.", href: "/declaracion-responsable-actividad-almeria" },
+      { titulo: "Cambio de titularidad", cuerpo: "Si traspasas o adquieres un negocio que ya tiene licencia, el cambio de titularidad es el trámite correcto, siempre que la actividad y el local no se modifiquen. Comprobamos antes que la licencia existente es válida.", href: "/cambio-titularidad-licencia-actividad-almeria" },
+      { titulo: "Bares, restaurantes y hostelería", cuerpo: "Cocina y salida de humos, aforo, aseos, accesibilidad, insonorización y veladores. Es el sector con más requerimientos municipales, y donde revisar el local antes de firmar el alquiler ahorra disgustos.", href: "/licencia-bar-restaurante-almeria" },
+      { titulo: "Discotecas, pubs y ocio nocturno", cuerpo: "Actividad recreativa con exigencias muy superiores: aislamiento acústico, limitador-registrador, evacuación dimensionada al aforo y horarios. Nada que ver con tramitar un bar sin música.", href: "/licencia-discoteca-pub-almeria" },
+      { titulo: "Comercio, talleres, clínicas y oficinas", cuerpo: "Tiendas, supermercados, talleres mecánicos, centros de estética, clínicas, gimnasios y oficinas. Cada uso arrastra su normativa sectorial además de la licencia, y conviene identificarla desde el principio." },
+    ],
+  },
+  peritaciones: {
+    titulo: "Qué peritamos",
+    items: [
+      { titulo: "Incendios y explosiones", cuerpo: "Determinación de causa y origen en incendios de local, nave e instalación, con especial peso de los de origen eléctrico. El informe identifica el foco, descarta hipótesis y sirve para reclamar a la aseguradora o depurar responsabilidad.", href: "/perito-incendios-almeria" },
+      { titulo: "Accidentes laborales y de maquinaria", cuerpo: "Reconstrucción técnica de atrapamientos, contactos eléctricos, caídas por fallo de un medio auxiliar y accidentes con equipos de trabajo. Analizamos protecciones, marcado, mantenimiento y formación para establecer la causa.", href: "/perito-accidentes-almeria" },
+      { titulo: "Instalaciones y cumplimiento reglamentario", cuerpo: "Peritaje de instalaciones eléctricas, térmicas, frigoríficas y de protección contra incendios: si lo ejecutado cumple la reglamentación que le era aplicable y si la documentación de legalización y mantenimiento existe y es correcta." },
+      { titulo: "Humedades, grietas y vicios ocultos", cuerpo: "Patologías constructivas en vivienda, comunidad de propietarios y obra nueva: origen de la humedad o la fisura, responsabilidad del promotor, constructor o mantenedor, y valoración del coste de reparación.", href: "/perito-humedades-vicios-ocultos-almeria" },
+      { titulo: "Siniestros y contraperitaje de seguros", cuerpo: "Cuando la aseguradora rechaza el siniestro o lo valora a la baja, actuamos como perito de parte del asegurado y participamos en el procedimiento de designación de tercer perito previsto en la Ley de Contrato de Seguro.", href: "/perito-seguros-almeria" },
+      { titulo: "Maquinaria, vehículos y daños industriales", cuerpo: "Averías y fallos de maquinaria, defectos de fabricación o montaje, daños en equipos productivos y reformas de vehículos. Cuantificamos el daño y determinamos si hubo defecto, mal uso o falta de mantenimiento.", href: "/perito-ingeniero-industrial-almeria" },
+    ],
+  },
+  tasaciones: {
+    titulo: "Qué valoramos",
+    items: [
+      { titulo: "Herencias, divorcios y extinción de condominio", cuerpo: "Valoración de inmuebles y bienes para repartir con criterio técnico, con un informe que las partes y el notario puedan aceptar o que sostenga tu posición si el reparto acaba en el juzgado.", href: "/tasacion-herencia-divorcio-almeria" },
+      { titulo: "Tasación pericial contradictoria", cuerpo: "Cuando Hacienda o la administración autonómica notifica una comprobación de valores y no estás de acuerdo, la tasación pericial contradictoria es la vía para oponer una valoración técnica propia.", href: "/tasacion-pericial-contradictoria-almeria" },
+      { titulo: "Naves, locales y terrenos", cuerpo: "Valoración de nave industrial, local comercial, solar y finca atendiendo al estado de conservación, las instalaciones, la situación urbanística y el mercado real de la zona, no a una media estadística.", href: "/tasacion-nave-industrial-almeria" },
+      { titulo: "Maquinaria industrial y agrícola", cuerpo: "Líneas de producción, equipos, tractores y maquinaria autopropulsada, unidad por unidad: identificación, horas o kilómetros, estado y valor, para inventario, compraventa, aportación a sociedad o seguro.", href: "/tasacion-maquinaria-industrial-almeria" },
+      { titulo: "Vehículos, flotas y clásicos", cuerpo: "Valor venal y valor de mercado real, discrepancia con la aseguradora en siniestro total, reparto en herencia y valoración de vehículos históricos, que no siguen una tabla de depreciación estándar.", href: "/tasacion-vehiculos-almeria" },
+      { titulo: "Valoraciones para procedimiento judicial", cuerpo: "Informes redactados para ser aportados como prueba y defendidos en sala, con la metodología explicitada y los comparables documentados, de forma que resistan la contradicción de la otra parte." },
+    ],
+  },
+};
+
+/**
  * Enlaces locales adicionales por ciudad y servicio (silo local).
  * Se muestran en la landing de esa ciudad para reforzar el linkado interno
  * hacia las páginas long-tail ya existentes.

@@ -7,6 +7,7 @@ import {
   CITY_CONTEXT,
   CITY_EXTRA_LINKS,
   CITY_FAQS,
+  ESPECIALIDADES,
   SERVICIOS,
   type Servicio,
   type CityData,
@@ -179,6 +180,29 @@ export default function CityLandingTemplate({ servicio, citySlug }: CityLandingP
             </ul>
           </div>
         )}
+      </section>
+
+      {/* ── ESPECIALIDADES DEL SERVICIO ── */}
+      <section className="mx-auto max-w-5xl px-6 pb-16 lg:px-8">
+        <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
+          {ESPECIALIDADES[servicio].titulo} {city.preposicion} {city.nombre}
+        </h2>
+        <div className="mt-8 grid gap-6 md:grid-cols-2">
+          {ESPECIALIDADES[servicio].items.map((e) => (
+            <article key={e.titulo} className="rounded-2xl border border-slate-200 bg-white p-6">
+              <h3 className="text-lg font-semibold text-slate-900">
+                {e.href && citySlug === "almeria" ? (
+                  <Link href={e.href} className="text-brand-navy underline hover:no-underline">
+                    {e.titulo}
+                  </Link>
+                ) : (
+                  e.titulo
+                )}
+              </h3>
+              <p className="mt-3 text-sm leading-7 text-slate-600">{e.cuerpo}</p>
+            </article>
+          ))}
+        </div>
       </section>
 
       {/* ── SERVICIO 100% ONLINE ── */}
