@@ -88,6 +88,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     alternates: alt(`/${slug}`),
   }));
 
+  const agroIndustrial = [
+    "legalizacion-invernadero-almeria",
+    "proyecto-almacen-hortofruticola-almeria",
+    "legalizacion-camara-frigorifica-almeria",
+    "fotovoltaica-riego-agricola-almeria",
+    "legalizacion-nave-agricola-almeria",
+  ].map((slug) => ({
+    url: `${siteUrl}/${slug}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.85,
+    alternates: alt(`/${slug}`),
+  }));
+
   const cityLandings = CITIES.flatMap((c) => [
     {
       url: `${siteUrl}/licencia-actividad-${c.slug}`,
@@ -278,6 +292,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     // ── Licencias: subtemas (Almería) ──
     ...licenciasSubtemas,
+
+    // ── Clúster agro-industrial (Almería) ──
+    ...agroIndustrial,
 
     // ── 30 landings por capital ──
     ...cityLandings,

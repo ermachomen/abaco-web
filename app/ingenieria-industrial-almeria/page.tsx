@@ -183,6 +183,36 @@ export default function Page() {
         </div>
       </section>
 
+      <section className="bg-sky-50">
+        <div className="mx-auto max-w-5xl px-6 py-16 lg:px-8">
+          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-navy">Especialidad</p>
+          <h2 className="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">Agroindustria en Almería</h2>
+          <p className="mt-4 text-slate-600">
+            El tejido industrial de la provincia es agrícola: invernaderos, almacenes de
+            manipulado, cámaras de frío y riego. Son los expedientes que más tramitamos, con la
+            ventaja de que un mismo ingeniero cubre la obra y las instalaciones.
+          </p>
+          <ul className="mt-6 grid gap-3 sm:grid-cols-2">
+            {[
+              ["/legalizacion-invernadero-almeria", "Legalización de invernaderos"],
+              ["/proyecto-almacen-hortofruticola-almeria", "Proyecto de almacén hortofrutícola"],
+              ["/legalizacion-camara-frigorifica-almeria", "Legalización de cámaras frigoríficas"],
+              ["/fotovoltaica-riego-agricola-almeria", "Fotovoltaica y bombeo solar para riego"],
+              ["/legalizacion-nave-agricola-almeria", "Legalización de nave y almacén agrícola"],
+            ].map(([href, label]) => (
+              <li key={href}>
+                <Link
+                  href={href}
+                  className="block rounded-xl border border-sky-100 bg-white px-4 py-3 text-sm font-medium text-slate-700 transition hover:border-brand-navy hover:text-brand-navy"
+                >
+                  {label} →
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
       <section className="mx-auto max-w-5xl px-6 pb-16 lg:px-8">
         <h2 className="text-2xl font-bold">Servicios relacionados</h2>
         <ul className="mt-4 grid gap-2 text-slate-700 md:grid-cols-2">

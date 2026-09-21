@@ -294,8 +294,8 @@ export function buildCityLandingMetadata(servicio: Servicio, citySlug: string) {
   const path = `${config.pathPrefix}${citySlug}`;
 
   return {
-    title: `${config.nombreSeo} ${city.preposicion} ${city.nombre} · Ingeniero Colegiado`,
-    description: `${config.descripcionCorta} Servicio en ${city.nombre} y ${city.provincia}. Ingeniero técnico colegiado, firma digital FNMT, presupuesto cerrado.`,
+    title: { absolute: `${config.nombreSeo} ${city.preposicion} ${city.nombre} · Colegiado 1983` },
+    description: `${config.descripcionCorta} En ${city.nombre} y ${city.provincia}: ingeniero técnico colegiado desde 1983, firma digital FNMT, presupuesto cerrado y respuesta en 24 h.`,
     keywords: buildKeywords(servicio, city),
     alternates: { canonical: path, languages: { "es-ES": path } },
     openGraph: {

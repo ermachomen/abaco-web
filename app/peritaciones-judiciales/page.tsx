@@ -8,9 +8,9 @@ import { CITIES } from "../_data/cities";
 const siteUrl = "https://www.ingenierial.es";
 
 export const metadata: Metadata = {
-  title: "Peritaciones Judiciales en Toda España · Perito Ingeniero Colegiado",
+  title: { absolute: "Peritaciones Judiciales en España · Perito Colegiado 1983" },
   description:
-    "Peritaciones judiciales e informes periciales de ingeniería en toda España. Perito judicial para juzgados, abogados, aseguradoras y particulares. Patologías, humedades, incendios, accidentes laborales, valoraciones. Ratificación en sala.",
+    "Perito ingeniero judicial en toda España para juzgados, abogados y aseguradoras: humedades, incendios, accidentes y valoraciones. Colegiado desde 1983.",
   keywords: [
     "peritaciones judiciales",
     "perito judicial ingeniero",
