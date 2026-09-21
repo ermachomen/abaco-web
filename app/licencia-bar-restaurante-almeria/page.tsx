@@ -67,7 +67,7 @@ const serviceLd = {
       "@type": "PostalAddress",
       streetAddress: "Carretera de Ronda, 293",
       addressLocality: "Almería",
-      postalCode: "04001",
+      postalCode: "04009",
       addressCountry: "ES",
     },
   },
