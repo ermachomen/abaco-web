@@ -56,7 +56,7 @@ const faqs = [
   },
   {
     "q": "¿Cuándo no basta la ficha reducida y hace falta homologación individual?",
-    "a": "No basta cuando el vehículo carece de contraseña de homologación europea: coches importados de Estados Unidos, Japón o Reino Unido tras el Brexit, y modelos anteriores a la homologación CE. Tampoco basta si el coche lleva reformas respecto a su tipo homologado. En esos supuestos se aplica la homologación individual del RD 750/2010 o un proyecto de reforma según el Manual de Reformas (Orden ICT 1212/2018)."
+    "a": "No basta cuando el vehículo carece de contraseña de homologación europea: coches importados de Estados Unidos, Japón o Reino Unido tras el Brexit, y modelos anteriores a la homologación CE. Tampoco basta si el coche lleva reformas respecto a su tipo homologado. En esos supuestos se aplica la homologación individual del RD 750/2010 o un proyecto de reforma según el Manual de Reformas de Vehículos."
   },
   {
     "q": "¿Cuánto cuesta una ficha técnica reducida en Almería?",
@@ -90,7 +90,7 @@ const breadcrumbLd = {
 const bloques = [
   {
     "titulo": "Cuándo basta la ficha reducida y cuándo necesitas homologación",
-    "cuerpo": "La ficha técnica reducida basta cuando el vehículo tiene contraseña de homologación europea válida y no ha sufrido reformas: es el caso de la mayoría de coches comprados en Alemania, Francia, Italia u Holanda. En ese supuesto, la ficha reducida o el certificado de conformidad COC sirven para la inspección previa a matriculación en la ITV. No basta, y hay que acudir a la homologación individual del RD 750/2010, cuando el coche carece de homologación CE: importados de USA, Japón o Reino Unido tras el Brexit, o modelos anteriores a su implantación en Europa. Y si el vehículo lleva cambios respecto a su tipo homologado, entramos en el terreno de las reformas del Manual de Reformas (Orden ICT 1212/2018), con su código de reforma y su proyecto o certificado. Analizamos tu ficha de origen y te confirmamos la vía correcta desde el primer contacto."
+    "cuerpo": "La ficha técnica reducida basta cuando el vehículo tiene contraseña de homologación europea válida y no ha sufrido reformas: es el caso de la mayoría de coches comprados en Alemania, Francia, Italia u Holanda. En ese supuesto, la ficha reducida o el certificado de conformidad COC sirven para la inspección previa a matriculación en la ITV. No basta, y hay que acudir a la homologación individual del RD 750/2010, cuando el coche carece de homologación CE: importados de USA, Japón o Reino Unido tras el Brexit, o modelos anteriores a su implantación en Europa. Y si el vehículo lleva cambios respecto a su tipo homologado, entramos en el terreno de las reformas del Manual de Reformas de Vehículos, con su código de reforma y su proyecto o certificado. Analizamos tu ficha de origen y te confirmamos la vía correcta desde el primer contacto."
   },
   {
     "titulo": "Qué recoge la ficha y para qué trámites la usarás",
@@ -120,7 +120,7 @@ export default function Page() {
           </Link>
           <nav className="hidden items-center gap-6 md:flex">
             <Link href="/" className="text-sm font-medium text-slate-600 hover:text-slate-900">Inicio</Link>
-            <Link href="C:/Program Files/Git/fichas-tecnicas" className="text-sm font-medium text-slate-600 hover:text-slate-900">Vehículos</Link>
+            <Link href="/fichas-tecnicas" className="text-sm font-medium text-slate-600 hover:text-slate-900">Vehículos</Link>
             <a href="#contacto" className="rounded-lg bg-sky-600 px-4 py-2 text-sm font-semibold text-white hover:bg-sky-500">Contactar</a>
           </nav>
         </div>

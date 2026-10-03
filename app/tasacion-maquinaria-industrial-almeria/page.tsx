@@ -124,7 +124,7 @@ export default function Page() {
           </Link>
           <nav className="hidden items-center gap-6 md:flex">
             <Link href="/" className="text-sm font-medium text-slate-600 hover:text-slate-900">Inicio</Link>
-            <Link href="C:/Program Files/Git/tasaciones" className="text-sm font-medium text-slate-600 hover:text-slate-900">Tasaciones</Link>
+            <Link href="/tasaciones" className="text-sm font-medium text-slate-600 hover:text-slate-900">Tasaciones</Link>
             <a href="#contacto" className="rounded-lg bg-sky-600 px-4 py-2 text-sm font-semibold text-white hover:bg-sky-500">Contactar</a>
           </nav>
         </div>

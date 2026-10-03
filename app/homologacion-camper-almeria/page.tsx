@@ -60,7 +60,7 @@ const faqs = [
   },
   {
     "q": "¿Me conviene homologar como furgón vivienda o como autocaravana?",
-    "a": "Depende de tu furgoneta y del mobiliario instalado. Desde noviembre de 2025, un vehículo con mobiliario fijo de vivienda puede clasificarse como autocaravana (categoría M), lo que permite 120 km/h en autovía e ITV con periodicidad de turismo, frente al furgón vivienda (categoría N), limitado a 90 km/h. En el estudio previo te decimos a qué clasificación puedes optar y qué te falta para lograrla."
+    "a": "Depende de tu furgoneta y del mobiliario instalado. La transformación a autocaravana es la reforma 8.70 del Manual de Reformas de Vehículos, y la clasificación con la que quede el vehículo condiciona el límite de velocidad, el calendario de ITV y el seguro. En el estudio previo te decimos a qué clasificación puedes optar y qué te falta para lograrla."
   },
   {
     "q": "¿Qué instalaciones hay que certificar en una camper?",
@@ -98,7 +98,7 @@ const bloques = [
   },
   {
     "titulo": "Furgón vivienda o autocaravana: te interesa saber la diferencia",
-    "cuerpo": "El objetivo de la homologación es cambiar la clasificación del vehículo en la ficha técnica. Hasta ahora la mayoría de campers pasaban a furgón vivienda (categoría N), con límite de 90 km/h en autovía y calendario de ITV de vehículo de mercancías. Desde noviembre de 2025, una furgoneta con mobiliario fijo destinado a vivienda puede clasificarse directamente como autocaravana (categoría M, código 3200): 120 km/h en autovía, periodicidad de ITV como un turismo y mejor encaje en la póliza de seguro. En el estudio previo analizamos tu furgoneta y te decimos a qué clasificación puedes optar y qué reformas te faltan para conseguirla."
+    "cuerpo": "El objetivo de la homologación es que la nueva clasificación del vehículo quede reflejada en la tarjeta ITV. El Manual de Reformas de Vehículos recoge la transformación a autocaravana como reforma 8.70; si además se cortan elementos de la carrocería para el techo elevable o las ventanas, entra la 8.51, modificaciones que afecten a la carrocería. La clasificación resultante condiciona el límite de velocidad, el calendario de ITV y la póliza de seguro. En el estudio previo analizamos tu furgoneta y te decimos a qué clasificación puedes optar y qué reformas te faltan para conseguirla."
   },
   {
     "titulo": "Homologación de campers en Almería, paso a paso",
@@ -124,7 +124,7 @@ export default function Page() {
           </Link>
           <nav className="hidden items-center gap-6 md:flex">
             <Link href="/" className="text-sm font-medium text-slate-600 hover:text-slate-900">Inicio</Link>
-            <Link href="C:/Program Files/Git/fichas-tecnicas" className="text-sm font-medium text-slate-600 hover:text-slate-900">Vehículos</Link>
+            <Link href="/fichas-tecnicas" className="text-sm font-medium text-slate-600 hover:text-slate-900">Vehículos</Link>
             <a href="#contacto" className="rounded-lg bg-sky-600 px-4 py-2 text-sm font-semibold text-white hover:bg-sky-500">Contactar</a>
           </nav>
         </div>
@@ -152,7 +152,7 @@ export default function Page() {
 
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
-          <p>{"Convertir una furgoneta en camper sin regularizarla en la ficha técnica es circular al margen de la ley: en la próxima ITV la reforma sale a la luz y el vehículo queda desfavorable. En Abaco Ingeniería, oficina técnica con sede en Almería, homologamos tu camperización de principio a fin conforme al Manual de Reformas de Vehículos, el RD 866/2010 y la Orden ICT/1212/2018. Redactamos el proyecto técnico, coordinamos los certificados de instalación y preparamos la ITV de reforma para que tu furgoneta pase a clasificarse como vivienda o autocaravana. Ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años tramitando reformas en Almería capital y provincia."}</p>
+          <p>{"Convertir una furgoneta en camper sin regularizarla en la ficha técnica es circular al margen de la ley: en la próxima ITV la reforma sale a la luz y el vehículo queda desfavorable. En Abaco Ingeniería, oficina técnica con sede en Almería, homologamos tu camperización de principio a fin conforme al Manual de Reformas de Vehículos y el RD 866/2010. Redactamos el proyecto técnico, coordinamos los certificados de instalación y preparamos la ITV de reforma para que tu furgoneta pase a clasificarse como vivienda o autocaravana. Ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años tramitando reformas en Almería capital y provincia."}</p>
           <p>{"Trabajamos de dos formas: 100% online con firma digital FNMT, válida en toda España, o con desplazamiento presencial a tu localidad para ver la furgoneta cuando el caso lo requiere. Cada trabajo arranca con un estudio previo gratuito en el que revisamos fotos y datos del vehículo, te decimos qué es homologable y qué no, y cerramos un presupuesto cerrado sin sorpresas. Nada de tarifas por horas ni sobrecostes de última hora. Cuéntanos qué has montado o qué quieres montar y te respondemos en menos de 24 horas."}</p>
         </div>
       </section>

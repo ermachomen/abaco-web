@@ -56,7 +56,7 @@ const faqs = [
   },
   {
     "q": "¿Cuánto tiempo tengo para pasar la ITV tras instalar la bola?",
-    "a": "El Manual de Reformas fija un plazo máximo de 15 días desde la instalación para presentar el vehículo en la ITV y legalizar el enganche. Conviene tener la documentación preparada antes del montaje para no apurar el plazo; nosotros te la dejamos lista para que solo tengas que pedir cita en tu estación ITV de Almería."
+    "a": "El RD 866/2010 obliga a presentar el vehículo reformado a inspección técnica en un plazo máximo de quince días. Conviene tener la documentación preparada antes del montaje para no apurar el plazo; nosotros te la dejamos lista para que solo tengas que pedir cita en tu estación ITV de Almería."
   },
   {
     "q": "¿Necesito proyecto de ingeniero o basta con el certificado del taller?",
@@ -94,7 +94,7 @@ const bloques = [
   },
   {
     "titulo": "Código de reforma y documentación exigida en la ITV",
-    "cuerpo": "La instalación de un dispositivo de acoplamiento se clasifica en el grupo 8 del Manual de Reformas, dispositivos de unión de vehículos, reforma tipo 8.50. Para inscribirla necesitarás el certificado del taller instalador (anexo III, que desde la 6ª revisión del manual se emite en dos modelos, con o sin proyecto), el informe de conformidad del enganche y la acreditación de que la pieza cumple el Reglamento CEPE/ONU R55 o la antigua Directiva 94/20/CE (marca e-mark en la placa). Nosotros redactamos y firmamos el informe de conformidad y, si tu vehículo lo requiere, el proyecto técnico completo, dejándote la carpeta lista para la inspección de reforma."
+    "cuerpo": "La instalación de un dispositivo de acoplamiento se clasifica en el grupo 10 del Manual de Reformas, uniones entre vehículos tractores y sus remolques, como reforma 10.1 en turismos y furgonetas. Para inscribirla necesitarás el certificado del taller instalador (modelo del anexo III del RD 866/2010), el informe de conformidad del enganche y la acreditación de que la pieza cumple el Reglamento CEPE/ONU R55 o la antigua Directiva 94/20/CE (marca e-mark en la placa). Nosotros redactamos y firmamos el informe de conformidad y, si tu vehículo lo requiere, el proyecto técnico completo, dejándote la carpeta lista para la inspección de reforma."
   },
   {
     "titulo": "Con proyecto o sin proyecto: de qué depende tu caso",
@@ -124,7 +124,7 @@ export default function Page() {
           </Link>
           <nav className="hidden items-center gap-6 md:flex">
             <Link href="/" className="text-sm font-medium text-slate-600 hover:text-slate-900">Inicio</Link>
-            <Link href="C:/Program Files/Git/fichas-tecnicas" className="text-sm font-medium text-slate-600 hover:text-slate-900">Vehículos</Link>
+            <Link href="/fichas-tecnicas" className="text-sm font-medium text-slate-600 hover:text-slate-900">Vehículos</Link>
             <a href="#contacto" className="rounded-lg bg-sky-600 px-4 py-2 text-sm font-semibold text-white hover:bg-sky-500">Contactar</a>
           </nav>
         </div>
@@ -152,7 +152,7 @@ export default function Page() {
 
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
-          <p>{"Has instalado una bola o enganche de remolque en tu coche, furgoneta o autocaravana y necesitas legalizarlo para pasar la ITV en Almería. Toda incorporación posterior a la matriculación es una reforma de importancia según el Manual de Reformas de Vehículos (RD 866/2010 y Orden ICT 1212/2018) y debe quedar reflejada en la tarjeta ITV. En Abaco Ingeniería, oficina técnica con sede en Almería e ingeniero técnico industrial colegiado desde 1983, preparamos toda la documentación (certificado de taller, informe de conformidad y, cuando el caso lo exige, proyecto técnico) para que tu gancho quede inscrito sin sobresaltos. Estudio previo gratuito y presupuesto cerrado, sin sorpresas de última hora."}</p>
+          <p>{"Has instalado una bola o enganche de remolque en tu coche, furgoneta o autocaravana y necesitas legalizarlo para pasar la ITV en Almería. Toda incorporación posterior a la matriculación es una reforma de importancia según el Manual de Reformas de Vehículos (RD 866/2010 y Manual de Reformas de Vehículos) y debe quedar reflejada en la tarjeta ITV. En Abaco Ingeniería, oficina técnica con sede en Almería e ingeniero técnico industrial colegiado desde 1983, preparamos toda la documentación (certificado de taller, informe de conformidad y, cuando el caso lo exige, proyecto técnico) para que tu gancho quede inscrito sin sobresaltos. Estudio previo gratuito y presupuesto cerrado, sin sorpresas de última hora."}</p>
           <p>{"Circular con el enganche sin homologar no solo expone a sanción: sin la reforma inscrita la ITV resulta desfavorable y no podrás vincular legalmente un remolque, un portabicis matriculado o una caravana a tu vehículo. Trabajamos el 100% online con firma digital FNMT para toda España y nos desplazamos a las estaciones ITV de Almería capital, El Ejido, Huércal de Almería, Roquetas de Mar y Vícar. Desde el primer contacto te decimos si tu caso necesita proyecto o basta con certificado, y qué masa máxima podrás remolcar según los campos de tu ficha técnica."}</p>
         </div>
       </section>

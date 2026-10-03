@@ -10,7 +10,7 @@ const path = "/homologacion-reforma-vehiculo";
 export const metadata: Metadata = {
   title: "Homologación de Reformas de Vehículos · Llantas, 4x4, Camper, Motor",
   description:
-    "Legalización y homologación de reformas en vehículos: cambio de llantas, suspensión, motor, transformación a camper, snorkel, defensas en 4x4. Conforme RD 866/2010 y Orden ICT 1212/2018. Toda España.",
+    "Legalización y homologación de reformas en vehículos: cambio de llantas, suspensión, motor, transformación a camper, snorkel, defensas en 4x4. Conforme RD 866/2010 y Manual de Reformas de Vehículos. Toda España.",
   keywords: [
     "homologación reforma vehículo",
     "homologación reforma coche",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     "homologación 4x4 snorkel",
     "homologación defensa coche",
     "RD 866/2010 reforma vehículo",
-    "Orden ICT 1212/2018",
+    "Manual de Reformas de Vehículos",
     "ITV reforma vehículo",
   ],
   alternates: { canonical: path, languages: { "es-ES": path } },
@@ -58,13 +58,13 @@ const serviceLd = {
   areaServed: { "@type": "Country", name: "España" },
   url: `${siteUrl}${path}`,
   description:
-    "Proyecto técnico y certificado de reforma para legalizar modificaciones en vehículos: llantas, suspensión, motor, camper, snorkel, defensas, transformación N1/M1. Conforme RD 866/2010 y Orden ICT 1212/2018.",
+    "Proyecto técnico y certificado de reforma para legalizar modificaciones en vehículos: llantas, suspensión, motor, camper, snorkel, defensas, transformación N1/M1. Conforme RD 866/2010 y Manual de Reformas de Vehículos.",
 };
 
 const faqs = [
   {
     q: "¿Qué reformas requieren homologación obligatoria?",
-    a: "Cualquier modificación que separe el vehículo de su tipo homologado: cambio de motor, llantas/neumáticos no originales, suspensión, paragolpes, snorkel, defensas, transformación a camper, instalación de equipos auxiliares, modificación de carrocería o categoría. La Orden ICT 1212/2018 lista 56 tipos de reforma con su procedimiento.",
+    a: "Cualquier modificación que separe el vehículo de su tipo homologado: cambio de motor, llantas/neumáticos no originales, suspensión, paragolpes, snorkel, defensas, transformación a camper, instalación de equipos auxiliares, modificación de carrocería o categoría. El Manual de Reformas de Vehículos tipifica cada reforma con su código y la documentación que exige.",
   },
   {
     q: "¿Qué pasa si la ITV detecta una reforma sin homologar?",
@@ -134,8 +134,8 @@ export default function HomologacionReformaVehiculoPage() {
           <p className="mt-6 max-w-2xl text-lg text-slate-300">
             Legalizamos cualquier modificación técnica en tu vehículo: llantas,
             suspensión, motor, paragolpes, snorkel, defensas, transformación a
-            camper. Proyecto y certificado conforme RD 866/2010 y Orden ICT
-            1212/2018. Entrega lista para tu ITV de reforma.
+            camper. Proyecto y certificado conforme RD 866/2010 y Manual de
+            Reformas de Vehículos. Entrega lista para tu ITV de reforma.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a href="#formulario" className="rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-400">Solicitar presupuesto</a>
@@ -171,7 +171,7 @@ export default function HomologacionReformaVehiculoPage() {
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Cómo es el proceso</h2>
           <ol className="mt-8 space-y-4 text-slate-700">
             <li><strong>1. Estudio previo</strong> — nos envías fotos de la reforma y los datos del vehículo. Confirmamos que es legalizable y qué documentación pide la ITV.</li>
-            <li><strong>2. Proyecto técnico</strong> — redactamos memoria, planos y cálculos según la Orden ICT 1212/2018.</li>
+            <li><strong>2. Proyecto técnico</strong> — redactamos memoria, planos y cálculos según el Manual de Reformas de Vehículos.</li>
             <li><strong>3. Certificado del taller</strong> — el taller que hizo la instalación firma la ejecución conforme al proyecto.</li>
             <li><strong>4. ITV de reforma</strong> — acudes a la estación con todo. Sello en la tarjeta ITV.</li>
             <li><strong>5. Trámite DGT</strong> — actualización del permiso de circulación si la reforma cambia datos clave (categoría, peso, plazas).</li>

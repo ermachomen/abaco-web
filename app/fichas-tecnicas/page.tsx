@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     "homologación camper",
     "rehabilitación vehículo baja definitiva",
     "RD 750/2010",
-    "Orden ICT 1212/2018",
+    "Manual de Reformas de Vehículos",
   ],
   alternates: {
     canonical: "/fichas-tecnicas",
@@ -196,7 +196,7 @@ const faqs = [
   },
   {
     q: "¿Qué normativa se aplica?",
-    a: "RD 750/2010 (homologación individual de vehículos), Orden ICT 1212/2018 (modificaciones técnicas), RD 866/2010 (reformas), RD 2028/1986 (homologación tipo) y RD 2822/1998 (Reglamento General de Vehículos). Trabajamos con todas las versiones consolidadas vigentes.",
+    a: "RD 750/2010 (homologación individual de vehículos), Manual de Reformas de Vehículos (reformas tipificadas y su documentación), RD 866/2010 (reformas), RD 2028/1986 (homologación tipo) y RD 2822/1998 (Reglamento General de Vehículos). Trabajamos con todas las versiones consolidadas vigentes.",
   },
   {
     q: "¿Puedo catalogar mi coche como vehículo histórico?",
@@ -428,7 +428,7 @@ export default function FichasTecnicasPage() {
               <strong>RD 750/2010</strong> — Procedimientos para autorización de vehículos a motor (homologación individual).
             </li>
             <li className="rounded-xl border border-slate-200 bg-slate-50 px-4 py-3">
-              <strong>Orden ICT 1212/2018</strong> — Vehículos con modificaciones técnicas.
+              <strong>Manual de Reformas de Vehículos</strong> — Reformas tipificadas, su código y la documentación exigida (revisión 7.ª, corrección 2.ª, 2026).
             </li>
             <li className="rounded-xl border border-slate-200 bg-slate-50 px-4 py-3">
               <strong>RD 866/2010</strong> — Reformas de vehículos.

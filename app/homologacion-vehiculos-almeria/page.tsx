@@ -68,7 +68,7 @@ const faqs = [
   },
   {
     "q": "¿Homologáis reformas como el enganche de remolque o la transformación en camper?",
-    "a": "Sí, son dos de los trámites más habituales. El enganche se legaliza como dispositivo de acoplamiento (código 8.50 del Manual de Reformas), recalculando las masas remolcables; la conversión en camper se homologa como vehículo vivienda, con su instalación eléctrica y su mobiliario fijo. Redactamos el proyecto y el informe de conformidad que corresponda y lo firma el ingeniero colegiado."
+    "a": "Sí, son dos de los trámites más habituales. El enganche se legaliza como dispositivo de acoplamiento (reforma 10.1 del Manual de Reformas), recalculando las masas remolcables; la conversión en camper se tramita como transformación a autocaravana (reforma 8.70), con su instalación eléctrica y su mobiliario fijo. Redactamos el proyecto y el informe de conformidad que corresponda y lo firma el ingeniero colegiado."
   },
   {
     "q": "¿Qué diferencia a Ábaco de otras ingenierías de homologación de Almería?",
@@ -94,7 +94,7 @@ const bloques = [
   },
   {
     "titulo": "Reformas de vehículo: qué dice el Manual de Reformas",
-    "cuerpo": "Toda modificación que se aparta del tipo homologado necesita legalizarse conforme al RD 866/2010 y al Manual de Reformas de Vehículos del Ministerio de Industria, que agrupa las reformas por códigos. Las más habituales en la provincia son las del grupo 8 de carrocería (transformación a vivienda o camper, cambio del número de plazas, defensas y paragolpes), el dispositivo de acoplamiento del código 8.50 para el enganche de remolque, las del grupo 2 de unidad motriz por cambio de motor, y las de suspensión, llantas o neumáticos. Redactamos el proyecto o el informe de conformidad que exija cada código, y lo firma el ingeniero colegiado."
+    "cuerpo": "Toda modificación que se aparta del tipo homologado necesita legalizarse conforme al RD 866/2010 y al Manual de Reformas de Vehículos del Ministerio de Industria, que agrupa las reformas por códigos. Las más habituales en la provincia son las del grupo 8 de carrocería (transformación a vivienda o camper, cambio del número de plazas, defensas y paragolpes), el enganche de remolque, que es la reforma 10.1 del grupo 10, las del grupo 2 de unidad motriz por cambio de motor, y las de suspensión, llantas o neumáticos. Redactamos el proyecto o el informe de conformidad que exija cada código, y lo firma el ingeniero colegiado."
   },
   {
     "titulo": "Camper, enganche y ficha técnica reducida en Almería",
@@ -124,7 +124,7 @@ export default function Page() {
           </Link>
           <nav className="hidden items-center gap-6 md:flex">
             <Link href="/" className="text-sm font-medium text-slate-600 hover:text-slate-900">Inicio</Link>
-            <Link href="C:/Program Files/Git/fichas-tecnicas" className="text-sm font-medium text-slate-600 hover:text-slate-900">Vehículos</Link>
+            <Link href="/fichas-tecnicas" className="text-sm font-medium text-slate-600 hover:text-slate-900">Vehículos</Link>
             <a href="#contacto" className="rounded-lg bg-sky-600 px-4 py-2 text-sm font-semibold text-white hover:bg-sky-500">Contactar</a>
           </nav>
         </div>
