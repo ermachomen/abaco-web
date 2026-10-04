@@ -102,6 +102,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
     alternates: alt(`/${slug}`),
   }));
 
+  const granadaMalaga = [
+    "homologacion-vehiculos-malaga",
+    "homologacion-camper-malaga",
+    "ficha-tecnica-reducida-malaga",
+    "licencia-bar-restaurante-malaga",
+    "licencia-actividad-velez-malaga",
+    "homologacion-vehiculos-granada",
+    "homologacion-camper-granada",
+    "licencia-bar-restaurante-granada",
+  ].map((slug) => ({
+    url: `${siteUrl}/${slug}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.85,
+    alternates: alt(`/${slug}`),
+  }));
+
   const cityLandings = CITIES.flatMap((c) => [
     {
       url: `${siteUrl}/licencia-actividad-${c.slug}`,
@@ -295,6 +312,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     // ── Clúster agro-industrial (Almería) ──
     ...agroIndustrial,
+    ...granadaMalaga,
 
     // ── 30 landings por capital ──
     ...cityLandings,

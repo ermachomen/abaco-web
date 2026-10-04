@@ -159,6 +159,16 @@ const tiposVehiculo = [
     desc: "¿Estás en Almería o provincia? Hub local con ficha reducida, camper, enganche e histórico, y desplazamiento a Almería, El Ejido y Huércal.",
     href: "/homologacion-vehiculos-almeria",
   },
+  {
+    titulo: "Homologación de vehículos en Málaga",
+    desc: "Costa del Sol, Axarquía, Antequera y Ronda: reformas, camper y ficha reducida para coches importados. Nos desplazamos a ver el vehículo.",
+    href: "/homologacion-vehiculos-malaga",
+  },
+  {
+    titulo: "Homologación de vehículos en Granada",
+    desc: "Capital, área metropolitana, Costa Tropical, Guadix y Baza: reformas de 4x4, enganches y camper. Nos desplazamos a ver el vehículo.",
+    href: "/homologacion-vehiculos-granada",
+  },
 ];
 
 const faqs = [

@@ -197,6 +197,15 @@ export const CITY_EXTRA_LINKS: Partial<Record<Servicio, Record<string, { label: 
       { label: "Licencia de actividad en Vícar", href: "/licencia-actividad-vicar" },
       { label: "Guía gratuita: checklist de licencia de actividad", href: "/guia-licencia-actividad" },
     ],
+    malaga: [
+      { label: "Licencia de apertura de bar o restaurante en Málaga", href: "/licencia-bar-restaurante-malaga" },
+      { label: "Licencia de apertura en Vélez-Málaga y la Axarquía", href: "/licencia-actividad-velez-malaga" },
+      { label: "Homologación de vehículos en Málaga", href: "/homologacion-vehiculos-malaga" },
+    ],
+    granada: [
+      { label: "Licencia de apertura de bar o restaurante en Granada", href: "/licencia-bar-restaurante-granada" },
+      { label: "Homologación de vehículos en Granada", href: "/homologacion-vehiculos-granada" },
+    ],
   },
 };
 
@@ -303,14 +312,14 @@ export const CITY_FAQS: Record<Servicio, Record<string, { q: string; a: string }
     malaga: [
       { q: "¿Cómo se tramita la licencia de apertura en Málaga?", a: "El Ayuntamiento de Málaga tiene sede electrónica para presentar declaraciones responsables (actividades inocuas) y licencias previas (calificadas). Aplicamos normativa andaluza y la ordenanza propia municipal." },
       { q: "¿Qué exigencias tiene la hostelería costera en Málaga?", a: "Para zonas costeras como Pedregalejo, El Palo o Muelle Uno hay particularidades sobre veladores, terrazas y aislamiento acústico por proximidad a zonas residenciales. Para bares con cocina, salida de humos por cubierta. Para música, limitador-registrador." },
-      { q: "¿Trabajáis en Marbella, Fuengirola y resto de la Costa del Sol?", a: "Sí. Marbella, Estepona, Fuengirola, Torremolinos, Benalmádena, Mijas, Vélez-Málaga y Ronda. Cada ayuntamiento tiene su sede electrónica y particularidades; conocemos los criterios de cada uno." },
+      { q: "¿Trabajáis en Marbella, Fuengirola y resto de la Costa del Sol?", a: "Sí. Marbella, Estepona, Fuengirola, Torremolinos, Benalmádena, Mijas, Vélez-Málaga y Ronda. Cada ayuntamiento tiene su sede electrónica y sus particularidades, que revisamos en el estudio previo de cada caso." },
       { q: "¿Cuánto cuesta el proyecto en Málaga?", a: "Depende del tipo de actividad, superficie e instalaciones. Para un comercio pequeño parte de 600-900 €. Para hostelería con cocina 1.400-2.200 €. Tras visita gratuita damos presupuesto cerrado." },
-      { q: "¿Tramitáis también licencias para apartamentos turísticos?", a: "Sí. La licencia/registro de apartamentos turísticos en Málaga requiere proyecto técnico de habitabilidad y declaración responsable autonómica. Lo tramitamos completo, incluyendo el registro en la Junta de Andalucía." },
+      { q: "¿Tramitáis también licencias para apartamentos turísticos?", a: "Sí. Revisamos qué exige cada caso ante el Ayuntamiento y la Junta de Andalucía y preparamos la documentación técnica que corresponda." },
     ],
     granada: [
-      { q: "¿Cómo se tramita la licencia en Granada?", a: "Ayuntamiento de Granada mediante sede electrónica. Para el Albayzín y otros conjuntos histórico-patrimoniales hay informes adicionales del Consejo de Patrimonio Histórico." },
+      { q: "¿Cómo se tramita la licencia en Granada?", a: "Ayuntamiento de Granada mediante sede electrónica. En el Albayzín y otros entornos protegidos pueden exigirse autorizaciones o informes adicionales de protección del patrimonio." },
       { q: "¿Qué exigencias tienen los locales en el Albayzín?", a: "El Albayzín es Patrimonio de la Humanidad, lo que añade requisitos de compatibilidad estética, conservación de fachadas y elementos protegidos. Para hostelería, particularidades en salida de humos y aislamiento acústico por proximidad residencial." },
-      { q: "¿Trabajáis con licencias de tapeo y restauración granadina?", a: "Sí. Conocemos las particularidades del modelo de tapeo granadino (alta densidad de locales, terrazas, aforos compactos). Tramitamos con todas las garantías ante el ayuntamiento y la Junta de Andalucía." },
+      { q: "¿Trabajáis con licencias de tapeo y restauración granadina?", a: "Sí. Bares de tapeo, restaurantes y cafeterías: el proyecto justifica aforo, evacuación, ventilación, salida de humos y ruido, y lo tramitamos ante el Ayuntamiento de Granada." },
       { q: "¿Trabajáis en municipios de la provincia de Granada?", a: "Sí. Motril, Almuñécar, Salobreña, Loja, Baza, Guadix y todos los municipios de la Costa Tropical y la Vega." },
       { q: "¿Cuánto tarda la licencia en Granada?", a: "Por declaración responsable, apertura inmediata. Para licencias previas, 3-6 meses según complejidad, especialmente si hay condicionantes patrimoniales." },
     ],
