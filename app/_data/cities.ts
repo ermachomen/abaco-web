@@ -200,10 +200,12 @@ export const CITY_EXTRA_LINKS: Partial<Record<Servicio, Record<string, { label: 
     malaga: [
       { label: "Licencia de apertura de bar o restaurante en Málaga", href: "/licencia-bar-restaurante-malaga" },
       { label: "Licencia de apertura en Vélez-Málaga y la Axarquía", href: "/licencia-actividad-velez-malaga" },
+      { label: "Cuánto cuesta una licencia de actividad en Málaga", href: "/precio-licencia-actividad-malaga" },
       { label: "Homologación de vehículos en Málaga", href: "/homologacion-vehiculos-malaga" },
     ],
     granada: [
       { label: "Licencia de apertura de bar o restaurante en Granada", href: "/licencia-bar-restaurante-granada" },
+      { label: "Cuánto cuesta una licencia de actividad en Granada", href: "/precio-licencia-actividad-granada" },
       { label: "Homologación de vehículos en Granada", href: "/homologacion-vehiculos-granada" },
     ],
   },

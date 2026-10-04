@@ -111,6 +111,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "homologacion-vehiculos-granada",
     "homologacion-camper-granada",
     "licencia-bar-restaurante-granada",
+    "precio-licencia-actividad-malaga",
+    "precio-licencia-actividad-granada",
   ].map((slug) => ({
     url: `${siteUrl}/${slug}`,
     lastModified: now,
