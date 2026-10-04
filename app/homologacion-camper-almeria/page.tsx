@@ -60,7 +60,7 @@ const faqs = [
   },
   {
     "q": "¿Me conviene homologar como furgón vivienda o como autocaravana?",
-    "a": "Depende de tu furgoneta y del mobiliario instalado. La transformación a autocaravana es la reforma 8.70 del Manual de Reformas de Vehículos, y la clasificación con la que quede el vehículo condiciona el límite de velocidad, el calendario de ITV y el seguro. En el estudio previo te decimos a qué clasificación puedes optar y qué te falta para lograrla."
+    "a": "Depende de tu furgoneta y del mobiliario instalado. En el Manual de Reformas de Vehículos, la transformación a furgón vivienda se legaliza por la reforma 8.31 y la transformación a autocaravana por la 8.70, y la clasificación con la que quede el vehículo condiciona el límite de velocidad, el calendario de ITV y el seguro. En el estudio previo te decimos a qué clasificación puedes optar y qué te falta para lograrla."
   },
   {
     "q": "¿Qué instalaciones hay que certificar en una camper?",
@@ -98,7 +98,7 @@ const bloques = [
   },
   {
     "titulo": "Furgón vivienda o autocaravana: te interesa saber la diferencia",
-    "cuerpo": "El objetivo de la homologación es que la nueva clasificación del vehículo quede reflejada en la tarjeta ITV. El Manual de Reformas de Vehículos recoge la transformación a autocaravana como reforma 8.70; si además se cortan elementos de la carrocería para el techo elevable o las ventanas, entra la 8.51, modificaciones que afecten a la carrocería. La clasificación resultante condiciona el límite de velocidad, el calendario de ITV y la póliza de seguro. En el estudio previo analizamos tu furgoneta y te decimos a qué clasificación puedes optar y qué reformas te faltan para conseguirla."
+    "cuerpo": "El objetivo de la homologación es que la nueva clasificación del vehículo quede reflejada en la tarjeta ITV. El Manual de Reformas de Vehículos legaliza la transformación a furgón vivienda por la reforma 8.31 y la transformación a autocaravana por la 8.70; si además se cortan elementos de la carrocería para el techo elevable o las ventanas, entra la 8.51, modificaciones que afecten a la carrocería. La clasificación resultante condiciona el límite de velocidad, el calendario de ITV y la póliza de seguro. En el estudio previo analizamos tu furgoneta y te decimos a qué clasificación puedes optar y qué reformas te faltan para conseguirla."
   },
   {
     "titulo": "Homologación de campers en Almería, paso a paso",

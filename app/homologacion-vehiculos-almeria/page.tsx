@@ -68,7 +68,7 @@ const faqs = [
   },
   {
     "q": "¿Homologáis reformas como el enganche de remolque o la transformación en camper?",
-    "a": "Sí, son dos de los trámites más habituales. El enganche se legaliza como dispositivo de acoplamiento (reforma 10.1 del Manual de Reformas), recalculando las masas remolcables; la conversión en camper se tramita como transformación a autocaravana (reforma 8.70), con su instalación eléctrica y su mobiliario fijo. Redactamos el proyecto y el informe de conformidad que corresponda y lo firma el ingeniero colegiado."
+    "a": "Sí, son dos de los trámites más habituales. El enganche se legaliza como dispositivo de acoplamiento (reforma 10.1 del Manual de Reformas), recalculando las masas remolcables; la conversión en camper se tramita como furgón vivienda (reforma 8.31) o como autocaravana (reforma 8.70), con su instalación eléctrica y su mobiliario fijo. Redactamos el proyecto que corresponda, lo firma el ingeniero colegiado y coordinamos el informe de conformidad con el servicio técnico de reformas."
   },
   {
     "q": "¿Qué diferencia a Ábaco de otras ingenierías de homologación de Almería?",
@@ -94,7 +94,7 @@ const bloques = [
   },
   {
     "titulo": "Reformas de vehículo: qué dice el Manual de Reformas",
-    "cuerpo": "Toda modificación que se aparta del tipo homologado necesita legalizarse conforme al RD 866/2010 y al Manual de Reformas de Vehículos del Ministerio de Industria, que agrupa las reformas por códigos. Las más habituales en la provincia son las del grupo 8 de carrocería (transformación a vivienda o camper, cambio del número de plazas, defensas y paragolpes), el enganche de remolque, que es la reforma 10.1 del grupo 10, las del grupo 2 de unidad motriz por cambio de motor, y las de suspensión, llantas o neumáticos. Redactamos el proyecto o el informe de conformidad que exija cada código, y lo firma el ingeniero colegiado."
+    "cuerpo": "Toda modificación que se aparta del tipo homologado necesita legalizarse conforme al RD 866/2010 y al Manual de Reformas de Vehículos del Ministerio de Industria, que agrupa las reformas por códigos. Las más habituales en la provincia son las del grupo 8 de carrocería (transformación a vivienda o camper, cambio del número de plazas, defensas y paragolpes), el enganche de remolque, que es la reforma 10.1 del grupo 10, las del grupo 2 de unidad motriz por cambio de motor, y las de suspensión, llantas o neumáticos. Redactamos el proyecto técnico que exija cada código, lo firma el ingeniero colegiado y coordinamos el informe de conformidad con el servicio técnico de reformas."
   },
   {
     "titulo": "Camper, enganche y ficha técnica reducida en Almería",
@@ -153,7 +153,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"Si necesitas homologar un vehículo en Almería, esta es tu página de referencia. Reunimos en un solo sitio todos los trámites de homologación e ingeniería de vehículos que un particular, un carrocero o una empresa de la provincia puede necesitar: coche importado de la Unión Europea, coche americano o de fuera de la UE, reformas y modificaciones, transformación a camper, instalación de enganche, ficha técnica reducida y catalogación de vehículo histórico. Lo firma un ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años de ejercicio. Trabajamos 100% online con firma digital FNMT en toda España y nos desplazamos a Almería capital y provincia cuando el caso lo requiere."}</p>
-          <p>{"En abacoingeniería® no te damos una tarifa genérica: estudiamos tu vehículo, comprobamos qué documentación tiene y qué reforma o procedimiento le corresponde según el Manual de Reformas del Ministerio de Industria, y te pasamos un presupuesto cerrado tras un estudio previo gratuito. Preparamos el proyecto técnico o el informe de conformidad, lo firmamos digitalmente y te lo entregamos listo para la inspección en cualquier estación ITV de la provincia: Almería capital, El Ejido o Huércal de Almería. Tú solo tienes que pedir cita y presentarlo."}</p>
+          <p>{"En abacoingeniería® no te damos una tarifa genérica: estudiamos tu vehículo, comprobamos qué documentación tiene y qué reforma o procedimiento le corresponde según el Manual de Reformas del Ministerio de Industria, y te pasamos un presupuesto cerrado tras un estudio previo gratuito. Preparamos el proyecto técnico, lo firmamos digitalmente y te lo entregamos listo para la inspección en cualquier estación ITV de la provincia: Almería capital, El Ejido o Huércal de Almería. Tú solo tienes que pedir cita y presentarlo."}</p>
         </div>
       </section>
 

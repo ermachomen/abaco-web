@@ -60,7 +60,7 @@ const faqs = [
   },
   {
     "q": "¿Necesito proyecto de ingeniero o basta con el certificado del taller?",
-    "a": "Depende del vehículo. En muchos turismos M1 recientes, con enganche que lleva su contraseña de homologación y masas remolcables en la ficha, es suficiente el certificado del taller más el informe de conformidad que firmamos nosotros. Requieren proyecto técnico completo los vehículos más antiguos, los especiales (autocaravanas, industriales) o los enganches sin marca de homologación. Lo confirmamos gratis revisando tu ficha técnica."
+    "a": "Depende del vehículo y del enganche. Para la reforma 10.1, el Manual de Reformas exime de proyecto técnico cuando el dispositivo y su instalación están homologados, y lo exige si la instalación no lo está o el emplazamiento es distinto; en turismos matriculados después del 1 de enero de 1998 el dispositivo tiene que estar homologado. El informe de conformidad lo emite un servicio técnico de reformas, el fabricante del vehículo o, en ciertos casos, el titular de la homologación del enganche. Lo confirmamos gratis revisando tu ficha técnica."
   },
   {
     "q": "¿Puedo poner el enganche yo mismo o en cualquier taller?",
@@ -94,7 +94,7 @@ const bloques = [
   },
   {
     "titulo": "Código de reforma y documentación exigida en la ITV",
-    "cuerpo": "La instalación de un dispositivo de acoplamiento se clasifica en el grupo 10 del Manual de Reformas, uniones entre vehículos tractores y sus remolques, como reforma 10.1 en turismos y furgonetas. Para inscribirla necesitarás el certificado del taller instalador (modelo del anexo III del RD 866/2010), el informe de conformidad del enganche y la acreditación de que la pieza cumple el Reglamento CEPE/ONU R55 o la antigua Directiva 94/20/CE (marca e-mark en la placa). Nosotros redactamos y firmamos el informe de conformidad y, si tu vehículo lo requiere, el proyecto técnico completo, dejándote la carpeta lista para la inspección de reforma."
+    "cuerpo": "La instalación de un dispositivo de acoplamiento se clasifica en el grupo 10 del Manual de Reformas, uniones entre vehículos tractores y sus remolques, como reforma 10.1 en turismos y furgonetas. Para inscribirla necesitarás el certificado del taller instalador (modelo del anexo III del RD 866/2010), el informe de conformidad del enganche y la acreditación de que la pieza cumple el Reglamento CEPE/ONU R55 o la antigua Directiva 94/20/CE (marca e-mark en la placa). Nosotros redactamos y firmamos el proyecto técnico cuando tu vehículo lo requiere y coordinamos el informe de conformidad con quien debe emitirlo, dejándote la carpeta lista para la inspección de reforma."
   },
   {
     "titulo": "Con proyecto o sin proyecto: de qué depende tu caso",
@@ -152,7 +152,7 @@ export default function Page() {
 
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
-          <p>{"Has instalado una bola o enganche de remolque en tu coche, furgoneta o autocaravana y necesitas legalizarlo para pasar la ITV en Almería. Toda incorporación posterior a la matriculación es una reforma de importancia según el Manual de Reformas de Vehículos (RD 866/2010 y Manual de Reformas de Vehículos) y debe quedar reflejada en la tarjeta ITV. En Abaco Ingeniería, oficina técnica con sede en Almería e ingeniero técnico industrial colegiado desde 1983, preparamos toda la documentación (certificado de taller, informe de conformidad y, cuando el caso lo exige, proyecto técnico) para que tu gancho quede inscrito sin sobresaltos. Estudio previo gratuito y presupuesto cerrado, sin sorpresas de última hora."}</p>
+          <p>{"Has instalado una bola o enganche de remolque en tu coche, furgoneta o autocaravana y necesitas legalizarlo para pasar la ITV en Almería. Toda incorporación posterior a la matriculación es una reforma de vehículo según el RD 866/2010 y el Manual de Reformas de Vehículos y debe quedar reflejada en la tarjeta ITV. En Abaco Ingeniería, oficina técnica con sede en Almería e ingeniero técnico industrial colegiado desde 1983, reunimos toda la documentación (certificado de taller, informe de conformidad y, cuando el caso lo exige, el proyecto técnico que firmamos) para que tu gancho quede inscrito sin sobresaltos. Estudio previo gratuito y presupuesto cerrado, sin sorpresas de última hora."}</p>
           <p>{"Circular con el enganche sin homologar no solo expone a sanción: sin la reforma inscrita la ITV resulta desfavorable y no podrás vincular legalmente un remolque, un portabicis matriculado o una caravana a tu vehículo. Trabajamos el 100% online con firma digital FNMT para toda España y nos desplazamos a las estaciones ITV de Almería capital, El Ejido, Huércal de Almería, Roquetas de Mar y Vícar. Desde el primer contacto te decimos si tu caso necesita proyecto o basta con certificado, y qué masa máxima podrás remolcar según los campos de tu ficha técnica."}</p>
         </div>
       </section>
