@@ -246,6 +246,7 @@ export default function TasacionesPage() {
               ["/tasacion-herencia-divorcio-almeria", "Herencia, divorcio y extinción de condominio"],
               ["/tasacion-pericial-contradictoria-almeria", "Pericial contradictoria (Hacienda)"],
               ["/tasacion-nave-industrial-almeria", "Nave industrial, local y terreno"],
+              ["/tasacion-agricola-almeria", "Invernaderos, fincas rústicas y maquinaria agrícola"],
               ["/tasacion-maquinaria-industrial-almeria", "Maquinaria industrial y agrícola"],
               ["/tasacion-vehiculos-almeria", "Vehículos, flotas y clásicos"],
               ["/precio-tasacion-almeria", "Precio de una tasación"],

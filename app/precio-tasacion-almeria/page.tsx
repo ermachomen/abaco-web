@@ -191,6 +191,7 @@ export default function Page() {
           <li>·{" "}<Link href="/tasacion-pericial-contradictoria-almeria" className="text-sky-700 underline hover:no-underline">Tasación pericial contradictoria frente a Hacienda</Link></li>
           <li>·{" "}<Link href="/tasacion-nave-industrial-almeria" className="text-sky-700 underline hover:no-underline">Tasación de nave industrial en Almería</Link></li>
           <li>·{" "}<Link href="/tasacion-maquinaria-industrial-almeria" className="text-sky-700 underline hover:no-underline">Tasación de maquinaria e industria</Link></li>
+          <li>·{" "}<Link href="/tasacion-agricola-almeria" className="text-sky-700 underline hover:no-underline">Tasación de invernaderos y fincas rústicas</Link></li>
           <li>·{" "}<Link href="/tasaciones" className="text-sky-700 underline hover:no-underline">Tasaciones técnicas en toda España</Link></li>
         </ul>
       </section>

@@ -175,6 +175,7 @@ export const ESPECIALIDADES: Record<
       { titulo: "Herencias, divorcios y extinción de condominio", cuerpo: "Valoración de inmuebles y bienes para repartir con criterio técnico, con un informe que las partes y el notario puedan aceptar o que sostenga tu posición si el reparto acaba en el juzgado.", href: "/tasacion-herencia-divorcio-almeria" },
       { titulo: "Tasación pericial contradictoria", cuerpo: "Cuando Hacienda o la administración autonómica notifica una comprobación de valores y no estás de acuerdo, la tasación pericial contradictoria es la vía para oponer una valoración técnica propia.", href: "/tasacion-pericial-contradictoria-almeria" },
       { titulo: "Naves, locales y terrenos", cuerpo: "Valoración de nave industrial, local comercial, solar y finca atendiendo al estado de conservación, las instalaciones, la situación urbanística y el mercado real de la zona, no a una media estadística.", href: "/tasacion-nave-industrial-almeria" },
+      { titulo: "Invernaderos y fincas rústicas", cuerpo: "Estructura, cubierta, riego y enarenado del invernadero, cultivos y construcciones de la finca, y valoración de daños por temporal o granizo para reclamar a la aseguradora.", href: "/tasacion-agricola-almeria" },
       { titulo: "Maquinaria industrial y agrícola", cuerpo: "Líneas de producción, equipos, tractores y maquinaria autopropulsada, unidad por unidad: identificación, horas o kilómetros, estado y valor, para inventario, compraventa, aportación a sociedad o seguro.", href: "/tasacion-maquinaria-industrial-almeria" },
       { titulo: "Vehículos, flotas y clásicos", cuerpo: "Valor venal y valor de mercado real, discrepancia con la aseguradora en siniestro total, reparto en herencia y valoración de vehículos históricos, que no siguen una tabla de depreciación estándar.", href: "/tasacion-vehiculos-almeria" },
       { titulo: "Valoraciones para procedimiento judicial", cuerpo: "Informes redactados para ser aportados como prueba y defendidos en sala, con la metodología explicitada y los comparables documentados, de forma que resistan la contradicción de la otra parte." },
@@ -188,6 +189,14 @@ export const ESPECIALIDADES: Record<
  * hacia las páginas long-tail ya existentes.
  */
 export const CITY_EXTRA_LINKS: Partial<Record<Servicio, Record<string, { label: string; href: string }[]>>> = {
+  tasaciones: {
+    almeria: [
+      { label: "Tasación de invernaderos, fincas rústicas y maquinaria agrícola", href: "/tasacion-agricola-almeria" },
+      { label: "Tasación para herencias y divorcios", href: "/tasacion-herencia-divorcio-almeria" },
+      { label: "Tasación pericial contradictoria", href: "/tasacion-pericial-contradictoria-almeria" },
+      { label: "Cuánto cuesta una tasación en Almería", href: "/precio-tasacion-almeria" },
+    ],
+  },
   "licencia-actividad": {
     almeria: [
       { label: "Licencia de bar y restaurante en Almería", href: "/licencia-bar-restaurante-almeria" },

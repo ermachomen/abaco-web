@@ -55,6 +55,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "tasacion-nave-industrial-almeria",
     "tasacion-vehiculos-almeria",
     "precio-tasacion-almeria",
+    "tasacion-agricola-almeria",
   ].map((slug) => ({
     url: `${siteUrl}/${slug}`,
     lastModified: now,
