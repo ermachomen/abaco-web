@@ -8,8 +8,8 @@ const siteUrl = "https://www.ingenierial.es";
 const path = "/proyecto-nave-industrial-almeria";
 
 export const metadata: Metadata = {
-  title: "Proyecto de nave industrial y agrícola en Almería | Precio",
-  description: "Proyecto de nave industrial y agrícola en Almería: obra, estructura, instalaciones y licencia. Precio orientativo y presupuesto cerrado, estudio previo gratis.",
+  title: "Proyecto de Nave Industrial en Almería · Ingeniero Colegiado",
+  description: "Proyecto de nave industrial en Almería: obra, estructura, instalación eléctrica, contra incendios y licencia de actividad. Ingeniero colegiado desde 1983, presupuesto cerrado.",
   keywords: ["proyecto nave industrial Almería","proyecto nave agrícola Almería","precio proyecto nave industrial","proyecto almacén hortofrutícola Almería","legalización nave industrial Almería","proyecto nave agrícola El Ejido","cámara frigorífica proyecto Almería","regularización nave existente Almería","RSCIEI nave industrial RD 164/2025","ingeniero proyecto nave Almería","proyecto nave logística Poniente almeriense","cálculo estructura nave industrial"],
   alternates: { canonical: path, languages: { "es-ES": path } },
   openGraph: {
@@ -17,17 +17,17 @@ export const metadata: Metadata = {
     locale: "es_ES",
     url: "https://www.ingenierial.es/proyecto-nave-industrial-almeria",
     siteName: "Abaco Ingeniería",
-    title: "Proyecto de nave industrial y agrícola en Almería",
-    description: "Proyecto de nave industrial y agrícola en Almería: obra, estructura, instalaciones y licencia. Precio orientativo y presupuesto cerrado, estudio previo gratis.",
-    images: [{ url: "/images/og-abaco.jpg", width: 1200, height: 630, alt: "Proyecto de nave industrial y agrícola en Almería – Abaco Ingeniería" }],
+    title: "Proyecto de nave industrial en Almería",
+    description: "Proyecto de nave industrial en Almería: obra, estructura, instalación eléctrica, contra incendios y licencia de actividad. Ingeniero colegiado desde 1983, presupuesto cerrado.",
+    images: [{ url: "/images/og-abaco.jpg", width: 1200, height: 630, alt: "Proyecto de nave industrial en Almería – Abaco Ingeniería" }],
   },
-  twitter: { card: "summary_large_image", title: "Proyecto de nave industrial y agrícola en Almería", description: "Ingeniero técnico industrial colegiado en Almería.", images: ["/images/og-abaco.jpg"] },
+  twitter: { card: "summary_large_image", title: "Proyecto de nave industrial en Almería", description: "Ingeniero técnico industrial colegiado en Almería.", images: ["/images/og-abaco.jpg"] },
 };
 
 const serviceLd = {
   "@context": "https://schema.org",
   "@type": "Service",
-  name: "Proyecto de nave industrial y agrícola en Almería",
+  name: "Proyecto de nave industrial en Almería",
   provider: {
     "@type": "LocalBusiness",
     "@id": "https://www.ingenierial.es/#organization",
@@ -46,7 +46,7 @@ const serviceLd = {
     { "@type": "Country", name: "España" },
   ],
   url: "https://www.ingenierial.es/proyecto-nave-industrial-almeria",
-  description: "Proyecto de nave industrial y agrícola en Almería: obra, estructura, instalaciones y licencia. Precio orientativo y presupuesto cerrado, estudio previo gratis.",
+  description: "Proyecto de nave industrial en Almería: obra, estructura, instalación eléctrica, contra incendios y licencia de actividad. Ingeniero colegiado desde 1983, presupuesto cerrado.",
 };
 
 const faqs = [
@@ -83,7 +83,7 @@ const breadcrumbLd = {
   "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "Inicio", item: siteUrl },
-    { "@type": "ListItem", position: 2, name: "Proyecto de nave industrial y agrícola en Almería", item: "https://www.ingenierial.es/proyecto-nave-industrial-almeria" },
+    { "@type": "ListItem", position: 2, name: "Proyecto de nave industrial en Almería", item: "https://www.ingenierial.es/proyecto-nave-industrial-almeria" },
   ],
 };
 
@@ -134,14 +134,14 @@ export default function Page() {
         <ol className="flex flex-wrap items-center gap-2">
           <li><Link href="/" className="hover:text-slate-900">Inicio</Link></li>
           <li aria-hidden>›</li>
-          <li aria-current="page" className="text-slate-700">Proyecto de nave industrial y agrícola en Almería</li>
+          <li aria-current="page" className="text-slate-700">Proyecto de nave industrial en Almería</li>
         </ol>
       </nav>
 
       <section className="bg-slate-900 text-white">
         <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
           <p className="text-sm font-semibold uppercase tracking-wider text-sky-400">Almería · Oficina técnica · 100% online</p>
-          <h1 className="mt-4 text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">Proyecto de nave industrial y agrícola en Almería</h1>
+          <h1 className="mt-4 text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">Proyecto de nave industrial en Almería</h1>
           <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Redactamos el proyecto completo de tu nave en Almería: obra, estructura e instalaciones eléctrica, contra incendios y saneamiento, con licencia de obra y de actividad y su legalización ante Industria. Nave nueva o regularización de nave existente. Ingeniero técnico industrial colegiado desde 1983, presupuesto cerrado y estudio previo gratuito."}</p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a href="#contacto" className="rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-400">Solicitar presupuesto</a>
@@ -187,6 +187,7 @@ export default function Page() {
         <h2 className="text-2xl font-bold">Servicios relacionados</h2>
         <ul className="mt-4 grid gap-2 text-slate-700 md:grid-cols-2">
           <li>·{" "}<Link href="/legalizacion-instalaciones-almeria" className="text-sky-700 underline hover:no-underline">Legalización de instalaciones y registro industrial en Almería</Link></li>
+          <li>·{" "}<Link href="/proyecto-electrico-nave-industrial-almeria" className="text-sky-700 underline hover:no-underline">Proyecto eléctrico de nave industrial en Almería</Link></li>
           <li>·{" "}<Link href="/legalizacion-contra-incendios-almeria" className="text-sky-700 underline hover:no-underline">Proyecto y legalización contra incendios (RSCIEI) en Almería</Link></li>
           <li>·{" "}<Link href="/legalizacion-instalaciones-electricas-almeria" className="text-sky-700 underline hover:no-underline">Legalización de instalaciones eléctricas (REBT) en Almería</Link></li>
           <li>·{" "}<Link href="/licencia-actividad-almeria" className="text-sky-700 underline hover:no-underline">Licencia de actividad en Almería</Link></li>

@@ -19,6 +19,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }));
 
   const legalizacionSilo = [
+    "proyecto-electrico-nave-industrial-almeria",
     "legalizacion-instalaciones-electricas-almeria",
     "boletin-electrico-almeria",
     "legalizacion-alta-tension-almeria",

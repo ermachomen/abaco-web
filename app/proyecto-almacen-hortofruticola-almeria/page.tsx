@@ -106,7 +106,7 @@ const bloques = [
   },
   {
     "titulo": "Normativa aplicable",
-    "cuerpo": "Confluyen varios reglamentos de seguridad industrial sobre el mismo edificio. En incendios, el Reglamento de seguridad contra incendios en los establecimientos industriales (Real Decreto 2267/2004), del que sale el cálculo del nivel de riesgo intrínseco, junto con el Reglamento de instalaciones de protección contra incendios (Real Decreto 513/2017) para los equipos. En instalaciones térmicas, el Reglamento de Instalaciones Térmicas en los Edificios. En frío industrial, el Reglamento de seguridad para instalaciones frigoríficas (Real Decreto 552/2019). Y en electricidad, el Reglamento Electrotécnico para Baja Tensión o la reglamentación de alta tensión si hay centro de transformación. A ello se suma el planeamiento municipal y el instrumento ambiental que corresponda a la actividad."
+    "cuerpo": "Confluyen varios reglamentos de seguridad industrial sobre el mismo edificio. En incendios, el Reglamento de seguridad contra incendios en los establecimientos industriales (Real Decreto 164/2025), del que sale el cálculo del nivel de riesgo intrínseco, junto con el Reglamento de instalaciones de protección contra incendios (Real Decreto 513/2017) para los equipos. En instalaciones térmicas, el Reglamento de Instalaciones Térmicas en los Edificios. En frío industrial, el Reglamento de seguridad para instalaciones frigoríficas (Real Decreto 552/2019). Y en electricidad, el Reglamento Electrotécnico para Baja Tensión o la reglamentación de alta tensión si hay centro de transformación. A ello se suma el planeamiento municipal y el instrumento ambiental que corresponda a la actividad."
   }
 ];
 

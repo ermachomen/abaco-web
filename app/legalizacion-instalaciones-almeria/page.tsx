@@ -98,7 +98,7 @@ const bloques = [
   },
   {
     "titulo": "Protección contra incendios (PCI) en naves y locales",
-    "cuerpo": "La legalización de las instalaciones de protección contra incendios es imprescindible en naves industriales, almacenes y locales de pública concurrencia, y es una de las piezas del proyecto de licencia de actividad. Redactamos y legalizamos la PCI justificando el reglamento que corresponda: el RSCIEI (RD 2267/2004) en establecimientos industriales y el CTE DB-SI en el resto. Calculamos la carga de fuego, definimos detección, extinción y evacuación y tramitamos la puesta en servicio, coordinándolo con la licencia de la nave o el local."
+    "cuerpo": "La legalización de las instalaciones de protección contra incendios es imprescindible en naves industriales, almacenes y locales de pública concurrencia, y es una de las piezas del proyecto de licencia de actividad. Redactamos y legalizamos la PCI justificando el reglamento que corresponda: el RSCIEI (RD 164/2025) en establecimientos industriales y el CTE DB-SI en el resto. Calculamos la carga de fuego, definimos detección, extinción y evacuación y tramitamos la puesta en servicio, coordinándolo con la licencia de la nave o el local."
   },
   {
     "titulo": "Autoconsumo y placas solares fotovoltaicas",

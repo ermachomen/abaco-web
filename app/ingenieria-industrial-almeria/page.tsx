@@ -215,6 +215,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 pb-16 lg:px-8">
         <h2 className="text-2xl font-bold">Servicios relacionados</h2>
         <ul className="mt-4 grid gap-2 text-slate-700 md:grid-cols-2">
+          <li>·{" "}<Link href="/proyecto-electrico-nave-industrial-almeria" className="text-sky-700 underline hover:no-underline">Proyecto eléctrico de nave industrial en Almería</Link></li>
           <li>·{" "}<Link href="/licencia-actividad-almeria" className="text-sky-700 underline hover:no-underline">Licencia de actividad en Almería</Link></li>
           <li>·{" "}<Link href="/legalizacion-instalaciones-almeria" className="text-sky-700 underline hover:no-underline">Legalización de instalaciones y registro industrial</Link></li>
           <li>·{" "}<Link href="/peritaciones-almeria" className="text-sky-700 underline hover:no-underline">Peritaciones judiciales en Almería</Link></li>
