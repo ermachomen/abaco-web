@@ -193,6 +193,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 pb-16 lg:px-8">
         <h2 className="text-2xl font-bold">Servicios relacionados</h2>
         <ul className="mt-4 grid gap-2 text-slate-700 md:grid-cols-2">
+          <li>·{" "}<Link href="/legalizacion-nave-industrial-el-ejido" className="text-sky-700 underline hover:no-underline">Legalizar nave en El Ejido</Link></li>
           <li>·{" "}<Link href="/tasacion-agricola-almeria" className="text-sky-700 underline hover:no-underline">{"Tasación de invernaderos y fincas rústicas"}</Link></li>
           <li>·{" "}<Link href="/perito-danos-invernadero-almeria" className="text-sky-700 underline hover:no-underline">{"Perito de daños en invernaderos"}</Link></li>
           <li>·{" "}<Link href="/tasaciones-almeria" className="text-sky-700 underline hover:no-underline">{"Tasaciones periciales en Almería"}</Link></li>

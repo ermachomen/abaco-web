@@ -20,6 +20,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const legalizacionSilo = [
     "proyecto-electrico-nave-industrial-almeria",
+    "legalizacion-nave-industrial-almeria",
+    "legalizacion-nave-industrial-el-ejido",
     "legalizacion-instalaciones-electricas-almeria",
     "boletin-electrico-almeria",
     "legalizacion-alta-tension-almeria",
