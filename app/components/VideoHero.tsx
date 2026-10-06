@@ -112,23 +112,24 @@ export default function VideoHero({
             <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-sky-500/30 bg-sky-500/10 px-4 py-1.5 backdrop-blur">
               <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-sky-400" />
               <span className="text-xs font-semibold uppercase tracking-widest text-sky-400">
-                Ingeniería de confianza en España
+                Ingenieros colegiados desde 1983
               </span>
             </div>
 
             {/* Título */}
             <h1 className="text-5xl font-bold leading-[1.1] tracking-tight sm:text-6xl lg:text-7xl">
-              <span className="text-white">Oficina técnica de </span>
+              <span className="text-white">Estudio de </span>
               <span className="text-sky-400">Ingeniería</span>
-              <span className="text-white"> en toda España</span>
+              <span className="text-white"> en Almería</span>
             </h1>
 
             {/* Descripción */}
             <p className="mt-6 max-w-xl text-lg leading-8 text-slate-300">
               En abacoingeniería® resolvemos de forma ágil y eficaz cualquier
-              necesidad técnica, desde proyectos industriales hasta informes
-              periciales y legalización de vehículos. Más de 40 años de
-              experiencia nos avalan.
+              necesidad técnica desde nuestra oficina de Almería: proyectos,
+              licencias de apertura, peritaciones, tasaciones y homologación de
+              vehículos en toda la provincia y, online, en toda España. Más de
+              40 años de experiencia nos avalan.
             </p>
 
             {/* CTAs */}

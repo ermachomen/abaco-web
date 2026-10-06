@@ -18,12 +18,11 @@ const siteUrl = "https://www.ingenierial.es";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default:
-      "Abaco Ingeniería · Licencias, Peritaciones, Tasaciones y Homologaciones en toda España",
+    default: "Estudio de Ingeniería en Almería | Abaco Ingeniería",
     template: "%s | Abaco Ingeniería",
   },
   description:
-    "Oficina técnica nacional con más de 40 años de trayectoria. Licencias de apertura, peritaciones judiciales, tasaciones técnicas y homologación de vehículos en toda España. Servicio 100% online con firma digital FNMT.",
+    "Estudio de ingeniería en Almería con ingeniero colegiado desde 1983: licencias de apertura, proyectos, peritaciones, tasaciones y homologación de vehículos en Almería y toda España.",
   keywords: [
     "ingeniería nacional",
     "ingeniero técnico industrial",
@@ -80,8 +79,7 @@ export const metadata: Metadata = {
     locale: "es_ES",
     url: siteUrl,
     siteName: "Abaco Ingeniería",
-    title:
-      "Abaco Ingeniería · Licencias, Peritaciones, Tasaciones y Homologaciones en toda España",
+    title: "Estudio de Ingeniería en Almería | Abaco Ingeniería",
     description:
       "Oficina técnica nacional con más de 40 años de trayectoria. Servicios técnicos para particulares, empresas y administraciones en toda España. 100% online con firma digital FNMT.",
     images: [
@@ -95,8 +93,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title:
-      "Abaco Ingeniería · Licencias, Peritaciones, Tasaciones y Homologaciones",
+    title: "Estudio de Ingeniería en Almería | Abaco Ingeniería",
     description:
       "Oficina técnica nacional. Servicio 100% online con firma digital FNMT.",
     images: ["/images/og-abaco.jpg"],
