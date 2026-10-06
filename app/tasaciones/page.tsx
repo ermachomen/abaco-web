@@ -247,6 +247,8 @@ export default function TasacionesPage() {
               ["/tasacion-pericial-contradictoria-almeria", "Pericial contradictoria (Hacienda)"],
               ["/tasacion-nave-industrial-almeria", "Nave industrial, local y terreno"],
               ["/tasacion-agricola-almeria", "Invernaderos, fincas rústicas y maquinaria agrícola"],
+              ["/tasaciones-el-ejido", "Tasaciones en El Ejido"],
+              ["/tasaciones-nijar", "Tasaciones en Níjar"],
               ["/tasacion-maquinaria-industrial-almeria", "Maquinaria industrial y agrícola"],
               ["/tasacion-vehiculos-almeria", "Vehículos, flotas y clásicos"],
               ["/precio-tasacion-almeria", "Precio de una tasación"],

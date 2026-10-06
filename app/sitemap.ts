@@ -35,6 +35,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }));
 
   const peritacionesEspecialidades = [
+    "perito-danos-invernadero-almeria",
     "perito-ingeniero-industrial-almeria",
     "perito-seguros-almeria",
     "perito-humedades-vicios-ocultos-almeria",
@@ -56,6 +57,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "tasacion-vehiculos-almeria",
     "precio-tasacion-almeria",
     "tasacion-agricola-almeria",
+    "tasaciones-el-ejido",
+    "tasaciones-nijar",
   ].map((slug) => ({
     url: `${siteUrl}/${slug}`,
     lastModified: now,

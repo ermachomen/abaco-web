@@ -192,6 +192,9 @@ export const CITY_EXTRA_LINKS: Partial<Record<Servicio, Record<string, { label: 
   tasaciones: {
     almeria: [
       { label: "Tasación de invernaderos, fincas rústicas y maquinaria agrícola", href: "/tasacion-agricola-almeria" },
+      { label: "Tasaciones en El Ejido", href: "/tasaciones-el-ejido" },
+      { label: "Tasaciones en Níjar", href: "/tasaciones-nijar" },
+      { label: "Perito de daños en invernaderos", href: "/perito-danos-invernadero-almeria" },
       { label: "Tasación para herencias y divorcios", href: "/tasacion-herencia-divorcio-almeria" },
       { label: "Tasación pericial contradictoria", href: "/tasacion-pericial-contradictoria-almeria" },
       { label: "Cuánto cuesta una tasación en Almería", href: "/precio-tasacion-almeria" },
