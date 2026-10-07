@@ -102,7 +102,7 @@ const bloques = [
   },
   {
     "titulo": "Autoconsumo y placas solares fotovoltaicas",
-    "cuerpo": "Legalizamos instalaciones fotovoltaicas de autoconsumo ya montadas: si tienes placas solares sin legalizar o has cambiado de instalador, tramitamos toda la documentación técnica para dejarlas en regla. Redactamos memoria o proyecto según la potencia (hasta 500 kW en baja tensión, RD 244/2019), gestionamos el certificado de instalación y la puesta en servicio (PUES) ante la Junta de Andalucía y, cuando aplica, el alta del autoconsumo. Somos ingeniería, no vendemos placas: nos ocupamos solo de la legalización de tu instalación solar, doméstica o de nave."
+    "cuerpo": "Legalizamos instalaciones fotovoltaicas de autoconsumo ya montadas: si tienes placas solares sin legalizar o has cambiado de instalador, tramitamos toda la documentación técnica para dejarlas en regla. Redactamos memoria o proyecto según la potencia, gestionamos el certificado de instalación y la puesta en servicio (PUES) ante la Junta de Andalucía y, cuando aplica, el alta del autoconsumo. Somos ingeniería, no vendemos placas: nos ocupamos solo de la legalización de tu instalación solar, doméstica o de nave."
   },
   {
     "titulo": "Registro industrial y puesta en servicio ante Industria",

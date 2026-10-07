@@ -94,7 +94,7 @@ const bloques = [
   },
   {
     "titulo": "Cuándo basta el boletín y cuándo hace falta proyecto",
-    "cuerpo": "La ITC-BT-04 marca la frontera. Basta con boletín y memoria técnica de diseño, firmada por el instalador, en viviendas por debajo de 50 kW y en locales de menos de 20 kW sin pública concurrencia ni riesgos especiales. Exigen proyecto firmado por ingeniero los locales de pública concurrencia sin límite de potencia, las industrias de más de 20 kW, las viviendas de más de 50 kW, los locales húmedos por encima de 25 kW y la generación superior a 10 kW. En esos casos entra la ingeniería y la legalización eléctrica completa."
+    "cuerpo": "La ITC-BT-04 marca la frontera. Basta con boletín y memoria técnica de diseño, firmada por el instalador, cuando la instalación no entra en ninguno de los grupos para los que la ITC-BT-04 del REBT exige proyecto; por ejemplo, una vivienda unifamiliar de hasta 50 kW o una industria de hasta 20 kW. Exigen proyecto firmado por ingeniero los locales de pública concurrencia sin límite de potencia, las industrias de más de 20 kW, las viviendas de más de 50 kW, los locales húmedos o polvorientos de más de 10 kW y los generadores y convertidores de más de 10 kW. En esos casos entra la ingeniería y la legalización eléctrica completa."
   },
   {
     "titulo": "Alta nueva, ampliación de potencia y cambio de titularidad",

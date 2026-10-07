@@ -6,6 +6,7 @@ import {
   CITIES,
   CITY_CONTEXT,
   CITY_EXTRA_LINKS,
+  CITY_SEO_OVERRIDES,
   CITY_FAQS,
   ESPECIALIDADES,
   SERVICIOS,
@@ -37,6 +38,7 @@ export default function CityLandingTemplate({ servicio, citySlug }: CityLandingP
   const contextoLocal = CITY_CONTEXT[servicio][citySlug];
   const faqs = CITY_FAQS[servicio][citySlug];
   const extraLinks = CITY_EXTRA_LINKS[servicio]?.[citySlug] ?? [];
+  const seo = CITY_SEO_OVERRIDES[servicio]?.[citySlug];
 
   // Ciudades hermanas para linkado interno (todas menos la actual)
   const otrasCiudades = CITIES.filter((c) => c.slug !== citySlug);
@@ -138,7 +140,7 @@ export default function CityLandingTemplate({ servicio, citySlug }: CityLandingP
             {config.nombre} · {city.nombre}
           </p>
           <h1 className="mt-4 text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">
-            {config.nombreSeo} {city.preposicion} {city.nombre}
+            {seo?.h1 ?? `${config.nombreSeo} ${city.preposicion} ${city.nombre}`}
           </h1>
           <p className="mt-6 max-w-2xl text-lg text-slate-300">
             {config.descripcionCorta} Servicio en {city.nombre} y resto de la
@@ -316,10 +318,11 @@ export function buildCityLandingMetadata(servicio: Servicio, citySlug: string) {
   if (!city) throw new Error(`Ciudad no encontrada: ${citySlug}`);
   const config = SERVICIOS[servicio];
   const path = `${config.pathPrefix}${citySlug}`;
+  const seo = CITY_SEO_OVERRIDES[servicio]?.[citySlug];
 
   return {
-    title: { absolute: `${config.nombreSeo} ${city.preposicion} ${city.nombre} · Colegiado 1983` },
-    description: `${config.descripcionCorta} En ${city.nombre}: ingeniero colegiado desde 1983, respuesta en 24 h.`,
+    title: { absolute: seo?.titulo ?? `${config.nombreSeo} ${city.preposicion} ${city.nombre} · Colegiado 1983` },
+    description: seo?.descripcion ?? `${config.descripcionCorta} En ${city.nombre}: ingeniero colegiado desde 1983, respuesta en 24 h.`,
     keywords: buildKeywords(servicio, city),
     alternates: { canonical: path, languages: { "es-ES": path } },
     openGraph: {

@@ -56,7 +56,7 @@ const faqs = [
   },
   {
     "q": "¿Necesito memoria o proyecto para legalizar mi fotovoltaica?",
-    "a": "Depende de la potencia de la instalación. Hasta 10 kW se resuelve con una memoria técnica de diseño; entre 10 y 100 kW la ley exige un proyecto firmado por técnico competente; por encima de 100 kW hace falta además autorización administrativa. A partir de 25 kW se suma la inspección de un organismo de control autorizado. En el estudio previo te decimos exactamente qué documento necesitas y qué cuesta."
+    "a": "Depende de la potencia de la instalación. Hasta 10 kW se resuelve con una memoria técnica de diseño; entre 10 y 100 kW la ley exige un proyecto firmado por técnico competente; por encima de 100 kW la tramitación se complica y la estudiamos caso a caso. En el estudio previo te decimos exactamente qué documento necesitas y qué cuesta."
   },
   {
     "q": "¿Puedo descontar de la factura la energía que vierto a la red?",
@@ -94,7 +94,7 @@ const bloques = [
   },
   {
     "titulo": "Umbrales de potencia: memoria, proyecto y OCA",
-    "cuerpo": "La documentación depende de la potencia. Hasta 10 kW basta una memoria técnica de diseño; entre 10 y 100 kW se exige proyecto firmado por técnico competente; a partir de 100 kW hace falta autorización administrativa previa. Además, las instalaciones de más de 25 kW pasan inspección inicial de un organismo de control autorizado (OCA) y las de más de 15 kW con excedentes tramitan punto de conexión. Legalizamos autoconsumo hasta 500 kW en baja tensión."
+    "cuerpo": "La documentación depende de la potencia. Hasta 10 kW basta una memoria técnica de diseño; entre 10 y 100 kW se exige proyecto firmado por técnico competente; por encima de 100 kW la tramitación es más compleja y la estudiamos caso a caso. Además, en autoconsumo con excedentes las instalaciones de más de 15 kW tramitan permisos de acceso y conexión, de los que el RD 244/2019 exime a las de hasta 15 kW situadas en suelo urbanizado. Legalizamos autoconsumo hasta 500 kW en baja tensión."
   },
   {
     "titulo": "El trámite en Andalucía: PUES, CAU y registro",

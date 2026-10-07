@@ -223,6 +223,24 @@ export const CITY_EXTRA_LINKS: Partial<Record<Servicio, Record<string, { label: 
   },
 };
 
+/** Título, H1 y descripción propios de una ciudad cuando la fórmula genérica no encaja con la búsqueda real. */
+export const CITY_SEO_OVERRIDES: Partial<Record<Servicio, Record<string, { titulo: string; h1: string; descripcion: string }>>> = {
+  peritaciones: {
+    almeria: {
+      titulo: "Perito Judicial Ingeniero en Almería · Informes Periciales",
+      h1: "Perito judicial ingeniero en Almería",
+      descripcion: "Perito judicial ingeniero en Almería: informes periciales de incendios, accidentes, instalaciones, maquinaria y daños para juzgados, abogados y aseguradoras. Colegiado desde 1983.",
+    },
+  },
+  tasaciones: {
+    almeria: {
+      titulo: "Tasador en Almería · Tasaciones Periciales y Valoraciones",
+      h1: "Tasador y tasaciones periciales en Almería",
+      descripcion: "Tasador en Almería: tasaciones periciales de viviendas, naves, invernaderos, fincas, maquinaria y vehículos para herencias, divorcios, Hacienda y juzgado. Colegiado desde 1983.",
+    },
+  },
+};
+
 /** Devuelve la ruta absoluta a una landing de servicio + ciudad */
 export function cityServicePath(servicio: Servicio, citySlug: string): string {
   return `${SERVICIOS[servicio].pathPrefix}${citySlug}`;
