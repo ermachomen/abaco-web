@@ -2,11 +2,16 @@
 
 import { sendMail, CONTACT_EMAIL } from "../lib/email";
 
+const esc = (v: string) =>
+  v.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+
 export async function sendEmail(formData: FormData) {
-  const nombre = formData.get("nombre") as string;
-  const telefono = formData.get("telefono") as string;
-  const email = formData.get("email") as string;
-  const mensaje = formData.get("mensaje") as string;
+  const nombre = esc(String(formData.get("nombre") ?? ""));
+  const telefono = esc(String(formData.get("telefono") ?? ""));
+  const email = esc(String(formData.get("email") ?? ""));
+  const mensaje = esc(String(formData.get("mensaje") ?? ""));
+  const pagina = esc(String(formData.get("pagina") ?? "").slice(0, 150));
+  const origen = esc(String(formData.get("origen") ?? "").slice(0, 80));
 
   if (!nombre || !email || !mensaje) {
     return { success: false, error: "Por favor rellena todos los campos obligatorios." };
@@ -15,7 +20,7 @@ export async function sendEmail(formData: FormData) {
   return sendMail({
     to: CONTACT_EMAIL,
     replyTo: email,
-    subject: `Nueva consulta web de ${nombre}`,
+    subject: `Nueva consulta web de ${nombre}${pagina ? ` (${pagina})` : ""}`,
     html: `
       <div style="font-family: sans-serif; max-width: 600px; margin: 0 auto;">
         <h2 style="color: #0f172a; border-bottom: 2px solid #0ea5e9; padding-bottom: 8px;">
@@ -29,6 +34,14 @@ export async function sendEmail(formData: FormData) {
           <tr>
             <td style="padding: 8px 0; color: #64748b; font-size: 14px;">Teléfono</td>
             <td style="padding: 8px 0; color: #0f172a;">${telefono || "—"}</td>
+          </tr>
+          <tr>
+            <td style="padding: 8px 0; color: #64748b; font-size: 14px;">Página</td>
+            <td style="padding: 8px 0; color: #0f172a;">${pagina || "—"}</td>
+          </tr>
+          <tr>
+            <td style="padding: 8px 0; color: #64748b; font-size: 14px;">Llegó desde</td>
+            <td style="padding: 8px 0; color: #0f172a;">${origen || "directo o desconocido"}</td>
           </tr>
           <tr>
             <td style="padding: 8px 0; color: #64748b; font-size: 14px;">Email</td>

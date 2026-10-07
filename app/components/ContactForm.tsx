@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { sendEmail } from "../actions/sendEmail";
+import { origenVisita } from "./ContactTracker";
 
 export default function ContactForm() {
   const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">("idle");
@@ -12,6 +13,8 @@ export default function ContactForm() {
     setStatus("sending");
 
     const formData = new FormData(e.currentTarget);
+    formData.set("pagina", window.location.pathname);
+    formData.set("origen", origenVisita());
     const result = await sendEmail(formData);
 
     if (result.success) {
