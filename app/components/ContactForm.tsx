@@ -38,7 +38,7 @@ export default function ContactForm() {
             name="nombre"
             required
             placeholder="Tu nombre"
-            className="w-full rounded-xl border border-white/10 bg-white/10 px-4 py-3 text-sm text-white placeholder-slate-500 outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500"
+            className="w-full rounded-xl border border-slate-300 bg-white px-4 py-3 text-sm text-slate-900 placeholder-slate-400 outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500"
           />
         </div>
         <div>
@@ -47,7 +47,7 @@ export default function ContactForm() {
             type="tel"
             name="telefono"
             placeholder="Tu teléfono"
-            className="w-full rounded-xl border border-white/10 bg-white/10 px-4 py-3 text-sm text-white placeholder-slate-500 outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500"
+            className="w-full rounded-xl border border-slate-300 bg-white px-4 py-3 text-sm text-slate-900 placeholder-slate-400 outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500"
           />
         </div>
       </div>
@@ -61,7 +61,7 @@ export default function ContactForm() {
           name="email"
           required
           placeholder="tu@email.com"
-          className="w-full rounded-xl border border-white/10 bg-white/10 px-4 py-3 text-sm text-white placeholder-slate-500 outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500"
+          className="w-full rounded-xl border border-slate-300 bg-white px-4 py-3 text-sm text-slate-900 placeholder-slate-400 outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500"
         />
       </div>
 
@@ -74,18 +74,18 @@ export default function ContactForm() {
           required
           rows={4}
           placeholder="Cuéntanos en qué podemos ayudarte..."
-          className="w-full rounded-xl border border-white/10 bg-white/10 px-4 py-3 text-sm text-white placeholder-slate-500 outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500 resize-none"
+          className="w-full rounded-xl border border-slate-300 bg-white px-4 py-3 text-sm text-slate-900 placeholder-slate-400 outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500 resize-none"
         />
       </div>
 
       {status === "success" && (
-        <div className="rounded-xl bg-green-500/20 border border-green-500/30 px-4 py-3 text-sm text-green-300">
+        <div className="rounded-xl bg-green-100 border border-green-300 px-4 py-3 text-sm text-green-800">
           ✓ Mensaje enviado correctamente. Te responderemos pronto.
         </div>
       )}
 
       {status === "error" && (
-        <div className="rounded-xl bg-red-500/20 border border-red-500/30 px-4 py-3 text-sm text-red-300">
+        <div className="rounded-xl bg-red-100 border border-red-300 px-4 py-3 text-sm text-red-800">
           ✗ {errorMsg}
         </div>
       )}
