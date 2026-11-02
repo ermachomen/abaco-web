@@ -33,7 +33,7 @@ const serviceLd = {
     "@id": "https://www.ingenierial.es/#organization",
     name: "Abaco Ingeniería",
     url: siteUrl,
-    telephone: "+34687465486",
+    telephone: "+34670607830",
     email: "info@abacoingenieria.es",
     priceRange: "€€",
     image: "https://www.ingenierial.es/images/og-abaco.jpg",
@@ -125,7 +125,7 @@ export default function Page() {
           <nav className="hidden items-center gap-6 md:flex">
             <Link href="/" className="text-sm font-medium text-slate-600 hover:text-slate-900">Inicio</Link>
             <Link href="/ingenieria-industrial-almeria" className="text-sm font-medium text-slate-600 hover:text-slate-900">Ingeniería industrial</Link>
-            <a href="tel:+34687465486" className="text-sm font-medium text-slate-600 hover:text-brand-navy">687 465 486</a>
+            <a href="tel:+34670607830" className="text-sm font-medium text-slate-600 hover:text-brand-navy">670 607 830</a>
             <a href="#contacto" className="rounded-lg bg-sky-600 px-4 py-2 text-sm font-semibold text-white hover:bg-sky-500">Contactar</a>
           </nav>
         </div>
@@ -146,7 +146,7 @@ export default function Page() {
           <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Instalaciones frigoríficas conforme al Reglamento de seguridad aprobado por el RD 552/2019: proyecto o memoria según la clasificación, certificados, inspección por organismo de control y registro en industria."}</p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a href="#contacto" className="rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-400">Solicitar presupuesto</a>
-            <a href="tel:+34687465486" className="rounded-xl border border-slate-600 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800">Llamar 687 465 486</a>
+            <a href="tel:+34670607830" className="rounded-xl border border-slate-600 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800">Llamar 670 607 830</a>
           </div>
         </div>
       </section>
