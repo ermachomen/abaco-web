@@ -266,10 +266,10 @@ export default function LicenciaActividadPage() {
             la segunda en la apertura del local, pero los ayuntamientos las usan
             indistintamente. El{" "}
             <Link href="/proyecto-de-actividad" className="text-brand-navy underline hover:no-underline">
-              <strong>proyecto de actividad</strong>
+              <strong>proyecto técnico para la licencia de apertura</strong>
             </Link>{" "}
-            (también llamado <em>proyecto de apertura</em> o <em>memoria
-            técnica</em>) es el documento firmado por ingeniero colegiado que se
+            (también llamado <em>proyecto de actividad</em>,{" "}
+            <em>proyecto de apertura</em> o <em>memoria técnica</em>) es el documento firmado por ingeniero colegiado que se
             presenta para conseguirla. Nosotros nos encargamos de las dos cosas:
             redactamos el proyecto y tramitamos la licencia hasta la resolución.
           </p>

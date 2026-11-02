@@ -9,10 +9,11 @@ const siteUrl = "https://www.ingenierial.es";
 const path = "/proyecto-de-actividad";
 
 export const metadata: Metadata = {
-  title: "Proyecto de Actividad y Apertura · Qué es, Qué Incluye y Precio",
+  title: "Proyecto Técnico para Licencia de Apertura y Actividad",
   description:
-    "Redactamos tu proyecto de actividad (proyecto de apertura o memoria técnica) firmado por ingeniero colegiado: memoria, planos y justificación normativa para la licencia de tu local. Toda España, desde 600 €.",
+    "Redactamos el proyecto técnico para tu licencia de apertura (proyecto de actividad o memoria técnica) firmado por ingeniero colegiado: memoria, planos y justificación normativa. Toda España, desde 600 €.",
   keywords: [
+    "proyecto técnico para licencia de apertura",
     "proyecto de actividad",
     "proyecto de apertura",
     "proyecto técnico de actividad",
@@ -29,14 +30,14 @@ export const metadata: Metadata = {
     locale: "es_ES",
     url: `${siteUrl}${path}`,
     siteName: "Abaco Ingeniería",
-    title: "Proyecto de Actividad y Apertura · Toda España",
+    title: "Proyecto Técnico para Licencia de Apertura · Toda España",
     description:
-      "Proyecto de actividad firmado por ingeniero colegiado: memoria, planos y justificación normativa para tu licencia.",
+      "Proyecto técnico firmado por ingeniero colegiado: memoria, planos y justificación normativa para tu licencia de apertura.",
     images: [{ url: "/images/og-abaco.jpg", width: 1200, height: 630, alt: "Proyecto de actividad – Abaco Ingeniería" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Proyecto de Actividad y Apertura",
+    title: "Proyecto Técnico para Licencia de Apertura",
     description: "Redactado y firmado por ingeniero colegiado. Toda España.",
     images: ["/images/og-abaco.jpg"],
   },
@@ -66,6 +67,10 @@ const serviceLd = {
 };
 
 const faqs = [
+  {
+    q: "¿Necesito un proyecto técnico para la licencia de apertura?",
+    a: "Depende de la actividad. En actividades inocuas tramitadas por declaración responsable algunos ayuntamientos aceptan una memoria técnica simplificada; en actividades calificadas (hostelería con cocina, industria, ocio) siempre se exige proyecto completo. En ambos casos lo firma un técnico competente colegiado.",
+  },
   {
     q: "¿Qué es un proyecto de actividad?",
     a: "Es el documento técnico que exige el ayuntamiento para conceder la licencia de actividad de un local. Lo redacta y firma un técnico competente (ingeniero o ingeniero técnico colegiado) e incluye memoria descriptiva, planos, justificación del cumplimiento normativo (incendios, accesibilidad, ruido, ventilación) y anexos de instalaciones. También se le llama proyecto de apertura o memoria técnica de actividad.",
@@ -149,14 +154,14 @@ export default function ProyectoDeActividadPage() {
         <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
           <p className="text-sm font-semibold uppercase tracking-wider text-sky-400">Documento técnico · Toda España</p>
           <h1 className="mt-4 text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">
-            Proyecto de Actividad y Apertura
+            Proyecto Técnico para Licencia de Apertura y Actividad
           </h1>
           <p className="mt-6 max-w-2xl text-lg text-slate-300">
-            Redactamos el proyecto de actividad de tu local —también llamado
-            proyecto de apertura o memoria técnica— firmado por ingeniero
-            técnico colegiado con firma digital FNMT. Es el documento que tu
-            ayuntamiento exige para concederte la licencia. Válido en toda
-            España.
+            Redactamos el proyecto técnico para la licencia de apertura de tu
+            local —también llamado proyecto de actividad, proyecto de apertura
+            o memoria técnica— firmado por ingeniero técnico colegiado con
+            firma digital FNMT. Es el documento que tu ayuntamiento exige para
+            concederte la licencia. Válido en toda España.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a href="#contacto" className="rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-400">Solicitar presupuesto</a>
@@ -167,7 +172,7 @@ export default function ProyectoDeActividadPage() {
       </section>
 
       <section className="mx-auto max-w-5xl px-6 py-16 lg:px-8 lg:py-20">
-        <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Qué incluye el proyecto de actividad</h2>
+        <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Qué incluye el proyecto técnico para la licencia de apertura</h2>
         <div className="mt-8 grid gap-5 md:grid-cols-2">
           {[
             ["Memoria descriptiva", "Descripción de la actividad, el local, superficies, aforo y horario. Clasificación de la actividad según normativa autonómica."],
@@ -188,12 +193,14 @@ export default function ProyectoDeActividadPage() {
       <section className="bg-sky-50">
         <div className="mx-auto max-w-5xl px-6 py-16 lg:px-8">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-            Proyecto de actividad, proyecto de apertura y memoria técnica: aclaramos los nombres
+            Proyecto técnico, proyecto de actividad, proyecto de apertura y memoria técnica: aclaramos los nombres
           </h2>
           <div className="mt-6 space-y-4 text-slate-700 leading-relaxed">
             <p>
               Según el ayuntamiento, la comunidad autónoma o incluso el gestor
-              que te atienda, el mismo documento recibe nombres distintos:{" "}
+              que te atienda, el documento que acompaña a la{" "}
+              <strong>licencia de apertura</strong> recibe nombres distintos:{" "}
+              <strong>proyecto técnico</strong>,{" "}
               <strong>proyecto de actividad</strong>,{" "}
               <strong>proyecto de apertura</strong>,{" "}
               <strong>proyecto técnico de actividad</strong> o{" "}
