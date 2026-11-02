@@ -3,6 +3,7 @@ import Link from "next/link";
 import ContactForm from "../components/ContactForm";
 import SiteFooter from "../components/SiteFooter";
 import Logo from "../components/Logo";
+import AperturaMunicipio from "../components/AperturaMunicipio";
 
 const siteUrl = "https://www.ingenierial.es";
 const path = "/licencia-actividad-el-ejido";
@@ -10,7 +11,7 @@ const municipio = "El Ejido";
 
 export const metadata: Metadata = {
   title: `Licencia de Actividad y Apertura en ${municipio} | Ingeniero`,
-  description: `Proyecto técnico y tramitación de licencia de actividad en ${municipio}: comercios, hostelería, talleres, almacenes hortofrutícolas e industrias. Visita sin coste.`,
+  description: `Proyecto técnico y tramitación de licencia de apertura y actividad en ${municipio}: comercios, hostelería, talleres, almacenes hortofrutícolas e industrias. Visita sin coste.`,
   keywords: [
     `licencia de actividad ${municipio}`,
     `licencia de apertura ${municipio}`,
@@ -107,7 +108,7 @@ export default function LicenciaElEjido() {
       <section className="bg-slate-900 text-white">
         <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
           <p className="text-sm font-semibold uppercase tracking-wider text-sky-400">Servicio local · {municipio}</p>
-          <h1 className="mt-4 text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">Licencia de Actividad en {municipio}</h1>
+          <h1 className="mt-4 text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">Licencia de Apertura y Actividad en {municipio}</h1>
           <p className="mt-6 max-w-2xl text-lg text-slate-300">
             Proyecto técnico y tramitación ante el Ayuntamiento de {municipio}{" "}
             para comercios, hostelería, almacenes hortofrutícolas, talleres,
@@ -141,6 +142,8 @@ export default function LicenciaElEjido() {
         </div>
       </section>
 
+      <AperturaMunicipio municipio={municipio} />
+
       <section className="bg-slate-50">
         <div className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Zonas y actividades frecuentes</h2>
@@ -172,6 +175,11 @@ export default function LicenciaElEjido() {
         <ul className="mt-4 space-y-2 text-slate-700">
           <li>·{" "}<Link href="/licencia-actividad-roquetas-de-mar" className="text-sky-700 underline hover:no-underline">Licencia de actividad en Roquetas de Mar</Link></li>
           <li>·{" "}<Link href="/licencia-actividad-vicar" className="text-sky-700 underline hover:no-underline">Licencia de actividad en Vícar</Link></li>
+          <li>·{" "}<Link href="/licencia-actividad-adra" className="text-sky-700 underline hover:no-underline">Licencia de actividad en Adra</Link></li>
+          <li>·{" "}<Link href="/licencia-actividad-berja" className="text-sky-700 underline hover:no-underline">Licencia de actividad en Berja</Link></li>
+          <li>·{" "}<Link href="/licencia-actividad-almeria" className="text-sky-700 underline hover:no-underline">Licencia de apertura en Almería capital</Link></li>
+          <li>·{" "}<Link href="/proyecto-almacen-hortofruticola-almeria" className="text-sky-700 underline hover:no-underline">Proyecto de almacén hortofrutícola</Link></li>
+          <li>·{" "}<Link href="/legalizacion-nave-industrial-el-ejido" className="text-sky-700 underline hover:no-underline">Legalizar una nave industrial en El Ejido</Link></li>
           <li>·{" "}<Link href="/licencia-bar-restaurante-almeria" className="text-sky-700 underline hover:no-underline">Licencia bar/restaurante en Almería</Link></li>
           <li>·{" "}<Link href="/precio-licencia-actividad-almeria" className="text-sky-700 underline hover:no-underline">Precio licencia de actividad</Link></li>
           <li>·{" "}<Link href="/licencia-de-actividad" className="text-sky-700 underline hover:no-underline">Licencia de actividad general</Link></li>

@@ -117,6 +117,10 @@ export const MUNICIPIOS_ALMERIA: MunicipioAlmeria[] = [
     ],
     "faqs": [
       {
+        "q": "¿Es lo mismo la licencia de apertura que la licencia de actividad en Huércal-Overa?",
+        "a": "Sí, son la misma autorización municipal: los ayuntamientos usan ambos nombres indistintamente. Para pedirla redactamos el proyecto técnico o la memoria técnica, según sea una actividad inocua o calificada, y tramitamos el expediente ante el Ayuntamiento de Huércal-Overa."
+      },
+      {
         "q": "¿Dónde se tramita la licencia de actividad en Huércal-Overa?",
         "a": "Se presenta ante el Ayuntamiento de Huércal-Overa, en la Avenida Guillermo Reina 7, o de forma telemática en su sede electrónica. Nosotros redactamos toda la documentación técnica, la presentamos por ti, gestionamos el pago de tasas y hacemos el seguimiento del expediente hasta el alta de la actividad."
       },
@@ -785,7 +789,7 @@ export function buildMunicipioMetadata(m: MunicipioAlmeria): Metadata {
   const path = `/licencia-actividad-${m.slug}`;
   return {
     title: `Licencia de Actividad y Apertura en ${m.nombre} | Ingeniero`,
-    description: `Proyecto técnico y tramitación de licencia de actividad en ${m.nombre}: comercios, hostelería, talleres, naves e industrias. Ingeniero colegiado, visita sin coste y presupuesto cerrado.`,
+    description: `Proyecto técnico y tramitación de licencia de apertura y actividad en ${m.nombre}: comercios, hostelería, talleres, naves e industrias. Ingeniero colegiado, visita sin coste y presupuesto cerrado.`,
     keywords: [
       `licencia de actividad ${m.nombre}`,
       `licencia de apertura ${m.nombre}`,

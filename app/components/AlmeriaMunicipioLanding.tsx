@@ -21,11 +21,16 @@ function relacionados(actual: MunicipioAlmeria) {
   // Prioriza los de la misma comarca, luego completa con el resto
   const mismaComarca = otros.filter((m) => m.comarca === actual.comarca);
   const resto = otros.filter((m) => m.comarca !== actual.comarca);
-  const ordenados = [...mismaComarca, ...resto].map((m) => ({
+  const ordenados = [
+    ...mismaComarca.slice(0, 3),
+    ...MUNICIPIOS_EXISTENTES,
+    ...mismaComarca.slice(3),
+    ...resto,
+  ].map((m) => ({
     slug: m.slug,
     nombre: m.nombre,
   }));
-  return [...ordenados, ...MUNICIPIOS_EXISTENTES].slice(0, 6);
+  return ordenados.slice(0, 6);
 }
 
 export default function AlmeriaMunicipioLanding({
@@ -139,7 +144,7 @@ export default function AlmeriaMunicipioLanding({
       <section className="bg-slate-900 text-white">
         <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
           <p className="text-sm font-semibold uppercase tracking-wider text-sky-400">Servicio local · {m.nombre}</p>
-          <h1 className="mt-4 text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">Licencia de Actividad en {m.nombre}</h1>
+          <h1 className="mt-4 text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">Licencia de Apertura y Actividad en {m.nombre}</h1>
           <p className="mt-6 max-w-2xl text-lg text-slate-300">{m.heroSub}</p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a href="#contacto" className="rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-400">Solicitar presupuesto</a>
@@ -205,7 +210,8 @@ export default function AlmeriaMunicipioLanding({
               </Link>
             </li>
           ))}
-          <li>·{" "}<Link href="/licencia-actividad-almeria" className="text-sky-700 underline hover:no-underline">Licencia de actividad en Almería capital</Link></li>
+          <li>·{" "}<Link href="/licencia-actividad-almeria" className="text-sky-700 underline hover:no-underline">Licencia de apertura en Almería capital</Link></li>
+          <li>·{" "}<Link href="/proyecto-de-actividad" className="text-sky-700 underline hover:no-underline">Proyecto técnico para licencia de apertura</Link></li>
           <li>·{" "}<Link href="/precio-licencia-actividad-almeria" className="text-sky-700 underline hover:no-underline">Precio de la licencia de actividad</Link></li>
           <li>·{" "}<Link href="/licencia-de-actividad" className="text-sky-700 underline hover:no-underline">Licencia de actividad (general)</Link></li>
         </ul>

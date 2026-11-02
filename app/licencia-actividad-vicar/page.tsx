@@ -3,6 +3,7 @@ import Link from "next/link";
 import ContactForm from "../components/ContactForm";
 import SiteFooter from "../components/SiteFooter";
 import Logo from "../components/Logo";
+import AperturaMunicipio from "../components/AperturaMunicipio";
 
 const siteUrl = "https://www.ingenierial.es";
 const path = "/licencia-actividad-vicar";
@@ -10,7 +11,7 @@ const municipio = "Vícar";
 
 export const metadata: Metadata = {
   title: `Licencia de Actividad y Apertura en ${municipio} | Ingeniero`,
-  description: `Proyecto técnico y tramitación de licencia de actividad en ${municipio}: comercios, talleres, naves industriales y almacenes hortofrutícolas. Presupuesto sin compromiso.`,
+  description: `Proyecto técnico y tramitación de licencia de apertura y actividad en ${municipio}: comercios, talleres, naves industriales y almacenes hortofrutícolas. Presupuesto sin compromiso.`,
   keywords: [
     `licencia de actividad ${municipio}`,
     `licencia de apertura ${municipio}`,
@@ -107,7 +108,7 @@ export default function LicenciaVicar() {
       <section className="bg-slate-900 text-white">
         <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
           <p className="text-sm font-semibold uppercase tracking-wider text-sky-400">Servicio local · {municipio}</p>
-          <h1 className="mt-4 text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">Licencia de Actividad en {municipio}</h1>
+          <h1 className="mt-4 text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">Licencia de Apertura y Actividad en {municipio}</h1>
           <p className="mt-6 max-w-2xl text-lg text-slate-300">
             Proyecto técnico y tramitación ante el Ayuntamiento de {municipio}{" "}
             para locales comerciales, talleres, naves industriales, almacenes
@@ -136,11 +137,13 @@ export default function LicenciaVicar() {
             licencia de actividad municipal. Según el tipo de negocio, la
             tramitación puede hacerse por <em>declaración responsable</em>{" "}
             —inmediata— o por <em>licencia previa</em> —con resolución expresa
-            del ayuntamiento—. En todos los casos, un ingeniero colegiado debe
-            firmar el proyecto técnico.
+            del ayuntamiento—. En todos los casos, la documentación técnica la
+            firma un técnico competente colegiado.
           </p>
         </div>
       </section>
+
+      <AperturaMunicipio municipio={municipio} />
 
       <section className="bg-slate-50">
         <div className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
@@ -173,6 +176,9 @@ export default function LicenciaVicar() {
         <ul className="mt-4 space-y-2 text-slate-700">
           <li>·{" "}<Link href="/licencia-actividad-roquetas-de-mar" className="text-sky-700 underline hover:no-underline">Licencia de actividad en Roquetas de Mar</Link></li>
           <li>·{" "}<Link href="/licencia-actividad-el-ejido" className="text-sky-700 underline hover:no-underline">Licencia de actividad en El Ejido</Link></li>
+          <li>·{" "}<Link href="/licencia-actividad-almeria" className="text-sky-700 underline hover:no-underline">Licencia de apertura en Almería capital</Link></li>
+          <li>·{" "}<Link href="/proyecto-nave-industrial-almeria" className="text-sky-700 underline hover:no-underline">Proyecto de nave industrial y agrícola</Link></li>
+          <li>·{" "}<Link href="/proyecto-almacen-hortofruticola-almeria" className="text-sky-700 underline hover:no-underline">Proyecto de almacén hortofrutícola</Link></li>
           <li>·{" "}<Link href="/licencia-bar-restaurante-almeria" className="text-sky-700 underline hover:no-underline">Licencia bar/restaurante en Almería</Link></li>
           <li>·{" "}<Link href="/precio-licencia-actividad-almeria" className="text-sky-700 underline hover:no-underline">Precio licencia de actividad</Link></li>
           <li>·{" "}<Link href="/licencia-de-actividad" className="text-sky-700 underline hover:no-underline">Licencia de actividad general</Link></li>
