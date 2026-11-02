@@ -8,7 +8,7 @@ const siteUrl = "https://www.ingenierial.es";
 const path = "/declaracion-responsable-actividad-almeria";
 
 export const metadata: Metadata = {
-  title: "Declaración Responsable Actividad Almería | Abre Hoy",
+  title: "Declaración Responsable de Actividad en Almería | Ingeniero",
   description: "Abre tu negocio en Almería con declaración responsable: inmediata, pero con proyecto o memoria firmada por técnico. Ingeniero colegiado, estudio previo gratis.",
   keywords: ["declaración responsable actividad Almería","declaración responsable apertura Almería","actividad inocua Almería","licencia ambiental municipal Almería","comunicación previa actividad Almería","abrir negocio Almería declaración responsable","proyecto actividad técnico competente Almería","ingeniero técnico industrial Almería","Ley 2/2026 gestión ambiental Andalucía","tramitación licencia actividad Almería"],
   alternates: { canonical: path, languages: { "es-ES": path } },

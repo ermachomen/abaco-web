@@ -10,7 +10,7 @@ const path = "/licencia-bar-restaurante-almeria";
 export const metadata: Metadata = {
   title: "Licencia de Apertura para Bar y Restaurante en Almería · Requisitos",
   description:
-    "Guía completa de la licencia de apertura para bar, restaurante o cafetería en Almería: requisitos, normativa, plazos, declaración responsable, salida de humos y proyecto técnico. Presupuesto sin compromiso.",
+    "Licencia de apertura para tu bar, restaurante o cafetería en Almería: requisitos, plazos, salida de humos, proyecto técnico y tramitación. Revisa el local antes de firmar el alquiler.",
   keywords: [
     "licencia apertura bar Almería",
     "licencia apertura restaurante Almería",

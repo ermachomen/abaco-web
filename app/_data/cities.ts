@@ -189,9 +189,20 @@ export const ESPECIALIDADES: Record<
  * hacia las páginas long-tail ya existentes.
  */
 export const CITY_EXTRA_LINKS: Partial<Record<Servicio, Record<string, { label: string; href: string }[]>>> = {
+  peritaciones: {
+    almeria: [
+      { label: "Perito ingeniero industrial en Almería", href: "/perito-ingeniero-industrial-almeria" },
+      { label: "Perito de incendios en Almería", href: "/perito-incendios-almeria" },
+      { label: "Perito de accidentes en Almería", href: "/perito-accidentes-almeria" },
+      { label: "Perito de seguros en Almería", href: "/perito-seguros-almeria" },
+      { label: "Perito de daños en invernaderos", href: "/perito-danos-invernadero-almeria" },
+      { label: "Tasador en Almería", href: "/tasaciones-almeria" },
+    ],
+  },
   tasaciones: {
     almeria: [
       { label: "Tasación de invernaderos, fincas rústicas y maquinaria agrícola", href: "/tasacion-agricola-almeria" },
+      { label: "Tasación de nave industrial, local y terreno", href: "/tasacion-nave-industrial-almeria" },
       { label: "Tasaciones en El Ejido", href: "/tasaciones-el-ejido" },
       { label: "Tasaciones en Níjar", href: "/tasaciones-nijar" },
       { label: "Perito de daños en invernaderos", href: "/perito-danos-invernadero-almeria" },
@@ -229,14 +240,52 @@ export const CITY_SEO_OVERRIDES: Partial<Record<Servicio, Record<string, { titul
     almeria: {
       titulo: "Perito Judicial Ingeniero en Almería · Informes Periciales",
       h1: "Perito judicial ingeniero en Almería",
-      descripcion: "Perito judicial ingeniero en Almería: informes periciales de incendios, accidentes, instalaciones, maquinaria y daños para juzgados, abogados y aseguradoras. Colegiado desde 1983.",
+      descripcion: "Perito judicial ingeniero en Almería: informes de incendios, accidentes, instalaciones, maquinaria y daños para juzgados, abogados y aseguradoras. Estudio previo gratuito.",
     },
   },
   tasaciones: {
     almeria: {
       titulo: "Tasador en Almería · Tasaciones Periciales y Valoraciones",
       h1: "Tasador y tasaciones periciales en Almería",
-      descripcion: "Tasador en Almería: tasaciones periciales de viviendas, naves, invernaderos, fincas, maquinaria y vehículos para herencias, divorcios, Hacienda y juzgado. Colegiado desde 1983.",
+      descripcion: "Tasador en Almería: tasaciones periciales de viviendas, naves, invernaderos, fincas, maquinaria y vehículos para herencias, divorcios, Hacienda y juzgado. Presupuesto cerrado.",
+    },
+  },
+};
+
+/** Sección propia de una landing cuando la plantilla común no basta para responder a la búsqueda real. */
+export const CITY_EXTRA_SECTION: Partial<Record<Servicio, Record<string, { titulo: string; parrafos: string[]; casosTitulo: string; casos: string[] }>>> = {
+  peritaciones: {
+    almeria: {
+      titulo: "Perito judicial en Almería para asuntos de ingeniería",
+      parrafos: [
+        "Cuando el litigio gira sobre una instalación eléctrica, una máquina, una nave o el origen de un incendio, el perito judicial que te hace falta es un ingeniero. En Abaco Ingeniería el informe lo firma un ingeniero técnico industrial colegiado desde 1983, y tratas directamente con quien inspecciona, redacta el dictamen y lo defiende ante el juzgado.",
+        "Actuamos de dos formas. Como perito de parte, elaboramos el informe que aporta tu abogado. Como perito de designación judicial, aceptamos el nombramiento del juzgado y emitimos un dictamen imparcial. En ambos casos comparecemos a ratificar el informe en sala, y la inspección y la vista son presenciales en Almería y su provincia.",
+      ],
+      casosTitulo: "Encargos habituales en la provincia",
+      casos: [
+        "Incendio en un almacén hortofrutícola o una nave: causa, origen y responsabilidad.",
+        "Daños por temporal en invernaderos y plantas de manipulado.",
+        "Accidente laboral con maquinaria o equipos de trabajo.",
+        "Instalación eléctrica, térmica o frigorífica que falla o no cumple su reglamento.",
+        "Discrepancia con la aseguradora sobre la causa o la cuantía del daño.",
+      ],
+    },
+  },
+  tasaciones: {
+    almeria: {
+      titulo: "Tasador en Almería para herencias, divorcios, Hacienda y juzgado",
+      parrafos: [
+        "Si buscas un tasador en Almería porque hay que repartir una herencia, liquidar un divorcio, responder a una comprobación de valores o aportar una prueba en un juicio, necesitas un informe que explique cómo se ha llegado al valor. Inspeccionamos el bien, documentamos los comparables y firma un ingeniero técnico colegiado desde 1983, que también puede defender el informe en sala como perito tasador.",
+        "Nuestras tasaciones son periciales, no hipotecarias: Abaco no es una sociedad de tasación homologada por el Banco de España, así que no emitimos tasaciones para solicitar un préstamo. Te damos presupuesto cerrado antes de empezar.",
+      ],
+      casosTitulo: "Bienes que tasamos con más frecuencia en la provincia",
+      casos: [
+        "Viviendas y locales en Almería capital, Roquetas, Aguadulce, Mojácar y Vera.",
+        "Naves industriales, almacenes hortofrutícolas y plantas de manipulado.",
+        "Invernaderos y fincas rústicas en el Poniente y el Campo de Níjar.",
+        "Maquinaria industrial y agrícola, unidad por unidad.",
+        "Vehículos, flotas y clásicos.",
+      ],
     },
   },
 };
@@ -463,6 +512,7 @@ export const CITY_FAQS: Record<Servicio, Record<string, { q: string; a: string }
       { q: "¿Cuánto cuesta?", a: "Presupuesto cerrado tras consulta previa sin coste." },
     ],
     almeria: [
+      { q: "¿Qué diferencia hay entre perito de parte y perito judicial?", a: "El perito de parte lo contratas tú y su informe lo aporta tu abogado. El perito de designación judicial lo nombra el juzgado. Actuamos en ambos casos, y en los dos comparecemos a ratificar el informe si nos citan." },
       { q: "¿Comparecéis ante los juzgados de Almería?", a: "Sí. Almería capital, El Ejido, Huércal-Overa, Vera, Roquetas y resto de partidos judiciales. Tenemos sede en Almería desde 1983." },
       { q: "¿Qué peritajes hacéis en Almería?", a: "Patologías agrícolas (invernaderos, almacenes), accidentes laborales, daños por temporales, peritajes industriales y costeros, valoraciones e incendios." },
       { q: "¿Trabajáis con peritajes en invernaderos y agricultura?", a: "Sí. Es uno de nuestros nichos. Daños por temporales, accidentes con maquinaria, peritajes de cubiertas, valoraciones de explotaciones." },
@@ -535,6 +585,7 @@ export const CITY_FAQS: Record<Servicio, Record<string, { q: string; a: string }
       { q: "¿Cuánto tarda?", a: "7-15 días desde la inspección." },
     ],
     almeria: [
+      { q: "¿Hacéis tasaciones hipotecarias?", a: "No. Abaco no es sociedad de tasación homologada por el Banco de España, así que no emitimos tasación para solicitar un préstamo. Hacemos tasaciones periciales para herencias, divorcios, Hacienda y juzgado." },
       { q: "¿Tasáis invernaderos y explotaciones agrícolas?", a: "Sí. Es uno de nuestros nichos desde 1983. Invernaderos, plantas de manipulado, cámaras frigoríficas, almacenes hortofrutícolas y maquinaria agraria." },
       { q: "¿Trabajáis con inmuebles costeros?", a: "Sí. Viviendas costeras de Cabo de Gata, Aguadulce, Roquetas, Mojácar, Vera." },
       { q: "¿Son válidas para Hacienda?", a: "Sí, plena validez ante AEAT, Junta de Andalucía, notarios y juzgados." },

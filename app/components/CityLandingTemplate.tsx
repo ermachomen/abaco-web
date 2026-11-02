@@ -6,6 +6,7 @@ import {
   CITIES,
   CITY_CONTEXT,
   CITY_EXTRA_LINKS,
+  CITY_EXTRA_SECTION,
   CITY_SEO_OVERRIDES,
   CITY_FAQS,
   ESPECIALIDADES,
@@ -39,6 +40,7 @@ export default function CityLandingTemplate({ servicio, citySlug }: CityLandingP
   const faqs = CITY_FAQS[servicio][citySlug];
   const extraLinks = CITY_EXTRA_LINKS[servicio]?.[citySlug] ?? [];
   const seo = CITY_SEO_OVERRIDES[servicio]?.[citySlug];
+  const extraSection = CITY_EXTRA_SECTION[servicio]?.[citySlug];
 
   // Ciudades hermanas para linkado interno (todas menos la actual)
   const otrasCiudades = CITIES.filter((c) => c.slug !== citySlug);
@@ -183,6 +185,24 @@ export default function CityLandingTemplate({ servicio, citySlug }: CityLandingP
           </div>
         )}
       </section>
+
+      {/* ── SECCIÓN PROPIA DE LA CIUDAD ── */}
+      {extraSection && (
+        <section className="mx-auto max-w-5xl px-6 pb-16 lg:px-8">
+          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">{extraSection.titulo}</h2>
+          <div className="mt-6 space-y-4 text-slate-700 leading-relaxed">
+            {extraSection.parrafos.map((p) => (
+              <p key={p}>{p}</p>
+            ))}
+          </div>
+          <h3 className="mt-8 text-lg font-semibold text-slate-900">{extraSection.casosTitulo}</h3>
+          <ul className="mt-4 space-y-2 text-slate-700">
+            {extraSection.casos.map((c) => (
+              <li key={c}>· {c}</li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       {/* ── ESPECIALIDADES DEL SERVICIO ── */}
       <section className="mx-auto max-w-5xl px-6 pb-16 lg:px-8">

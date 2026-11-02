@@ -462,6 +462,40 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ── SERVICIOS EN ALMERÍA ── */}
+      <section aria-labelledby="servicios-almeria" className="bg-white">
+        <div className="mx-auto max-w-7xl px-6 pb-20 lg:px-8">
+          <h2 id="servicios-almeria" className="text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">
+            Servicios en Almería y provincia
+          </h2>
+          <ul className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {[
+              { label: "Licencia de apertura en Almería", href: "/licencia-actividad-almeria" },
+              { label: "Licencia de apertura en Roquetas de Mar", href: "/licencia-actividad-roquetas-de-mar" },
+              { label: "Licencia de apertura en El Ejido", href: "/licencia-actividad-el-ejido" },
+              { label: "Proyecto de actividad en Almería", href: "/proyecto-de-actividad-almeria" },
+              { label: "Perito judicial en Almería", href: "/peritaciones-almeria" },
+              { label: "Tasador en Almería", href: "/tasaciones-almeria" },
+              { label: "Homologación de vehículos en Almería", href: "/homologacion-vehiculos-almeria" },
+              { label: "Ficha técnica reducida en Almería", href: "/ficha-tecnica-reducida-almeria" },
+              { label: "Proyecto de nave industrial en Almería", href: "/proyecto-nave-industrial-almeria" },
+              { label: "Legalizar una nave industrial en Almería", href: "/legalizacion-nave-industrial-almeria" },
+              { label: "Boletín eléctrico en Almería", href: "/boletin-electrico-almeria" },
+              { label: "Legalizar placas solares en Almería", href: "/legalizacion-placas-solares-almeria" },
+            ].map(({ label, href }) => (
+              <li key={href}>
+                <Link
+                  href={href}
+                  className="block rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm font-medium text-slate-700 transition hover:border-brand-navy hover:text-brand-navy"
+                >
+                  {label} →
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
       {/* ── TESTIMONIOS ── */}
       <section aria-label="Testimonios de clientes" className="bg-sky-50">
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
