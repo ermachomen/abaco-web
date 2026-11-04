@@ -19,11 +19,11 @@ const siteUrl = "https://www.ingenierial.es";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Estudio de Ingeniería en Almería | Abaco Ingeniería",
+    default: "Estudio de Ingeniería | Abaco Ingeniería",
     template: "%s | Abaco Ingeniería",
   },
   description:
-    "Estudio de ingeniería en Almería con ingeniero colegiado desde 1983: licencias de apertura, proyectos, peritaciones, tasaciones y homologación de vehículos en Almería y toda España.",
+    "Estudio de ingeniería con ingeniero colegiado desde 1983: licencias de apertura, proyectos, peritaciones, tasaciones y homologación de vehículos en toda España.",
   keywords: [
     "ingeniería nacional",
     "ingeniero técnico industrial",
@@ -80,7 +80,7 @@ export const metadata: Metadata = {
     locale: "es_ES",
     url: siteUrl,
     siteName: "Abaco Ingeniería",
-    title: "Estudio de Ingeniería en Almería | Abaco Ingeniería",
+    title: "Estudio de Ingeniería | Abaco Ingeniería",
     description:
       "Oficina técnica nacional con más de 40 años de trayectoria. Servicios técnicos para particulares, empresas y administraciones en toda España. 100% online con firma digital FNMT.",
     images: [
@@ -94,7 +94,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Estudio de Ingeniería en Almería | Abaco Ingeniería",
+    title: "Estudio de Ingeniería | Abaco Ingeniería",
     description:
       "Oficina técnica nacional. Servicio 100% online con firma digital FNMT.",
     images: ["/images/og-abaco.jpg"],
@@ -133,7 +133,7 @@ const jsonLd = {
         },
       },
       description:
-        "Oficina técnica nacional con más de 40 años de trayectoria. Licencias de apertura, peritaciones judiciales, tasaciones técnicas, fichas técnicas reducidas y homologación de vehículos en toda España. Sede en Almería, servicio 100% online con firma digital FNMT.",
+        "Oficina técnica nacional con más de 40 años de trayectoria. Licencias de apertura, peritaciones judiciales, tasaciones técnicas, fichas técnicas reducidas y homologación de vehículos en toda España. Servicio 100% online con firma digital FNMT.",
       address: {
         "@type": "PostalAddress",
         streetAddress: "Carretera de Ronda, 293",

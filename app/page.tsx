@@ -466,7 +466,7 @@ export default function Home() {
       <section aria-labelledby="servicios-almeria" className="bg-white">
         <div className="mx-auto max-w-7xl px-6 pb-20 lg:px-8">
           <h2 id="servicios-almeria" className="text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">
-            Servicios en Almería y provincia
+            Servicios por zona
           </h2>
           <ul className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {[
@@ -564,7 +564,7 @@ export default function Home() {
                 Te atendemos con cita previa
               </p>
               <h2 className="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">
-                Localización y contacto
+                Contacto
               </h2>
               <p className="mt-4 text-lg text-slate-300">
                 Contacta con nosotros y descubre cómo podemos ayudarte a llevar
@@ -595,17 +595,6 @@ export default function Home() {
                 <a href="mailto:info@abacoingenieria.es" className="rounded-2xl border border-white/10 bg-white/5 p-5 transition hover:border-sky-400/50 hover:bg-sky-500/10">
                   <p className="text-xs font-semibold uppercase tracking-widest text-sky-300">E-mail</p>
                   <p className="mt-2 text-sm leading-6 text-slate-300 break-all">info@abacoingenieria.es</p>
-                </a>
-                <a
-                  href="https://maps.google.com/?q=Carretera+de+Ronda+293+Almer%C3%ADa"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="rounded-2xl border border-white/10 bg-white/5 p-5 sm:col-span-2 transition hover:border-sky-400/50 hover:bg-sky-500/10"
-                >
-                  <p className="text-xs font-semibold uppercase tracking-widest text-sky-300">Dirección postal</p>
-                  <p className="mt-2 text-sm leading-6 text-slate-300 whitespace-pre-line">
-                    {"Carretera de Ronda, 293\nEntresuelo 2\n04009 Almería"}
-                  </p>
                 </a>
                 <div className="rounded-2xl border border-white/10 bg-white/5 p-5 sm:col-span-2">
                   <p className="text-xs font-semibold uppercase tracking-widest text-sky-300">Horario</p>

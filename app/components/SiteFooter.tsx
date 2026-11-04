@@ -16,7 +16,7 @@ export default function SiteFooter() {
             </Link>
             <p className="mt-4 text-sm leading-6 text-slate-600">
               Oficina técnica de ingeniería con cobertura nacional.
-              Ingeniero colegiado desde 1983. Sede en Almería.
+              Ingeniero colegiado desde 1983.
             </p>
             <p className="mt-3 text-xs text-slate-500">
               abacoingeniería® · Marca registrada
@@ -78,13 +78,6 @@ export default function SiteFooter() {
                 <a href="mailto:info@abacoingenieria.es" className="break-all hover:text-sky-700">
                   info@abacoingenieria.es
                 </a>
-              </li>
-              <li className="text-slate-600">
-                Sede principal
-                <br />
-                Ctra. de Ronda, 293 · Entresuelo 2
-                <br />
-                04009 Almería
               </li>
               <li className="text-slate-500">
                 Lun–Vie 9:00–14:00
