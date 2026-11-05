@@ -88,6 +88,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "declaracion-responsable-actividad-almeria",
     "cambio-titularidad-licencia-actividad-almeria",
     "licencia-discoteca-pub-almeria",
+    "licencia-apertura-negocios-almeria",
+    "licencia-apertura-clinica-almeria",
+    "licencia-apertura-taller-almeria",
   ].map((slug) => ({
     url: `${siteUrl}/${slug}`,
     lastModified: now,
