@@ -468,8 +468,8 @@ export const MUNICIPIOS_ALMERIA: MunicipioAlmeria[] = [
     "slug": "huercal-de-almeria",
     "nombre": "Huércal de Almería",
     "comarca": "Área Metropolitana de Almería",
-    "heroSub": "Proyecto técnico y tramitación ante el Ayuntamiento de Huércal de Almería para naves de los polígonos San Rafael, La Cepa y Los Callejones, medianas superficies, comercios de proximidad, talleres, almacenes logísticos y hostelería.",
-    "intro1": "Huércal de Almería es uno de los municipios más dinámicos del área metropolitana de la capital, a solo siete kilómetros de Almería y con cerca de 18.600 habitantes tras un crecimiento demográfico superior al 12 por ciento en la última década. Su posición estratégica junto a la A-7 y la antigua N-340a lo ha convertido en un gran polo industrial, logístico y comercial: los polígonos San Rafael, La Cepa y Los Callejones concentran naves de almacenamiento, transporte, comercio mayorista, talleres y concesionarios, mientras que el parque comercial de la avenida Emilio Peña y la calle Rosita reúne medianas superficies y restauración. Todo ello genera una demanda constante de licencias de actividad y apertura.",
+    "heroSub": "Proyecto técnico y tramitación ante el Ayuntamiento de Huércal de Almería para naves de los polígonos San Rafael, La Cepa, Venta Alegre, San Silvestre y Alfa, medianas superficies, comercios de proximidad, talleres, almacenes logísticos y hostelería.",
+    "intro1": "Huércal de Almería es uno de los municipios más dinámicos del área metropolitana de la capital, a solo siete kilómetros de Almería y con cerca de 18.600 habitantes tras un crecimiento demográfico superior al 12 por ciento en la última década. Su posición estratégica junto a la A-7 y la antigua N-340a lo ha convertido en un gran polo industrial, logístico y comercial: los polígonos San Rafael, La Cepa, Venta Alegre, San Silvestre y Alfa concentran naves de almacenamiento, transporte, comercio mayorista, talleres y concesionarios, mientras que el parque comercial de la avenida Emilio Peña y la calle Rosita reúne medianas superficies y restauración. Todo ello genera una demanda constante de licencias de actividad y apertura.",
     "intro2": "Cada apertura en Huércal de Almería sigue un camino distinto según su impacto. Las actividades inocuas se resuelven mediante declaración responsable, de efecto prácticamente inmediato, mientras que las calificadas, con incidencia ambiental, sanitaria o de seguridad, exigen proyecto técnico y calificación previa. En Abaco Ingeniería redactamos el proyecto, memorias y certificados, y los presentamos telemáticamente en la sede electrónica del Ayuntamiento de Huércal de Almería, con desplazamiento presencial al local para tomar mediciones y comprobar el cumplimiento normativo.",
     "zonas": [
       {
@@ -485,7 +485,7 @@ export const MUNICIPIOS_ALMERIA: MunicipioAlmeria[] = [
         "desc": "naves industriales, almacenes y actividades de fabricación y reparación"
       },
       {
-        "zona": "Polígono Industrial Los Callejones",
+        "zona": "Polígonos industriales San Silvestre y Alfa",
         "desc": "industria, almacenamiento y distribución de mercancías"
       },
       {
@@ -504,7 +504,7 @@ export const MUNICIPIOS_ALMERIA: MunicipioAlmeria[] = [
       },
       {
         "q": "Voy a abrir una nave de almacenamiento o logística en el polígono San Rafael. Qué necesito?",
-        "a": "Para una nave en San Rafael, La Cepa o Los Callejones se necesita un proyecto técnico que justifique la actividad, la protección contra incendios, la accesibilidad y el cumplimiento urbanístico. Según el uso puede bastar una declaración responsable o requerir calificación ambiental; lo valoramos en una visita al local."
+        "a": "Para una nave en San Rafael, La Cepa, Venta Alegre, San Silvestre o Alfa se necesita un proyecto técnico que justifique la actividad, la protección contra incendios, la accesibilidad y el cumplimiento urbanístico. Según el uso puede bastar una declaración responsable o requerir calificación ambiental; lo valoramos en una visita al local."
       },
       {
         "q": "Cuánto tarda en concederse la licencia?",

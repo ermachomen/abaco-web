@@ -56,7 +56,7 @@ const serviceLd = {
 
 const faqs = [
   { q: `¿Dónde se tramita la licencia de apertura en ${municipio}?`, a: `En la sede electrónica del Ayuntamiento de ${municipio} (Urbanismo). La presentación es telemática; nos encargamos nosotros con tu autorización.` },
-  { q: `¿Qué actividades son más comunes en ${municipio}?`, a: "Hostelería y comercio en la zona de Aguadulce, El Parador y paseo marítimo; oficinas y clínicas en el casco; talleres y naves en el polígono La Algaida y CTT." },
+  { q: `¿Qué actividades son más comunes en ${municipio}?`, a: "Hostelería y comercio en la zona de Aguadulce, El Parador y paseo marítimo; oficinas y clínicas en el casco; talleres y naves en el polígono La Algaida y en Las Salinas." },
   { q: `¿Cuánto tarda la licencia en ${municipio}?`, a: "Por declaración responsable, apertura prácticamente inmediata. Para actividades calificadas el plazo municipal puede ser de 2 a 6 meses." },
   { q: "¿Hacéis la visita técnica en el propio local?", a: "Sí. Nos desplazamos al local sin coste para verificar viabilidad antes de firmar presupuesto." },
   { q: "¿Gestionáis también la terraza?", a: "Sí. Tramitamos la autorización de ocupación de vía pública y su proyecto si procede." },

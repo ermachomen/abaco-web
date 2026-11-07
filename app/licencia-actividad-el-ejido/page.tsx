@@ -151,7 +151,7 @@ export default function LicenciaElEjido() {
             <li>· <strong>Almerimar</strong> — hostelería, turismo, náutica</li>
             <li>· <strong>Balerma y Guardias Viejas</strong> — comercio y alojamiento</li>
             <li>· <strong>Santa María del Águila</strong> — locales de barrio</li>
-            <li>· <strong>Polígonos La Redonda / Las Palmerillas</strong> — naves, talleres, logística</li>
+            <li>· <strong><Link href="/legalizacion-nave-industrial-el-ejido" className="text-sky-700 underline hover:no-underline">Polígonos La Redonda y Tres Algibes</Link></strong> — naves, talleres, logística</li>
             <li>· <strong>Zonas agrícolas</strong> — almacenes, manipulados, cooperativas</li>
           </ul>
         </div>
