@@ -190,6 +190,11 @@ export default function Page() {
       </section>
 
       <section className="mx-auto max-w-5xl px-6 pb-16 lg:px-8">
+        <h2 className="text-2xl font-bold">Polígonos industriales de El Ejido</h2>
+        <p className="mt-4 text-slate-700 leading-relaxed">Legalizamos naves en el Polígono Industrial La Redonda, en el Polígono Industrial Tres Algibes, en el Centro Integral de Mercancías y en las naves y almacenes repartidos por Santa María del Águila, Las Norias, San Agustín y el resto del término. También en los municipios vecinos: <Link href="/legalizacion-nave-industrial-vicar" className="font-semibold text-sky-700 underline hover:no-underline">Vícar</Link> y <Link href="/legalizacion-nave-industrial-roquetas-de-mar" className="font-semibold text-sky-700 underline hover:no-underline">Roquetas de Mar</Link>.</p>
+      </section>
+
+      <section className="mx-auto max-w-5xl px-6 pb-16 lg:px-8">
         <h2 className="text-2xl font-bold">Servicios relacionados</h2>
         <ul className="mt-4 grid gap-2 text-slate-700 md:grid-cols-2">
           <li>·{" "}<Link href="/legalizacion-nave-industrial-almeria" className="text-sky-700 underline hover:no-underline">{"Legalizar nave industrial en Almería"}</Link></li>

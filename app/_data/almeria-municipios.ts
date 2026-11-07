@@ -778,6 +778,321 @@ export const MUNICIPIOS_ALMERIA: MunicipioAlmeria[] = [
       "proyecto actividad calificada Carboneras",
       "licencia chiringuito playa Carboneras"
     ]
+  },
+  {
+    "slug": "garrucha",
+    "nombre": "Garrucha",
+    "comarca": "Levante Almeriense",
+    "heroSub": "Proyecto técnico y tramitación de la licencia de actividad en Garrucha: bares y restaurantes, comercios, locales turísticos y náuticos, y almacenes vinculados al puerto, con visita previa al local y presupuesto cerrado.",
+    "intro1": "Garrucha, con más de 10.800 habitantes, vive de la mano del mar. Su puerto y su paseo marítimo concentran una actividad constante de hostelería, comercio y servicios, y la llegada de visitantes durante buena parte del año anima la apertura de restaurantes, terrazas, tiendas y alojamientos. A ello se suman los negocios ligados a la actividad portuaria y pesquera, como almacenes, locales de suministros y pequeños talleres náuticos. Es un municipio costero y compacto, donde cada local tiene sus propias particularidades de uso, aforo y ventilación, y donde conviene revisar el estado de la instalación antes de comprometerse con un alquiler o una compra.",
+    "intro2": "Trabajamos en Garrucha como ingeniero técnico industrial colegiado desde 1983 y nos desplazamos al local para visitarlo antes de que firmes el alquiler. Redactamos el proyecto o la documentación técnica que exija tu actividad, dirigimos la adecuación del local, firmamos el certificado final con firma digital FNMT y lo presentamos en la sede electrónica del Ayuntamiento. Si la actividad incluye cocina, música o terraza, estudiamos desde el principio y con detalle la ventilación, instalaciones y aislamiento acústico, para que el local cumpla desde el principio con el CTE, el REBT y la normativa autonómica de calidad acústica.",
+    "zonas": [
+      {
+        "zona": "Paseo marítimo y puerto",
+        "desc": "Restaurantes, bares, terrazas y comercios con mucho paso de visitantes y exigencias de ventilación y evacuación."
+      },
+      {
+        "zona": "Casco urbano",
+        "desc": "Comercio de proximidad, clínicas, gestorías y servicios que ocupan locales de distintas épocas y estados."
+      },
+      {
+        "zona": "Entorno del puerto pesquero",
+        "desc": "Almacenes, locales de suministros y actividades auxiliares ligadas a la pesca y a la náutica."
+      },
+      {
+        "zona": "Zona de naves y almacenes",
+        "desc": "Talleres, almacenes y pequeños negocios que necesitan naves con instalación eléctrica adecuada."
+      },
+      {
+        "zona": "Frente litoral y alojamientos",
+        "desc": "Apartamentos, hostales y locales turísticos con requisitos propios de seguridad y accesibilidad."
+      },
+      {
+        "zona": "Locales náuticos y de ocio",
+        "desc": "Alquiler de embarcaciones, tiendas náuticas y actividades de ocio con necesidades técnicas específicas."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "¿Qué necesito para abrir un restaurante o bar en el paseo marítimo de Garrucha?",
+        "a": "Depende de la actividad y del aforo, y lo decidimos en el estudio previo. En hostelería suelen pesar la salida de humos, la ventilación, el aislamiento acústico y la evacuación. Visitamos el local, redactamos la documentación técnica, dirigimos la adecuación y presentamos el certificado final en la sede electrónica."
+      },
+      {
+        "q": "¿Os desplazáis a Garrucha para ver el local?",
+        "a": "Sí. Trabajamos en el municipio y nos desplazamos al local para la visita técnica, la dirección de las obras de adecuación y las comprobaciones finales. El resto de gestiones, incluida la presentación en la sede electrónica del Ayuntamiento, las hacemos de forma telemática con tu autorización y nuestra firma digital FNMT."
+      },
+      {
+        "q": "¿Puedo visitar el local con vosotros antes de alquilarlo?",
+        "a": "Sí, y es lo que más recomendamos. Antes de que firmes el alquiler comprobamos el estado del local, las instalaciones, el uso anterior y las obras necesarias para tu actividad. Así sabes con antelación si es viable y cuánto puede costar adaptarlo, y evitas pagar renta por un local que no sirve."
+      },
+      {
+        "q": "¿Qué diferencia hay entre licencia y declaración responsable?",
+        "a": "El trámite concreto depende de la actividad y del local, y no podemos afirmarlo sin conocerlos. En el estudio previo lo determinamos y te explicamos qué documentación técnica hay que presentar. En ambos casos el proyecto o la documentación la firma un técnico competente, y nosotros nos ocupamos de todo el proceso."
+      },
+      {
+        "q": "¿El estudio previo tiene coste?",
+        "a": "No. El estudio previo es gratuito y la respuesta llega en un máximo de 24 horas. Con la actividad, la superficie y el estado del local te decimos qué documentación técnica hace falta y te damos un presupuesto cerrado, sin sorpresas posteriores. Así puedes decidir con datos antes de comprometer ningún gasto."
+      }
+    ],
+    "keywordsExtra": [
+      "licencia restaurante Garrucha",
+      "licencia bar paseo marítimo Garrucha",
+      "licencia local comercial Garrucha",
+      "ingeniero técnico industrial Garrucha",
+      "licencia de actividad y apertura Garrucha"
+    ]
+  },
+  {
+    "slug": "la-mojonera",
+    "nombre": "La Mojonera",
+    "comarca": "Poniente Almeriense",
+    "heroSub": "Proyecto técnico y tramitación de la licencia de actividad en La Mojonera: almacenes agrícolas, naves de manipulado, talleres, comercios y servicios auxiliares de la agricultura intensiva, con presupuesto cerrado.",
+    "intro1": "La Mojonera, con cerca de 8.800 habitantes, es un municipio pequeño en extensión pero muy activo, cuya economía gira en torno a la agricultura intensiva bajo plástico. Alrededor del invernadero se ha formado un tejido completo de negocios: almacenes de manipulado y confección, naves de suministros, talleres de maquinaria, empresas de transporte, comercios de insumos y servicios para los agricultores. Esa actividad constante hace que cada año se reformen naves y se abran locales nuevos, a menudo con instalaciones eléctricas exigentes, cámaras frigoríficas y requisitos de protección contra incendios que conviene estudiar antes de empezar cualquier obra.",
+    "intro2": "Como ingeniero técnico industrial colegiado desde 1983, redactamos el proyecto o la documentación técnica de tu nave o local en La Mojonera, dirigimos la adecuación, firmamos el certificado final con firma digital FNMT y lo presentamos en la sede electrónica del Ayuntamiento. Visitamos la nave antes de que firmes el alquiler para comprobar instalación eléctrica, ventilación y estado general. Aplicamos el CTE, el REBT y el RITE cuando corresponde, y el trámite exacto lo decidimos en el estudio previo, que es gratuito y recibe respuesta en 24 horas.",
+    "zonas": [
+      {
+        "zona": "Entorno agrícola y almacenes",
+        "desc": "Naves de manipulado, almacenes de confección y empresas auxiliares del invernadero con instalaciones exigentes."
+      },
+      {
+        "zona": "Casco urbano",
+        "desc": "Comercios, bares, gestorías y servicios de proximidad en locales de tamaño medio o reducido."
+      },
+      {
+        "zona": "Zona de naves y almacenes",
+        "desc": "Talleres de maquinaria, almacenes de suministros y naves logísticas con necesidades eléctricas propias."
+      },
+      {
+        "zona": "Cámaras y manipulado",
+        "desc": "Locales con frío industrial, ventilación específica y condiciones de protección contra incendios."
+      },
+      {
+        "zona": "Transporte y logística agrícola",
+        "desc": "Naves y explotaciones de empresas de transporte, carga y distribución de productos del campo."
+      },
+      {
+        "zona": "Comercios de insumos",
+        "desc": "Tiendas de semillas, fitosanitarios, riego y material agrícola con requisitos de almacenamiento."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "¿Qué actividades agrícolas necesitan documentación técnica en La Mojonera?",
+        "a": "Almacenes de manipulado, naves de confección, cámaras frigoríficas, talleres de maquinaria y comercios de insumos agrícolas suelen requerir estudio técnico. Instalación eléctrica, protección contra incendios y ventilación son los puntos clave. El alcance exacto lo fijamos tras visitar la nave y conocer su uso."
+      },
+      {
+        "q": "¿Podéis revisar una nave antes de alquilarla?",
+        "a": "Sí. Visitamos la nave antes de que firmes el alquiler y valoramos el estado de la instalación eléctrica, la ventilación, las salidas y las obras que haría falta acometer. Con esa información sabes si la nave sirve para tu actividad y qué coste técnico aproximado tiene adaptarla antes de comprometerte."
+      },
+      {
+        "q": "¿Se tramita todo de forma telemática?",
+        "a": "La presentación se hace en la sede electrónica del Ayuntamiento con nuestra firma digital FNMT. Lo que no puede ser telemático es la visita técnica y la dirección de las obras de adecuación, para las que nos desplazamos a tu local o nave en La Mojonera, siempre coordinándonos contigo."
+      },
+      {
+        "q": "¿Es declaración responsable o licencia?",
+        "a": "Depende de la actividad, de la superficie y de las instalaciones, y no lo afirmamos sin conocer el caso. Lo decidimos en el estudio previo y te explicamos la documentación que se presenta. En cualquier caso, el certificado final lo firmamos nosotros y nos encargamos de presentarlo."
+      },
+      {
+        "q": "¿El estudio previo tiene coste?",
+        "a": "No. El estudio previo es gratuito y la respuesta llega en un máximo de 24 horas. Con la actividad, la superficie y el estado del local te decimos qué documentación técnica hace falta y te damos un presupuesto cerrado, sin sorpresas posteriores. Así puedes decidir con datos antes de comprometer ningún gasto."
+      }
+    ],
+    "keywordsExtra": [
+      "licencia almacén agrícola La Mojonera",
+      "licencia nave manipulado La Mojonera",
+      "licencia taller La Mojonera",
+      "ingeniero técnico industrial La Mojonera",
+      "licencia de actividad y apertura La Mojonera"
+    ]
+  },
+  {
+    "slug": "viator",
+    "nombre": "Viator",
+    "comarca": "Área Metropolitana de Almería",
+    "heroSub": "Proyecto técnico y tramitación de la licencia de actividad en Viator: comercios, hostelería, clínicas, gestorías y naves del Polígono Industrial La Juaida, a un paso de la capital, con visita previa al local.",
+    "intro1": "Viator, con más de 6.300 habitantes, forma parte del área metropolitana y está muy cerca de la capital y de Huércal de Almería. Esa cercanía lo convierte en un municipio residencial con un comercio y unos servicios en crecimiento: tiendas, bares, consultas, academias, gimnasios y pequeños servicios profesionales que dan servicio a los vecinos sin obligarles a desplazarse. Además, el Polígono Industrial La Juaida acoge naves, talleres y almacenes de empresas que buscan suelo industrial bien comunicado. La mezcla de uso residencial y actividad económica exige prestar atención al ruido, la ventilación y la convivencia con las viviendas cercanas desde el primer momento.",
+    "intro2": "Con un ingeniero técnico industrial colegiado desde 1983, trabajamos en Viator: nos desplazamos al local, lo visitamos antes de que firmes el alquiler y valoramos con honestidad su estado real y las obras necesarias. Después redactamos el proyecto o la documentación técnica, dirigimos la adecuación, firmamos el certificado final con firma digital FNMT y lo presentamos en la sede electrónica del Ayuntamiento. El trámite que corresponde depende de la actividad, de la superficie y del estado del local, y lo concretamos en el estudio previo, gratuito, con presupuesto cerrado y respuesta en 24 horas.",
+    "zonas": [
+      {
+        "zona": "Casco urbano",
+        "desc": "Comercio de proximidad, bares, consultas y servicios en locales a pie de calle."
+      },
+      {
+        "zona": "Polígono Industrial La Juaida",
+        "desc": "Naves, talleres, almacenes y empresas con necesidades de instalación eléctrica e incendios."
+      },
+      {
+        "zona": "Zona de naves y almacenes",
+        "desc": "Almacenes y pequeñas industrias con acceso rápido a la capital y a las principales vías."
+      },
+      {
+        "zona": "Locales junto a viviendas",
+        "desc": "Actividades que requieren cuidar el aislamiento acústico y la ventilación por su cercanía a vecinos."
+      },
+      {
+        "zona": "Servicios profesionales",
+        "desc": "Clínicas, academias, gimnasios y gestorías que ocupan locales de tamaño medio."
+      },
+      {
+        "zona": "Hostelería y ocio",
+        "desc": "Bares, cafeterías y restaurantes con cocina, terraza o música que exigen estudio técnico."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "¿Os desplazáis a Viator para ver el local?",
+        "a": "Sí, trabajamos en Viator y nos desplazamos al local para visitarlo, dirigir las obras y hacer las comprobaciones finales. La documentación se presenta en la sede electrónica del Ayuntamiento de Viator con nuestra firma digital FNMT."
+      },
+      {
+        "q": "¿Qué necesito para abrir una nave en La Juaida?",
+        "a": "Depende del uso, de la superficie y de las instalaciones. Normalmente se revisan la instalación eléctrica, la protección contra incendios, la ventilación y las salidas. Visitamos la nave antes de que alquiles, te decimos qué falta y preparamos la documentación técnica y el certificado final correspondientes."
+      },
+      {
+        "q": "¿Pueden afectar los vecinos a mi licencia?",
+        "a": "El ruido y los olores cerca de viviendas son un punto delicado. Por eso estudiamos desde el principio el aislamiento, la ventilación y la salida de humos conforme al CTE y a la normativa autonómica de calidad acústica. Cuanto antes se detectan, más barato resulta corregirlos en la adecuación del local."
+      },
+      {
+        "q": "¿Declaración responsable o licencia de apertura?",
+        "a": "Depende de la actividad y del local, y no podemos asegurarlo sin conocerlos. En el estudio previo lo determinamos y te indicamos qué documentación técnica corresponde. Nosotros redactamos, dirigimos la adecuación, firmamos el certificado final y lo presentamos, para que no tengas que preocuparte del procedimiento."
+      },
+      {
+        "q": "¿Es gratis el estudio previo?",
+        "a": "Sí. El estudio previo es gratuito y la respuesta llega en un máximo de 24 horas. Con la actividad, la superficie y el estado del local te decimos qué documentación técnica hace falta y te damos un presupuesto cerrado, sin sorpresas posteriores. Así puedes decidir con datos antes de comprometer ningún gasto."
+      }
+    ],
+    "keywordsExtra": [
+      "licencia local comercial Viator",
+      "licencia nave Polígono La Juaida Viator",
+      "licencia bar restaurante Viator",
+      "ingeniero técnico industrial Viator",
+      "licencia de actividad y apertura Viator"
+    ]
+  },
+  {
+    "slug": "olula-del-rio",
+    "nombre": "Olula del Río",
+    "comarca": "Valle del Almanzora",
+    "heroSub": "Proyecto técnico y tramitación de la licencia de actividad en Olula del Río: naves del Polígono Industrial Olula del Río, talleres de piedra y mármol, comercios y hostelería, con presupuesto cerrado.",
+    "intro1": "Olula del Río, con más de 6.500 habitantes, pertenece al corazón de la comarca del mármol, junto a Macael. Su economía se apoya en la extracción, elaboración y comercialización de la piedra, y en torno a ella se ha formado un tejido de talleres, naves de corte y pulido, empresas de transporte y almacenes de maquinaria. Esa industria convive con un comercio y una hostelería que atienden a los vecinos y a quienes llegan por trabajo. Las naves de elaboración de piedra tienen necesidades técnicas muy particulares, como instalaciones eléctricas de potencia, captación de polvo, ruido de maquinaria y protección contra incendios, que conviene resolver desde el proyecto.",
+    "intro2": "Como ingeniero técnico industrial colegiado desde 1983, trabajamos en Olula del Río y nos desplazamos a tu nave o local. Lo visitamos antes de que firmes el alquiler, redactamos el proyecto o la documentación técnica, dirigimos la adecuación, firmamos el certificado final con firma digital FNMT y lo presentamos en la sede electrónica del Ayuntamiento. Aplicamos el CTE, el REBT y el RITE cuando corresponde, y te explicamos cada paso con claridad. El trámite concreto depende de la actividad y lo decidimos en un estudio previo gratuito, con respuesta en 24 horas.",
+    "zonas": [
+      {
+        "zona": "Polígono Industrial Olula del Río",
+        "desc": "Naves de elaboración de piedra, talleres, almacenes de maquinaria y empresas de transporte."
+      },
+      {
+        "zona": "Zona de naves y almacenes",
+        "desc": "Talleres de corte, pulido y manufactura con instalación eléctrica de potencia y captación de polvo."
+      },
+      {
+        "zona": "Casco urbano",
+        "desc": "Comercio, bares, consultas y servicios de proximidad en locales a pie de calle."
+      },
+      {
+        "zona": "Talleres de piedra y mármol",
+        "desc": "Actividades con ruido de maquinaria, polvo y requisitos específicos de protección contra incendios."
+      },
+      {
+        "zona": "Hostelería y restauración",
+        "desc": "Bares y restaurantes que atienden a vecinos y trabajadores de la comarca con cocina y ventilación."
+      },
+      {
+        "zona": "Servicios a la industria",
+        "desc": "Suministros, reparación de maquinaria y empresas auxiliares con almacenamiento de materiales."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "¿Qué se revisa en una nave de elaboración de piedra?",
+        "a": "Se revisan la potencia y el estado de la instalación eléctrica, la captación de polvo, el ruido de la maquinaria, la ventilación y la protección contra incendios. Visitamos la nave, valoramos lo que falta y preparamos la documentación técnica necesaria según el REBT, el CTE y la normativa autonómica de calidad acústica."
+      },
+      {
+        "q": "¿Atendéis naves del polígono de Olula del Río?",
+        "a": "Sí. Trabajamos en el municipio y nos desplazamos a la nave para visitarla, dirigir las obras de adecuación y comprobar la instalación. Después presentamos la documentación y el certificado final en la sede electrónica del Ayuntamiento con nuestra firma digital FNMT, sin que tengas que acudir."
+      },
+      {
+        "q": "¿Podéis ver la nave antes de que alquile?",
+        "a": "Sí, es lo que recomendamos. Antes de que firmes el alquiler comprobamos el estado de la nave, su instalación eléctrica y las obras que habría que hacer para tu actividad. Así valoras si compensa el local y cuánto supondría adaptarlo, antes de asumir renta y compromisos."
+      },
+      {
+        "q": "¿Es declaración responsable o licencia?",
+        "a": "Depende de la actividad, de la superficie y de las instalaciones, y no lo afirmamos sin conocer tu caso. Lo determinamos en el estudio previo y te explicamos qué documentación se presenta. Nosotros redactamos, dirigimos la adecuación, firmamos el certificado final y lo presentamos."
+      },
+      {
+        "q": "¿El presupuesto es cerrado?",
+        "a": "Sí. Tras el estudio previo, que es gratuito y responde en 24 horas, te damos un presupuesto cerrado por la documentación técnica, la dirección de la adecuación y la firma del certificado final. Si la actividad cambia, te avisamos antes de nada, de modo que sepas siempre qué vas a pagar."
+      }
+    ],
+    "keywordsExtra": [
+      "licencia nave piedra Olula del Río",
+      "licencia taller mármol Olula del Río",
+      "licencia nave polígono Olula del Río",
+      "ingeniero técnico industrial Olula del Río",
+      "licencia de actividad y apertura Olula del Río"
+    ]
+  },
+  {
+    "slug": "velez-rubio",
+    "nombre": "Vélez-Rubio",
+    "comarca": "Los Vélez",
+    "heroSub": "Proyecto técnico y tramitación de la licencia de actividad en Vélez-Rubio: comercios del casco urbano, hostelería, clínicas, talleres y almacenes agroganaderos de la comarca de Los Vélez, con visita previa al local.",
+    "intro1": "Vélez-Rubio, con cerca de 6.700 habitantes, es uno de los núcleos de servicios de la comarca de Los Vélez, en el norte de la provincia. Su casco urbano concentra comercio, hostelería, consultas y gestorías que atienden a los vecinos y a quienes llegan de los pueblos cercanos. En el entorno rural se mantienen explotaciones agrícolas y ganaderas con sus naves y almacenes. Es una economía de interior, con negocios de tamaño medio y reducido, donde cada local aprovecha edificios antiguos que a menudo exigen revisar la instalación eléctrica, la ventilación y las salidas antes de poner en marcha cualquier actividad nueva.",
+    "intro2": "Trabajamos en Vélez-Rubio como ingeniero técnico industrial colegiado desde 1983. Nos desplazamos al local, lo visitamos antes de que firmes el alquiler y comprobamos si se puede adaptar a tu actividad. Después redactamos el proyecto o la documentación técnica, dirigimos la adecuación, firmamos el certificado final con firma digital FNMT y lo presentamos en la sede electrónica del Ayuntamiento. El trámite aplicable depende de la actividad, de la superficie y del estado del local, y lo decidimos en el estudio previo, gratuito, con presupuesto cerrado y respuesta en 24 horas.",
+    "zonas": [
+      {
+        "zona": "Casco urbano",
+        "desc": "Comercio, bares, restaurantes, consultas y gestorías en edificios que suelen requerir revisar instalaciones."
+      },
+      {
+        "zona": "Zona de naves y almacenes",
+        "desc": "Talleres, almacenes y pequeños negocios que necesitan naves con instalación eléctrica adecuada."
+      },
+      {
+        "zona": "Entorno agrícola y ganadero",
+        "desc": "Almacenes y naves de explotaciones del interior con requisitos propios de seguridad y ventilación."
+      },
+      {
+        "zona": "Locales en edificios antiguos",
+        "desc": "Negocios que reforman locales de otras épocas y deben actualizar instalaciones, salidas y accesibilidad."
+      },
+      {
+        "zona": "Hostelería y alojamiento rural",
+        "desc": "Bares, restaurantes y alojamientos con cocina, ventilación y evacuación que exigen estudio técnico."
+      },
+      {
+        "zona": "Servicios profesionales",
+        "desc": "Clínicas, academias, gimnasios y gestorías que ocupan locales de tamaño medio en el núcleo urbano."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "¿Os desplazáis a Vélez-Rubio?",
+        "a": "Sí. Trabajamos en Vélez-Rubio y nos desplazamos al local para la visita, la dirección de las obras y las comprobaciones finales. La presentación se hace por vía telemática en la sede electrónica del Ayuntamiento, con nuestra firma digital FNMT, de modo que no tienes que desplazarte."
+      },
+      {
+        "q": "¿Qué problemas dan los locales antiguos?",
+        "a": "Los edificios antiguos suelen tener instalaciones eléctricas anticuadas, ventilación insuficiente o salidas poco adecuadas. Visitamos el local antes del alquiler, valoramos lo necesario según el CTE, el REBT y el RITE cuando corresponde, y te indicamos qué obras harían falta para tu actividad."
+      },
+      {
+        "q": "¿Puedo visitar el local con vosotros antes de firmar?",
+        "a": "Sí, y lo recomendamos. Antes de que firmes el alquiler comprobamos el estado del local, su uso anterior y las adaptaciones necesarias. Con esa información decides si compensa o buscas otro, evitando pagar renta por un local que luego requiere obras mayores de lo previsto."
+      },
+      {
+        "q": "¿Cómo sé si es declaración responsable o licencia?",
+        "a": "Depende de la actividad y del local, y no lo afirmamos sin conocer el caso. En el estudio previo lo determinamos y te explicamos la documentación técnica que se presenta. Nosotros redactamos, dirigimos la adecuación, firmamos el certificado final y lo presentamos en la sede electrónica."
+      },
+      {
+        "q": "¿El estudio previo es gratuito?",
+        "a": "Sí. El estudio previo es gratuito y la respuesta llega en un máximo de 24 horas. Con la actividad, la superficie y el estado del local te decimos qué documentación técnica hace falta y te damos un presupuesto cerrado, sin sorpresas posteriores. Así puedes decidir con datos antes de comprometer ningún gasto."
+      }
+    ],
+    "keywordsExtra": [
+      "licencia local comercial Vélez-Rubio",
+      "licencia bar restaurante Vélez-Rubio",
+      "licencia nave Vélez-Rubio",
+      "ingeniero técnico industrial Vélez-Rubio",
+      "licencia de actividad y apertura Vélez-Rubio"
+    ]
   }
 ];
 

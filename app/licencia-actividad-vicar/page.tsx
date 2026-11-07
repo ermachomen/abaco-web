@@ -56,7 +56,7 @@ const serviceLd = {
 
 const faqs = [
   { q: `¿Dónde se tramita la licencia en ${municipio}?`, a: `Sede electrónica del Ayuntamiento de ${municipio}. Nos encargamos de la presentación telemática y del seguimiento hasta la resolución.` },
-  { q: "¿Tramitáis naves en el polígono La Redonda / La Gangosa?", a: "Sí. Son dos de las zonas con más actividad industrial del municipio. Redactamos el proyecto técnico y justificamos instalaciones, contra incendios y accesibilidad." },
+  { q: "¿Tramitáis naves en los polígonos La Gangosa y Agruenco?", a: "Sí. Son dos de las zonas con más actividad industrial del municipio. Redactamos el proyecto técnico y justificamos instalaciones, contra incendios y accesibilidad." },
   { q: "¿Trabajáis también en Puebla de Vícar y La Envía?", a: "Sí, ambos núcleos pertenecen al término municipal de Vícar y usamos el mismo procedimiento." },
   { q: `¿Cuánto tarda la licencia en ${municipio}?`, a: "Declaración responsable: apertura inmediata. Actividades calificadas: 2-6 meses según carga documental y requerimientos municipales." },
   { q: "¿Hay diferencias con otros ayuntamientos del Poniente?", a: "La normativa estatal y autonómica es común. Cada ayuntamiento tiene su ordenanza fiscal (tasas) y plazos internos. Conocemos los criterios específicos de Vícar." },
@@ -151,7 +151,7 @@ export default function LicenciaVicar() {
             <li>· <strong>La Gangosa</strong> — comercio, hostelería, servicios</li>
             <li>· <strong>Puebla de Vícar</strong> — comercio de barrio y oficinas</li>
             <li>· <strong>La Envía</strong> — golf, hostelería, turismo</li>
-            <li>· <strong>Polígono La Redonda</strong> — naves, talleres, logística</li>
+            <li>· <strong><Link href="/legalizacion-nave-industrial-vicar" className="text-sky-700 underline hover:no-underline">Polígonos La Gangosa y Agruenco</Link></strong> — naves, talleres, logística</li>
             <li>· <strong>Zonas agrícolas</strong> — almacenes y manipulados hortofrutícolas</li>
             <li>· <strong>Casco urbano</strong> — servicios y clínicas</li>
           </ul>

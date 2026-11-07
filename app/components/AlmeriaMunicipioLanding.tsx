@@ -7,6 +7,21 @@ import {
   type MunicipioAlmeria,
 } from "../_data/almeria-municipios";
 
+// Páginas de legalización de naves por municipio (polígonos)
+const NAVES: Record<string, { href: string; label: string }> = {
+  "huercal-de-almeria": { href: "/legalizacion-nave-industrial-huercal-de-almeria", label: "Legalizar naves en Huércal de Almería" },
+  viator: { href: "/legalizacion-nave-industrial-huercal-de-almeria", label: "Naves en La Juaida, La Cepa y San Rafael" },
+  nijar: { href: "/legalizacion-nave-industrial-nijar", label: "Legalizar naves en Níjar" },
+  "huercal-overa": { href: "/legalizacion-nave-industrial-huercal-overa", label: "Legalizar naves en Huércal-Overa" },
+  pulpi: { href: "/legalizacion-nave-industrial-huercal-overa", label: "Naves industriales en el Levante almeriense" },
+  "cuevas-del-almanzora": { href: "/legalizacion-nave-industrial-huercal-overa", label: "Naves industriales en el Levante almeriense" },
+  albox: { href: "/legalizacion-nave-industrial-albox", label: "Legalizar naves en Albox" },
+  "olula-del-rio": { href: "/legalizacion-nave-industrial-albox", label: "Naves industriales en el Valle del Almanzora" },
+  macael: { href: "/legalizacion-nave-industrial-albox", label: "Naves industriales en el Valle del Almanzora" },
+  "la-mojonera": { href: "/legalizacion-nave-industrial-vicar", label: "Naves industriales en el Poniente" },
+  adra: { href: "/legalizacion-nave-industrial-el-ejido", label: "Naves industriales en el Poniente" },
+};
+
 const siteUrl = "https://www.ingenierial.es";
 
 // Enlaces internos: municipios ya existentes como páginas independientes
@@ -203,6 +218,9 @@ export default function AlmeriaMunicipioLanding({
               </Link>
             </li>
           ))}
+          {NAVES[m.slug] && (
+            <li>·{" "}<Link href={NAVES[m.slug].href} className="text-sky-700 underline hover:no-underline">{NAVES[m.slug].label}</Link></li>
+          )}
           <li>·{" "}<Link href="/licencia-actividad-almeria" className="text-sky-700 underline hover:no-underline">Licencia de apertura en Almería capital</Link></li>
           <li>·{" "}<Link href="/proyecto-de-actividad" className="text-sky-700 underline hover:no-underline">Proyecto técnico para licencia de apertura</Link></li>
           <li>·{" "}<Link href="/precio-licencia-actividad-almeria" className="text-sky-700 underline hover:no-underline">Precio de la licencia de actividad</Link></li>

@@ -190,6 +190,20 @@ export default function Page() {
       </section>
 
       <section className="mx-auto max-w-5xl px-6 pb-16 lg:px-8">
+        <h2 className="text-2xl font-bold">Legalización de naves por municipio y polígono</h2>
+        <ul className="mt-6 grid gap-4 md:grid-cols-2">
+          <li className="rounded-2xl border border-slate-200 p-5"><Link href="/proyecto-nave-industrial-almeria" className="font-semibold text-sky-700 underline hover:no-underline">Naves industriales en Almería capital</Link><p className="mt-2 text-sm text-slate-600">Sector 20, La Mezquita y Parque de Innovación y Tecnología de Almería</p></li>
+          <li className="rounded-2xl border border-slate-200 p-5"><Link href="/legalizacion-nave-industrial-el-ejido" className="font-semibold text-sky-700 underline hover:no-underline">Naves industriales en El Ejido</Link><p className="mt-2 text-sm text-slate-600">La Redonda, Tres Algibes y Centro Integral de Mercancías</p></li>
+          <li className="rounded-2xl border border-slate-200 p-5"><Link href="/legalizacion-nave-industrial-roquetas-de-mar" className="font-semibold text-sky-700 underline hover:no-underline">Naves industriales en Roquetas de Mar</Link><p className="mt-2 text-sm text-slate-600">Polígono Industrial de las Salinas</p></li>
+          <li className="rounded-2xl border border-slate-200 p-5"><Link href="/legalizacion-nave-industrial-vicar" className="font-semibold text-sky-700 underline hover:no-underline">Naves industriales en Vícar</Link><p className="mt-2 text-sm text-slate-600">La Gangosa y Agruenco</p></li>
+          <li className="rounded-2xl border border-slate-200 p-5"><Link href="/legalizacion-nave-industrial-huercal-de-almeria" className="font-semibold text-sky-700 underline hover:no-underline">Naves industriales en Huércal de Almería y Viator</Link><p className="mt-2 text-sm text-slate-600">La Cepa, San Rafael, Venta Alegre y La Juaida</p></li>
+          <li className="rounded-2xl border border-slate-200 p-5"><Link href="/legalizacion-nave-industrial-nijar" className="font-semibold text-sky-700 underline hover:no-underline">Naves industriales en Níjar</Link><p className="mt-2 text-sm text-slate-600">Campohermoso, Santa Olaya, La Granatilla y San Isidro</p></li>
+          <li className="rounded-2xl border border-slate-200 p-5"><Link href="/legalizacion-nave-industrial-huercal-overa" className="font-semibold text-sky-700 underline hover:no-underline">Naves industriales en Huércal-Overa y Levante</Link><p className="mt-2 text-sm text-slate-600">Huércal-Overa, El Real y El Aljoroque (Antas), Valle de Almanzora (Cuevas) y La Fuente (Pulpí)</p></li>
+          <li className="rounded-2xl border border-slate-200 p-5"><Link href="/legalizacion-nave-industrial-albox" className="font-semibold text-sky-700 underline hover:no-underline">Naves industriales en Albox y Valle del Almanzora</Link><p className="mt-2 text-sm text-slate-600">Albox, Olula del Río y Purchena</p></li>
+        </ul>
+      </section>
+
+      <section className="mx-auto max-w-5xl px-6 pb-16 lg:px-8">
         <h2 className="text-2xl font-bold">Servicios relacionados</h2>
         <ul className="mt-4 grid gap-2 text-slate-700 md:grid-cols-2">
           <li>·{" "}<Link href="/proyecto-nave-industrial-almeria" className="text-sky-700 underline hover:no-underline">{"Proyecto de nave industrial en Almería"}</Link></li>

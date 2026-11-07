@@ -151,7 +151,7 @@ export default function LicenciaRoquetas() {
             <li>· <strong>Aguadulce</strong> — comercio, hostelería, clínicas</li>
             <li>· <strong>El Parador</strong> — locales de barrio, oficinas</li>
             <li>· <strong>Paseo marítimo</strong> — bares, restaurantes, heladerías</li>
-            <li>· <strong>Polígono La Algaida / CTT</strong> — naves, talleres, logística</li>
+            <li>· <strong><Link href="/legalizacion-nave-industrial-roquetas-de-mar" className="text-sky-700 underline hover:no-underline">Naves y polígonos de Roquetas</Link></strong> — naves, talleres, logística</li>
             <li>· <strong>Las Marinas</strong> — turismo, alquiler vacacional</li>
             <li>· <strong>Casco urbano</strong> — comercios y servicios</li>
           </ul>
