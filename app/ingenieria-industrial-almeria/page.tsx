@@ -8,28 +8,28 @@ const siteUrl = "https://www.ingenierial.es";
 const path = "/ingenieria-industrial-almeria";
 
 export const metadata: Metadata = {
-  title: "Ingeniería Industrial en Almería · Oficina Técnica",
-  description: "Oficina técnica y estudio de ingeniería industrial en Almería. Ingeniero colegiado desde 1983, online con FNMT y presencial. Presupuesto: 670 60 78 30.",
-  keywords: ["ingeniería industrial almería","ingeniero industrial almería","oficina técnica almería","estudio de ingeniería almería","empresa de ingeniería almería","gabinete de ingeniería almería","ingeniero técnico industrial almería","servicios de ingeniería industrial almería","consultoría industrial almería","ingeniería en almería capital","ingeniero que firme proyecto almería","proyecto de nave industrial almería"],
+  title: "Ingeniería industrial en Almería · Proyectos y legalizaciones",
+  description: "Ingeniería industrial en Almería: proyectos de actividad, legalización de instalaciones y naves, licencias, peritaciones y tasaciones. Ingeniero colegiado desde 1983. Tel. 670 607 830.",
+  keywords: ["ingeniería industrial almería","ingeniero industrial almería","ingeniero técnico industrial almería","servicios de ingeniería industrial almería","consultoría industrial almería","ingeniería en almería capital","ingeniero que firme proyecto almería","proyecto de nave industrial almería"],
   alternates: { canonical: path, languages: { "es-ES": path } },
   openGraph: {
     type: "article",
     locale: "es_ES",
     url: "https://www.ingenierial.es/ingenieria-industrial-almeria",
     siteName: "Abaco Ingeniería",
-    title: "Ingeniería industrial en Almería: oficina técnica y estudio de ingeniería",
-    description: "Oficina técnica y estudio de ingeniería industrial en Almería. Ingeniero colegiado desde 1983, online con FNMT y presencial. Presupuesto: 670 60 78 30.",
-    images: [{ url: "/images/og-abaco.jpg", width: 1200, height: 630, alt: "Ingeniería industrial en Almería: oficina técnica y estudio de ingeniería – Abaco Ingeniería" }],
+    title: "Ingeniería industrial en Almería: proyectos, legalizaciones y licencias",
+    description: "Ingeniería industrial en Almería: proyectos de actividad, legalización de instalaciones y naves, licencias, peritaciones y tasaciones. Ingeniero colegiado desde 1983. Tel. 670 607 830.",
+    images: [{ url: "/images/og-abaco.jpg", width: 1200, height: 630, alt: "Ingeniería industrial en Almería: proyectos, legalizaciones y licencias – Abaco Ingeniería" }],
   },
-  twitter: { card: "summary_large_image", title: "Ingeniería industrial en Almería: oficina técnica y estudio de ingeniería", description: "Ingeniero técnico industrial colegiado en Almería.", images: ["/images/og-abaco.jpg"] },
+  twitter: { card: "summary_large_image", title: "Ingeniería industrial en Almería: proyectos, legalizaciones y licencias", description: "Proyectos, legalizaciones y licencias en Almería con ingeniero colegiado desde 1983.", images: ["/images/og-abaco.jpg"] },
 };
 
 const serviceLd = {
   "@context": "https://schema.org",
   "@type": "Service",
-  name: "Ingeniería industrial en Almería: oficina técnica y estudio de ingeniería",
+  name: "Ingeniería industrial en Almería: proyectos, legalizaciones y licencias",
   provider: {
-    "@type": "LocalBusiness",
+    "@type": "ProfessionalService",
     "@id": "https://www.ingenierial.es/#organization",
     name: "Abaco Ingeniería",
     url: siteUrl,
@@ -38,7 +38,6 @@ const serviceLd = {
     priceRange: "€€",
     image: "https://www.ingenierial.es/images/og-abaco.jpg",
     logo: "https://www.ingenierial.es/images/logo-abaco1.jpeg",
-    address: { "@type": "PostalAddress", streetAddress: "Carretera de Ronda, 293", addressLocality: "Almería", postalCode: "04009", addressCountry: "ES" },
   },
   areaServed: [
     { "@type": "City", name: "Almería" },
@@ -46,7 +45,7 @@ const serviceLd = {
     { "@type": "Country", name: "España" },
   ],
   url: "https://www.ingenierial.es/ingenieria-industrial-almeria",
-  description: "Oficina técnica y estudio de ingeniería industrial en Almería. Ingeniero colegiado desde 1983, online con FNMT y presencial. Presupuesto: 670 60 78 30.",
+  description: "Ingeniería industrial en Almería: proyectos de actividad, legalización de instalaciones y naves, licencias, peritaciones y tasaciones. Ingeniero colegiado desde 1983. Tel. 670 607 830.",
 };
 
 const faqs = [
@@ -83,14 +82,14 @@ const breadcrumbLd = {
   "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "Inicio", item: siteUrl },
-    { "@type": "ListItem", position: 2, name: "Ingeniería industrial en Almería: oficina técnica y estudio de ingeniería", item: "https://www.ingenierial.es/ingenieria-industrial-almeria" },
+    { "@type": "ListItem", position: 2, name: "Ingeniería industrial en Almería: proyectos, legalizaciones y licencias", item: "https://www.ingenierial.es/ingenieria-industrial-almeria" },
   ],
 };
 
 const bloques = [
   {
-    "titulo": "Oficina técnica, estudio y gabinete de ingeniería en Almería",
-    "cuerpo": "Cuando buscas una oficina técnica en Almería, un estudio de ingeniería o un gabinete de ingeniería, buscas lo mismo: profesionales que conviertan tu idea o tu obligación legal en un proyecto solvente y firmado. Eso es Ábaco. Redactamos memorias, planos, cálculos y documentación técnica para actividades, industrias e instalaciones, y los presentamos ante el ayuntamiento y los organismos competentes de la provincia. Un único interlocutor, del estudio inicial a la puesta en marcha."
+    "titulo": "Proyectos y trámites de ingeniería en Almería",
+    "cuerpo": "Si tienes en Almería una actividad, una nave o una instalación que legalizar, necesitas lo mismo: profesionales que conviertan tu idea o tu obligación legal en un proyecto solvente y firmado. Eso es Ábaco. Redactamos memorias, planos, cálculos y documentación técnica para actividades, industrias e instalaciones, y los presentamos ante el ayuntamiento y los organismos competentes de la provincia. Un único interlocutor, del estudio inicial a la puesta en marcha."
   },
   {
     "titulo": "Un ingeniero colegiado que firma tu proyecto",
@@ -134,15 +133,15 @@ export default function Page() {
         <ol className="flex flex-wrap items-center gap-2">
           <li><Link href="/" className="hover:text-slate-900">Inicio</Link></li>
           <li aria-hidden>›</li>
-          <li aria-current="page" className="text-slate-700">Ingeniería industrial en Almería: oficina técnica y estudio de ingeniería</li>
+          <li aria-current="page" className="text-slate-700">Ingeniería industrial en Almería: proyectos, legalizaciones y licencias</li>
         </ol>
       </nav>
 
       <section className="bg-slate-900 text-white">
         <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
-          <p className="text-sm font-semibold uppercase tracking-wider text-sky-400">Almería · Oficina técnica · 100% online</p>
-          <h1 className="mt-4 text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">Ingeniería industrial en Almería: oficina técnica y estudio de ingeniería</h1>
-          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Oficina técnica y estudio de ingeniería industrial en Almería, con ingeniero colegiado desde 1983. Proyectos, legalizaciones, licencias, peritaciones y tasaciones, 100% online con firma FNMT en toda España y atención presencial en Almería capital y provincia."}</p>
+          <p className="text-sm font-semibold uppercase tracking-wider text-sky-400">Almería · Ingeniería industrial · 100% online</p>
+          <h1 className="mt-4 text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">Ingeniería industrial en Almería: proyectos, legalizaciones y licencias</h1>
+          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Proyectos, legalizaciones, licencias, peritaciones y tasaciones en Almería, con ingeniero colegiado desde 1983. 100% online con firma FNMT y visita al local, la nave o la instalación en la capital y en toda la provincia."}</p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a href="#contacto" className="rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-400">Solicitar presupuesto</a>
             <a href="tel:+34670607830" className="rounded-xl border border-slate-600 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800">Llamar 670 607 830</a>
@@ -152,7 +151,7 @@ export default function Page() {
 
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
-          <p>{"Ábaco Ingeniería (marca abacoingeniería®) es la oficina técnica de ingeniería con sede en Almería que ayuda a empresas, autónomos y particulares a poner en marcha y legalizar su actividad. Somos un estudio de ingeniería privado que redacta, calcula y firma proyectos, no un centro académico ni un organismo público: somos la empresa que resuelve tu trámite. Damos servicio a todo el tejido productivo almeriense, desde la agroindustria del Poniente y el Levante hasta el comercio y la hostelería de la capital, los talleres y las naves de los polígonos. Si buscas una empresa de ingeniería industrial en Almería capital o provincia que lleve tu proyecto de principio a fin, con criterio técnico y trato cercano, este es tu sitio."}</p>
+          <p>{"Ábaco Ingeniería (marca abacoingeniería®) es una oficina técnica de ingeniería que ayuda a empresas, autónomos y particulares a poner en marcha y legalizar su actividad. Somos un estudio de ingeniería privado que redacta, calcula y firma proyectos, no un centro académico ni un organismo público: somos la empresa que resuelve tu trámite. Damos servicio a todo el tejido productivo almeriense, desde la agroindustria del Poniente y el Levante hasta el comercio y la hostelería de la capital, los talleres y las naves de los polígonos. Si necesitas en Almería capital o provincia a alguien que lleve tu proyecto de principio a fin, con criterio técnico y trato cercano, este es tu sitio."}</p>
           <p>{"Detrás de cada trabajo hay un ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años de experiencia firmando proyectos en toda España. Trabajamos 100% online con firma digital FNMT, lo que permite tramitar sin desplazamientos y con plena validez legal en cualquier comunidad; y cuando el caso lo exige, nos desplazamos a Almería capital y provincia (y también a Granada, Málaga y Murcia) para visitar tu local, tu nave o tu instalación. Antes de empezar hacemos un estudio previo gratuito y te damos un presupuesto cerrado, sin sorpresas ni sobrecostes."}</p>
         </div>
       </section>

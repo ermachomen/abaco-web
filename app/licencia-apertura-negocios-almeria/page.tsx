@@ -140,7 +140,7 @@ const serviceLd = {
   "@context": "https://schema.org",
   "@type": "Service",
   name: "Licencia de apertura según tu negocio en Almería",
-  provider: { "@type": "LocalBusiness", "@id": "https://www.ingenierial.es/#organization", name: "Abaco Ingeniería", url: siteUrl, telephone: "+34670607830", address: { "@type": "PostalAddress", streetAddress: "Carretera de Ronda, 293", addressLocality: "Almería", postalCode: "04009", addressCountry: "ES" } },
+  provider: { "@type": "ProfessionalService", "@id": "https://www.ingenierial.es/#organization", name: "Abaco Ingeniería", url: siteUrl, telephone: "+34670607830" },
   areaServed: [{ "@type": "City", name: "Almería" }, { "@type": "AdministrativeArea", name: "Provincia de Almería" }],
   url: `${siteUrl}${path}`,
   description: "Licencia de apertura en Almería según tu negocio: peluquería, centro de estética, tienda, gimnasio, academia u oficina. Qué piden y qué revisar antes de alquilar.",
@@ -205,7 +205,7 @@ export default function Page() {
       </section>
 
       <section className="mx-auto max-w-5xl px-6 py-16 lg:px-8">
-        <p className="text-slate-700 leading-relaxed">{"Somos una oficina técnica de Almería con ingeniero técnico industrial colegiado desde 1983. Redactamos el proyecto o la documentación técnica de tu actividad, dirigimos la adecuación del local cuando hace falta, firmamos el certificado final y lo presentamos en la sede electrónica del Ayuntamiento. Antes de que firmes nada, visitamos el local y te decimos si sirve para tu negocio. Trabajamos en toda la provincia."}</p>
+        <p className="text-slate-700 leading-relaxed">{"Somos una oficina técnica de ingeniería con ingeniero técnico industrial colegiado desde 1983. Redactamos el proyecto o la documentación técnica de tu actividad, dirigimos la adecuación del local cuando hace falta, firmamos el certificado final y lo presentamos en la sede electrónica del Ayuntamiento. Antes de que firmes nada, visitamos el local y te decimos si sirve para tu negocio. Trabajamos en toda la provincia."}</p>
         <h2 className="mt-10 text-2xl font-bold">Elige tu negocio</h2>
         <ul className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {secciones.map((s) => (

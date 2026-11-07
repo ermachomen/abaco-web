@@ -29,7 +29,7 @@ const serviceLd = {
   "@type": "Service",
   name: "Legalización de cámaras frigoríficas en Almería",
   provider: {
-    "@type": "LocalBusiness",
+    "@type": "ProfessionalService",
     "@id": "https://www.ingenierial.es/#organization",
     name: "Abaco Ingeniería",
     url: siteUrl,
@@ -38,7 +38,6 @@ const serviceLd = {
     priceRange: "€€",
     image: "https://www.ingenierial.es/images/og-abaco.jpg",
     logo: "https://www.ingenierial.es/images/logo-abaco1.jpeg",
-    address: { "@type": "PostalAddress", streetAddress: "Carretera de Ronda, 293", addressLocality: "Almería", postalCode: "04009", addressCountry: "ES" },
   },
   areaServed: [
     { "@type": "City", name: "Almería" },
@@ -72,7 +71,7 @@ const faqs = [
   },
   {
     "q": "Trabajáis solo en Almería?",
-    "a": "Tenemos la sede en Almería y nos desplazamos por toda la provincia, además de Granada, Málaga y Murcia. Para el resto de España la documentación se redacta y se firma digitalmente con certificado FNMT, coordinándonos con tu instalador frigorista local."
+    "a": "Nos desplazamos por toda la provincia de Almería, además de Granada, Málaga y Murcia. Para el resto de España la documentación se redacta y se firma digitalmente con certificado FNMT, coordinándonos con tu instalador frigorista local."
   }
 ];
 

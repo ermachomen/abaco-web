@@ -29,7 +29,7 @@ const serviceLd = {
   "@type": "Service",
   name: "Proyecto eléctrico de nave industrial en Almería",
   provider: {
-    "@type": "LocalBusiness",
+    "@type": "ProfessionalService",
     "@id": "https://www.ingenierial.es/#organization",
     name: "Abaco Ingeniería",
     url: siteUrl,
@@ -38,7 +38,6 @@ const serviceLd = {
     priceRange: "€€",
     image: "https://www.ingenierial.es/images/og-abaco.jpg",
     logo: "https://www.ingenierial.es/images/logo-abaco1.jpeg",
-    address: { "@type": "PostalAddress", streetAddress: "Carretera de Ronda, 293", addressLocality: "Almería", postalCode: "04009", addressCountry: "ES" },
   },
   areaServed: [
     { "@type": "City", name: "Almería" },
@@ -71,7 +70,7 @@ const faqs = [
   },
   {
     "q": "¿Trabajáis en toda la provincia y de forma online?",
-    "a": "Sí. Nuestra oficina está en Almería capital y nos desplazamos a toda la provincia: polígonos de la capital, Huércal de Almería, Viator, El Ejido, Roquetas, Vícar, Níjar, Huércal-Overa o Albox. Firmamos con certificado digital FNMT, así que la tramitación es online y no pierdes tiempo en gestiones presenciales. El estudio previo es gratuito, el presupuesto cerrado y respondemos en un plazo de 24 horas desde que nos cuentas el caso, por teléfono al 670 607 830 o por formulario."
+    "a": "Sí. Nos desplazamos a toda la provincia: polígonos de la capital, Huércal de Almería, Viator, El Ejido, Roquetas, Vícar, Níjar, Huércal-Overa o Albox. Firmamos con certificado digital FNMT, así que la tramitación es online y no pierdes tiempo en gestiones presenciales. El estudio previo es gratuito, el presupuesto cerrado y respondemos en un plazo de 24 horas desde que nos cuentas el caso, por teléfono al 670 607 830 o por formulario."
   }
 ];
 
@@ -160,7 +159,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"El proyecto eléctrico de una nave industrial es el documento técnico que define cuánta potencia necesita la nave, cómo se distribuye y con qué protecciones, y que firma un ingeniero para poder ejecutar la instalación y legalizarla. Se redacta conforme al Reglamento electrotécnico para baja tensión (Real Decreto 842/2002) y sus instrucciones técnicas complementarias. Lo necesitas al construir una nave nueva, al ampliarla, al cambiar de actividad o al meter maquinaria y cámaras frigoríficas que superan lo que la instalación existente admite. Sin él, ni la licencia de actividad ni el alta del suministro con la compañía distribuidora llegan a buen puerto."}</p>
-          <p>{"Somos Abaco Ingeniería, oficina técnica en Almería capital dirigida por un ingeniero técnico industrial colegiado desde 1983. Trabajamos en los polígonos de La Juaida, Sector 20 y San Silvestre, y en Huércal de Almería, Viator, El Ejido, Roquetas, Vícar, Níjar, Huércal-Overa y Albox. Redactamos el proyecto, dirigimos la obra cuando procede, emitimos los certificados y tramitamos la legalización con firma FNMT. Estudio previo gratuito, presupuesto cerrado y respuesta en 24 horas. Si tu nave es de nueva construcción, podemos coordinar este proyecto con el de obra y el de actividad para que todos los documentos coincidan en potencias, usos y plazos."}</p>
+          <p>{"Somos Abaco Ingeniería, oficina técnica de ingeniería dirigida por un ingeniero técnico industrial colegiado desde 1983. Trabajamos en los polígonos de La Juaida, Sector 20 y San Silvestre, y en Huércal de Almería, Viator, El Ejido, Roquetas, Vícar, Níjar, Huércal-Overa y Albox. Redactamos el proyecto, dirigimos la obra cuando procede, emitimos los certificados y tramitamos la legalización con firma FNMT. Estudio previo gratuito, presupuesto cerrado y respuesta en 24 horas. Si tu nave es de nueva construcción, podemos coordinar este proyecto con el de obra y el de actividad para que todos los documentos coincidan en potencias, usos y plazos."}</p>
         </div>
       </section>
 

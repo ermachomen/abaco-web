@@ -29,7 +29,7 @@ const serviceLd = {
   "@type": "Service",
   name: "Homologación de vehículos en Almería",
   provider: {
-    "@type": "LocalBusiness",
+    "@type": "ProfessionalService",
     "@id": "https://www.ingenierial.es/#organization",
     name: "Abaco Ingeniería",
     url: siteUrl,
@@ -38,7 +38,6 @@ const serviceLd = {
     priceRange: "€€",
     image: "https://www.ingenierial.es/images/og-abaco.jpg",
     logo: "https://www.ingenierial.es/images/logo-abaco1.jpeg",
-    address: { "@type": "PostalAddress", streetAddress: "Carretera de Ronda, 293", addressLocality: "Almería", postalCode: "04009", addressCountry: "ES" },
   },
   areaServed: [
     { "@type": "City", name: "Almería" },
@@ -51,7 +50,7 @@ const serviceLd = {
 
 const faqs = [
   {
-    "q": "¿Tengo que ir a vuestra oficina de Almería para homologar el vehículo?",
+    "q": "¿Tengo que desplazarme para homologar el vehículo?",
     "a": "No es obligatorio. Trabajamos 100% online con firma digital FNMT, válida ante cualquier ITV y ante la Jefatura Provincial de Tráfico de Almería, así que casi todo se resuelve por correo y teléfono. Si prefieres el trato presencial o hay que ver el vehículo, nos desplazamos por Almería capital y provincia. Tú eliges la vía."
   },
   {
@@ -89,8 +88,8 @@ const breadcrumbLd = {
 
 const bloques = [
   {
-    "titulo": "Todos los trámites de homologación de vehículos, desde Almería",
-    "cuerpo": "Homologar no es un único trámite, sino una familia de procedimientos que dependen del origen y del estado del vehículo. Desde nuestra oficina en Almería los resolvemos todos: la homologación individual de un coche importado con certificado de conformidad europeo (COC), la de un coche americano o de fuera de la UE que exige adaptar luces, velocímetro a km/h y emisiones, y la inspección previa para pasar la ITV con matrícula extranjera antes de matricular en España. Cada caso tiene su vía; te decimos cuál es la tuya antes de empezar y cuánto cuesta, sin letra pequeña."
+    "titulo": "Todos los trámites de homologación de vehículos en Almería",
+    "cuerpo": "Homologar no es un único trámite, sino una familia de procedimientos que dependen del origen y del estado del vehículo. Los resolvemos todos: la homologación individual de un coche importado con certificado de conformidad europeo (COC), la de un coche americano o de fuera de la UE que exige adaptar luces, velocímetro a km/h y emisiones, y la inspección previa para pasar la ITV con matrícula extranjera antes de matricular en España. Cada caso tiene su vía; te decimos cuál es la tuya antes de empezar y cuánto cuesta, sin letra pequeña."
   },
   {
     "titulo": "Reformas de vehículo: qué dice el Manual de Reformas",

@@ -29,7 +29,7 @@ const serviceLd = {
   "@type": "Service",
   name: "Homologar camper en Málaga: legaliza tu furgoneta camperizada",
   provider: {
-    "@type": "LocalBusiness",
+    "@type": "ProfessionalService",
     "@id": "https://www.ingenierial.es/#organization",
     name: "Abaco Ingeniería",
     url: siteUrl,
@@ -38,7 +38,6 @@ const serviceLd = {
     priceRange: "€€",
     image: "https://www.ingenierial.es/images/og-abaco.jpg",
     logo: "https://www.ingenierial.es/images/logo-abaco1.jpeg",
-    address: { "@type": "PostalAddress", streetAddress: "Carretera de Ronda, 293", addressLocality: "Almería", postalCode: "04009", addressCountry: "ES" },
   },
   areaServed: [
     { "@type": "City", name: "Málaga" },
@@ -71,7 +70,7 @@ const faqs = [
   },
   {
     "q": "¿Tengo que llevar la furgoneta a Almería para homologarla?",
-    "a": "No. Somos una oficina técnica con sede en Almería, pero nos desplazamos a ver tu furgoneta en la provincia de Málaga, ya esté en la Costa del Sol, la Axarquía, Antequera, Ronda o el Valle del Guadalhorce, y el resto del trámite lo hacemos online, con firma digital con certificado FNMT. Empezamos con un estudio previo gratuito y te damos un presupuesto cerrado antes de arrancar."
+    "a": "No. Nos desplazamos a ver tu furgoneta en la provincia de Málaga, ya esté en la Costa del Sol, la Axarquía, Antequera, Ronda o el Valle del Guadalhorce, y el resto del trámite lo hacemos online, con firma digital con certificado FNMT. Empezamos con un estudio previo gratuito y te damos un presupuesto cerrado antes de arrancar."
   }
 ];
 
@@ -156,7 +155,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"Si quieres homologar tu camper en Málaga, empieza por comparar lo que lleva montado con lo que consta en su ficha técnica y en la tarjeta ITV. La Costa del Sol es un destino camper que se disfruta todo el año, y conviene saber, tanto si compras como si vendes o camperizas, que el mobiliario fijo, la instalación eléctrica auxiliar, el agua, el gas, el techo elevable, las ventanas o las plazas nuevas son reformas. El Real Decreto 866/2010 obliga a tramitarlas con la documentación que determina el Manual de Reformas de Vehículos. Nosotros te explicamos qué exige tu caso concreto antes de gastar en material o de cerrar una compra, y preparamos el expediente completo."}</p>
-          <p>{"Somos una oficina técnica con sede en Almería, con ingeniero técnico industrial colegiado desde 1983. En Málaga nos desplazamos a ver la furgoneta, esté en la capital, en la Costa del Sol, en la Axarquía, en Antequera o en la Serranía de Ronda, y el resto del trámite lo hacemos online con firma digital con certificado FNMT. Trabajamos con el camperizador o el taller que tú elijas: si quieres camperizar una furgoneta en Málaga de forma legal, el proyecto técnico se estudia antes de cortar o atornillar, y el taller certifica después la ejecución. Estudio previo gratuito, presupuesto cerrado antes de empezar y respuesta en menos de 24 horas."}</p>
+          <p>{"Somos una oficina técnica de ingeniería, con ingeniero técnico industrial colegiado desde 1983. En Málaga nos desplazamos a ver la furgoneta, esté en la capital, en la Costa del Sol, en la Axarquía, en Antequera o en la Serranía de Ronda, y el resto del trámite lo hacemos online con firma digital con certificado FNMT. Trabajamos con el camperizador o el taller que tú elijas: si quieres camperizar una furgoneta en Málaga de forma legal, el proyecto técnico se estudia antes de cortar o atornillar, y el taller certifica después la ejecución. Estudio previo gratuito, presupuesto cerrado antes de empezar y respuesta en menos de 24 horas."}</p>
         </div>
       </section>
 

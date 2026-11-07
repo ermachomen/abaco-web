@@ -29,7 +29,7 @@ const serviceLd = {
   "@type": "Service",
   name: "Homologación de vehículos en Málaga",
   provider: {
-    "@type": "LocalBusiness",
+    "@type": "ProfessionalService",
     "@id": "https://www.ingenierial.es/#organization",
     name: "Abaco Ingeniería",
     url: siteUrl,
@@ -38,7 +38,6 @@ const serviceLd = {
     priceRange: "€€",
     image: "https://www.ingenierial.es/images/og-abaco.jpg",
     logo: "https://www.ingenierial.es/images/logo-abaco1.jpeg",
-    address: { "@type": "PostalAddress", streetAddress: "Carretera de Ronda, 293", addressLocality: "Almería", postalCode: "04009", addressCountry: "ES" },
   },
   areaServed: [
     { "@type": "City", name: "Málaga" },
@@ -51,7 +50,7 @@ const serviceLd = {
 const faqs = [
   {
     "q": "¿Tengo que llevar el vehículo a vuestra oficina o venís vosotros a verlo?",
-    "a": "Nuestra oficina técnica está en Almería y no hace falta que vengas: nos desplazamos a ver el vehículo en cualquier punto de la provincia, sea Marbella, Fuengirola, Vélez-Málaga, Antequera o Ronda. Lo demás, desde el estudio previo hasta la firma del expediente con certificado digital FNMT, se hace online, por correo y teléfono. Así no tienes que perder una mañana en desplazamientos."
+    "a": "No hace falta que vengas: nos desplazamos a ver el vehículo en cualquier punto de la provincia, sea Marbella, Fuengirola, Vélez-Málaga, Antequera o Ronda. Lo demás, desde el estudio previo hasta la firma del expediente con certificado digital FNMT, se hace online, por correo y teléfono. Así no tienes que perder una mañana en desplazamientos."
   },
   {
     "q": "¿Cuánto tiempo tengo para pasar la ITV después de una reforma?",
@@ -156,7 +155,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"Si necesitas homologación de vehículos en Málaga, lo primero es saber qué trámite te corresponde. En la Costa del Sol, la Axarquía, Antequera o la Serranía de Ronda los casos son muy distintos: un 4x4 con neumáticos más grandes, una moto con llantas nuevas, una furgoneta de trabajo a la que se añaden asientos o un coche que llegó de otro país con un propietario extranjero. Cada uno exige una cosa diferente. Antes de pasar por la inspección hay que determinar si lo que se ha hecho es una reforma, qué código del Manual de Reformas de Vehículos le corresponde y qué documentación pide ese código. Ese análisis es lo primero que hacemos, antes de que el taller empiece a trabajar."}</p>
-          <p>{"Nuestra oficina técnica está en Almería, y por eso nos organizamos para ir a ver el vehículo allí donde esté: Marbella, Fuengirola, Vélez-Málaga, Nerja, Antequera o el Valle del Guadalhorce. El resto del trámite es online, con firma digital con certificado FNMT. Lo firma un ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años de ejercicio: el ingeniero de homologaciones que necesitas en Málaga sin tener que moverte tú. Si quieres homologar un coche o una moto en Málaga, empezamos con un estudio previo gratuito y te damos un presupuesto cerrado antes de comenzar. Respondemos en menos de 24 horas, también si solo quieres saber si tu modificación necesita algún trámite."}</p>
+          <p>{"Nos organizamos para ir a ver el vehículo allí donde esté: Marbella, Fuengirola, Vélez-Málaga, Nerja, Antequera o el Valle del Guadalhorce. El resto del trámite es online, con firma digital con certificado FNMT. Lo firma un ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años de ejercicio: el ingeniero de homologaciones que necesitas en Málaga sin tener que moverte tú. Si quieres homologar un coche o una moto en Málaga, empezamos con un estudio previo gratuito y te damos un presupuesto cerrado antes de comenzar. Respondemos en menos de 24 horas, también si solo quieres saber si tu modificación necesita algún trámite."}</p>
         </div>
       </section>
 

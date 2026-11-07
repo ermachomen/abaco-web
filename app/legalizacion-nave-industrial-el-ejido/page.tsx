@@ -29,7 +29,7 @@ const serviceLd = {
   "@type": "Service",
   name: "Legalizar nave en El Ejido",
   provider: {
-    "@type": "LocalBusiness",
+    "@type": "ProfessionalService",
     "@id": "https://www.ingenierial.es/#organization",
     name: "Abaco Ingeniería",
     url: siteUrl,
@@ -38,7 +38,6 @@ const serviceLd = {
     priceRange: "€€",
     image: "https://www.ingenierial.es/images/og-abaco.jpg",
     logo: "https://www.ingenierial.es/images/logo-abaco1.jpeg",
-    address: { "@type": "PostalAddress", streetAddress: "Carretera de Ronda, 293", addressLocality: "Almería", postalCode: "04009", addressCountry: "ES" },
   },
   areaServed: [
     { "@type": "City", name: "El Ejido" },
@@ -71,7 +70,7 @@ const faqs = [
   },
   {
     "q": "¿Os desplazáis a Almerimar, Balerma o Las Norias de Daza?",
-    "a": "Sí. Nos desplazamos a todos los núcleos del término de El Ejido, como Santa María del Águila, Las Norias de Daza, San Agustín, Balerma, Almerimar, Matagorda, Pampanico y Tarambana, y también a La Mojonera, Vícar, Roquetas de Mar y Adra. Visitamos la nave para medir y el resto del expediente se gestiona con firma digital FNMT, sin que tengas que ir a nuestra oficina de Almería."
+    "a": "Sí. Nos desplazamos a todos los núcleos del término de El Ejido, como Santa María del Águila, Las Norias de Daza, San Agustín, Balerma, Almerimar, Matagorda, Pampanico y Tarambana, y también a La Mojonera, Vícar, Roquetas de Mar y Adra. Visitamos la nave para medir y el resto del expediente se gestiona con firma digital FNMT, sin que tengas que desplazarte."
   }
 ];
 
@@ -159,7 +158,7 @@ export default function Page() {
 
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
-          <p>{"El Poniente almeriense está lleno de naves que crecieron al ritmo del negocio: un almacén de manipulado hortofrutícola al que se añadió una cámara, una nave de suministros agrícolas ampliada hacia la parcela contigua, un taller de maquinaria que empezó como simple almacén o una nave de transporte refrigerado que cambió de uso sin tocar la documentación. Cada fase se hizo con prisa y casi nunca se cerró el papel. El resultado es una nave en pleno funcionamiento cuyo expediente no coincide con lo construido. Eso se nota el día que quieres vender, pedir financiación, contratar un seguro o ampliar, y también cuando llega un requerimiento. Somos una oficina técnica de Almería y nos desplazamos a cualquier núcleo de El Ejido para medir y diagnosticar."}</p>
+          <p>{"El Poniente almeriense está lleno de naves que crecieron al ritmo del negocio: un almacén de manipulado hortofrutícola al que se añadió una cámara, una nave de suministros agrícolas ampliada hacia la parcela contigua, un taller de maquinaria que empezó como simple almacén o una nave de transporte refrigerado que cambió de uso sin tocar la documentación. Cada fase se hizo con prisa y casi nunca se cerró el papel. El resultado es una nave en pleno funcionamiento cuyo expediente no coincide con lo construido. Eso se nota el día que quieres vender, pedir financiación, contratar un seguro o ampliar, y también cuando llega un requerimiento. Nos desplazamos a cualquier núcleo de El Ejido para medir y diagnosticar."}</p>
           <p>{"Trabajamos en El Ejido, Santa María del Águila, Las Norias de Daza, San Agustín, Balerma, Almerimar, Matagorda, Pampanico y Tarambana, y también en La Mojonera, Vícar, Roquetas de Mar y Adra. Un ingeniero técnico industrial colegiado desde 1983 revisa tu nave sobre el terreno, contrasta lo construido con lo autorizado y te explica, antes de que gastes en proyectos, qué capas hay que resolver: la obra, la actividad y las instalaciones. Redactamos y firmamos los proyectos y certificados, y tramitamos ante el Ayuntamiento de El Ejido y ante la Junta de Andalucía con firma digital FNMT."}</p>
         </div>
       </section>

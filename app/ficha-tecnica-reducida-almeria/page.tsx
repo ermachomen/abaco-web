@@ -29,7 +29,7 @@ const serviceLd = {
   "@type": "Service",
   name: "Ficha técnica reducida en Almería",
   provider: {
-    "@type": "LocalBusiness",
+    "@type": "ProfessionalService",
     "@id": "https://www.ingenierial.es/#organization",
     name: "Abaco Ingeniería",
     url: siteUrl,
@@ -38,7 +38,6 @@ const serviceLd = {
     priceRange: "€€",
     image: "https://www.ingenierial.es/images/og-abaco.jpg",
     logo: "https://www.ingenierial.es/images/logo-abaco1.jpeg",
-    address: { "@type": "PostalAddress", streetAddress: "Carretera de Ronda, 293", addressLocality: "Almería", postalCode: "04009", addressCountry: "ES" },
   },
   areaServed: [
     { "@type": "City", name: "Almería" },
@@ -71,8 +70,8 @@ const faqs = [
     "a": "Puedes acudir a cualquier estación de ITV de la provincia gestionada por VEIASA: Almería capital, Huércal de Almería, El Ejido, Roquetas de Mar, Vera, Huércal-Overa y el resto de centros. La ficha reducida que firmamos es válida en todas ellas. Te recomendamos pedir cita previa en la estación más cercana a tu domicilio."
   },
   {
-    "q": "¿Podéis hacerla online o tengo que ir a vuestra oficina de Almería?",
-    "a": "La hacemos 100% online en toda España: nos envías la documentación y las fotos, y te devolvemos la ficha firmada digitalmente con FNMT, sin desplazamientos. Si prefieres trato presencial, tenemos sede en Almería y nos movemos por la capital y la provincia, además de Granada, Málaga y Murcia."
+    "q": "¿Podéis hacerla online o tengo que desplazarme?",
+    "a": "La hacemos 100% online en toda España: nos envías la documentación y las fotos, y te devolvemos la ficha firmada digitalmente con FNMT, sin desplazamientos. Si prefieres trato presencial, nos desplazamos por la capital y la provincia."
   }
 ];
 

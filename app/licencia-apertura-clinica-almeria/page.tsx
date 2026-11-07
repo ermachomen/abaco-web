@@ -29,7 +29,7 @@ const serviceLd = {
   "@type": "Service",
   name: "Licencia de apertura de clínica en Almería",
   provider: {
-    "@type": "LocalBusiness",
+    "@type": "ProfessionalService",
     "@id": "https://www.ingenierial.es/#organization",
     name: "Abaco Ingeniería",
     url: siteUrl,
@@ -38,7 +38,6 @@ const serviceLd = {
     priceRange: "€€",
     image: "https://www.ingenierial.es/images/og-abaco.jpg",
     logo: "https://www.ingenierial.es/images/logo-abaco1.jpeg",
-    address: { "@type": "PostalAddress", streetAddress: "Carretera de Ronda, 293", addressLocality: "Almería", postalCode: "04009", addressCountry: "ES" },
   },
   areaServed: [
     { "@type": "City", name: "Almería" },
@@ -160,7 +159,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"Abrir una clínica en Almería exige dos caminos distintos que conviene llevar a la vez: la licencia de actividad del Ayuntamiento y la autorización sanitaria de la Junta de Andalucía. No son el mismo trámite ni lo resuelve el mismo técnico, y confundirlos es la causa más habitual de retrasos y de alquileres firmados demasiado pronto. Nosotros nos ocupamos del primero y de toda la parte técnica del local, y la coordinamos con el segundo para que ninguno bloquee al otro."}</p>
-          <p>{"Somos una oficina técnica de Almería con un ingeniero técnico industrial colegiado desde 1983. Visitamos el local antes de que firmes, te decimos si es viable para tu tipo de clínica y, si lo es, redactamos y firmamos el proyecto, dirigimos la obra de adecuación cuando procede, emitimos el certificado final y lo presentamos por la sede electrónica con firma FNMT. El estudio previo es gratuito, el presupuesto es cerrado y respondemos en 24 horas. Trabajamos en la capital y en toda la provincia."}</p>
+          <p>{"Somos una oficina técnica de ingeniería con un ingeniero técnico industrial colegiado desde 1983. Visitamos el local antes de que firmes, te decimos si es viable para tu tipo de clínica y, si lo es, redactamos y firmamos el proyecto, dirigimos la obra de adecuación cuando procede, emitimos el certificado final y lo presentamos por la sede electrónica con firma FNMT. El estudio previo es gratuito, el presupuesto es cerrado y respondemos en 24 horas. Trabajamos en la capital y en toda la provincia."}</p>
         </div>
       </section>
 

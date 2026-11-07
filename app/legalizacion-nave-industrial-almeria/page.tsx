@@ -29,7 +29,7 @@ const serviceLd = {
   "@type": "Service",
   name: "Legalizar nave industrial en Almería",
   provider: {
-    "@type": "LocalBusiness",
+    "@type": "ProfessionalService",
     "@id": "https://www.ingenierial.es/#organization",
     name: "Abaco Ingeniería",
     url: siteUrl,
@@ -38,7 +38,6 @@ const serviceLd = {
     priceRange: "€€",
     image: "https://www.ingenierial.es/images/og-abaco.jpg",
     logo: "https://www.ingenierial.es/images/logo-abaco1.jpeg",
-    address: { "@type": "PostalAddress", streetAddress: "Carretera de Ronda, 293", addressLocality: "Almería", postalCode: "04009", addressCountry: "ES" },
   },
   areaServed: [
     { "@type": "City", name: "Almería" },
@@ -160,7 +159,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"Legalizar una nave industrial rara vez es un solo trámite. Una nave puede tener la obra en regla y no la actividad, o contar con licencia de actividad y no tener registradas sus instalaciones. Por eso la tratamos en tres capas: la edificación, la actividad que se ejerce dentro y las instalaciones de seguridad industrial. Cada una tiene su procedimiento, su administración y su documentación, y conviene resolverlas en orden y de forma coordinada para que los expedientes no se contradigan entre sí. Esta página se dirige a propietarios y arrendatarios de almacenes, talleres, naves logísticas y establecimientos industriales con papeles pendientes."}</p>
-          <p>{"Somos Abaco Ingeniería, oficina técnica en Almería capital dirigida por un ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años de ejercicio. Redactamos y firmamos los proyectos y certificados, dirigimos la obra cuando procede y tramitamos ante el Ayuntamiento y la Junta de Andalucía. Firmamos con certificado digital FNMT, nos desplazamos a medir la nave en toda la provincia y respondemos en menos de 24 horas. Si tu nave es agrícola, o necesitas proyectar una nueva, tenemos páginas específicas, enlazadas más abajo."}</p>
+          <p>{"Somos Abaco Ingeniería, oficina técnica de ingeniería dirigida por un ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años de ejercicio. Redactamos y firmamos los proyectos y certificados, dirigimos la obra cuando procede y tramitamos ante el Ayuntamiento y la Junta de Andalucía. Firmamos con certificado digital FNMT, nos desplazamos a medir la nave en toda la provincia y respondemos en menos de 24 horas. Si tu nave es agrícola, o necesitas proyectar una nueva, tenemos páginas específicas, enlazadas más abajo."}</p>
         </div>
       </section>
 

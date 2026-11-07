@@ -29,7 +29,7 @@ const serviceLd = {
   "@type": "Service",
   name: "Homologación de vehículos en Granada: reformas, 4x4 e importados",
   provider: {
-    "@type": "LocalBusiness",
+    "@type": "ProfessionalService",
     "@id": "https://www.ingenierial.es/#organization",
     name: "Abaco Ingeniería",
     url: siteUrl,
@@ -38,7 +38,6 @@ const serviceLd = {
     priceRange: "€€",
     image: "https://www.ingenierial.es/images/og-abaco.jpg",
     logo: "https://www.ingenierial.es/images/logo-abaco1.jpeg",
-    address: { "@type": "PostalAddress", streetAddress: "Carretera de Ronda, 293", addressLocality: "Almería", postalCode: "04009", addressCountry: "ES" },
   },
   areaServed: [
     { "@type": "City", name: "Granada" },
@@ -51,7 +50,7 @@ const serviceLd = {
 const faqs = [
   {
     "q": "¿Tenéis que ver el vehículo en persona o puedo hacerlo todo online?",
-    "a": "Nuestra oficina técnica está en Almería, pero nos desplazamos a ver el vehículo en Granada capital, el área metropolitana, Motril, Guadix, Baza o Loja. El resto, desde la recogida de documentación hasta la firma con certificado FNMT, se hace online. Si estás en otro punto de la provincia, cuéntanos dónde y vemos cómo organizarlo en el estudio previo."
+    "a": "Nos desplazamos a ver el vehículo en Granada capital, el área metropolitana, Motril, Guadix, Baza o Loja. El resto, desde la recogida de documentación hasta la firma con certificado FNMT, se hace online. Si estás en otro punto de la provincia, cuéntanos dónde y vemos cómo organizarlo en el estudio previo."
   },
   {
     "q": "¿Puedo legalizar una reforma que ya llevo montada en el coche?",
@@ -156,7 +155,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"Si buscas homologación de vehículos en Granada, lo primero es saber qué necesita exactamente el tuyo. No es lo mismo montar un enganche en una furgoneta para subir a Sierra Nevada, cambiar los neumáticos de un 4x4 que se mueve por la Alpujarra y los caminos rurales, o traer un coche matriculado en otro país. En todos los casos partimos de lo mismo: comparar lo que figura en la ficha técnica con lo que lleva realmente el vehículo y con lo que exige el Manual de Reformas de Vehículos. A partir de ahí decidimos si basta con una ficha técnica reducida, si hace falta una homologación individual o si hay que legalizar una reforma con proyecto técnico, para que llegues a la ITV con la documentación correcta."}</p>
-          <p>{"Somos Abaco Ingeniería, con un ingeniero técnico industrial colegiado desde 1983 y más de cuarenta años de trayectoria. Desde nuestra oficina técnica de Almería nos desplazamos a ver el vehículo en Granada capital, el área metropolitana, Motril, Guadix, Baza o Loja, y el resto del trámite, desde la documentación hasta la firma digital con certificado FNMT, lo resolvemos online. Antes de empezar hacemos un estudio previo gratuito y te damos un presupuesto cerrado, con respuesta en menos de 24 horas. Tanto si quieres homologar un coche o una moto en Granada como legalizar una reforma, el expediente lo lleva y lo firma el ingeniero."}</p>
+          <p>{"Somos Abaco Ingeniería, con un ingeniero técnico industrial colegiado desde 1983 y más de cuarenta años de trayectoria. Nos desplazamos a ver el vehículo en Granada capital, el área metropolitana, Motril, Guadix, Baza o Loja, y el resto del trámite, desde la documentación hasta la firma digital con certificado FNMT, lo resolvemos online. Antes de empezar hacemos un estudio previo gratuito y te damos un presupuesto cerrado, con respuesta en menos de 24 horas. Tanto si quieres homologar un coche o una moto en Granada como legalizar una reforma, el expediente lo lleva y lo firma el ingeniero."}</p>
         </div>
       </section>
 

@@ -29,7 +29,7 @@ const serviceLd = {
   "@type": "Service",
   name: "Tasación y valoración de maquinaria industrial y agrícola en Almería",
   provider: {
-    "@type": "LocalBusiness",
+    "@type": "ProfessionalService",
     "@id": "https://www.ingenierial.es/#organization",
     name: "Abaco Ingeniería",
     url: siteUrl,
@@ -38,7 +38,6 @@ const serviceLd = {
     priceRange: "€€",
     image: "https://www.ingenierial.es/images/og-abaco.jpg",
     logo: "https://www.ingenierial.es/images/logo-abaco1.jpeg",
-    address: { "@type": "PostalAddress", streetAddress: "Carretera de Ronda, 293", addressLocality: "Almería", postalCode: "04009", addressCountry: "ES" },
   },
   areaServed: [
     { "@type": "City", name: "Almería" },
@@ -72,7 +71,7 @@ const faqs = [
   },
   {
     "q": "¿Cuánto cuesta y trabajáis en toda la provincia?",
-    "a": "El precio depende del número de equipos y de su complejidad, una sola máquina es más económica que el inventario completo de una fábrica o una cooperativa. Tras un estudio previo gratuito damos un presupuesto cerrado, sin sorpresas. Somos oficina técnica con sede en Almería, con firma digital FNMT, así que trabajamos el 100 por cien online en toda España y nos desplazamos a inspeccionar a Almería capital y provincia, y también a Granada, Málaga y Murcia. Respondemos en menos de 24 horas."
+    "a": "El precio depende del número de equipos y de su complejidad, una sola máquina es más económica que el inventario completo de una fábrica o una cooperativa. Tras un estudio previo gratuito damos un presupuesto cerrado, sin sorpresas. Somos una oficina técnica de ingeniería con firma digital FNMT, así que trabajamos el 100 por cien online en toda España y nos desplazamos a inspeccionar a Almería capital y provincia, y también a Granada, Málaga y Murcia. Respondemos en menos de 24 horas."
   }
 ];
 
@@ -190,7 +189,7 @@ export default function Page() {
           <li>·{" "}<Link href="/tasacion-nave-industrial-almeria" className="text-sky-700 underline hover:no-underline">Tasación de nave industrial en Almería</Link></li>
           <li>·{" "}<Link href="/tasacion-herencia-divorcio-almeria" className="text-sky-700 underline hover:no-underline">Tasaciones para herencia y divorcio en Almería</Link></li>
           <li>·{" "}<Link href="/tasacion-pericial-contradictoria-almeria" className="text-sky-700 underline hover:no-underline">Tasación pericial contradictoria frente a Hacienda</Link></li>
-          <li>·{" "}<Link href="/ingenieria-industrial-almeria" className="text-sky-700 underline hover:no-underline">Ingeniería industrial y oficina técnica en Almería</Link></li>
+          <li>·{" "}<Link href="/ingenieria-industrial-almeria" className="text-sky-700 underline hover:no-underline">Ingeniería industrial en Almería</Link></li>
           <li>·{" "}<Link href="/precio-tasacion-almeria" className="text-sky-700 underline hover:no-underline">Precio de una tasación en Almería</Link></li>
         </ul>
       </section>

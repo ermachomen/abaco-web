@@ -73,7 +73,7 @@ const serviceLd = {
   "@type": "Service",
   name: "Proyecto para Licencia de Actividad",
   provider: {
-    "@type": "LocalBusiness",
+    "@type": "ProfessionalService",
     "@id": `${siteUrl}/#organization`,
     name: "Abaco Ingeniería",
     url: siteUrl,
@@ -82,13 +82,6 @@ const serviceLd = {
     priceRange: "€€",
     image: `${siteUrl}/images/og-abaco.jpg`,
     logo: `${siteUrl}/images/logo-abaco1.jpeg`,
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: "Carretera de Ronda, 293",
-      addressLocality: "Almería",
-      postalCode: "04009",
-      addressCountry: "ES",
-    },
   },
   areaServed: { "@type": "Country", name: "España" },
   url: `${siteUrl}/licencia-de-actividad`,
@@ -327,7 +320,7 @@ export default function LicenciaActividadPage() {
         </div>
         <h3 className="mt-14 text-2xl font-bold tracking-tight">Licencias por municipio de Almería</h3>
         <p className="mt-4 max-w-3xl text-slate-700 leading-relaxed">
-          Somos oficina técnica con sede en Almería. Nos desplazamos sin coste a
+          Nos desplazamos sin coste a
           cualquier municipio de la provincia y conocemos las particularidades
           de cada ayuntamiento, desde los almacenes hortofrutícolas del Poniente
           hasta las naves de mármol del Almanzora o la hostelería del Levante.

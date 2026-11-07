@@ -29,7 +29,7 @@ const serviceLd = {
   "@type": "Service",
   name: "Licencia de apertura de bar en Málaga: proyecto de actividad y trámite",
   provider: {
-    "@type": "LocalBusiness",
+    "@type": "ProfessionalService",
     "@id": "https://www.ingenierial.es/#organization",
     name: "Abaco Ingeniería",
     url: siteUrl,
@@ -38,7 +38,6 @@ const serviceLd = {
     priceRange: "€€",
     image: "https://www.ingenierial.es/images/og-abaco.jpg",
     logo: "https://www.ingenierial.es/images/logo-abaco1.jpeg",
-    address: { "@type": "PostalAddress", streetAddress: "Carretera de Ronda, 293", addressLocality: "Almería", postalCode: "04009", addressCountry: "ES" },
   },
   areaServed: [
     { "@type": "City", name: "Málaga" },
@@ -67,7 +66,7 @@ const faqs = [
   },
   {
     "q": "¿Trabajáis en Marbella, Fuengirola o fuera de la capital?",
-    "a": "Sí. Somos una oficina técnica con sede en Almería: nos desplazamos al local, en la capital, la Costa del Sol, la Axarquía, Antequera o la Serranía, y el resto del trámite es online, con firma digital con certificado FNMT. Cada municipio tiene su ayuntamiento y su sede electrónica, así que presentamos ante el que corresponda al local. Para Vélez-Málaga y la Axarquía tienes una página propia con su enlace en esta misma guía."
+    "a": "Sí. Nos desplazamos al local, en la capital, la Costa del Sol, la Axarquía, Antequera o la Serranía, y el resto del trámite es online, con firma digital con certificado FNMT. Cada municipio tiene su ayuntamiento y su sede electrónica, así que presentamos ante el que corresponda al local. Para Vélez-Málaga y la Axarquía tienes una página propia con su enlace en esta misma guía."
   },
   {
     "q": "¿Cuánto cuesta y cuánto tarda la licencia de un bar en Málaga?",
@@ -156,7 +155,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"La licencia de apertura de bar en Málaga no empieza en el Ayuntamiento, sino en el local. Un bajo del Centro histórico, un local del Soho, una cafetería junto al paseo marítimo de Pedregalejo o El Palo: cada uno tiene su propia ventilación, su propia salida de humos posible y sus propios vecinos encima. Por eso el primer paso es ver el local y comprobar qué actividad admite, antes de firmar el alquiler o el traspaso. Lo hacemos con ingeniero técnico industrial colegiado desde 1983: medimos el local, redactamos el proyecto de actividad, lo firmamos digitalmente con certificado FNMT y lo presentamos en la sede electrónica del Ayuntamiento."}</p>
-          <p>{"Somos una oficina técnica con sede en Almería. En Málaga nos desplazamos a medir el local y atendemos online el resto: planos, memoria, certificados y presentación. Lo mismo vale para la Costa del Sol (Marbella, Fuengirola, Torremolinos, Benalmádena, Estepona, Mijas), la Axarquía, Antequera o Ronda, aunque cada municipio tiene su propio ayuntamiento y es ante él donde se presenta el trámite. Con más de 40 años de trayectoria, preferimos decirte con franqueza si un local es viable: el estudio previo es gratuito, el presupuesto es cerrado antes de empezar y respondemos en menos de 24 h. Si el local no sale por humos, ventilación o ruido, mejor saberlo antes de firmar que después."}</p>
+          <p>{"En Málaga nos desplazamos a medir el local y atendemos online el resto: planos, memoria, certificados y presentación. Lo mismo vale para la Costa del Sol (Marbella, Fuengirola, Torremolinos, Benalmádena, Estepona, Mijas), la Axarquía, Antequera o Ronda, aunque cada municipio tiene su propio ayuntamiento y es ante él donde se presenta el trámite. Con más de 40 años de trayectoria, preferimos decirte con franqueza si un local es viable: el estudio previo es gratuito, el presupuesto es cerrado antes de empezar y respondemos en menos de 24 h. Si el local no sale por humos, ventilación o ruido, mejor saberlo antes de firmar que después."}</p>
         </div>
       </section>
 

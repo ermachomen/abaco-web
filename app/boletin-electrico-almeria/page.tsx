@@ -29,7 +29,7 @@ const serviceLd = {
   "@type": "Service",
   name: "Boletín eléctrico y CIE en Almería",
   provider: {
-    "@type": "LocalBusiness",
+    "@type": "ProfessionalService",
     "@id": "https://www.ingenierial.es/#organization",
     name: "Abaco Ingeniería",
     url: siteUrl,
@@ -38,7 +38,6 @@ const serviceLd = {
     priceRange: "€€",
     image: "https://www.ingenierial.es/images/og-abaco.jpg",
     logo: "https://www.ingenierial.es/images/logo-abaco1.jpeg",
-    address: { "@type": "PostalAddress", streetAddress: "Carretera de Ronda, 293", addressLocality: "Almería", postalCode: "04009", addressCountry: "ES" },
   },
   areaServed: [
     { "@type": "City", name: "Almería" },
@@ -155,7 +154,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"El boletín eléctrico, cuyo nombre oficial es Certificado de Instalación Eléctrica de Baja Tensión (CIE), es el documento que acredita que una instalación cumple el Reglamento Electrotécnico de Baja Tensión (RD 842/2002) y que permite a la distribuidora dar de alta o ampliar el suministro. Lo emite y firma una empresa instaladora autorizada, no un ingeniero, y en Andalucía se registra de forma telemática en Industria de la Junta mediante los aplicativos TECI o PUES. Es obligatorio para altas de suministro nuevas, ampliaciones de potencia contratada, cambios de titularidad, instalaciones con más de veinte años o tras un corte por impago. Su vigencia legal es de veinte años."}</p>
-          <p>{"En Abaco Ingeniería (abacoingeniería) somos oficina técnica con sede en Almería: un ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años de experiencia. No competimos por el boletín más barato; te orientamos con claridad sobre si tu caso se resuelve con boletín del instalador o exige proyecto de ingeniero, y en ese segundo supuesto lo redactamos y visamos. Trabajamos en toda España de forma online con firma digital FNMT y nos desplazamos a Almería capital y provincia. Presupuesto cerrado y estudio previo gratuito."}</p>
+          <p>{"En Abaco Ingeniería (abacoingeniería) somos una oficina técnica de ingeniería: un ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años de experiencia. No competimos por el boletín más barato; te orientamos con claridad sobre si tu caso se resuelve con boletín del instalador o exige proyecto de ingeniero, y en ese segundo supuesto lo redactamos y visamos. Trabajamos en toda España de forma online con firma digital FNMT y nos desplazamos a Almería capital y provincia. Presupuesto cerrado y estudio previo gratuito."}</p>
         </div>
       </section>
 
@@ -193,7 +192,7 @@ export default function Page() {
           <li>·{" "}<Link href="/legalizacion-placas-solares-almeria" className="text-sky-700 underline hover:no-underline">Autoconsumo y placas solares</Link></li>
           <li>·{" "}<Link href="/legalizacion-alta-tension-almeria" className="text-sky-700 underline hover:no-underline">Legalización de alta tensión</Link></li>
           <li>·{" "}<Link href="/licencia-actividad-almeria" className="text-sky-700 underline hover:no-underline">Licencia de actividad en Almería</Link></li>
-          <li>·{" "}<Link href="/ingenieria-industrial-almeria" className="text-sky-700 underline hover:no-underline">Oficina de ingeniería industrial en Almería</Link></li>
+          <li>·{" "}<Link href="/ingenieria-industrial-almeria" className="text-sky-700 underline hover:no-underline">Ingeniería industrial en Almería</Link></li>
         </ul>
       </section>
 

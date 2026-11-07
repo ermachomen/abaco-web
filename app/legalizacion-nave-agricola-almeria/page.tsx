@@ -29,7 +29,7 @@ const serviceLd = {
   "@type": "Service",
   name: "Legalización de nave y almacén agrícola en Almería",
   provider: {
-    "@type": "LocalBusiness",
+    "@type": "ProfessionalService",
     "@id": "https://www.ingenierial.es/#organization",
     name: "Abaco Ingeniería",
     url: siteUrl,
@@ -38,7 +38,6 @@ const serviceLd = {
     priceRange: "€€",
     image: "https://www.ingenierial.es/images/og-abaco.jpg",
     logo: "https://www.ingenierial.es/images/logo-abaco1.jpeg",
-    address: { "@type": "PostalAddress", streetAddress: "Carretera de Ronda, 293", addressLocality: "Almería", postalCode: "04009", addressCountry: "ES" },
   },
   areaServed: [
     { "@type": "City", name: "Almería" },
@@ -154,7 +153,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"La nave o el almacén de aperos en suelo rústico es una de las construcciones que más expedientes irregulares genera en la provincia: se levanta por necesidad de la explotación y la documentación se deja para después. Para construir hace falta proyecto técnico firmado por técnico competente y el título habilitante que corresponda del ayuntamiento, y la construcción debe estar vinculada al uso agrícola de la parcela. Redactamos el proyecto tanto para obra nueva como para regularizar lo que ya está levantado."}</p>
-          <p>{"Las condiciones concretas las fija el planeamiento de cada municipio: superficie máxima según el tamaño de la parcela, porcentaje de ocupación, altura, retranqueos y distinción entre caseta de aperos y nave. No son las mismas en Níjar que en El Ejido, en Huércal-Overa o en Vícar. Por eso el trabajo empieza revisando el planeamiento del municipio y la clasificación de tu parcela, antes de dibujar nada. Somos oficina técnica en Almería y nos desplazamos a la finca para la toma de datos."}</p>
+          <p>{"Las condiciones concretas las fija el planeamiento de cada municipio: superficie máxima según el tamaño de la parcela, porcentaje de ocupación, altura, retranqueos y distinción entre caseta de aperos y nave. No son las mismas en Níjar que en El Ejido, en Huércal-Overa o en Vícar. Por eso el trabajo empieza revisando el planeamiento del municipio y la clasificación de tu parcela, antes de dibujar nada. Nos desplazamos a la finca para la toma de datos."}</p>
         </div>
       </section>
 

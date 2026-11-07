@@ -29,7 +29,7 @@ const serviceLd = {
   "@type": "Service",
   name: "Tasación pericial contradictoria en Almería frente a Hacienda",
   provider: {
-    "@type": "LocalBusiness",
+    "@type": "ProfessionalService",
     "@id": "https://www.ingenierial.es/#organization",
     name: "Abaco Ingeniería",
     url: siteUrl,
@@ -38,7 +38,6 @@ const serviceLd = {
     priceRange: "€€",
     image: "https://www.ingenierial.es/images/og-abaco.jpg",
     logo: "https://www.ingenierial.es/images/logo-abaco1.jpeg",
-    address: { "@type": "PostalAddress", streetAddress: "Carretera de Ronda, 293", addressLocality: "Almería", postalCode: "04009", addressCountry: "ES" },
   },
   areaServed: [
     { "@type": "City", name: "Almería" },
@@ -72,7 +71,7 @@ const faqs = [
   },
   {
     "q": "¿Trabajáis en Almería y de forma online?",
-    "a": "Somos oficina técnica con sede en Almería, con ingeniero técnico industrial colegiado desde 1983 y más de cuarenta años de experiencia. Firmamos con certificado digital FNMT, así que tramitamos el 100% online en toda España y nos desplazamos a inspeccionar el inmueble en Almería capital y provincia, como El Ejido, Roquetas de Mar, Níjar o Huércal-Overa, y también a Granada, Málaga y Murcia. Estudio previo gratuito y respuesta en menos de 24 horas en el 670 60 78 30."
+    "a": "Somos una oficina técnica de ingeniería, con ingeniero técnico industrial colegiado desde 1983 y más de cuarenta años de experiencia. Firmamos con certificado digital FNMT, así que tramitamos el 100% online en toda España y nos desplazamos a inspeccionar el inmueble en Almería capital y provincia, como El Ejido, Roquetas de Mar, Níjar o Huércal-Overa, y también a Granada, Málaga y Murcia. Estudio previo gratuito y respuesta en menos de 24 horas en el 670 60 78 30."
   }
 ];
 
@@ -152,7 +151,7 @@ export default function Page() {
 
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
-          <p>{"Has recibido una liquidación paralela o una propuesta de comprobación de valores de Hacienda en el ITP o en el Impuesto de Sucesiones y Donaciones, o bien pagaste aplicando el valor de referencia del Catastro y crees que supera el valor real del inmueble. En ambos casos puedes defenderte, pero necesitas prueba técnica. En Abaco Ingeniería emitimos el informe pericial de valoración que sirve como tasación de parte en la tasación pericial contradictoria (TPC) y como prueba en la impugnación ante la Agencia Tributaria de Andalucía y el TEAR. Lo firma un ingeniero técnico industrial colegiado desde 1983, con sede en Almería y trabajo 100% online."}</p>
+          <p>{"Has recibido una liquidación paralela o una propuesta de comprobación de valores de Hacienda en el ITP o en el Impuesto de Sucesiones y Donaciones, o bien pagaste aplicando el valor de referencia del Catastro y crees que supera el valor real del inmueble. En ambos casos puedes defenderte, pero necesitas prueba técnica. En Abaco Ingeniería emitimos el informe pericial de valoración que sirve como tasación de parte en la tasación pericial contradictoria (TPC) y como prueba en la impugnación ante la Agencia Tributaria de Andalucía y el TEAR. Lo firma un ingeniero técnico industrial colegiado desde 1983, con trabajo 100% online."}</p>
           <p>{"Seamos claros: Abaco no es sociedad de tasación homologada por el Banco de España, así que no emitimos tasación hipotecaria. Y no la necesitas: para fines fiscales, de herencia o judiciales, la ley admite el informe de un perito competente y colegiado, y ese es nuestro terreno. Analizamos tu caso, revisamos la motivación de Hacienda y del Catastro y te decimos con honestidad si merece la pena recurrir antes de gastar. Estudio previo gratuito, presupuesto cerrado y valoración firmada con certificado digital FNMT."}</p>
         </div>
       </section>

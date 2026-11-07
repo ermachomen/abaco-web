@@ -29,7 +29,7 @@ const serviceLd = {
   "@type": "Service",
   name: "Perito de daños en invernadero en Almería",
   provider: {
-    "@type": "LocalBusiness",
+    "@type": "ProfessionalService",
     "@id": "https://www.ingenierial.es/#organization",
     name: "Abaco Ingeniería",
     url: siteUrl,
@@ -38,7 +38,6 @@ const serviceLd = {
     priceRange: "€€",
     image: "https://www.ingenierial.es/images/og-abaco.jpg",
     logo: "https://www.ingenierial.es/images/logo-abaco1.jpeg",
-    address: { "@type": "PostalAddress", streetAddress: "Carretera de Ronda, 293", addressLocality: "Almería", postalCode: "04009", addressCountry: "ES" },
   },
   areaServed: [
     { "@type": "City", name: "Almería" },
@@ -110,7 +109,7 @@ const bloques = [
   },
   {
     "titulo": "El informe pericial y dónde trabajamos",
-    "cuerpo": "El informe incluye la descripción del invernadero, el relato del siniestro, mediciones, fotografías, el análisis de causa, la separación entre daño y desgaste previo y la valoración partida por partida. Se entrega con firma digital FNMT, redactado con claridad para que lo entienda quien lo lea, sea la aseguradora, un tercero o el juzgado. Tenemos la oficina en Almería capital y nos desplazamos al Poniente (El Ejido, Roquetas de Mar, Vícar, La Mojonera, Adra y Berja), al Campo de Níjar y al Bajo Andarax. Salimos pronto porque, una vez reparado el invernadero, ya no hay forma de comprobar cómo estaba."
+    "cuerpo": "El informe incluye la descripción del invernadero, el relato del siniestro, mediciones, fotografías, el análisis de causa, la separación entre daño y desgaste previo y la valoración partida por partida. Se entrega con firma digital FNMT, redactado con claridad para que lo entienda quien lo lea, sea la aseguradora, un tercero o el juzgado. Nos desplazamos al Poniente (El Ejido, Roquetas de Mar, Vícar, La Mojonera, Adra y Berja), al Campo de Níjar y al Bajo Andarax. Salimos pronto porque, una vez reparado el invernadero, ya no hay forma de comprobar cómo estaba."
   }
 ];
 

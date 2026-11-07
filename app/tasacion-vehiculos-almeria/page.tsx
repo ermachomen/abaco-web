@@ -29,7 +29,7 @@ const serviceLd = {
   "@type": "Service",
   name: "Tasación y valoración de vehículos en Almería",
   provider: {
-    "@type": "LocalBusiness",
+    "@type": "ProfessionalService",
     "@id": "https://www.ingenierial.es/#organization",
     name: "Abaco Ingeniería",
     url: siteUrl,
@@ -38,7 +38,6 @@ const serviceLd = {
     priceRange: "€€",
     image: "https://www.ingenierial.es/images/og-abaco.jpg",
     logo: "https://www.ingenierial.es/images/logo-abaco1.jpeg",
-    address: { "@type": "PostalAddress", streetAddress: "Carretera de Ronda, 293", addressLocality: "Almería", postalCode: "04009", addressCountry: "ES" },
   },
   areaServed: [
     { "@type": "City", name: "Almería" },
@@ -72,7 +71,7 @@ const faqs = [
   },
   {
     "q": "¿Tasáis coches clásicos o históricos? ¿Cuánto cuesta y en qué zona trabajáis?",
-    "a": "Sí, incluidos los vehículos catalogados como históricos según el nuevo reglamento de 2024, con más de treinta años de antigüedad, cuyo valor depende de la rareza, el estado y la autenticidad, no de una tabla de depreciación estándar. El precio depende del tipo de vehículo y de si es una unidad o una flota completa; tras un estudio previo gratuito damos un presupuesto cerrado, sin sorpresas. Somos oficina técnica con sede en Almería, trabajamos online con firma digital FNMT en toda España y nos desplazamos a inspeccionar en Almería capital y provincia, y también en Granada, Málaga y Murcia."
+    "a": "Sí, incluidos los vehículos catalogados como históricos según el nuevo reglamento de 2024, con más de treinta años de antigüedad, cuyo valor depende de la rareza, el estado y la autenticidad, no de una tabla de depreciación estándar. El precio depende del tipo de vehículo y de si es una unidad o una flota completa; tras un estudio previo gratuito damos un presupuesto cerrado, sin sorpresas. Somos una oficina técnica de ingeniería, trabajamos online con firma digital FNMT en toda España y nos desplazamos a inspeccionar en Almería capital y provincia, y también en Granada, Málaga y Murcia."
   }
 ];
 

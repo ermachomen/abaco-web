@@ -29,7 +29,7 @@ const serviceLd = {
   "@type": "Service",
   name: "Presupuesto de licencia de actividad en Málaga",
   provider: {
-    "@type": "LocalBusiness",
+    "@type": "ProfessionalService",
     "@id": `${siteUrl}/#organization`,
     name: "Abaco Ingeniería",
     url: siteUrl,
@@ -38,7 +38,6 @@ const serviceLd = {
     priceRange: "€€",
     image: `${siteUrl}/images/og-abaco.jpg`,
     logo: `${siteUrl}/images/logo-abaco1.jpeg`,
-    address: { "@type": "PostalAddress", streetAddress: "Carretera de Ronda, 293", addressLocality: "Almería", postalCode: "04009", addressCountry: "ES" },
   },
   areaServed: [{ "@type": "City", name: "Málaga" }, { "@type": "AdministrativeArea", name: "Provincia de Málaga" }],
   url: `${siteUrl}${path}`,

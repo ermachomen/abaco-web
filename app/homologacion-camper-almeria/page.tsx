@@ -29,7 +29,7 @@ const serviceLd = {
   "@type": "Service",
   name: "Homologación de furgoneta camper en Almería",
   provider: {
-    "@type": "LocalBusiness",
+    "@type": "ProfessionalService",
     "@id": "https://www.ingenierial.es/#organization",
     name: "Abaco Ingeniería",
     url: siteUrl,
@@ -38,7 +38,6 @@ const serviceLd = {
     priceRange: "€€",
     image: "https://www.ingenierial.es/images/og-abaco.jpg",
     logo: "https://www.ingenierial.es/images/logo-abaco1.jpeg",
-    address: { "@type": "PostalAddress", streetAddress: "Carretera de Ronda, 293", addressLocality: "Almería", postalCode: "04009", addressCountry: "ES" },
   },
   areaServed: [
     { "@type": "City", name: "Almería" },
@@ -142,7 +141,7 @@ export default function Page() {
         <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
           <p className="text-sm font-semibold uppercase tracking-wider text-sky-400">Almería · Oficina técnica · 100% online</p>
           <h1 className="mt-4 text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">Homologación de furgoneta camper en Almería</h1>
-          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Cambio de clasificación a vivienda o autocaravana, techo elevable con proyecto técnico e ITV de reforma. Ingeniero técnico industrial colegiado con sede en Almería."}</p>
+          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Cambio de clasificación a vivienda o autocaravana, techo elevable con proyecto técnico e ITV de reforma. Ingeniero técnico industrial colegiado."}</p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a href="#contacto" className="rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-400">Solicitar presupuesto</a>
             <a href="tel:+34670607830" className="rounded-xl border border-slate-600 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800">Llamar 670 607 830</a>
@@ -152,7 +151,7 @@ export default function Page() {
 
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
-          <p>{"Convertir una furgoneta en camper sin regularizarla en la ficha técnica es circular al margen de la ley: en la próxima ITV la reforma sale a la luz y el vehículo queda desfavorable. En Abaco Ingeniería, oficina técnica con sede en Almería, homologamos tu camperización de principio a fin conforme al Manual de Reformas de Vehículos y el RD 866/2010. Redactamos el proyecto técnico, coordinamos los certificados de instalación y preparamos la ITV de reforma para que tu furgoneta pase a clasificarse como vivienda o autocaravana. Ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años tramitando reformas en Almería capital y provincia."}</p>
+          <p>{"Convertir una furgoneta en camper sin regularizarla en la ficha técnica es circular al margen de la ley: en la próxima ITV la reforma sale a la luz y el vehículo queda desfavorable. En Abaco Ingeniería, homologamos tu camperización de principio a fin conforme al Manual de Reformas de Vehículos y el RD 866/2010. Redactamos el proyecto técnico, coordinamos los certificados de instalación y preparamos la ITV de reforma para que tu furgoneta pase a clasificarse como vivienda o autocaravana. Ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años tramitando reformas en Almería capital y provincia."}</p>
           <p>{"Trabajamos de dos formas: 100% online con firma digital FNMT, válida en toda España, o con desplazamiento presencial a tu localidad para ver la furgoneta cuando el caso lo requiere. Cada trabajo arranca con un estudio previo gratuito en el que revisamos fotos y datos del vehículo, te decimos qué es homologable y qué no, y cerramos un presupuesto cerrado sin sorpresas. Nada de tarifas por horas ni sobrecostes de última hora. Cuéntanos qué has montado o qué quieres montar y te respondemos en menos de 24 horas."}</p>
         </div>
       </section>

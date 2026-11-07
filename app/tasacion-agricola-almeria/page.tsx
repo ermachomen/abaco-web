@@ -29,7 +29,7 @@ const serviceLd = {
   "@type": "Service",
   name: "Tasación de invernaderos en Almería, fincas rústicas y maquinaria agrícola",
   provider: {
-    "@type": "LocalBusiness",
+    "@type": "ProfessionalService",
     "@id": "https://www.ingenierial.es/#organization",
     name: "Abaco Ingeniería",
     url: siteUrl,
@@ -38,7 +38,6 @@ const serviceLd = {
     priceRange: "€€",
     image: "https://www.ingenierial.es/images/og-abaco.jpg",
     logo: "https://www.ingenierial.es/images/logo-abaco1.jpeg",
-    address: { "@type": "PostalAddress", streetAddress: "Carretera de Ronda, 293", addressLocality: "Almería", postalCode: "04009", addressCountry: "ES" },
   },
   areaServed: [
     { "@type": "City", name: "Almería" },
@@ -71,7 +70,7 @@ const faqs = [
   },
   {
     "q": "¿Os desplazáis a El Ejido, Níjar o el Almanzora?",
-    "a": "Sí. Tenemos la oficina en Almería capital y nos desplazamos a toda la provincia: Poniente (El Ejido, Roquetas de Mar, Vícar, La Mojonera, Adra y Berja), Níjar, el valle del Almanzora y el resto de comarcas. La visita se coordina contigo y el informe se entrega con firma digital FNMT."
+    "a": "Sí. Nos desplazamos a toda la provincia: Poniente (El Ejido, Roquetas de Mar, Vícar, La Mojonera, Adra y Berja), Níjar, el valle del Almanzora y el resto de comarcas. La visita se coordina contigo y el informe se entrega con firma digital FNMT."
   }
 ];
 

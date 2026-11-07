@@ -29,7 +29,7 @@ const serviceLd = {
   "@type": "Service",
   name: "Homologar camper en Granada: proyecto, certificados e ITV",
   provider: {
-    "@type": "LocalBusiness",
+    "@type": "ProfessionalService",
     "@id": "https://www.ingenierial.es/#organization",
     name: "Abaco Ingeniería",
     url: siteUrl,
@@ -38,7 +38,6 @@ const serviceLd = {
     priceRange: "€€",
     image: "https://www.ingenierial.es/images/og-abaco.jpg",
     logo: "https://www.ingenierial.es/images/logo-abaco1.jpeg",
-    address: { "@type": "PostalAddress", streetAddress: "Carretera de Ronda, 293", addressLocality: "Almería", postalCode: "04009", addressCountry: "ES" },
   },
   areaServed: [
     { "@type": "City", name: "Granada" },
@@ -70,8 +69,8 @@ const faqs = [
     "a": "Conviene documentarlos: son instalaciones habituales en campers que se usan en invierno y forman parte de la reforma. Los describimos en el proyecto con el modelo y la ubicación del calefactor, la toma de aire, la salida de gases, los anclajes, el material aislante y el peso añadido. En el estudio previo revisamos tu instalación concreta y te indicamos qué datos necesitamos de cada equipo."
   },
   {
-    "q": "¿Cómo trabajáis desde Almería y cómo se fija el presupuesto?",
-    "a": "Tenemos sede en Almería y nos desplazamos a Granada para ver la furgoneta; el resto del trámite es online, con firma digital FNMT. No damos cifras sin conocer el vehículo: tras el estudio previo gratuito te entregamos un presupuesto cerrado, que depende de las reformas montadas y de la documentación que haya que preparar. Respondemos en menos de 24 horas en el 670 607 830."
+    "q": "¿Cómo trabajáis en Granada y cómo se fija el presupuesto?",
+    "a": "Nos desplazamos a Granada para ver la furgoneta; el resto del trámite es online, con firma digital FNMT. No damos cifras sin conocer el vehículo: tras el estudio previo gratuito te entregamos un presupuesto cerrado, que depende de las reformas montadas y de la documentación que haya que preparar. Respondemos en menos de 24 horas en el 670 607 830."
   }
 ];
 
@@ -155,7 +154,7 @@ export default function Page() {
 
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
-          <p>{"Si quieres homologar camper en Granada, el punto de partida es entender que camperizar una furgoneta es una reforma de vehículo: en el Manual de Reformas, la transformación a furgón vivienda se legaliza por el código 8.31 y la transformación a autocaravana por el 8.70, y el resultado debe quedar reflejado en la ficha técnica tras pasar la inspección técnica. En Abaco Ingeniería, oficina técnica con sede en Almería, redactamos el proyecto técnico, ordenamos los certificados y preparamos el expediente para esa inspección. Tanto si vas a empezar la obra como si ya la tienes terminada, estudiamos tu furgoneta, te decimos qué se puede legalizar tal como está y qué habría que corregir, y te damos un presupuesto cerrado antes de empezar."}</p>
+          <p>{"Si quieres homologar camper en Granada, el punto de partida es entender que camperizar una furgoneta es una reforma de vehículo: en el Manual de Reformas, la transformación a furgón vivienda se legaliza por el código 8.31 y la transformación a autocaravana por el 8.70, y el resultado debe quedar reflejado en la ficha técnica tras pasar la inspección técnica. En Abaco Ingeniería, redactamos el proyecto técnico, ordenamos los certificados y preparamos el expediente para esa inspección. Tanto si vas a empezar la obra como si ya la tienes terminada, estudiamos tu furgoneta, te decimos qué se puede legalizar tal como está y qué habría que corregir, y te damos un presupuesto cerrado antes de empezar."}</p>
           <p>{"Detrás de Abaco hay un ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años de trayectoria. En Granada nos desplazamos a ver tu furgoneta, ya esté en la capital, en el área metropolitana, en la Costa Tropical, en la Alpujarra o en Guadix, Baza y Loja; el resto del trámite es online, con firma digital FNMT. Cuando alguien camperiza por su cuenta una furgoneta de segunda mano, algo frecuente entre estudiantes y gente joven, suele llegar con la obra hecha y dudas sobre qué es legalizable: se resuelve revisando fotos, ficha técnica y equipos. El estudio previo es gratuito y respondemos en menos de 24 horas."}</p>
         </div>
       </section>

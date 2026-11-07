@@ -29,7 +29,7 @@ const serviceLd = {
   "@type": "Service",
   name: "Tasaciones en Níjar: invernaderos, fincas, cortijos y viviendas",
   provider: {
-    "@type": "LocalBusiness",
+    "@type": "ProfessionalService",
     "@id": "https://www.ingenierial.es/#organization",
     name: "Abaco Ingeniería",
     url: siteUrl,
@@ -38,7 +38,6 @@ const serviceLd = {
     priceRange: "€€",
     image: "https://www.ingenierial.es/images/og-abaco.jpg",
     logo: "https://www.ingenierial.es/images/logo-abaco1.jpeg",
-    address: { "@type": "PostalAddress", streetAddress: "Carretera de Ronda, 293", addressLocality: "Almería", postalCode: "04009", addressCountry: "ES" },
   },
   areaServed: [
     { "@type": "City", name: "Níjar" },
@@ -71,7 +70,7 @@ const faqs = [
   },
   {
     "q": "¿Os desplazáis a Las Negras, Agua Amarga o Campohermoso?",
-    "a": "Sí. Tenemos la oficina en Almería capital y nos desplazamos a todo el término de Níjar, desde el casco hasta San Isidro, Campohermoso, Rodalquilar, Las Negras o Agua Amarga. Coordinamos la visita contigo y entregamos el informe con firma digital FNMT, con una respuesta inicial en menos de 24 horas."
+    "a": "Sí. Nos desplazamos a todo el término de Níjar, desde el casco hasta San Isidro, Campohermoso, Rodalquilar, Las Negras o Agua Amarga. Coordinamos la visita contigo y entregamos el informe con firma digital FNMT, con una respuesta inicial en menos de 24 horas."
   }
 ];
 
@@ -160,7 +159,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"Las tasaciones en Níjar tienen una dificultad que no aparece en otros municipios: el término es enorme y sus núcleos están muy separados entre sí. No se valora igual un invernadero en Campohermoso o San Isidro que un cortijo cerca de Rodalquilar, una vivienda en Las Negras o un local en el casco de Níjar. En Abaco Ingeniería hacemos de tasador en Níjar con visita presencial a cada bien: medimos, inspeccionamos y redactamos un informe pericial firmado por ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años de trayectoria en la provincia de Almería."}</p>
-          <p>{"El encargo suele responder a una necesidad concreta: repartir una herencia con fincas y casas en distintos núcleos, liquidar bienes en un divorcio, contestar una comprobación de valor de Hacienda, aportar un informe a un procedimiento judicial o reclamar a la aseguradora tras un temporal. Por eso el informe indica qué método se ha usado y qué datos lo sostienen, de modo que pueda defenderse ante la Administración, la otra parte o el juzgado. Nuestra oficina está en Almería capital y nos desplazamos hasta donde esté el bien."}</p>
+          <p>{"El encargo suele responder a una necesidad concreta: repartir una herencia con fincas y casas en distintos núcleos, liquidar bienes en un divorcio, contestar una comprobación de valor de Hacienda, aportar un informe a un procedimiento judicial o reclamar a la aseguradora tras un temporal. Por eso el informe indica qué método se ha usado y qué datos lo sostienen, de modo que pueda defenderse ante la Administración, la otra parte o el juzgado. Nos desplazamos hasta donde esté el bien."}</p>
         </div>
       </section>
 

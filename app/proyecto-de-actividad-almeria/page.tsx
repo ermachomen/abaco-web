@@ -29,7 +29,7 @@ const serviceLd = {
   "@type": "Service",
   name: "Proyecto de actividad en Almería",
   provider: {
-    "@type": "LocalBusiness",
+    "@type": "ProfessionalService",
     "@id": "https://www.ingenierial.es/#organization",
     name: "Abaco Ingeniería",
     url: siteUrl,
@@ -38,7 +38,6 @@ const serviceLd = {
     priceRange: "€€",
     image: "https://www.ingenierial.es/images/og-abaco.jpg",
     logo: "https://www.ingenierial.es/images/logo-abaco1.jpeg",
-    address: { "@type": "PostalAddress", streetAddress: "Carretera de Ronda, 293", addressLocality: "Almería", postalCode: "04009", addressCountry: "ES" },
   },
   areaServed: [
     { "@type": "City", name: "Almería" },
@@ -72,7 +71,7 @@ const faqs = [
   },
   {
     "q": "¿Trabajáis en toda la provincia y en cuánto tiempo entregáis el proyecto?",
-    "a": "Sí. Somos oficina técnica con sede en Almería capital y trabajamos toda la provincia: El Ejido, Roquetas de Mar, Níjar, Vícar, Huércal de Almería, Huércal-Overa, Vera, Adra y el resto de municipios, además de Granada, Málaga y Murcia. Firmamos con certificado digital FNMT, así que tramitamos el 100% online y nos desplazamos a medir cuando hace falta. La redacción suele llevar entre 7 y 15 días desde que tenemos la información del local. Tras un estudio previo gratuito te damos un presupuesto cerrado, sin variaciones posteriores."
+    "a": "Sí. Trabajamos en toda la provincia: El Ejido, Roquetas de Mar, Níjar, Vícar, Huércal de Almería, Huércal-Overa, Vera, Adra y el resto de municipios, además de Granada, Málaga y Murcia. Firmamos con certificado digital FNMT, así que tramitamos el 100% online y nos desplazamos a medir cuando hace falta. La redacción suele llevar entre 7 y 15 días desde que tenemos la información del local. Tras un estudio previo gratuito te damos un presupuesto cerrado, sin variaciones posteriores."
   }
 ];
 
@@ -152,7 +151,7 @@ export default function Page() {
 
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
-          <p>{"Si ya sabes que tu ayuntamiento te pide un proyecto de actividad, esta es tu página. El proyecto de actividad es el documento técnico que describe y justifica tu local o nave para poder abrir: memoria, planos, cálculos e instalaciones, firmado por un técnico competente. En Almería lo redactamos como oficina técnica con sede en la capital, dirigida por un ingeniero técnico industrial colegiado desde 1983. Es el mismo documento que unos llaman proyecto de apertura, memoria técnica o proyecto de licencia; lo que importa es que esté bien hecho para que el expediente municipal avance sin requerimientos y puedas poner en marcha tu negocio cuanto antes."}</p>
+          <p>{"Si ya sabes que tu ayuntamiento te pide un proyecto de actividad, esta es tu página. El proyecto de actividad es el documento técnico que describe y justifica tu local o nave para poder abrir: memoria, planos, cálculos e instalaciones, firmado por un técnico competente. En Almería lo redactamos como oficina técnica de ingeniería, dirigida por un ingeniero técnico industrial colegiado desde 1983. Es el mismo documento que unos llaman proyecto de apertura, memoria técnica o proyecto de licencia; lo que importa es que esté bien hecho para que el expediente municipal avance sin requerimientos y puedas poner en marcha tu negocio cuanto antes."}</p>
           <p>{"No todos los locales necesitan el mismo documento. Una actividad inocua suele resolverse con una memoria técnica y una declaración responsable; una actividad calificada, con efectos sobre el medio ambiente o las personas, exige un proyecto completo y, con la nueva Ley 2/2026 para la Gestión Ambiental de Andalucía (LEGAM), la licencia ambiental municipal o la declaración responsable de efectos ambientales. Te decimos qué te toca en un estudio previo gratuito y te damos un presupuesto cerrado. Trabajamos el 100% online con firma digital FNMT y nos desplazamos a medir por Almería capital y provincia."}</p>
         </div>
       </section>
@@ -190,7 +189,7 @@ export default function Page() {
           <li>·{" "}<Link href="/declaracion-responsable-actividad-almeria" className="text-sky-700 underline hover:no-underline">Declaración responsable de actividad en Almería</Link></li>
           <li>·{" "}<Link href="/licencia-bar-restaurante-almeria" className="text-sky-700 underline hover:no-underline">Licencia de bar y restaurante en Almería</Link></li>
           <li>·{" "}<Link href="/legalizacion-instalaciones-almeria" className="text-sky-700 underline hover:no-underline">Legalización de instalaciones en Almería</Link></li>
-          <li>·{" "}<Link href="/ingenieria-industrial-almeria" className="text-sky-700 underline hover:no-underline">Ingeniería industrial y oficina técnica en Almería</Link></li>
+          <li>·{" "}<Link href="/ingenieria-industrial-almeria" className="text-sky-700 underline hover:no-underline">Ingeniería industrial en Almería</Link></li>
           <li>·{" "}<Link href="/proyecto-de-actividad" className="text-sky-700 underline hover:no-underline">Proyecto de actividad (guía nacional)</Link></li>
         </ul>
       </section>

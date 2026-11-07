@@ -29,7 +29,7 @@ const serviceLd = {
   "@type": "Service",
   name: "Legalización de climatización y aire acondicionado (RITE) en Almería",
   provider: {
-    "@type": "LocalBusiness",
+    "@type": "ProfessionalService",
     "@id": "https://www.ingenierial.es/#organization",
     name: "Abaco Ingeniería",
     url: siteUrl,
@@ -38,7 +38,6 @@ const serviceLd = {
     priceRange: "€€",
     image: "https://www.ingenierial.es/images/og-abaco.jpg",
     logo: "https://www.ingenierial.es/images/logo-abaco1.jpeg",
-    address: { "@type": "PostalAddress", streetAddress: "Carretera de Ronda, 293", addressLocality: "Almería", postalCode: "04009", addressCountry: "ES" },
   },
   areaServed: [
     { "@type": "City", name: "Almería" },
@@ -72,7 +71,7 @@ const faqs = [
   },
   {
     "q": "¿Tramitáis solo en Almería capital?",
-    "a": "No. Somos oficina técnica con sede en Almería y tramitamos el 100% online con firma FNMT en toda España. Nos desplazamos de forma presencial a Almería capital y a la provincia (El Ejido, Roquetas, Níjar, Vera, el Poniente y el Levante) y también a Granada, Málaga y Murcia cuando hay que medir la instalación."
+    "a": "No. Somos una oficina técnica de ingeniería y tramitamos el 100% online con firma FNMT en toda España. Nos desplazamos de forma presencial a Almería capital y a la provincia (El Ejido, Roquetas, Níjar, Vera, el Poniente y el Levante) y también a Granada, Málaga y Murcia cuando hay que medir la instalación."
   }
 ];
 

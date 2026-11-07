@@ -66,7 +66,7 @@ const serviceLd = {
   name: "Homologación y Ficha Técnica Reducida de Vehículos",
   serviceType: "Homologación, ficha técnica reducida y matriculación de vehículos",
   provider: {
-    "@type": "LocalBusiness",
+    "@type": "ProfessionalService",
     "@id": `${siteUrl}/#organization`,
     name: "Abaco Ingeniería",
     url: siteUrl,
@@ -75,13 +75,6 @@ const serviceLd = {
     priceRange: "€€",
     image: `${siteUrl}/images/og-abaco.jpg`,
     logo: `${siteUrl}/images/logo-abaco1.jpeg`,
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: "Carretera de Ronda, 293",
-      addressLocality: "Almería",
-      postalCode: "04009",
-      addressCountry: "ES",
-    },
   },
   areaServed: { "@type": "Country", name: "España" },
   url: `${siteUrl}/fichas-tecnicas`,
@@ -198,7 +191,7 @@ const faqs = [
   },
   {
     q: "¿Trabajáis a toda España? ¿Tengo que ir a Almería?",
-    a: "Trabajamos en toda España de forma 100% online. La documentación se intercambia por email y se firma digitalmente con FNMT, válida ante cualquier ITV y Jefatura Provincial de Tráfico. No necesitas desplazarte salvo si lo prefieres; nuestra oficina está en Almería pero el trámite no lo requiere.",
+    a: "Trabajamos en toda España de forma 100% online. La documentación se intercambia por email y se firma digitalmente con FNMT, válida ante cualquier ITV y Jefatura Provincial de Tráfico. No necesitas desplazarte: el trámite no lo requiere.",
   },
   {
     q: "¿Qué documentación necesito enviar?",

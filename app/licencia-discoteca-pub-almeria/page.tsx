@@ -29,7 +29,7 @@ const serviceLd = {
   "@type": "Service",
   name: "Licencia de Discoteca, Pub y Ocio Nocturno en Almería",
   provider: {
-    "@type": "LocalBusiness",
+    "@type": "ProfessionalService",
     "@id": "https://www.ingenierial.es/#organization",
     name: "Abaco Ingeniería",
     url: siteUrl,
@@ -38,7 +38,6 @@ const serviceLd = {
     priceRange: "€€",
     image: "https://www.ingenierial.es/images/og-abaco.jpg",
     logo: "https://www.ingenierial.es/images/logo-abaco1.jpeg",
-    address: { "@type": "PostalAddress", streetAddress: "Carretera de Ronda, 293", addressLocality: "Almería", postalCode: "04009", addressCountry: "ES" },
   },
   areaServed: [
     { "@type": "City", name: "Almería" },
@@ -152,7 +151,7 @@ export default function Page() {
 
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
-          <p>{"Una discoteca, sala de fiestas o pub no se tramita como un bar. Es una actividad calificada de espectáculos públicos y actividades recreativas, sometida a un régimen mucho más exigente en aforo, insonorización, evacuación y horarios. En Abaco Ingeniería, con sede en Almería e ingeniero técnico industrial colegiado desde 1983, redactamos el proyecto de actividad completo y gestionamos la Licencia Ambiental o la Declaración Responsable de Efectos Ambientales ante el Ayuntamiento. Trabajamos en toda la provincia de Almería, con desplazamiento presencial, y de forma cien por cien online con firma digital FNMT para el resto de España. Estudio previo gratuito y presupuesto cerrado."}</p>
+          <p>{"Una discoteca, sala de fiestas o pub no se tramita como un bar. Es una actividad calificada de espectáculos públicos y actividades recreativas, sometida a un régimen mucho más exigente en aforo, insonorización, evacuación y horarios. En Abaco Ingeniería, con ingeniero técnico industrial colegiado desde 1983, redactamos el proyecto de actividad completo y gestionamos la Licencia Ambiental o la Declaración Responsable de Efectos Ambientales ante el Ayuntamiento. Trabajamos en toda la provincia de Almería, con desplazamiento presencial, y de forma cien por cien online con firma digital FNMT para el resto de España. Estudio previo gratuito y presupuesto cerrado."}</p>
           <p>{"La normativa aplicable combina varias capas: la Ley 13/1999 de Espectáculos Públicos y Actividades Recreativas de Andalucía, el Decreto 155/2018 con el Catálogo que clasifica discoteca, sala de fiestas, pub y bar con música, el Decreto 10/2003 sobre admisión de personas y aforo, y el Decreto 50/2025 de calidad acústica, que exige limitador-registrador y aislamiento reforzado. A esto se suma el Código Técnico de la Edificación en materia de incendios y evacuación, y desde 2026 la Ley LEGAM en materia ambiental. Analizamos tu local frente a todas estas exigencias antes de que firmes el contrato de alquiler."}</p>
         </div>
       </section>

@@ -29,7 +29,7 @@ const serviceLd = {
   "@type": "Service",
   name: "Homologación de enganche o bola de remolque en Almería",
   provider: {
-    "@type": "LocalBusiness",
+    "@type": "ProfessionalService",
     "@id": "https://www.ingenierial.es/#organization",
     name: "Abaco Ingeniería",
     url: siteUrl,
@@ -38,7 +38,6 @@ const serviceLd = {
     priceRange: "€€",
     image: "https://www.ingenierial.es/images/og-abaco.jpg",
     logo: "https://www.ingenierial.es/images/logo-abaco1.jpeg",
-    address: { "@type": "PostalAddress", streetAddress: "Carretera de Ronda, 293", addressLocality: "Almería", postalCode: "04009", addressCountry: "ES" },
   },
   areaServed: [
     { "@type": "City", name: "Almería" },
@@ -152,7 +151,7 @@ export default function Page() {
 
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
-          <p>{"Has instalado una bola o enganche de remolque en tu coche, furgoneta o autocaravana y necesitas legalizarlo para pasar la ITV en Almería. Toda incorporación posterior a la matriculación es una reforma de vehículo según el RD 866/2010 y el Manual de Reformas de Vehículos y debe quedar reflejada en la tarjeta ITV. En Abaco Ingeniería, oficina técnica con sede en Almería e ingeniero técnico industrial colegiado desde 1983, reunimos toda la documentación (certificado de taller, informe de conformidad y, cuando el caso lo exige, el proyecto técnico que firmamos) para que tu gancho quede inscrito sin sobresaltos. Estudio previo gratuito y presupuesto cerrado, sin sorpresas de última hora."}</p>
+          <p>{"Has instalado una bola o enganche de remolque en tu coche, furgoneta o autocaravana y necesitas legalizarlo para pasar la ITV en Almería. Toda incorporación posterior a la matriculación es una reforma de vehículo según el RD 866/2010 y el Manual de Reformas de Vehículos y debe quedar reflejada en la tarjeta ITV. En Abaco Ingeniería, oficina técnica con ingeniero técnico industrial colegiado desde 1983, reunimos toda la documentación (certificado de taller, informe de conformidad y, cuando el caso lo exige, el proyecto técnico que firmamos) para que tu gancho quede inscrito sin sobresaltos. Estudio previo gratuito y presupuesto cerrado, sin sorpresas de última hora."}</p>
           <p>{"Circular con el enganche sin homologar no solo expone a sanción: sin la reforma inscrita la ITV resulta desfavorable y no podrás vincular legalmente un remolque, un portabicis matriculado o una caravana a tu vehículo. Trabajamos el 100% online con firma digital FNMT para toda España y nos desplazamos a las estaciones ITV de Almería capital, El Ejido, Huércal de Almería, Roquetas de Mar y Vícar. Desde el primer contacto te decimos si tu caso necesita proyecto o basta con certificado, y qué masa máxima podrás remolcar según los campos de tu ficha técnica."}</p>
         </div>
       </section>

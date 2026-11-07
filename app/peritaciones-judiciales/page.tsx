@@ -58,7 +58,7 @@ const serviceLd = {
   "@type": "Service",
   name: "Peritaciones Judiciales",
   provider: {
-    "@type": "LocalBusiness",
+    "@type": "ProfessionalService",
     "@id": `${siteUrl}/#organization`,
     name: "Abaco Ingeniería",
     url: siteUrl,
@@ -67,13 +67,6 @@ const serviceLd = {
     priceRange: "€€",
     image: `${siteUrl}/images/og-abaco.jpg`,
     logo: `${siteUrl}/images/logo-abaco1.jpeg`,
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: "Carretera de Ronda, 293",
-      addressLocality: "Almería",
-      postalCode: "04009",
-      addressCountry: "ES",
-    },
   },
   areaServed: { "@type": "Country", name: "España" },
   url: `${siteUrl}/peritaciones-judiciales`,

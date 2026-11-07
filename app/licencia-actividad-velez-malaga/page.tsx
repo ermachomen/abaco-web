@@ -29,7 +29,7 @@ const serviceLd = {
   "@type": "Service",
   name: "Licencia de apertura en Vélez-Málaga y Torre del Mar",
   provider: {
-    "@type": "LocalBusiness",
+    "@type": "ProfessionalService",
     "@id": "https://www.ingenierial.es/#organization",
     name: "Abaco Ingeniería",
     url: siteUrl,
@@ -38,7 +38,6 @@ const serviceLd = {
     priceRange: "€€",
     image: "https://www.ingenierial.es/images/og-abaco.jpg",
     logo: "https://www.ingenierial.es/images/logo-abaco1.jpeg",
-    address: { "@type": "PostalAddress", streetAddress: "Carretera de Ronda, 293", addressLocality: "Almería", postalCode: "04009", addressCountry: "ES" },
   },
   areaServed: [
     { "@type": "City", name: "Vélez-Málaga" },
@@ -156,7 +155,7 @@ export default function Page() {
 
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
-          <p>{"Si vas a abrir un negocio, la licencia de apertura en Vélez-Málaga empieza por una pregunta técnica: qué se va a hacer en el local y qué instalaciones necesita. Vélez-Málaga es la capital de la Axarquía y su término reúne núcleos muy distintos: el casco de Vélez, Torre del Mar en la costa, Caleta de Vélez, Almayate y Benajarafe. Cada zona trae su tipo de local, desde el comercio de barrio hasta el bar junto a la playa, la nave o el almacén agrícola. En Abaco Ingeniería redactamos el proyecto de actividad, lo presentamos ante el Ayuntamiento y seguimos el expediente. Somos una oficina técnica con sede en Almería: nos desplazamos a ver tu local y el resto del trámite lo hacemos online."}</p>
+          <p>{"Si vas a abrir un negocio, la licencia de apertura en Vélez-Málaga empieza por una pregunta técnica: qué se va a hacer en el local y qué instalaciones necesita. Vélez-Málaga es la capital de la Axarquía y su término reúne núcleos muy distintos: el casco de Vélez, Torre del Mar en la costa, Caleta de Vélez, Almayate y Benajarafe. Cada zona trae su tipo de local, desde el comercio de barrio hasta el bar junto a la playa, la nave o el almacén agrícola. En Abaco Ingeniería redactamos el proyecto de actividad, lo presentamos ante el Ayuntamiento y seguimos el expediente. Nos desplazamos a ver tu local y el resto del trámite lo hacemos online."}</p>
           <p>{"Detrás de cada expediente hay un ingeniero técnico industrial colegiado desde 1983, con más de 40 años de trayectoria. Empezamos con un estudio previo gratuito en el que revisamos el local, la actividad y la documentación disponible, y te damos un presupuesto cerrado antes de empezar. Respondemos en menos de 24 horas. Firmamos los documentos con certificado digital FNMT, así que no tienes que acudir a ninguna oficina para firmar. Además de Vélez-Málaga, damos servicio en el resto de la Axarquía: Nerja, Torrox, Rincón de la Victoria y Algarrobo. Si tu local está en otro municipio de la comarca, cuéntanos el caso y te decimos qué documentación hace falta."}</p>
         </div>
       </section>

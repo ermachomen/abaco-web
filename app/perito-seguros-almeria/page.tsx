@@ -29,7 +29,7 @@ const serviceLd = {
   "@type": "Service",
   name: "Perito de seguros y contraperitaje en Almería",
   provider: {
-    "@type": "LocalBusiness",
+    "@type": "ProfessionalService",
     "@id": "https://www.ingenierial.es/#organization",
     name: "Abaco Ingeniería",
     url: siteUrl,
@@ -38,7 +38,6 @@ const serviceLd = {
     priceRange: "€€",
     image: "https://www.ingenierial.es/images/og-abaco.jpg",
     logo: "https://www.ingenierial.es/images/logo-abaco1.jpeg",
-    address: { "@type": "PostalAddress", streetAddress: "Carretera de Ronda, 293", addressLocality: "Almería", postalCode: "04009", addressCountry: "ES" },
   },
   areaServed: [
     { "@type": "City", name: "Almería" },
@@ -152,7 +151,7 @@ export default function Page() {
 
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
-          <p>{"Has tenido un siniestro y la indemnización que te ofrece tu compañía no cubre ni de lejos el daño real. Es la situación más frecuente en un seguro de daños: el perito de la aseguradora trabaja para la aseguradora, y tú te quedas sin una valoración técnica que defienda tus intereses. Abaco Ingeniería, oficina técnica con sede en Almería, actúa como perito de seguros de parte: un ingeniero técnico industrial colegiado desde 1983 estudia tu siniestro, cuantifica el daño con criterio y emite un informe pericial con el que negociar de igual a igual o reclamar por la vía del artículo 38 de la Ley de Contrato de Seguro."}</p>
+          <p>{"Has tenido un siniestro y la indemnización que te ofrece tu compañía no cubre ni de lejos el daño real. Es la situación más frecuente en un seguro de daños: el perito de la aseguradora trabaja para la aseguradora, y tú te quedas sin una valoración técnica que defienda tus intereses. Abaco Ingeniería actúa como perito de seguros de parte: un ingeniero técnico industrial colegiado desde 1983 estudia tu siniestro, cuantifica el daño con criterio y emite un informe pericial con el que negociar de igual a igual o reclamar por la vía del artículo 38 de la Ley de Contrato de Seguro."}</p>
           <p>{"Cubrimos incendios, daños por agua, fenómenos atmosféricos y averías en maquinaria e instalaciones industriales, además del sub-nicho de vehículos: siniestro total, valor venal frente a valor de mercado y discrepancias de tasación. Trabajamos 100% online con firma digital FNMT en toda España y nos desplazamos a Almería capital y provincia para inspeccionar el siniestro. El estudio previo es gratuito y el presupuesto, cerrado. Importante: como ingenieros somos competentes en instalaciones, industria y causa-origen de incendios, no en las competencias reservadas de la edificación."}</p>
         </div>
       </section>

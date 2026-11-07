@@ -29,7 +29,7 @@ const serviceLd = {
   "@type": "Service",
   name: "Registro industrial en Almería (alta de establecimiento industrial)",
   provider: {
-    "@type": "LocalBusiness",
+    "@type": "ProfessionalService",
     "@id": "https://www.ingenierial.es/#organization",
     name: "Abaco Ingeniería",
     url: siteUrl,
@@ -38,7 +38,6 @@ const serviceLd = {
     priceRange: "€€",
     image: "https://www.ingenierial.es/images/og-abaco.jpg",
     logo: "https://www.ingenierial.es/images/logo-abaco1.jpeg",
-    address: { "@type": "PostalAddress", streetAddress: "Carretera de Ronda, 293", addressLocality: "Almería", postalCode: "04009", addressCountry: "ES" },
   },
   areaServed: [
     { "@type": "City", name: "Almería" },
@@ -72,7 +71,7 @@ const faqs = [
   },
   {
     "q": "¿Trabajáis solo en Almería y cuánto cuesta el trámite?",
-    "a": "Somos una oficina técnica de Almería dirigida por un ingeniero colegiado desde 1983. Gracias a la firma digital FNMT tramitamos la inscripción y la puesta en servicio 100% online en toda España, y nos desplazamos a la capital y la provincia (también a Granada, Málaga y Murcia) cuando hay que revisar la instalación in situ. El precio depende del establecimiento y de sus instalaciones; lo cerramos por adelantado tras un estudio previo sin coste."
+    "a": "Somos una oficina técnica de ingeniería dirigida por un ingeniero colegiado desde 1983. Gracias a la firma digital FNMT tramitamos la inscripción y la puesta en servicio 100% online en toda España, y nos desplazamos a la capital y la provincia (también a Granada, Málaga y Murcia) cuando hay que revisar la instalación in situ. El precio depende del establecimiento y de sus instalaciones; lo cerramos por adelantado tras un estudio previo sin coste."
   }
 ];
 
@@ -144,7 +143,7 @@ export default function Page() {
         <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
           <p className="text-sm font-semibold uppercase tracking-wider text-sky-400">Almería · Oficina técnica · 100% online</p>
           <h1 className="mt-4 text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">Registro industrial en Almería (alta de establecimiento industrial)</h1>
-          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Inscribimos tu establecimiento en el Registro Integrado Industrial de Andalucía (RIIA, antes REIA) y presentamos la puesta en servicio ante la Delegación de Industria. Oficina técnica en Almería, ingeniero colegiado, presupuesto cerrado y tramitación 100% online."}</p>
+          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Inscribimos tu establecimiento en el Registro Integrado Industrial de Andalucía (RIIA, antes REIA) y presentamos la puesta en servicio ante la Delegación de Industria. Ingeniero colegiado, presupuesto cerrado y tramitación 100% online."}</p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a href="#contacto" className="rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-400">Solicitar presupuesto</a>
             <a href="tel:+34670607830" className="rounded-xl border border-slate-600 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800">Llamar 670 607 830</a>
@@ -190,7 +189,7 @@ export default function Page() {
         <ul className="mt-4 grid gap-2 text-slate-700 md:grid-cols-2">
           <li>·{" "}<Link href="/legalizacion-instalaciones-almeria" className="text-sky-700 underline hover:no-underline">Legalización de instalaciones y registro industrial en Almería</Link></li>
           <li>·{" "}<Link href="/legalizacion-instalaciones-electricas-almeria" className="text-sky-700 underline hover:no-underline">Legalización de instalaciones eléctricas en Almería</Link></li>
-          <li>·{" "}<Link href="/ingenieria-industrial-almeria" className="text-sky-700 underline hover:no-underline">Ingeniería industrial y oficina técnica en Almería</Link></li>
+          <li>·{" "}<Link href="/ingenieria-industrial-almeria" className="text-sky-700 underline hover:no-underline">Ingeniería industrial en Almería</Link></li>
           <li>·{" "}<Link href="/licencia-actividad-almeria" className="text-sky-700 underline hover:no-underline">Licencia de actividad en Almería</Link></li>
           <li>·{" "}<Link href="/fichas-tecnicas" className="text-sky-700 underline hover:no-underline">Fichas técnicas de instalaciones</Link></li>
           <li>·{" "}<Link href="/legalizacion-contra-incendios-almeria" className="text-sky-700 underline hover:no-underline">Legalización de protección contra incendios en Almería</Link></li>

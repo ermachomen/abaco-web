@@ -29,7 +29,7 @@ const serviceLd = {
   "@type": "Service",
   name: "Fotovoltaica para riego agrícola en Almería",
   provider: {
-    "@type": "LocalBusiness",
+    "@type": "ProfessionalService",
     "@id": "https://www.ingenierial.es/#organization",
     name: "Abaco Ingeniería",
     url: siteUrl,
@@ -38,7 +38,6 @@ const serviceLd = {
     priceRange: "€€",
     image: "https://www.ingenierial.es/images/og-abaco.jpg",
     logo: "https://www.ingenierial.es/images/logo-abaco1.jpeg",
-    address: { "@type": "PostalAddress", streetAddress: "Carretera de Ronda, 293", addressLocality: "Almería", postalCode: "04009", addressCountry: "ES" },
   },
   areaServed: [
     { "@type": "City", name: "Almería" },
@@ -154,7 +153,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"El riego es la partida eléctrica más pesada de una explotación almeriense, y es justo la que mejor encaja con la fotovoltaica: se consume de día, en los meses de más sol. Proyectamos y legalizamos instalaciones para bombeo de pozo, impulsión a balsa y cabezal de riego, tanto en modo aislado, sin conexión a la red, como en autoconsumo conectado. La diferencia entre una y otra no es menor: determina qué trámites te corresponden y qué puedes hacer con la energía sobrante."}</p>
-          <p>{"Como ingeniería industrial no vendemos placas: dimensionamos la instalación según tu curva real de riego, calculamos la potencia que necesita el grupo de bombeo y redactamos la documentación para que quede legalizada y no te dé un disgusto en una inspección o con el seguro. Trabajamos con tu instalador o te ayudamos a comparar ofertas con criterio técnico. Sede en Almería, desplazamiento a toda la provincia y firma digital FNMT."}</p>
+          <p>{"Como ingeniería industrial no vendemos placas: dimensionamos la instalación según tu curva real de riego, calculamos la potencia que necesita el grupo de bombeo y redactamos la documentación para que quede legalizada y no te dé un disgusto en una inspección o con el seguro. Trabajamos con tu instalador o te ayudamos a comparar ofertas con criterio técnico. Desplazamiento a toda la provincia y firma digital FNMT."}</p>
         </div>
       </section>
 
@@ -190,7 +189,7 @@ export default function Page() {
           <li>·{" "}<Link href="/legalizacion-placas-solares-almeria" className="text-sky-700 underline hover:no-underline">Legalización de placas solares en Almería</Link></li>
           <li>·{" "}<Link href="/legalizacion-instalaciones-electricas-almeria" className="text-sky-700 underline hover:no-underline">Legalización de instalaciones eléctricas</Link></li>
           <li>·{" "}<Link href="/boletin-electrico-almeria" className="text-sky-700 underline hover:no-underline">Boletín eléctrico</Link></li>
-          <li>·{" "}<Link href="/ingenieria-industrial-almeria" className="text-sky-700 underline hover:no-underline">Oficina técnica en Almería</Link></li>
+          <li>·{" "}<Link href="/ingenieria-industrial-almeria" className="text-sky-700 underline hover:no-underline">Ingeniería industrial en Almería</Link></li>
         </ul>
       </section>
 

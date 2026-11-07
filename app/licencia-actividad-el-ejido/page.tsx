@@ -39,7 +39,7 @@ const serviceLd = {
   "@type": "Service",
   name: `Licencia de Actividad en ${municipio}`,
   provider: {
-    "@type": "LocalBusiness",
+    "@type": "ProfessionalService",
     "@id": `${siteUrl}/#organization`,
     name: "Abaco Ingeniería",
     url: siteUrl,
@@ -48,7 +48,6 @@ const serviceLd = {
     priceRange: "€€",
     image: `${siteUrl}/images/og-abaco.jpg`,
     logo: `${siteUrl}/images/logo-abaco1.jpeg`,
-    address: { "@type": "PostalAddress", streetAddress: "Carretera de Ronda, 293", addressLocality: "Almería", postalCode: "04009", addressCountry: "ES" },
   },
   areaServed: { "@type": "City", name: municipio, containedInPlace: { "@type": "AdministrativeArea", name: "Almería" } },
   url: `${siteUrl}${path}`,

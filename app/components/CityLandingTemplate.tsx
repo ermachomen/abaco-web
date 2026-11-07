@@ -52,7 +52,7 @@ export default function CityLandingTemplate({ servicio, citySlug }: CityLandingP
     name: `${config.nombreSeo} en ${city.nombre}`,
     serviceType: config.descripcionCorta,
     provider: {
-      "@type": "LocalBusiness",
+      "@type": "ProfessionalService",
       "@id": `${siteUrl}/#organization`,
       name: "Abaco Ingeniería",
       url: siteUrl,
@@ -61,13 +61,6 @@ export default function CityLandingTemplate({ servicio, citySlug }: CityLandingP
       priceRange: "€€",
       image: `${siteUrl}/images/og-abaco.jpg`,
       logo: `${siteUrl}/images/logo-abaco1.jpeg`,
-      address: {
-        "@type": "PostalAddress",
-        streetAddress: "Carretera de Ronda, 293",
-        addressLocality: "Almería",
-        postalCode: "04009",
-        addressCountry: "ES",
-      },
     },
     areaServed: {
       "@type": "City",
@@ -236,15 +229,13 @@ export default function CityLandingTemplate({ servicio, citySlug }: CityLandingP
                 Servicio nacional · 100% online
               </p>
               <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900">
-                Tramitación sin desplazamientos desde nuestra oficina en Almería
+                Tramitación sin desplazamientos, estés donde estés
               </h2>
               <p className="mt-5 text-base leading-8 text-slate-600">
                 Abaco Ingeniería trabaja en toda España. La documentación se
                 envía por correo electrónico y se firma digitalmente con FNMT,
                 con plena validez ante cualquier ayuntamiento, juzgado, ITV o
-                Jefatura Provincial de Tráfico. No necesitas desplazarte; si lo
-                prefieres, también atendemos en nuestra oficina de Almería con
-                cita previa.
+                Jefatura Provincial de Tráfico. No necesitas desplazarte: si hay que ver el local o el vehículo, vamos nosotros.
               </p>
             </div>
             <div className="grid gap-4 sm:grid-cols-2">

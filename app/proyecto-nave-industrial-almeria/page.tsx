@@ -29,7 +29,7 @@ const serviceLd = {
   "@type": "Service",
   name: "Proyecto de nave industrial en Almería",
   provider: {
-    "@type": "LocalBusiness",
+    "@type": "ProfessionalService",
     "@id": "https://www.ingenierial.es/#organization",
     name: "Abaco Ingeniería",
     url: siteUrl,
@@ -38,7 +38,6 @@ const serviceLd = {
     priceRange: "€€",
     image: "https://www.ingenierial.es/images/og-abaco.jpg",
     logo: "https://www.ingenierial.es/images/logo-abaco1.jpeg",
-    address: { "@type": "PostalAddress", streetAddress: "Carretera de Ronda, 293", addressLocality: "Almería", postalCode: "04009", addressCountry: "ES" },
   },
   areaServed: [
     { "@type": "City", name: "Almería" },
@@ -72,7 +71,7 @@ const faqs = [
   },
   {
     "q": "¿Trabajáis en toda la provincia de Almería y de forma online?",
-    "a": "Sí. Somos oficina técnica con sede en Almería e ingeniero técnico industrial colegiado desde 1983. Firmamos con certificado digital FNMT, así que tramitamos el 100% online en toda España y nos desplazamos a medir e inspeccionar a Almería capital y a los municipios del Poniente y el Levante como El Ejido, Roquetas de Mar, Níjar, Vícar o Huércal-Overa, y también a Granada, Málaga y Murcia. Estudio previo gratuito y respuesta en menos de 24 horas."
+    "a": "Sí. Somos una oficina técnica de ingeniería con ingeniero técnico industrial colegiado desde 1983. Firmamos con certificado digital FNMT, así que tramitamos el 100% online en toda España y nos desplazamos a medir e inspeccionar a Almería capital y a los municipios del Poniente y el Levante como El Ejido, Roquetas de Mar, Níjar, Vícar o Huércal-Overa, y también a Granada, Málaga y Murcia. Estudio previo gratuito y respuesta en menos de 24 horas."
   }
 ];
 
@@ -153,7 +152,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"Un proyecto de nave industrial o agrícola es el documento técnico que define la obra, la estructura y las instalaciones del edificio y que firma un ingeniero competente para poder construir, abrir y legalizar la nave. En Almería la demanda es marcadamente agroindustrial: almacenes de manipulado hortofrutícola, cámaras frigoríficas y de pre-frío, naves logísticas y de acopio en el Poniente (El Ejido, Roquetas de Mar, Níjar y Vícar) y en el Levante (Huércal-Overa). Cada nave necesita justificar el cálculo estructural, la instalación eléctrica, la protección contra incendios y el saneamiento, además de la licencia de obra y la de actividad antes de entrar en funcionamiento."}</p>
-          <p>{"En Abaco Ingeniería, marca abacoingeniería, lo resolvemos como oficina técnica con sede en Almería, dirigida por un ingeniero técnico industrial colegiado desde 1983 y con más de cuarenta años de experiencia. Redactamos el proyecto completo, calculamos la estructura, coordinamos las instalaciones y tramitamos licencias, legalización y puesta en servicio ante la Junta de Andalucía. Firmamos con certificado digital FNMT, así que trabajamos el 100% online en toda España y nos desplazamos a Almería capital y provincia, y también a Granada, Málaga y Murcia. Estudio previo gratuito y presupuesto cerrado, sin sorpresas."}</p>
+          <p>{"En Abaco Ingeniería, marca abacoingeniería, lo resolvemos como oficina técnica de ingeniería, dirigida por un ingeniero técnico industrial colegiado desde 1983 y con más de cuarenta años de experiencia. Redactamos el proyecto completo, calculamos la estructura, coordinamos las instalaciones y tramitamos licencias, legalización y puesta en servicio ante la Junta de Andalucía. Firmamos con certificado digital FNMT, así que trabajamos el 100% online en toda España y nos desplazamos a Almería capital y provincia, y también a Granada, Málaga y Murcia. Estudio previo gratuito y presupuesto cerrado, sin sorpresas."}</p>
         </div>
       </section>
 
@@ -193,7 +192,7 @@ export default function Page() {
           <li>·{" "}<Link href="/legalizacion-instalaciones-electricas-almeria" className="text-sky-700 underline hover:no-underline">Legalización de instalaciones eléctricas (REBT) en Almería</Link></li>
           <li>·{" "}<Link href="/licencia-actividad-almeria" className="text-sky-700 underline hover:no-underline">Licencia de actividad en Almería</Link></li>
           <li>·{" "}<Link href="/licencia-actividad-el-ejido" className="text-sky-700 underline hover:no-underline">Licencia de actividad en El Ejido</Link></li>
-          <li>·{" "}<Link href="/ingenieria-industrial-almeria" className="text-sky-700 underline hover:no-underline">Ingeniería industrial y oficina técnica en Almería</Link></li>
+          <li>·{" "}<Link href="/ingenieria-industrial-almeria" className="text-sky-700 underline hover:no-underline">Ingeniería industrial en Almería</Link></li>
         </ul>
       </section>
 

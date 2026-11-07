@@ -462,7 +462,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── SERVICIOS EN ALMERÍA ── */}
+      {/* ── SERVICIOS POR ZONA ── */}
       <section aria-labelledby="servicios-almeria" className="bg-white">
         <div className="mx-auto max-w-7xl px-6 pb-20 lg:px-8">
           <h2 id="servicios-almeria" className="text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">
@@ -471,17 +471,20 @@ export default function Home() {
           <ul className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {[
               { label: "Licencia de apertura en Almería", href: "/licencia-actividad-almeria" },
-              { label: "Licencia de apertura en Roquetas de Mar", href: "/licencia-actividad-roquetas-de-mar" },
-              { label: "Licencia de apertura en El Ejido", href: "/licencia-actividad-el-ejido" },
+              { label: "Licencia de apertura en Granada", href: "/licencia-actividad-granada" },
+              { label: "Licencia de apertura en Málaga", href: "/licencia-actividad-malaga" },
+              { label: "Licencia de apertura en Murcia", href: "/licencia-actividad-murcia" },
+              { label: "Licencia de apertura en Sevilla", href: "/licencia-actividad-sevilla" },
+              { label: "Licencia de apertura en Madrid", href: "/licencia-actividad-madrid" },
               { label: "Proyecto de actividad en Almería", href: "/proyecto-de-actividad-almeria" },
               { label: "Perito judicial en Almería", href: "/peritaciones-almeria" },
               { label: "Tasador en Almería", href: "/tasaciones-almeria" },
               { label: "Homologación de vehículos en Almería", href: "/homologacion-vehiculos-almeria" },
-              { label: "Ficha técnica reducida en Almería", href: "/ficha-tecnica-reducida-almeria" },
-              { label: "Proyecto de nave industrial en Almería", href: "/proyecto-nave-industrial-almeria" },
+              { label: "Homologación de vehículos en Málaga", href: "/homologacion-vehiculos-malaga" },
+              { label: "Homologación de vehículos en Granada", href: "/homologacion-vehiculos-granada" },
               { label: "Legalizar una nave industrial en Almería", href: "/legalizacion-nave-industrial-almeria" },
-              { label: "Boletín eléctrico en Almería", href: "/boletin-electrico-almeria" },
-              { label: "Legalizar placas solares en Almería", href: "/legalizacion-placas-solares-almeria" },
+              { label: "Licencia de apertura en Roquetas de Mar", href: "/licencia-actividad-roquetas-de-mar" },
+              { label: "Licencia de apertura en El Ejido", href: "/licencia-actividad-el-ejido" },
             ].map(({ label, href }) => (
               <li key={href}>
                 <Link

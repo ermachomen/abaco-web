@@ -29,7 +29,7 @@ const serviceLd = {
   "@type": "Service",
   name: "Legalización de placas solares y autoconsumo fotovoltaico en Almería",
   provider: {
-    "@type": "LocalBusiness",
+    "@type": "ProfessionalService",
     "@id": "https://www.ingenierial.es/#organization",
     name: "Abaco Ingeniería",
     url: siteUrl,
@@ -38,7 +38,6 @@ const serviceLd = {
     priceRange: "€€",
     image: "https://www.ingenierial.es/images/og-abaco.jpg",
     logo: "https://www.ingenierial.es/images/logo-abaco1.jpeg",
-    address: { "@type": "PostalAddress", streetAddress: "Carretera de Ronda, 293", addressLocality: "Almería", postalCode: "04009", addressCountry: "ES" },
   },
   areaServed: [
     { "@type": "City", name: "Almería" },
@@ -72,7 +71,7 @@ const faqs = [
   },
   {
     "q": "¿Legalizáis autoconsumo industrial o agrícola en la provincia?",
-    "a": "Sí. Además de fotovoltaica doméstica, legalizamos autoconsumo de naves industriales, cubiertas de almacenes de manipulado, invernaderos y bombeo solar para riego en toda la provincia de Almería. Somos oficina técnica con sede en Almería y colegiado desde 1983; tramitamos online con firma FNMT y nos desplazamos a la parcela o nave cuando hay que revisar la instalación antes de firmar el proyecto."
+    "a": "Sí. Además de fotovoltaica doméstica, legalizamos autoconsumo de naves industriales, cubiertas de almacenes de manipulado, invernaderos y bombeo solar para riego en toda la provincia de Almería. Somos una oficina técnica de ingeniería con ingeniero colegiado desde 1983; tramitamos online con firma FNMT y nos desplazamos a la parcela o nave cuando hay que revisar la instalación antes de firmar el proyecto."
   }
 ];
 
@@ -193,7 +192,7 @@ export default function Page() {
           <li>·{" "}<Link href="/boletin-electrico-almeria" className="text-sky-700 underline hover:no-underline">Boletín eléctrico (certificado de instalación) en Almería</Link></li>
           <li>·{" "}<Link href="/legalizacion-alta-tension-almeria" className="text-sky-700 underline hover:no-underline">Legalización de alta tensión y centros de transformación</Link></li>
           <li>·{" "}<Link href="/registro-industrial-almeria" className="text-sky-700 underline hover:no-underline">Registro industrial en Almería</Link></li>
-          <li>·{" "}<Link href="/ingenieria-industrial-almeria" className="text-sky-700 underline hover:no-underline">Ingeniería industrial y oficina técnica en Almería</Link></li>
+          <li>·{" "}<Link href="/ingenieria-industrial-almeria" className="text-sky-700 underline hover:no-underline">Ingeniería industrial en Almería</Link></li>
         </ul>
       </section>
 

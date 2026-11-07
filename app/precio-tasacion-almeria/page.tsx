@@ -29,7 +29,7 @@ const serviceLd = {
   "@type": "Service",
   name: "Precio de una tasación en Almería: cuánto cuesta",
   provider: {
-    "@type": "LocalBusiness",
+    "@type": "ProfessionalService",
     "@id": "https://www.ingenierial.es/#organization",
     name: "Abaco Ingeniería",
     url: siteUrl,
@@ -38,7 +38,6 @@ const serviceLd = {
     priceRange: "€€",
     image: "https://www.ingenierial.es/images/og-abaco.jpg",
     logo: "https://www.ingenierial.es/images/logo-abaco1.jpeg",
-    address: { "@type": "PostalAddress", streetAddress: "Carretera de Ronda, 293", addressLocality: "Almería", postalCode: "04009", addressCountry: "ES" },
   },
   areaServed: [
     { "@type": "City", name: "Almería" },
@@ -152,7 +151,7 @@ export default function Page() {
 
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
-          <p>{"Si buscas cuánto cuesta una tasación en Almería, la respuesta honesta es que depende de tres cosas: el tipo de bien, la finalidad y la complejidad del encargo. En Abaco Ingeniería trabajamos con presupuesto cerrado y precios orientativos ya publicados: desde unos 250 EUR para una vivienda, alrededor de 350 EUR para locales y naves pequeñas, desde 450 EUR para naves industriales y valoración a medida para maquinaria e industria. Somos una oficina técnica con sede en Almería, con un ingeniero técnico industrial colegiado desde 1983 y más de cuarenta años firmando valoraciones con plena validez ante Hacienda, notarios y juzgados."}</p>
+          <p>{"Si buscas cuánto cuesta una tasación en Almería, la respuesta honesta es que depende de tres cosas: el tipo de bien, la finalidad y la complejidad del encargo. En Abaco Ingeniería trabajamos con presupuesto cerrado y precios orientativos ya publicados: desde unos 250 EUR para una vivienda, alrededor de 350 EUR para locales y naves pequeñas, desde 450 EUR para naves industriales y valoración a medida para maquinaria e industria. Somos una oficina técnica de ingeniería, con un ingeniero técnico industrial colegiado desde 1983 y más de cuarenta años firmando valoraciones con plena validez ante Hacienda, notarios y juzgados."}</p>
           <p>{"Importante y honesto: Abaco no es sociedad de tasación homologada por el Banco de España, así que no realizamos tasación hipotecaria para pedir un préstamo. Nuestro terreno es la tasación no hipotecaria firmada por ingeniero colegiado, igual de válida para herencias, divorcios, extinción de condominio, Hacienda y procedimientos judiciales. Cuando la finalidad no es una hipoteca no necesitas una tasadora oficial, y evitar ese sobrecoste reduce el precio de forma notable. Antes de cobrar nada hacemos un estudio previo gratuito y te damos un presupuesto cerrado, sin sorpresas."}</p>
         </div>
       </section>

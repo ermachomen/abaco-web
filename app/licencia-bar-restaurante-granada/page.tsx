@@ -29,7 +29,7 @@ const serviceLd = {
   "@type": "Service",
   name: "Licencia de apertura de bar en Granada: proyecto de actividad y tramitación",
   provider: {
-    "@type": "LocalBusiness",
+    "@type": "ProfessionalService",
     "@id": "https://www.ingenierial.es/#organization",
     name: "Abaco Ingeniería",
     url: siteUrl,
@@ -38,7 +38,6 @@ const serviceLd = {
     priceRange: "€€",
     image: "https://www.ingenierial.es/images/og-abaco.jpg",
     logo: "https://www.ingenierial.es/images/logo-abaco1.jpeg",
-    address: { "@type": "PostalAddress", streetAddress: "Carretera de Ronda, 293", addressLocality: "Almería", postalCode: "04009", addressCountry: "ES" },
   },
   areaServed: [
     { "@type": "City", name: "Granada" },
@@ -70,8 +69,8 @@ const faqs = [
     "a": "Depende del edificio, y por eso hay que verlo en el local. Estudiamos el recorrido posible del conducto, su salida respecto a los huecos de viviendas cercanas y si hace falta el acuerdo de la comunidad de propietarios. No prometemos un resultado antes de la visita: si el edificio no admite una solución razonable, te lo decimos en el estudio previo, antes de que firmes el contrato del local."
   },
   {
-    "q": "¿Trabajáis en Granada si vuestra oficina está en Almería?",
-    "a": "Sí. Nuestra oficina técnica está en Almería; nos desplazamos a Granada para ver y medir el local y hacemos online el resto: firma con certificado digital FNMT, presentación en la sede electrónica y seguimiento del expediente. Atendemos la ciudad, el área metropolitana, Motril y Almuñécar. El estudio previo es gratuito y respondemos en menos de 24 h. Llámanos al 670 607 830."
+    "q": "¿Trabajáis en toda la provincia de Granada?",
+    "a": "Sí. Nos desplazamos para ver y medir el local y hacemos online el resto: firma con certificado digital FNMT, presentación en la sede electrónica y seguimiento del expediente. Atendemos la ciudad, el área metropolitana, Motril y Almuñécar. El estudio previo es gratuito y respondemos en menos de 24 h. Llámanos al 670 607 830."
   }
 ];
 

@@ -105,7 +105,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": ["LocalBusiness", "ProfessionalService"],
+      "@type": "ProfessionalService",
       "@id": `${siteUrl}/#organization`,
       name: "Abaco Ingeniería",
       alternateName: ["abacoingeniería", "Ábaco Ingeniería"],
@@ -134,19 +134,6 @@ const jsonLd = {
       },
       description:
         "Oficina técnica nacional con más de 40 años de trayectoria. Licencias de apertura, peritaciones judiciales, tasaciones técnicas, fichas técnicas reducidas y homologación de vehículos en toda España. Servicio 100% online con firma digital FNMT.",
-      address: {
-        "@type": "PostalAddress",
-        streetAddress: "Carretera de Ronda, 293",
-        addressLocality: "Almería",
-        postalCode: "04009",
-        addressRegion: "Andalucía",
-        addressCountry: "ES",
-      },
-      geo: {
-        "@type": "GeoCoordinates",
-        latitude: 36.8381,
-        longitude: -2.4597,
-      },
       areaServed: { "@type": "Country", name: "España" },
       openingHoursSpecification: [
         {

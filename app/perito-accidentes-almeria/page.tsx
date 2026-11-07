@@ -29,7 +29,7 @@ const serviceLd = {
   "@type": "Service",
   name: "Perito de accidentes en Almería",
   provider: {
-    "@type": "LocalBusiness",
+    "@type": "ProfessionalService",
     "@id": "https://www.ingenierial.es/#organization",
     name: "Abaco Ingeniería",
     url: siteUrl,
@@ -38,7 +38,6 @@ const serviceLd = {
     priceRange: "€€",
     image: "https://www.ingenierial.es/images/og-abaco.jpg",
     logo: "https://www.ingenierial.es/images/logo-abaco1.jpeg",
-    address: { "@type": "PostalAddress", streetAddress: "Carretera de Ronda, 293", addressLocality: "Almería", postalCode: "04009", addressCountry: "ES" },
   },
   areaServed: [
     { "@type": "City", name: "Almería" },
@@ -154,7 +153,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"Después de un accidente, lo que decide la responsabilidad no es la versión de cada parte: es la reconstrucción técnica de lo que falló. Como ingeniero técnico industrial colegiado desde 1983, peritamos accidentes laborales, accidentes con maquinaria y equipos de trabajo, accidentes por fallo de instalación y accidentes de tráfico con componente técnica. El informe establece la secuencia de los hechos, identifica la causa y determina si hubo defecto de diseño, de ejecución, de mantenimiento o de uso, que es exactamente lo que discuten el juzgado, la mutua y la aseguradora."}</p>
-          <p>{"Trabajamos como perito de parte, contratados por el accidentado, la empresa o su abogado, y también por designación judicial. Actuamos igual del lado de quien reclama que de quien se defiende de una reclamación que considera injusta: el criterio técnico es el mismo. Sede en Almería, con desplazamiento a toda la provincia para la inspección, y firma digital FNMT para el resto de España. Estudio previo gratuito y presupuesto cerrado antes de empezar."}</p>
+          <p>{"Trabajamos como perito de parte, contratados por el accidentado, la empresa o su abogado, y también por designación judicial. Actuamos igual del lado de quien reclama que de quien se defiende de una reclamación que considera injusta: el criterio técnico es el mismo. Desplazamiento a toda la provincia para la inspección, y firma digital FNMT para el resto de España. Estudio previo gratuito y presupuesto cerrado antes de empezar."}</p>
         </div>
       </section>
 

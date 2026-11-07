@@ -29,7 +29,7 @@ const serviceLd = {
   "@type": "Service",
   name: "Tasaciones en El Ejido: invernaderos, fincas, viviendas y naves",
   provider: {
-    "@type": "LocalBusiness",
+    "@type": "ProfessionalService",
     "@id": "https://www.ingenierial.es/#organization",
     name: "Abaco Ingeniería",
     url: siteUrl,
@@ -38,7 +38,6 @@ const serviceLd = {
     priceRange: "€€",
     image: "https://www.ingenierial.es/images/og-abaco.jpg",
     logo: "https://www.ingenierial.es/images/logo-abaco1.jpeg",
-    address: { "@type": "PostalAddress", streetAddress: "Carretera de Ronda, 293", addressLocality: "Almería", postalCode: "04009", addressCountry: "ES" },
   },
   areaServed: [
     { "@type": "City", name: "El Ejido" },
@@ -71,7 +70,7 @@ const faqs = [
   },
   {
     "q": "¿Os desplazáis a Santa María del Águila, Almerimar o Balerma?",
-    "a": "Sí. Nuestra oficina está en Almería capital y nos desplazamos a todo el término de El Ejido: el casco urbano, Santa María del Águila, Las Norias de Daza, San Agustín, Balerma, Almerimar, Matagorda, Guardias Viejas, Pampanico y Tarambana. La visita se coordina contigo y el informe se entrega con firma digital FNMT, sin que tengas que desplazarte."
+    "a": "Sí. Nos desplazamos a todo el término de El Ejido: el casco urbano, Santa María del Águila, Las Norias de Daza, San Agustín, Balerma, Almerimar, Matagorda, Guardias Viejas, Pampanico y Tarambana. La visita se coordina contigo y el informe se entrega con firma digital FNMT, sin que tengas que desplazarte."
   }
 ];
 
@@ -160,7 +159,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"Las tasaciones en El Ejido tienen una particularidad: el municipio es el centro del Poniente agrícola y buena parte del patrimonio de las familias está en invernaderos, fincas y almacenes, además de la vivienda. Un buen tasador en El Ejido tiene que saber valorar una estructura de parral o multitúnel con la misma soltura que un piso, un local o una nave de manipulado. En Abaco Ingeniería lo hacemos con un criterio común: visita presencial, medición, comprobación documental y un informe que explica de dónde sale cada cifra, firmado por un técnico con más de cuarenta años de trayectoria."}</p>
-          <p>{"El encargo suele llegar por una herencia que hay que repartir, un divorcio con bienes que liquidar, una comprobación de valor de Hacienda con la que no estás de acuerdo, un procedimiento judicial o un siniestro que la aseguradora valora a la baja. Somos perito tasador en El Ejido con oficina en Almería capital y nos desplazamos a El Ejido, Santa María del Águila, Las Norias de Daza, San Agustín, Balerma, Almerimar, Matagorda, Guardias Viejas, Pampanico y Tarambana. La firma es digital FNMT y respondemos en menos de 24 horas."}</p>
+          <p>{"El encargo suele llegar por una herencia que hay que repartir, un divorcio con bienes que liquidar, una comprobación de valor de Hacienda con la que no estás de acuerdo, un procedimiento judicial o un siniestro que la aseguradora valora a la baja. Somos peritos tasadores en El Ejido y nos desplazamos a El Ejido, Santa María del Águila, Las Norias de Daza, San Agustín, Balerma, Almerimar, Matagorda, Guardias Viejas, Pampanico y Tarambana. La firma es digital FNMT y respondemos en menos de 24 horas."}</p>
         </div>
       </section>
 

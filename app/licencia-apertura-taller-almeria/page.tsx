@@ -29,7 +29,7 @@ const serviceLd = {
   "@type": "Service",
   name: "Licencia de apertura de taller mecánico en Almería",
   provider: {
-    "@type": "LocalBusiness",
+    "@type": "ProfessionalService",
     "@id": "https://www.ingenierial.es/#organization",
     name: "Abaco Ingeniería",
     url: siteUrl,
@@ -38,7 +38,6 @@ const serviceLd = {
     priceRange: "€€",
     image: "https://www.ingenierial.es/images/og-abaco.jpg",
     logo: "https://www.ingenierial.es/images/logo-abaco1.jpeg",
-    address: { "@type": "PostalAddress", streetAddress: "Carretera de Ronda, 293", addressLocality: "Almería", postalCode: "04009", addressCountry: "ES" },
   },
   areaServed: [
     { "@type": "City", name: "Almería" },
@@ -160,7 +159,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"Un taller no es un local cualquiera: trabaja con aceites, baterías, gases de escape, pintura, aire comprimido y maquinaria de fuerza. Por eso abrir un taller mecánico en Almería exige un proyecto técnico bien hecho, que demuestre que el local soporta esa actividad con seguridad y sin molestar a los vecinos. Cubrimos talleres de mecánica, electricidad del automóvil, chapa y pintura, motos y lavaderos de coches. Esta página te explica qué suele pedirse en cada caso, qué conviene mirar antes de firmar el alquiler y en qué orden se hace el trámite, para que no pierdas tiempo ni dinero con un local que luego no pueda abrir."}</p>
-          <p>{"En Abaco Ingeniería somos una oficina técnica de Almería capital, con un ingeniero técnico industrial colegiado desde 1983. Redactamos y firmamos el proyecto, dirigimos la obra de adecuación cuando procede, emitimos el certificado final y lo tramitamos todo por la sede electrónica con firma FNMT. Antes de que te comprometas con el local, lo visitamos y te decimos si es viable. El estudio previo es gratuito y el presupuesto, cerrado. Llámanos al 670 607 830 o escríbenos y te respondemos en 24 horas, con una primera valoración de tu taller."}</p>
+          <p>{"En Abaco Ingeniería somos una oficina técnica de ingeniería, con un ingeniero técnico industrial colegiado desde 1983. Redactamos y firmamos el proyecto, dirigimos la obra de adecuación cuando procede, emitimos el certificado final y lo tramitamos todo por la sede electrónica con firma FNMT. Antes de que te comprometas con el local, lo visitamos y te decimos si es viable. El estudio previo es gratuito y el presupuesto, cerrado. Llámanos al 670 607 830 o escríbenos y te respondemos en 24 horas, con una primera valoración de tu taller."}</p>
         </div>
       </section>
 

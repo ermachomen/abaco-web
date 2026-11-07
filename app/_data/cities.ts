@@ -443,7 +443,7 @@ export const CITY_FAQS: Record<Servicio, Record<string, { q: string; a: string }
       { q: "¿Cuánto tarda la licencia en Murcia?", a: "Por declaración responsable, apertura inmediata. Para licencias previas: 3-5 meses según complejidad." },
     ],
     almeria: [
-      { q: "¿Cómo se tramita la licencia en Almería?", a: "Ayuntamiento de Almería por sede electrónica. Aplicamos normativa andaluza y la ordenanza propia municipal. Como oficina técnica en Almería desde 1983, conocemos a fondo los criterios específicos." },
+      { q: "¿Cómo se tramita la licencia en Almería?", a: "Ayuntamiento de Almería por sede electrónica. Aplicamos normativa andaluza y la ordenanza propia municipal. Con más de cuarenta años tramitando en la provincia, conocemos a fondo los criterios específicos." },
       { q: "¿Trabajáis en El Ejido, Roquetas, Vícar y municipios de la provincia?", a: "Sí. Toda la provincia incluyendo El Ejido, Roquetas de Mar, Vícar, Huércal-Overa, Adra, Berja, Cuevas del Almanzora, Vera, Mojácar y Carboneras. Tenemos landings dedicadas para los principales municipios." },
       { q: "¿Trabajáis con almacenes hortofrutícolas?", a: "Sí. Es uno de los servicios más demandados en Almería. Almacenes de manipulado, cámaras frigoríficas, plantas de envasado. Aplicamos requisitos sanitarios, contraincendios y gestión de residuos." },
       { q: "¿Tramitáis hostelería costera?", a: "Sí. Chiringuitos (con autorización adicional de Costas), bares, restaurantes y locales de música. Aplicamos requisitos acústicos y de salida de humos específicos para zonas costeras y residenciales." },
@@ -516,7 +516,7 @@ export const CITY_FAQS: Record<Servicio, Record<string, { q: string; a: string }
     ],
     almeria: [
       { q: "¿Qué diferencia hay entre perito de parte y perito judicial?", a: "El perito de parte lo contratas tú y su informe lo aporta tu abogado. El perito de designación judicial lo nombra el juzgado. Actuamos en ambos casos, y en los dos comparecemos a ratificar el informe si nos citan." },
-      { q: "¿Comparecéis ante los juzgados de Almería?", a: "Sí. Almería capital, El Ejido, Huércal-Overa, Vera, Roquetas y resto de partidos judiciales. Tenemos sede en Almería desde 1983." },
+      { q: "¿Comparecéis ante los juzgados de Almería?", a: "Sí. Almería capital, El Ejido, Huércal-Overa, Vera, Roquetas y resto de partidos judiciales. Ingeniero colegiado desde 1983." },
       { q: "¿Qué peritajes hacéis en Almería?", a: "Patologías agrícolas (invernaderos, almacenes), accidentes laborales, daños por temporales, peritajes industriales y costeros, valoraciones e incendios." },
       { q: "¿Trabajáis con peritajes en invernaderos y agricultura?", a: "Sí. Es uno de nuestros nichos. Daños por temporales, accidentes con maquinaria, peritajes de cubiertas, valoraciones de explotaciones." },
       { q: "¿Cuánto tarda?", a: "15-30 días desde la visita." },

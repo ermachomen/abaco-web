@@ -45,7 +45,7 @@ const serviceLd = {
   name: "Tasaciones Técnicas",
   serviceType: "Tasación y valoración técnica de inmuebles, maquinaria y vehículos",
   provider: {
-    "@type": "LocalBusiness",
+    "@type": "ProfessionalService",
     "@id": `${siteUrl}/#organization`,
     name: "Abaco Ingeniería",
     url: siteUrl,
@@ -54,7 +54,6 @@ const serviceLd = {
     priceRange: "€€",
     image: `${siteUrl}/images/og-abaco.jpg`,
     logo: `${siteUrl}/images/logo-abaco1.jpeg`,
-    address: { "@type": "PostalAddress", streetAddress: "Carretera de Ronda, 293", addressLocality: "Almería", postalCode: "04009", addressCountry: "ES" },
   },
   areaServed: { "@type": "Country", name: "España" },
   url: `${siteUrl}/tasaciones`,
@@ -101,7 +100,7 @@ const faqs = [
   },
   {
     q: "¿Trabajáis a toda España?",
-    a: "Sí. Nuestra sede está en Almería pero atendemos en toda España. Para tasaciones de inmuebles concretos solemos hacer visita de inspección presencial; en algunos casos (catastro, estudios documentales) el trabajo es íntegramente remoto.",
+    a: "Sí. Atendemos en toda España. Para tasaciones de inmuebles concretos solemos hacer visita de inspección presencial; en algunos casos (catastro, estudios documentales) el trabajo es íntegramente remoto.",
   },
 ];
 
