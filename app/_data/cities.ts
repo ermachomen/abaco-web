@@ -198,12 +198,17 @@ export const CITY_EXTRA_LINKS: Partial<Record<Servicio, Record<string, { label: 
       { label: "Perito de incendios en Almería", href: "/perito-incendios-almeria" },
       { label: "Perito de accidentes en Almería", href: "/perito-accidentes-almeria" },
       { label: "Perito de seguros en Almería", href: "/perito-seguros-almeria" },
+      { label: "Perito de vehículos: valor venal y siniestro total", href: "/tasacion-vehiculos-almeria" },
+      { label: "Perito de humedades y vicios ocultos", href: "/perito-humedades-vicios-ocultos-almeria" },
       { label: "Perito de daños en invernaderos", href: "/perito-danos-invernadero-almeria" },
       { label: "Tasador en Almería", href: "/tasaciones-almeria" },
     ],
   },
   tasaciones: {
     almeria: [
+      { label: "Tasación inmobiliaria en Almería: viviendas, pisos y locales", href: "/tasacion-inmobiliaria-almeria" },
+      { label: "Tasación de vehículos en Almería", href: "/tasacion-vehiculos-almeria" },
+      { label: "Tasación de maquinaria industrial", href: "/tasacion-maquinaria-industrial-almeria" },
       { label: "Tasación de invernaderos, fincas rústicas y maquinaria agrícola", href: "/tasacion-agricola-almeria" },
       { label: "Tasación de nave industrial, local y terreno", href: "/tasacion-nave-industrial-almeria" },
       { label: "Tasaciones en El Ejido", href: "/tasaciones-el-ejido" },
@@ -217,7 +222,16 @@ export const CITY_EXTRA_LINKS: Partial<Record<Servicio, Record<string, { label: 
   "licencia-actividad": {
     almeria: [
       { label: "Licencia de bar y restaurante en Almería", href: "/licencia-bar-restaurante-almeria" },
+      { label: "Licencia de apertura por tipo de negocio en Almería", href: "/licencia-apertura-negocios-almeria" },
+      { label: "Licencia de apertura de clínica en Almería", href: "/licencia-apertura-clinica-almeria" },
+      { label: "Licencia de apertura de taller en Almería", href: "/licencia-apertura-taller-almeria" },
+      { label: "Licencia de discoteca y pub en Almería", href: "/licencia-discoteca-pub-almeria" },
+      { label: "Declaración responsable de actividad en Almería", href: "/declaracion-responsable-actividad-almeria" },
+      { label: "Proyecto de actividad en Almería", href: "/proyecto-de-actividad-almeria" },
+      { label: "Cambio de titularidad de la licencia en Almería", href: "/cambio-titularidad-licencia-actividad-almeria" },
       { label: "Cuánto cuesta una licencia de actividad en Almería", href: "/precio-licencia-actividad-almeria" },
+      { label: "Licencia de actividad en Huércal de Almería", href: "/licencia-actividad-huercal-de-almeria" },
+      { label: "Licencia de actividad en Níjar", href: "/licencia-actividad-nijar" },
       { label: "Licencia de actividad en Roquetas de Mar", href: "/licencia-actividad-roquetas-de-mar" },
       { label: "Licencia de actividad en El Ejido", href: "/licencia-actividad-el-ejido" },
       { label: "Licencia de actividad en Vícar", href: "/licencia-actividad-vicar" },
@@ -239,18 +253,25 @@ export const CITY_EXTRA_LINKS: Partial<Record<Servicio, Record<string, { label: 
 
 /** Título, H1 y descripción propios de una ciudad cuando la fórmula genérica no encaja con la búsqueda real. */
 export const CITY_SEO_OVERRIDES: Partial<Record<Servicio, Record<string, { titulo: string; h1: string; descripcion: string }>>> = {
+  "licencia-actividad": {
+    almeria: {
+      titulo: "Licencia de Apertura y Actividad en Almería · Estudio Gratis",
+      h1: "Licencia de Actividad y Apertura en Almería",
+      descripcion: "Licencia de apertura y actividad en Almería con ingeniero colegiado. Vemos el local antes de que alquiles. Estudio previo gratis y respuesta en 24 h.",
+    },
+  },
   peritaciones: {
     almeria: {
-      titulo: "Perito Judicial Ingeniero en Almería · Informes Periciales",
-      h1: "Perito judicial ingeniero en Almería",
-      descripcion: "Perito judicial ingeniero en Almería: informes de incendios, accidentes, instalaciones, maquinaria y daños para juzgados, abogados y aseguradoras. Estudio previo gratuito.",
+      titulo: "Perito Ingeniero en Almería · Judicial, Seguros e Informes",
+      h1: "Perito ingeniero en Almería: judicial, de seguros e informes periciales",
+      descripcion: "Perito en Almería: informes periciales de incendios, accidentes, vehículos e instalaciones, para el juzgado o frente a tu seguro. Estudio previo gratis.",
     },
   },
   tasaciones: {
     almeria: {
-      titulo: "Tasador en Almería · Tasaciones Periciales y Valoraciones",
+      titulo: "Tasador en Almería · Tasación de Viviendas, Naves y Fincas",
       h1: "Tasador y tasaciones periciales en Almería",
-      descripcion: "Tasador en Almería: tasaciones periciales de viviendas, naves, invernaderos, fincas, maquinaria y vehículos para herencias, divorcios, Hacienda y juzgado. Presupuesto cerrado.",
+      descripcion: "Tasador en Almería: viviendas, locales, naves, fincas y vehículos para herencias, divorcios, Hacienda y juzgado. Presupuesto cerrado y respuesta en 24 h.",
     },
   },
 };
@@ -263,6 +284,7 @@ export const CITY_EXTRA_SECTION: Partial<Record<Servicio, Record<string, { titul
       parrafos: [
         "Cuando el litigio gira sobre una instalación eléctrica, una máquina, una nave o el origen de un incendio, el perito judicial que te hace falta es un ingeniero. En Abaco Ingeniería el informe lo firma un ingeniero técnico industrial colegiado desde 1983, y tratas directamente con quien inspecciona, redacta el dictamen y lo defiende ante el juzgado.",
         "Actuamos de dos formas. Como perito de parte, elaboramos el informe que aporta tu abogado. Como perito de designación judicial, aceptamos el nombramiento del juzgado y emitimos un dictamen imparcial. En ambos casos comparecemos a ratificar el informe en sala, y la inspección y la vista son presenciales en Almería y su provincia.",
+        "También trabajamos como perito de seguros de parte. Si la aseguradora te ofrece menos de lo que vale el daño, o rechaza el siniestro, hacemos un informe pericial propio que valora los daños y su causa, para que reclames con datos. Y como perito de vehículos, valoramos el coche en un siniestro total, en una herencia o cuando discutes su valor venal.",
       ],
       casosTitulo: "Encargos habituales en la provincia",
       casos: [
@@ -271,6 +293,8 @@ export const CITY_EXTRA_SECTION: Partial<Record<Servicio, Record<string, { titul
         "Accidente laboral con maquinaria o equipos de trabajo.",
         "Instalación eléctrica, térmica o frigorífica que falla o no cumple su reglamento.",
         "Discrepancia con la aseguradora sobre la causa o la cuantía del daño.",
+        "Valoración de un vehículo declarado siniestro total por el seguro.",
+        "Informe pericial de humedades, filtraciones o defectos ocultos en una vivienda o un local.",
       ],
     },
   },
@@ -324,7 +348,7 @@ export const CITY_CONTEXT: Record<Servicio, Record<string, string>> = {
     murcia:
       "Murcia combina un fuerte tejido comercial urbano (Centro, Trapería, Platería, Cardenal Belluga), hostelería del casco antiguo, sector industrial (Polígono Oeste, Cabezo Cortao, La Polvorista) y la huerta. El Ayuntamiento de Murcia y la CARM (Comunidad Autónoma de la Región de Murcia) aplican normativa específica para actividades calificadas. Para hostelería en la zona del Centro hay particularidades sobre veladores, terrazas y aislamiento acústico. Tramitamos también en Cartagena, Lorca, Molina de Segura, Alcantarilla, Águilas y Mazarrón.",
     almeria:
-      "Almería tiene un mercado de aperturas marcado por la hostelería costera (Cabo de Gata, Aguadulce, Roquetas), la agricultura intensiva (almacenes hortofrutícolas en El Ejido, Vícar, Roquetas) y el comercio urbano. El Ayuntamiento de Almería aplica la normativa autonómica andaluza. Trabajamos también en los municipios de la provincia: El Ejido, Roquetas de Mar, Vícar, Huércal-Overa, Adra, Berja, Cuevas del Almanzora, Vera, Mojácar y Carboneras. Tenemos landings dedicadas para los municipios con más volumen de aperturas.",
+      "Almería tiene un mercado de aperturas marcado por la hostelería costera (Cabo de Gata, Aguadulce, Roquetas), la agricultura intensiva (almacenes hortofrutícolas en El Ejido, Vícar, Roquetas) y el comercio urbano. El Ayuntamiento de Almería aplica la normativa autonómica andaluza. Trabajamos también en los municipios de la provincia: El Ejido, Roquetas de Mar, Vícar, Huércal-Overa, Adra, Berja, Cuevas del Almanzora, Vera, Mojácar y Carboneras. Tenemos una página propia para cada uno de los municipios con más aperturas.",
   },
   peritaciones: {
     madrid:

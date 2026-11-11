@@ -8,8 +8,8 @@ const siteUrl = "https://www.ingenierial.es";
 const path = "/declaracion-responsable-actividad-almeria";
 
 export const metadata: Metadata = {
-  title: "Declaración Responsable de Actividad en Almería | Ingeniero",
-  description: "Abre tu negocio en Almería con declaración responsable: inmediata, pero con proyecto o memoria firmada por técnico. Ingeniero colegiado, estudio previo gratis.",
+  title: "Declaración Responsable de Actividad en Almería · Qué Presentar",
+  description: "Declaración responsable para abrir tu negocio en Almería: qué hay que presentar, cuándo hace falta proyecto y quién lo firma. Estudio previo gratis, respuesta en 24 h.",
   keywords: ["declaración responsable actividad Almería","declaración responsable apertura Almería","actividad inocua Almería","licencia ambiental municipal Almería","comunicación previa actividad Almería","abrir negocio Almería declaración responsable","proyecto actividad técnico competente Almería","ingeniero técnico industrial Almería","Ley 2/2026 gestión ambiental Andalucía","tramitación licencia actividad Almería"],
   alternates: { canonical: path, languages: { "es-ES": path } },
   openGraph: {
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.ingenierial.es/declaracion-responsable-actividad-almeria",
     siteName: "Abaco Ingeniería",
     title: "Declaración responsable de actividad en Almería",
-    description: "Abre tu negocio en Almería con declaración responsable: inmediata, pero con proyecto o memoria firmada por técnico. Ingeniero colegiado, estudio previo gratis.",
+    description: "Declaración responsable para abrir tu negocio en Almería: qué hay que presentar, cuándo hace falta proyecto y quién lo firma. Estudio previo gratis, respuesta en 24 h.",
     images: [{ url: "/images/og-abaco.jpg", width: 1200, height: 630, alt: "Declaración responsable de actividad en Almería – Abaco Ingeniería" }],
   },
   twitter: { card: "summary_large_image", title: "Declaración responsable de actividad en Almería", description: "Ingeniero técnico industrial colegiado en Almería.", images: ["/images/og-abaco.jpg"] },
@@ -45,7 +45,7 @@ const serviceLd = {
     { "@type": "Country", name: "España" },
   ],
   url: "https://www.ingenierial.es/declaracion-responsable-actividad-almeria",
-  description: "Abre tu negocio en Almería con declaración responsable: inmediata, pero con proyecto o memoria firmada por técnico. Ingeniero colegiado, estudio previo gratis.",
+  description: "Declaración responsable para abrir tu negocio en Almería: qué hay que presentar, cuándo hace falta proyecto y quién lo firma. Estudio previo gratis, respuesta en 24 h.",
 };
 
 const faqs = [

@@ -61,6 +61,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const tasacionesEspecialidades = [
     "tasacion-pericial-contradictoria-almeria",
     "tasacion-herencia-divorcio-almeria",
+    "tasacion-inmobiliaria-almeria",
     "tasacion-maquinaria-industrial-almeria",
     "tasacion-nave-industrial-almeria",
     "tasacion-vehiculos-almeria",
