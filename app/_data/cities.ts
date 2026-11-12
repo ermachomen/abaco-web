@@ -194,11 +194,12 @@ export const ESPECIALIDADES: Record<
 export const CITY_EXTRA_LINKS: Partial<Record<Servicio, Record<string, { label: string; href: string }[]>>> = {
   peritaciones: {
     almeria: [
+      { label: "Perito judicial en Almería", href: "/perito-judicial-almeria" },
       { label: "Perito ingeniero industrial en Almería", href: "/perito-ingeniero-industrial-almeria" },
       { label: "Perito de incendios en Almería", href: "/perito-incendios-almeria" },
       { label: "Perito de accidentes en Almería", href: "/perito-accidentes-almeria" },
       { label: "Perito de seguros en Almería", href: "/perito-seguros-almeria" },
-      { label: "Perito de vehículos: valor venal y siniestro total", href: "/tasacion-vehiculos-almeria" },
+      { label: "Perito de vehículos en Almería", href: "/perito-vehiculos-almeria" },
       { label: "Perito de humedades y vicios ocultos", href: "/perito-humedades-vicios-ocultos-almeria" },
       { label: "Perito de daños en invernaderos", href: "/perito-danos-invernadero-almeria" },
       { label: "Tasador en Almería", href: "/tasaciones-almeria" },
@@ -278,6 +279,24 @@ export const CITY_SEO_OVERRIDES: Partial<Record<Servicio, Record<string, { titul
 
 /** Sección propia de una landing cuando la plantilla común no basta para responder a la búsqueda real. */
 export const CITY_EXTRA_SECTION: Partial<Record<Servicio, Record<string, { titulo: string; parrafos: string[]; casosTitulo: string; casos: string[] }>>> = {
+  "licencia-actividad": {
+    almeria: {
+      titulo: "Técnico para la licencia de apertura en Almería: qué hace el ingeniero",
+      parrafos: [
+        "Abrir un local en Almería exige, en la mayoría de los casos, documentación técnica firmada por un técnico competente. En Abaco Ingeniería la firma un ingeniero técnico industrial colegiado desde 1983: redactamos el proyecto de actividad o la memoria técnica, dirigimos la adecuación del local, firmamos el certificado final y presentamos el expediente en la sede electrónica del Ayuntamiento.",
+        "Antes de que firmes el alquiler vemos el local contigo. Comprobamos si la actividad cabe en él y qué habría que adaptar: salida de humos, ventilación, aislamiento acústico, accesibilidad, protección contra incendios e instalación eléctrica. Que el trámite sea una declaración responsable o una licencia depende de la actividad; lo determinamos al estudiar tu caso y te damos un presupuesto cerrado antes de empezar.",
+      ],
+      casosTitulo: "Qué te pediremos para preparar el proyecto de actividad",
+      casos: [
+        "La actividad que quieres abrir y si llevará cocina, música o maquinaria.",
+        "La dirección del local o su referencia catastral, y la superficie aproximada.",
+        "Los planos del local, si los tienes; si no, los levantamos nosotros.",
+        "El contrato de alquiler o las escrituras, o los datos del propietario si aún no has firmado.",
+        "La licencia o la declaración responsable anterior del local, si la hubo.",
+        "Los boletines o certificados de las instalaciones que ya existan: electricidad, climatización o gas.",
+      ],
+    },
+  },
   peritaciones: {
     almeria: {
       titulo: "Perito judicial en Almería para asuntos de ingeniería",

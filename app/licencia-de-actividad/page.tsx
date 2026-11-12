@@ -6,16 +6,8 @@ import Logo from "../components/Logo";
 import { CITIES } from "../_data/cities";
 import { MUNICIPIOS_ALMERIA } from "../_data/almeria-municipios";
 
-// Municipios de Almería con página propia (incluye los ya existentes)
-const MUNICIPIOS_EXISTENTES = [
-  { slug: "el-ejido", nombre: "El Ejido" },
-  { slug: "roquetas-de-mar", nombre: "Roquetas de Mar" },
-  { slug: "vicar", nombre: "Vícar" },
-];
-const MUNICIPIOS_LICENCIA = [
-  ...MUNICIPIOS_EXISTENTES,
-  ...MUNICIPIOS_ALMERIA.map((m) => ({ slug: m.slug, nombre: m.nombre })),
-].sort((a, b) => a.nombre.localeCompare(b.nombre, "es"));
+// Municipios de Almería con página propia
+const MUNICIPIOS_LICENCIA = MUNICIPIOS_ALMERIA.map((m) => ({ slug: m.slug, nombre: m.nombre })).sort((a, b) => a.nombre.localeCompare(b.nombre, "es"));
 
 const siteUrl = "https://www.ingenierial.es";
 

@@ -9,6 +9,9 @@ import {
 
 // Páginas de legalización de naves por municipio (polígonos)
 const NAVES: Record<string, { href: string; label: string }> = {
+  "el-ejido": { href: "/legalizacion-nave-industrial-el-ejido", label: "Legalizar naves en El Ejido: La Redonda y Tres Algibes" },
+  "roquetas-de-mar": { href: "/legalizacion-nave-industrial-roquetas-de-mar", label: "Legalizar naves en Roquetas de Mar" },
+  vicar: { href: "/legalizacion-nave-industrial-vicar", label: "Legalizar naves en Vícar: La Gangosa y Agruenco" },
   "huercal-de-almeria": { href: "/legalizacion-nave-industrial-huercal-de-almeria", label: "Legalizar naves en Huércal de Almería" },
   viator: { href: "/legalizacion-nave-industrial-huercal-de-almeria", label: "Naves en La Juaida, La Cepa y San Rafael" },
   nijar: { href: "/legalizacion-nave-industrial-nijar", label: "Legalizar naves en Níjar" },
@@ -24,22 +27,13 @@ const NAVES: Record<string, { href: string; label: string }> = {
 
 const siteUrl = "https://www.ingenierial.es";
 
-// Enlaces internos: municipios ya existentes como páginas independientes
-const MUNICIPIOS_EXISTENTES = [
-  { slug: "el-ejido", nombre: "El Ejido" },
-  { slug: "roquetas-de-mar", nombre: "Roquetas de Mar" },
-  { slug: "vicar", nombre: "Vícar" },
-];
-
 function relacionados(actual: MunicipioAlmeria) {
   const otros = MUNICIPIOS_ALMERIA.filter((m) => m.slug !== actual.slug);
   // Prioriza los de la misma comarca, luego completa con el resto
   const mismaComarca = otros.filter((m) => m.comarca === actual.comarca);
   const resto = otros.filter((m) => m.comarca !== actual.comarca);
   const ordenados = [
-    ...mismaComarca.slice(0, 3),
-    ...MUNICIPIOS_EXISTENTES,
-    ...mismaComarca.slice(3),
+    ...mismaComarca,
     ...resto,
   ].map((m) => ({
     slug: m.slug,

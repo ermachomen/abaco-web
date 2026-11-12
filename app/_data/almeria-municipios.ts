@@ -20,6 +20,195 @@ export type MunicipioAlmeria = {
 // Contenido único por municipio (rellenado tras investigación local).
 export const MUNICIPIOS_ALMERIA: MunicipioAlmeria[] = [
   {
+    "slug": "el-ejido",
+    "nombre": "El Ejido",
+    "comarca": "Poniente Almeriense",
+    "heroSub": "Ingeniero para tu licencia de apertura en El Ejido: proyecto de actividad, adecuación del local, certificado final y presentación en la sede electrónica del Ayuntamiento, para comercios, hostelería, almacenes agrícolas y naves de los polígonos.",
+    "intro1": "El Ejido es el tercer municipio más poblado de la provincia, con más de 91.000 habitantes, y vive de la agricultura intensiva bajo plástico y de toda la industria que gira a su alrededor: almacenes de manipulado, talleres, suministros y transporte. A esa base se suman un comercio y unos servicios muy activos en el casco urbano y la hostelería turística de Almerimar. Es un municipio donde se abren locales y naves durante todo el año, y casi todos necesitan una licencia de actividad o de apertura, con documentación técnica firmada por un ingeniero, antes de empezar a trabajar.",
+    "intro2": "Si buscas un ingeniero o técnico para la licencia de apertura en El Ejido, nos ocupamos del expediente completo. Redactamos el proyecto de actividad o la documentación técnica, dirigimos la adecuación del local, firmamos el certificado final y lo presentamos en la sede electrónica del Ayuntamiento con nuestra firma digital FNMT. Antes de que firmes el alquiler visitamos el local y comprobamos qué exige la normativa para tu actividad. Si el trámite es declaración responsable o licencia lo decidimos al estudiar tu caso, porque depende de la actividad. Presupuesto cerrado antes de empezar y respuesta en 24 h.",
+    "zonas": [
+      {
+        "zona": "Casco urbano",
+        "desc": "Comercio, servicios, clínicas, consultas y hostelería con licencia de actividad en locales a pie de calle"
+      },
+      {
+        "zona": "Almerimar",
+        "desc": "Restaurantes, bares, tiendas y negocios turísticos de temporada que necesitan licencia de apertura y adecuación del local"
+      },
+      {
+        "zona": "Balerma y Guardias Viejas",
+        "desc": "Bares, restaurantes y pequeños comercios de núcleos costeros, con proyecto y certificado final de actividad"
+      },
+      {
+        "zona": "Santa María del Águila",
+        "desc": "Comercio local, talleres y pequeñas actividades, con documentación técnica para la licencia de apertura"
+      },
+      {
+        "zona": "Polígonos La Redonda y Tres Algibes",
+        "desc": "Legalización de naves e instalaciones, talleres y actividad industrial con proyecto y certificados de instalaciones"
+      },
+      {
+        "zona": "Zonas agrícolas y almacenes",
+        "desc": "Almacenes de manipulado, auxiliares del invernadero y naves agrícolas que necesitan legalizar su actividad"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "¿Qué necesito para sacar la licencia de apertura en El Ejido?",
+        "a": "Depende de la actividad y del local. Normalmente hace falta documentación técnica firmada por un técnico competente, el cumplimiento del CTE, del REBT y, si procede, del RITE, y un certificado final tras la adecuación. Nosotros lo preparamos y lo presentamos en la sede electrónica del Ayuntamiento, y al estudiar tu caso te indicamos qué documentos corresponden."
+      },
+      {
+        "q": "¿Mi negocio necesita declaración responsable o licencia de actividad en El Ejido?",
+        "a": "No hay una respuesta única: depende del tipo de actividad, de su tamaño y de las instalaciones que lleve. Lo decidimos al estudiar tu caso, con los datos del local y de la actividad. Por eso conviene consultarlo antes de alquilar o reformar, para que el trámite no te sorprenda a mitad de obra."
+      },
+      {
+        "q": "¿Podéis ver el local antes de que firme el alquiler?",
+        "a": "Visitamos el local antes de que firmes el contrato, revisamos su estado, sus instalaciones y lo que exigiría la normativa para tu actividad. Así sabes qué adecuación necesita antes de comprometerte con el alquiler, y evitas descubrir después obras o instalaciones que no habías previsto."
+      },
+      {
+        "q": "¿Hacéis proyecto de actividad para almacenes y naves agrícolas en El Ejido?",
+        "a": "Redactamos el proyecto o la documentación técnica de almacenes, naves y talleres, también en los polígonos del municipio. Además legalizamos naves e instalaciones ya existentes que no tienen su documentación en regla. Estudiamos cada caso y te damos un presupuesto cerrado antes de empezar a trabajar."
+      },
+      {
+        "q": "¿Quién se encarga de todo el expediente y cuánto tardáis en responder?",
+        "a": "Nos encargamos de todo: redactamos el proyecto, dirigimos la adecuación del local, firmamos el certificado final y presentamos el expediente con firma digital FNMT en la sede electrónica del Ayuntamiento. Respondemos en 24 h y fijamos un presupuesto cerrado antes de empezar, para que sepas qué vas a pagar."
+      }
+    ],
+    "keywordsExtra": [
+      "licencia de apertura El Ejido",
+      "licencia de actividad El Ejido",
+      "proyecto de actividad El Ejido",
+      "ingeniero licencia de apertura El Ejido",
+      "declaración responsable El Ejido"
+    ]
+  },
+  {
+    "slug": "roquetas-de-mar",
+    "nombre": "Roquetas de Mar",
+    "comarca": "Poniente Almeriense",
+    "heroSub": "Técnico para la licencia de apertura en Roquetas de Mar: proyecto de actividad, dirección de la adecuación, certificado final y trámite en la sede electrónica del Ayuntamiento, para hostelería de costa, comercios y naves de polígono.",
+    "intro1": "Roquetas de Mar es el municipio más poblado de la provincia después de la capital, con más de 111.000 habitantes, y combina dos motores: el turismo y la hostelería de costa, muy presentes en Aguadulce y en la Urbanización, y la agricultura intensiva bajo plástico con su industria auxiliar. A ello se añaden un comercio y unos servicios que atienden a población residente y visitante todo el año. Quien abre un bar, un restaurante, una tienda o un taller en Roquetas necesita una licencia de actividad adecuada al local, y un proyecto técnico que la respalde.",
+    "intro2": "Si buscas un ingeniero para la licencia de apertura en Roquetas de Mar, trabajamos en el municipio y nos desplazamos al local. Redactamos el proyecto de actividad o la documentación técnica, dirigimos la adecuación, firmamos el certificado final y presentamos el expediente en la sede electrónica del Ayuntamiento con firma digital FNMT. En hostelería cuidamos de forma especial la ventilación, la seguridad y la normativa autonómica de calidad acústica. Decidimos si procede declaración responsable o licencia al estudiar tu caso. Presupuesto cerrado antes de empezar y respuesta en 24 h.",
+    "zonas": [
+      {
+        "zona": "Casco urbano",
+        "desc": "Comercio, servicios, hostelería y locales a pie de calle con licencia de actividad y proyecto técnico"
+      },
+      {
+        "zona": "Aguadulce",
+        "desc": "Bares, restaurantes, tiendas y negocios turísticos que necesitan licencia de apertura y adecuación del local"
+      },
+      {
+        "zona": "El Parador",
+        "desc": "Comercio de barrio, servicios y pequeña hostelería, con documentación técnica para la licencia de apertura"
+      },
+      {
+        "zona": "Las Marinas y la Urbanización",
+        "desc": "Restaurantes, bares y alojamientos turísticos con proyecto, adecuación y certificado final de actividad"
+      },
+      {
+        "zona": "Paseo marítimo y puerto",
+        "desc": "Hostelería, terrazas y locales de ocio con atención a ventilación, seguridad y calidad acústica"
+      },
+      {
+        "zona": "Polígonos La Algaida y Las Salinas",
+        "desc": "Legalización de naves e instalaciones, talleres y almacenes con proyecto y certificados de instalaciones"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "¿Cómo se pide la licencia de apertura en Roquetas de Mar?",
+        "a": "Se presenta en la sede electrónica del Ayuntamiento con la documentación técnica de la actividad. Nosotros redactamos el proyecto, dirigimos la adecuación del local, firmamos el certificado final y hacemos la presentación con firma digital FNMT. Al estudiar tu caso te indicamos qué documentos corresponden y en qué orden conviene prepararlos."
+      },
+      {
+        "q": "¿Cuánto tiempo antes debo contactar con un técnico si voy a abrir un bar o restaurante?",
+        "a": "Cuanto antes, y siempre antes de firmar el alquiler. Una visita previa permite comprobar ventilación, instalaciones, accesibilidad y requisitos acústicos, que en hostelería condicionan el local. Visitamos el local antes de que te comprometas, para que sepas qué adecuación necesita y puedas negociar el alquiler con datos."
+      },
+      {
+        "q": "¿Qué diferencia hay entre licencia de actividad y declaración responsable?",
+        "a": "Depende de la actividad y de sus instalaciones, y no podemos afirmarlo sin conocer el caso. Lo decidimos al estudiar tu local y tu actividad. En ambos casos suele hacer falta documentación técnica firmada por un técnico competente, así que conviene preparar bien el expediente desde el principio."
+      },
+      {
+        "q": "¿Legalizáis naves e instalaciones en los polígonos de Roquetas de Mar?",
+        "a": "Legalizamos naves e instalaciones en los polígonos del municipio: redactamos la documentación técnica, comprobamos las instalaciones según el REBT y, si procede, el RITE, y tramitamos el expediente. También redactamos el proyecto de actividad de naves nuevas, con presupuesto cerrado antes de empezar a trabajar."
+      },
+      {
+        "q": "¿Qué datos necesitáis para darme un presupuesto?",
+        "a": "Nos basta con la actividad que quieres montar, la superficie aproximada y la ubicación del local. Con eso estudiamos el caso y te damos un presupuesto cerrado antes de empezar. Respondemos en 24 h y, si hace falta, visitamos el local para revisar el estado real antes de fijar el alcance del trabajo."
+      }
+    ],
+    "keywordsExtra": [
+      "licencia de apertura Roquetas de Mar",
+      "licencia de actividad Roquetas de Mar",
+      "proyecto de actividad Roquetas de Mar",
+      "ingeniero licencia de apertura Roquetas de Mar",
+      "licencia de apertura Aguadulce"
+    ]
+  },
+  {
+    "slug": "vicar",
+    "nombre": "Vícar",
+    "comarca": "Poniente Almeriense",
+    "heroSub": "Ingeniero para la licencia de apertura en Vícar: proyecto de actividad, adecuación del local, certificado final y presentación en la sede electrónica del Ayuntamiento, para naves agrícolas, talleres, comercios y servicios.",
+    "intro1": "Vícar, con más de 29.000 habitantes, es un municipio del Poniente Almeriense donde la agricultura intensiva bajo plástico y su industria auxiliar marcan el ritmo económico de la zona. Almacenes de manipulado, talleres, empresas de suministros y transporte conviven con el comercio y los servicios de núcleos como La Gangosa y Puebla de Vícar. Es un municipio de naves y de negocio muy práctico, donde muchas actividades se instalan en polígonos o en zonas agrícolas, y donde cada apertura o cambio de actividad exige su licencia, con la documentación técnica que la respalde.",
+    "intro2": "Si necesitas un ingeniero o técnico para la licencia de actividad en Vícar, trabajamos en el municipio y nos desplazamos al local o a la nave. Redactamos el proyecto de actividad o la documentación técnica, dirigimos la adecuación, firmamos el certificado final y presentamos el expediente en la sede electrónica del Ayuntamiento con firma digital FNMT. Si el trámite es declaración responsable o licencia lo decidimos al estudiar tu caso. Firma un ingeniero técnico industrial colegiado desde 1983 y trabajamos con presupuesto cerrado antes de empezar y respuesta en 24 h.",
+    "zonas": [
+      {
+        "zona": "La Gangosa",
+        "desc": "Comercio, servicios y talleres con licencia de actividad y documentación técnica de instalaciones"
+      },
+      {
+        "zona": "Puebla de Vícar",
+        "desc": "Comercio de proximidad, hostelería y servicios, con proyecto y certificado final para la licencia de apertura"
+      },
+      {
+        "zona": "La Envía",
+        "desc": "Locales, pequeños negocios y actividades de servicio que necesitan licencia de apertura y adecuación"
+      },
+      {
+        "zona": "Polígonos La Gangosa y Agruenco",
+        "desc": "Legalización de naves e instalaciones, talleres y logística con proyecto y certificados de instalaciones"
+      },
+      {
+        "zona": "Zonas agrícolas y almacenes",
+        "desc": "Almacenes de manipulado, naves agrícolas y actividades auxiliares que necesitan legalizar su actividad"
+      },
+      {
+        "zona": "Vícar pueblo",
+        "desc": "Comercios, bares y servicios del núcleo, con documentación técnica para la licencia de actividad"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "¿Qué necesito para la licencia de apertura de un local en Vícar?",
+        "a": "Depende de la actividad y del local. Normalmente hace falta documentación técnica firmada por un técnico competente, el cumplimiento del CTE, del REBT y, si procede, del RITE, y un certificado final tras la adecuación. Lo preparamos y presentamos en la sede electrónica del Ayuntamiento, y al estudiar tu caso te indicamos qué corresponde."
+      },
+      {
+        "q": "¿Hacéis el proyecto de actividad de una nave en un polígono de Vícar?",
+        "a": "Redactamos el proyecto o la documentación técnica de naves y talleres, y legalizamos naves e instalaciones en los polígonos del municipio. Visitamos la nave, revisamos las instalaciones y definimos qué documentación necesita. Después tramitamos el expediente, con presupuesto cerrado antes de empezar a trabajar y respuesta en 24 h."
+      },
+      {
+        "q": "¿Se puede legalizar un almacén agrícola que ya está funcionando?",
+        "a": "Legalizamos instalaciones y naves ya existentes: comprobamos su estado, redactamos la documentación técnica y tramitamos la regularización. Cada caso depende de la actividad y de las instalaciones, así que lo estudiamos antes de fijar el alcance. Te damos un presupuesto cerrado antes de empezar, para que sepas el trabajo que implica."
+      },
+      {
+        "q": "¿Cuándo debo contactar con el ingeniero si voy a alquilar un local en Vícar?",
+        "a": "Antes de firmar el alquiler. Visitamos el local antes de que firmes, revisamos sus instalaciones y comprobamos qué exigiría la normativa para tu actividad. Así conoces la adecuación necesaria antes de comprometerte, y evitas pagar un alquiler por un local que no puedes abrir sin obras importantes."
+      },
+      {
+        "q": "¿Cómo presentáis el expediente ante el Ayuntamiento de Vícar?",
+        "a": "Lo presentamos por vía telemática en la sede electrónica del Ayuntamiento con nuestra firma digital FNMT, una vez redactado el proyecto, dirigida la adecuación del local y firmado el certificado final. Tú no tienes que desplazarte para el trámite técnico, y te mantenemos informado de cada paso del expediente."
+      }
+    ],
+    "keywordsExtra": [
+      "licencia de apertura Vícar",
+      "licencia de actividad Vícar",
+      "proyecto de actividad Vícar",
+      "ingeniero licencia de apertura Vícar",
+      "declaración responsable Vícar"
+    ]
+  },
+  {
     "slug": "nijar",
     "nombre": "Níjar",
     "comarca": "Área Metropolitana de Almería",
