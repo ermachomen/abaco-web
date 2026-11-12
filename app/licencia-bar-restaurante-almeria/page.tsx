@@ -8,9 +8,9 @@ const siteUrl = "https://www.ingenierial.es";
 const path = "/licencia-bar-restaurante-almeria";
 
 export const metadata: Metadata = {
-  title: "Abrir un Bar o Restaurante en Almería: Licencia y Requisitos",
+  title: "Licencia de Apertura para Bar y Restaurante en Almería · Requisitos",
   description:
-    "¿Vas a abrir un bar o restaurante en Almería? Vemos el local antes de que firmes el alquiler: salida de humos, ruido y licencia. Estudio previo gratis, respuesta en 24 h.",
+    "Licencia de apertura de bar, restaurante o cafetería en Almería: requisitos, salida de humos, ruido, proyecto técnico y tramitación. Vemos el local antes de que alquiles.",
   keywords: [
     "licencia apertura bar Almería",
     "licencia apertura restaurante Almería",

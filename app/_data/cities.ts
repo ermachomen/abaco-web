@@ -255,16 +255,16 @@ export const CITY_EXTRA_LINKS: Partial<Record<Servicio, Record<string, { label: 
 export const CITY_SEO_OVERRIDES: Partial<Record<Servicio, Record<string, { titulo: string; h1: string; descripcion: string }>>> = {
   "licencia-actividad": {
     almeria: {
-      titulo: "Licencia de Apertura y Actividad en Almería · Estudio Gratis",
+      titulo: "Licencia de Apertura y Actividad en Almería · Proyecto Técnico",
       h1: "Licencia de Actividad y Apertura en Almería",
-      descripcion: "Licencia de apertura y actividad en Almería con ingeniero colegiado. Vemos el local antes de que alquiles. Estudio previo gratis y respuesta en 24 h.",
+      descripcion: "Licencia de apertura y licencia de actividad en Almería: proyecto técnico, declaración responsable y tramitación ante el Ayuntamiento. Ingeniero colegiado.",
     },
   },
   peritaciones: {
     almeria: {
-      titulo: "Perito Ingeniero en Almería · Judicial, Seguros e Informes",
-      h1: "Perito ingeniero en Almería: judicial, de seguros e informes periciales",
-      descripcion: "Perito en Almería: informes periciales de incendios, accidentes, vehículos e instalaciones, para el juzgado o frente a tu seguro. Estudio previo gratis.",
+      titulo: "Perito en Almería · Peritaciones Judiciales y de Seguros",
+      h1: "Perito ingeniero en Almería: peritaciones judiciales, de seguros e informes periciales",
+      descripcion: "Perito judicial y perito de seguros en Almería: informes periciales de incendios, accidentes, vehículos, instalaciones y daños. Ingeniero colegiado.",
     },
   },
   tasaciones: {
