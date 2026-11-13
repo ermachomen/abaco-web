@@ -71,7 +71,7 @@ const faqs = [
   },
   {
     "q": "¿Cuánto cuesta y trabajáis en toda la provincia?",
-    "a": "El precio depende del número de equipos y de su complejidad, una sola máquina es más económica que el inventario completo de una fábrica o una cooperativa. Tras un estudio previo gratuito damos un presupuesto cerrado, sin sorpresas. Somos una oficina técnica de ingeniería con firma digital FNMT, así que trabajamos el 100 por cien online en toda España y nos desplazamos a inspeccionar a Almería capital y provincia, y también a Granada, Málaga y Murcia. Respondemos en menos de 24 horas."
+    "a": "El precio depende del número de equipos y de su complejidad, una sola máquina es más económica que el inventario completo de una fábrica o una cooperativa. Tras un estudio previo damos un presupuesto cerrado, sin sorpresas. Somos una oficina técnica de ingeniería con firma digital FNMT, así que trabajamos el 100 por cien online en toda España y nos desplazamos a inspeccionar a Almería capital y provincia, y también a Granada, Málaga y Murcia. Respondemos en menos de 24 horas."
   }
 ];
 
@@ -105,7 +105,7 @@ const bloques = [
   },
   {
     "titulo": "Diferencial del ingeniero, precio y honestidad",
-    "cuerpo": "Los tasadores inmobiliarios apenas entran en la maquinaria y los grandes gabinetes suelen quedar caros para un tractor o una cámara de frío, ahí está nuestro hueco en Almería. Con honestidad: Abaco no es sociedad de tasación homologada por el Banco de España, así que esto no es una tasación hipotecaria, que en maquinaria además casi nunca aplica. Es una valoración técnica firmada por ingeniero colegiado, con plena validez para herencia, seguros, contabilidad, compraventa y juzgados. El precio depende del número y tipo de equipos, tras un estudio previo gratuito damos un presupuesto cerrado, sin sorpresas."
+    "cuerpo": "Los tasadores inmobiliarios apenas entran en la maquinaria y los grandes gabinetes suelen quedar caros para un tractor o una cámara de frío, ahí está nuestro hueco en Almería. Con honestidad: Abaco no es sociedad de tasación homologada por el Banco de España, así que esto no es una tasación hipotecaria, que en maquinaria además casi nunca aplica. Es una valoración técnica firmada por ingeniero colegiado, con plena validez para herencia, seguros, contabilidad, compraventa y juzgados. El precio depende del número y tipo de equipos, tras un estudio previo damos un presupuesto cerrado, sin sorpresas."
   }
 ];
 
@@ -141,7 +141,7 @@ export default function Page() {
         <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
           <p className="text-sm font-semibold uppercase tracking-wider text-sky-400">Almería · Oficina técnica · 100% online</p>
           <h1 className="mt-4 text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">Tasación y valoración de maquinaria industrial y agrícola en Almería</h1>
-          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Valoramos maquinaria y equipos usados, industriales y agrícolas, para herencia, divorcio de empresas, siniestros de seguro, balance contable y compraventa. Informe firmado por ingeniero técnico industrial colegiado, con plena validez ante Hacienda, aseguradoras y juzgados. Presupuesto cerrado y estudio previo gratuito."}</p>
+          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Valoramos maquinaria y equipos usados, industriales y agrícolas, para herencia, divorcio de empresas, siniestros de seguro, balance contable y compraventa. Informe firmado por ingeniero técnico industrial colegiado, con plena validez ante Hacienda, aseguradoras y juzgados. Presupuesto cerrado."}</p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a href="#contacto" className="rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-400">Solicitar presupuesto</a>
             <a href="tel:+34670607830" className="rounded-xl border border-slate-600 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800">Llamar 670 607 830</a>
@@ -152,7 +152,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"La tasación de maquinaria industrial y agrícola es la valoración técnica del equipo productivo de una empresa o explotación: lo que vale hoy, en su estado real y en el mercado, firmado por un ingeniero. En Almería es un activo de primer orden: líneas de confección y manipulado hortofrutícola, cámaras frigoríficas y de pre-frío, calibradoras y confeccionadoras, tractores y cosechadoras, y la maquinaria de corte y pulido del mármol de Macael. A diferencia de un inmueble, la maquinaria no tiene valor de referencia catastral ni tablas oficiales, así que su valor se justifica con un informe pericial de ingeniero que analiza modelo, antigüedad, uso, mantenimiento y obsolescencia."}</p>
-          <p>{"En Abaco Ingeniería, marca abacoingeniería, la firma un ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años valorando activos industriales. Es la especialidad natural del ingeniero y, sin embargo, la que menos cubren las sociedades de tasación y los tasadores inmobiliarios de la provincia, lo que nos permite dar un servicio muy diferenciado. Trabajamos con firma digital FNMT en toda España y nos desplazamos a inspeccionar la maquinaria en Almería capital y provincia, y también en Granada, Málaga y Murcia. Estudio previo gratuito y presupuesto cerrado."}</p>
+          <p>{"En Abaco Ingeniería, marca abacoingeniería, la firma un ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años valorando activos industriales. Es la especialidad natural del ingeniero y, sin embargo, la que menos cubren las sociedades de tasación y los tasadores inmobiliarios de la provincia, lo que nos permite dar un servicio muy diferenciado. Trabajamos con firma digital FNMT en toda España y nos desplazamos a inspeccionar la maquinaria en Almería capital y provincia, y también en Granada, Málaga y Murcia. Estudio previo y presupuesto cerrado."}</p>
         </div>
       </section>
 

@@ -105,7 +105,7 @@ const bloques = [
   },
   {
     "titulo": "Cómo tramitamos tu cambio de titularidad",
-    "cuerpo": "1. Estudio previo gratuito: revisamos la licencia anterior y confirmamos si basta la comunicación previa o hace falta algo más. 2. Presupuesto cerrado por escrito, sin variaciones posteriores. 3. Recopilación y comprobación de la documentación de ambos titulares. 4. Presentación telemática en el Ayuntamiento de Almería con firma digital FNMT, sin que tengas que desplazarte. 5. Seguimiento hasta la confirmación y respuesta a cualquier requerimiento municipal. Trabajamos en Almería capital y provincia, de forma presencial u online en toda España."
+    "cuerpo": "1. Estudio previo: revisamos la licencia anterior y confirmamos si basta la comunicación previa o hace falta algo más. 2. Presupuesto cerrado por escrito, sin variaciones posteriores. 3. Recopilación y comprobación de la documentación de ambos titulares. 4. Presentación telemática en el Ayuntamiento de Almería con firma digital FNMT, sin que tengas que desplazarte. 5. Seguimiento hasta la confirmación y respuesta a cualquier requerimiento municipal. Trabajamos en Almería capital y provincia, de forma presencial u online en toda España."
   }
 ];
 
@@ -152,7 +152,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"El cambio de titularidad de una licencia de actividad es el trámite que permite que un nuevo titular continúe explotando un local ya legalizado cuando cambia el propietario del negocio. En Andalucía se resuelve mediante una comunicación previa al Ayuntamiento, regulada en el artículo 138 de la LISTA (Ley 7/2021). No es una nueva autorización: surte efecto desde su presentación, siempre que la actividad siga siendo la misma y no se realicen obras. La transmisión debe comunicarla el nuevo titular, y conviene que la firmen tanto el antiguo como el nuevo, porque hasta que se comunica ambos responden de forma solidaria de la actividad frente a la Administración."}</p>
-          <p>{"En un traspaso de local, oficina o bar en Almería basta la comunicación previa si se mantiene la actividad y no hay reforma. Si el nuevo titular cambia de actividad o ejecuta obras, ya no vale el cambio de titularidad: hará falta declaración responsable o una nueva licencia con proyecto técnico. Como ingeniero técnico industrial colegiado desde 1983, competente en actividades industriales y calificadas, valoramos tu caso concreto, evitamos que el Ayuntamiento paralice el traspaso y te damos presupuesto cerrado tras un estudio previo gratuito."}</p>
+          <p>{"En un traspaso de local, oficina o bar en Almería basta la comunicación previa si se mantiene la actividad y no hay reforma. Si el nuevo titular cambia de actividad o ejecuta obras, ya no vale el cambio de titularidad: hará falta declaración responsable o una nueva licencia con proyecto técnico. Como ingeniero técnico industrial colegiado desde 1983, competente en actividades industriales y calificadas, valoramos tu caso concreto, evitamos que el Ayuntamiento paralice el traspaso y te damos presupuesto cerrado tras un estudio previo."}</p>
         </div>
       </section>
 

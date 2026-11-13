@@ -9,7 +9,7 @@ const path = "/tasacion-pericial-contradictoria-almeria";
 
 export const metadata: Metadata = {
   title: "Tasación pericial contradictoria en Almería | Hacienda",
-  description: "Recurre la comprobación de valores o el valor de referencia en ITP e ISD con una tasación pericial contradictoria de ingeniero colegiado en Almería. Estudio gratis.",
+  description: "Recurre la comprobación de valores o el valor de referencia en ITP e ISD con una tasación pericial contradictoria de ingeniero colegiado en Almería. Presupuesto cerrado.",
   keywords: ["tasación pericial contradictoria Almería","comprobación de valores Hacienda Almería","impugnar valor de referencia catastro","valor de referencia ITP Andalucía","recurrir liquidación paralela ITP","perito tercero tasación pericial contradictoria","tasación herencia sucesiones Almería","rectificación autoliquidación ITP devolución","informe pericial valoración Hacienda Almería","perito ingeniero colegiado valoración Almería","TEAR Andalucía valor de referencia","valoración no hipotecaria Almería"],
   alternates: { canonical: path, languages: { "es-ES": path } },
   openGraph: {
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.ingenierial.es/tasacion-pericial-contradictoria-almeria",
     siteName: "Abaco Ingeniería",
     title: "Tasación pericial contradictoria en Almería frente a Hacienda",
-    description: "Recurre la comprobación de valores o el valor de referencia en ITP e ISD con una tasación pericial contradictoria de ingeniero colegiado en Almería. Estudio gratis.",
+    description: "Recurre la comprobación de valores o el valor de referencia en ITP e ISD con una tasación pericial contradictoria de ingeniero colegiado en Almería. Presupuesto cerrado.",
     images: [{ url: "/images/og-abaco.jpg", width: 1200, height: 630, alt: "Tasación pericial contradictoria en Almería frente a Hacienda – Abaco Ingeniería" }],
   },
   twitter: { card: "summary_large_image", title: "Tasación pericial contradictoria en Almería frente a Hacienda", description: "Ingeniero técnico industrial colegiado en Almería.", images: ["/images/og-abaco.jpg"] },
@@ -45,13 +45,13 @@ const serviceLd = {
     { "@type": "Country", name: "España" },
   ],
   url: "https://www.ingenierial.es/tasacion-pericial-contradictoria-almeria",
-  description: "Recurre la comprobación de valores o el valor de referencia en ITP e ISD con una tasación pericial contradictoria de ingeniero colegiado en Almería. Estudio gratis.",
+  description: "Recurre la comprobación de valores o el valor de referencia en ITP e ISD con una tasación pericial contradictoria de ingeniero colegiado en Almería. Presupuesto cerrado.",
 };
 
 const faqs = [
   {
     "q": "Me ha llegado una comprobación de valores o una paralela de Hacienda, ¿qué hago?",
-    "a": "No la dejes pasar. Tienes, por lo general, un mes desde la notificación para recurrir o para promover la tasación pericial contradictoria. Lo más eficaz suele ser reservar el derecho a la TPC en ese primer recurso: se suspende la ejecución de la liquidación y el plazo, y ganas tiempo para preparar una tasación de parte que rebaje el valor comprobado. Antes de nada revisamos gratis si la valoración de Hacienda está bien motivada, porque muchas se anulan por falta de motivación sin necesidad de discutir cifras."
+    "a": "No la dejes pasar. Tienes, por lo general, un mes desde la notificación para recurrir o para promover la tasación pericial contradictoria. Lo más eficaz suele ser reservar el derecho a la TPC en ese primer recurso: se suspende la ejecución de la liquidación y el plazo, y ganas tiempo para preparar una tasación de parte que rebaje el valor comprobado. Antes de nada revisamos si la valoración de Hacienda está bien motivada, porque muchas se anulan por falta de motivación sin necesidad de discutir cifras."
   },
   {
     "q": "¿Puedo hacer una tasación pericial contradictoria contra el valor de referencia del Catastro?",
@@ -71,7 +71,7 @@ const faqs = [
   },
   {
     "q": "¿Trabajáis en Almería y de forma online?",
-    "a": "Somos una oficina técnica de ingeniería, con ingeniero técnico industrial colegiado desde 1983 y más de cuarenta años de experiencia. Firmamos con certificado digital FNMT, así que tramitamos el 100% online en toda España y nos desplazamos a inspeccionar el inmueble en Almería capital y provincia, como El Ejido, Roquetas de Mar, Níjar o Huércal-Overa, y también a Granada, Málaga y Murcia. Estudio previo gratuito y respuesta en menos de 24 horas en el 670 60 78 30."
+    "a": "Somos una oficina técnica de ingeniería, con ingeniero técnico industrial colegiado desde 1983 y más de cuarenta años de experiencia. Firmamos con certificado digital FNMT, así que tramitamos el 100% online en toda España y nos desplazamos a inspeccionar el inmueble en Almería capital y provincia, como El Ejido, Roquetas de Mar, Níjar o Huércal-Overa, y también a Granada, Málaga y Murcia. Estudio previo y respuesta en menos de 24 horas en el 670 60 78 30."
   }
 ];
 
@@ -105,7 +105,7 @@ const bloques = [
   },
   {
     "titulo": "Dónde vale, honestidad y precios orientativos",
-    "cuerpo": "Nuestros informes se presentan ante la Agencia Tributaria de Andalucía (Junta de Andalucía), que gestiona el ITP y el Impuesto de Sucesiones y Donaciones, y sirven en vía económico-administrativa ante el TEAR y, si hace falta, ante los tribunales. Con honestidad: no somos tasadora del Banco de España y no hacemos tasación hipotecaria, pero para comprobación de valores, herencia, divorcio o litigio el informe de un perito colegiado es prueba admisible y suficiente. Precios orientativos de valoración desde unos 250 EUR en vivienda, 350 en locales y 450 en naves; presupuesto cerrado tras el estudio previo gratuito."
+    "cuerpo": "Nuestros informes se presentan ante la Agencia Tributaria de Andalucía (Junta de Andalucía), que gestiona el ITP y el Impuesto de Sucesiones y Donaciones, y sirven en vía económico-administrativa ante el TEAR y, si hace falta, ante los tribunales. Con honestidad: no somos tasadora del Banco de España y no hacemos tasación hipotecaria, pero para comprobación de valores, herencia, divorcio o litigio el informe de un perito colegiado es prueba admisible y suficiente. Precios orientativos de valoración desde unos 250 EUR en vivienda, 350 en locales y 450 en naves; presupuesto cerrado tras el estudio previo."
   }
 ];
 
@@ -152,7 +152,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"Has recibido una liquidación paralela o una propuesta de comprobación de valores de Hacienda en el ITP o en el Impuesto de Sucesiones y Donaciones, o bien pagaste aplicando el valor de referencia del Catastro y crees que supera el valor real del inmueble. En ambos casos puedes defenderte, pero necesitas prueba técnica. En Abaco Ingeniería emitimos el informe pericial de valoración que sirve como tasación de parte en la tasación pericial contradictoria (TPC) y como prueba en la impugnación ante la Agencia Tributaria de Andalucía y el TEAR. Lo firma un ingeniero técnico industrial colegiado desde 1983, con trabajo 100% online."}</p>
-          <p>{"Seamos claros: Abaco no es sociedad de tasación homologada por el Banco de España, así que no emitimos tasación hipotecaria. Y no la necesitas: para fines fiscales, de herencia o judiciales, la ley admite el informe de un perito competente y colegiado, y ese es nuestro terreno. Analizamos tu caso, revisamos la motivación de Hacienda y del Catastro y te decimos con honestidad si merece la pena recurrir antes de gastar. Estudio previo gratuito, presupuesto cerrado y valoración firmada con certificado digital FNMT."}</p>
+          <p>{"Seamos claros: Abaco no es sociedad de tasación homologada por el Banco de España, así que no emitimos tasación hipotecaria. Y no la necesitas: para fines fiscales, de herencia o judiciales, la ley admite el informe de un perito competente y colegiado, y ese es nuestro terreno. Analizamos tu caso, revisamos la motivación de Hacienda y del Catastro y te decimos con honestidad si merece la pena recurrir antes de gastar. Estudio previo, presupuesto cerrado y valoración firmada con certificado digital FNMT."}</p>
         </div>
       </section>
 

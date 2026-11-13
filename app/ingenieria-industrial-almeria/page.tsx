@@ -71,7 +71,7 @@ const faqs = [
   },
   {
     "q": "¿Cómo pido presupuesto y cuánto cuesta?",
-    "a": "Cuéntanos tu caso por teléfono en el 670 60 78 30 o a través de la web y hacemos un estudio previo gratuito. Con esa información te damos un presupuesto cerrado, sin sorpresas: sabrás lo que cuesta antes de empezar. Cada proyecto es distinto, por eso preferimos ver el tuyo en lugar de darte una tarifa genérica."
+    "a": "Cuéntanos tu caso por teléfono en el 670 60 78 30 o a través de la web y hacemos un estudio previo. Con esa información te damos un presupuesto cerrado, sin sorpresas: sabrás lo que cuesta antes de empezar. Cada proyecto es distinto, por eso preferimos ver el tuyo en lugar de darte una tarifa genérica."
   }
 ];
 
@@ -152,7 +152,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"Ábaco Ingeniería (marca abacoingeniería®) es una oficina técnica de ingeniería que ayuda a empresas, autónomos y particulares a poner en marcha y legalizar su actividad. Somos un estudio de ingeniería privado que redacta, calcula y firma proyectos, no un centro académico ni un organismo público: somos la empresa que resuelve tu trámite. Damos servicio a todo el tejido productivo almeriense, desde la agroindustria del Poniente y el Levante hasta el comercio y la hostelería de la capital, los talleres y las naves de los polígonos. Si necesitas en Almería capital o provincia a alguien que lleve tu proyecto de principio a fin, con criterio técnico y trato cercano, este es tu sitio."}</p>
-          <p>{"Detrás de cada trabajo hay un ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años de experiencia firmando proyectos en toda España. Trabajamos 100% online con firma digital FNMT, lo que permite tramitar sin desplazamientos y con plena validez legal en cualquier comunidad; y cuando el caso lo exige, nos desplazamos a Almería capital y provincia (y también a Granada, Málaga y Murcia) para visitar tu local, tu nave o tu instalación. Antes de empezar hacemos un estudio previo gratuito y te damos un presupuesto cerrado, sin sorpresas ni sobrecostes."}</p>
+          <p>{"Detrás de cada trabajo hay un ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años de experiencia firmando proyectos en toda España. Trabajamos 100% online con firma digital FNMT, lo que permite tramitar sin desplazamientos y con plena validez legal en cualquier comunidad; y cuando el caso lo exige, nos desplazamos a Almería capital y provincia (y también a Granada, Málaga y Murcia) para visitar tu local, tu nave o tu instalación. Antes de empezar hacemos un estudio previo y te damos un presupuesto cerrado, sin sorpresas ni sobrecostes."}</p>
         </div>
       </section>
 

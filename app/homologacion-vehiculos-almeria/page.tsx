@@ -59,7 +59,7 @@ const faqs = [
   },
   {
     "q": "¿Cuánto cuesta homologar un vehículo en Almería?",
-    "a": "Depende del trámite. Una ficha técnica reducida de un coche con homologación europea suele moverse entre 60 y 150 euros; una homologación individual completa parte de unos 600 euros; y una reforma varía según el código del Manual de Reformas (enganche, camper, motor, suspensión). Por eso hacemos un estudio previo gratuito y damos un presupuesto cerrado antes de empezar, sin sorpresas."
+    "a": "Depende del trámite. Una ficha técnica reducida de un coche con homologación europea suele moverse entre 60 y 150 euros; una homologación individual completa parte de unos 600 euros; y una reforma varía según el código del Manual de Reformas (enganche, camper, motor, suspensión). Por eso hacemos un estudio previo y damos un presupuesto cerrado antes de empezar, sin sorpresas."
   },
   {
     "q": "Compré un coche en Alemania o en Estados Unidos, ¿qué necesito para circular en Almería?",
@@ -71,7 +71,7 @@ const faqs = [
   },
   {
     "q": "¿Qué diferencia a Ábaco de otras ingenierías de homologación de Almería?",
-    "a": "La trayectoria y la responsabilidad directa. El expediente lo lleva un ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años tramitando homologaciones, no un intermediario. Sumamos estudio previo gratuito, presupuesto cerrado y la posibilidad de resolverlo todo online con FNMT en toda España, además del desplazamiento presencial por la provincia cuando hace falta."
+    "a": "La trayectoria y la responsabilidad directa. El expediente lo lleva un ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años tramitando homologaciones, no un intermediario. Sumamos estudio previo, presupuesto cerrado y la posibilidad de resolverlo todo online con FNMT en toda España, además del desplazamiento presencial por la provincia cuando hace falta."
   }
 ];
 
@@ -105,7 +105,7 @@ const bloques = [
   },
   {
     "titulo": "Dónde se tramita en la provincia y por qué elegirnos",
-    "cuerpo": "La inspección se realiza en las estaciones ITV de la provincia gestionadas por VEIASA: Almería capital, El Ejido y Huércal de Almería (estaciones de La Cepa y Zamarula), entre otras. En Almería operan también estudios locales de homologación como Maro Ingenieros, Novantis Ingeniería o Lirola, en El Ejido; es un mercado con oferta. Nuestra diferencia es la experiencia y el trato directo: un ingeniero técnico industrial colegiado desde 1983 que se responsabiliza personalmente de tu expediente, con estudio previo gratuito, presupuesto cerrado y la comodidad de tramitar online con firma FNMT sin desplazarte, o en persona si lo prefieres."
+    "cuerpo": "La inspección se realiza en las estaciones ITV de la provincia gestionadas por VEIASA: Almería capital, El Ejido y Huércal de Almería (estaciones de La Cepa y Zamarula), entre otras. En Almería operan también estudios locales de homologación como Maro Ingenieros, Novantis Ingeniería o Lirola, en El Ejido; es un mercado con oferta. Nuestra diferencia es la experiencia y el trato directo: un ingeniero técnico industrial colegiado desde 1983 que se responsabiliza personalmente de tu expediente, con estudio previo, presupuesto cerrado y la comodidad de tramitar online con firma FNMT sin desplazarte, o en persona si lo prefieres."
   }
 ];
 
@@ -152,7 +152,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"Si necesitas homologar un vehículo en Almería, esta es tu página de referencia. Reunimos en un solo sitio todos los trámites de homologación e ingeniería de vehículos que un particular, un carrocero o una empresa de la provincia puede necesitar: coche importado de la Unión Europea, coche americano o de fuera de la UE, reformas y modificaciones, transformación a camper, instalación de enganche, ficha técnica reducida y catalogación de vehículo histórico. Lo firma un ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años de ejercicio. Trabajamos 100% online con firma digital FNMT en toda España y nos desplazamos a Almería capital y provincia cuando el caso lo requiere."}</p>
-          <p>{"En abacoingeniería® no te damos una tarifa genérica: estudiamos tu vehículo, comprobamos qué documentación tiene y qué reforma o procedimiento le corresponde según el Manual de Reformas del Ministerio de Industria, y te pasamos un presupuesto cerrado tras un estudio previo gratuito. Preparamos el proyecto técnico, lo firmamos digitalmente y te lo entregamos listo para la inspección en cualquier estación ITV de la provincia: Almería capital, El Ejido o Huércal de Almería. Tú solo tienes que pedir cita y presentarlo."}</p>
+          <p>{"En abacoingeniería® no te damos una tarifa genérica: estudiamos tu vehículo, comprobamos qué documentación tiene y qué reforma o procedimiento le corresponde según el Manual de Reformas del Ministerio de Industria, y te pasamos un presupuesto cerrado tras un estudio previo. Preparamos el proyecto técnico, lo firmamos digitalmente y te lo entregamos listo para la inspección en cualquier estación ITV de la provincia: Almería capital, El Ejido o Huércal de Almería. Tú solo tienes que pedir cita y presentarlo."}</p>
         </div>
       </section>
 

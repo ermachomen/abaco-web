@@ -9,7 +9,7 @@ const path = "/legalizacion-instalaciones-almeria";
 
 export const metadata: Metadata = {
   title: "Legalización de Instalaciones y Registro Industrial en Almería",
-  description: "Legalizamos instalaciones eléctricas, climatización, incendios y fotovoltaica en Almería: boletín, proyecto y registro industrial. Pide presupuesto gratis.",
+  description: "Legalizamos instalaciones eléctricas, climatización, incendios y fotovoltaica en Almería: boletín, proyecto y registro industrial. Pide presupuesto.",
   keywords: ["legalización de instalaciones Almería","legalización instalaciones eléctricas Almería","boletín eléctrico Almería","legalizar aire acondicionado Almería","certificado RITE Almería","legalización contra incendios Almería","legalizar placas solares Almería","legalización centro de transformación Almería","registro industrial Almería","puesta en servicio Industria Almería","ingeniero legalización instalaciones Almería","legalizar nave industrial Almería"],
   alternates: { canonical: path, languages: { "es-ES": path } },
   openGraph: {
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.ingenierial.es/legalizacion-instalaciones-almeria",
     siteName: "Abaco Ingeniería",
     title: "Legalización de instalaciones y registro industrial en Almería",
-    description: "Legalizamos instalaciones eléctricas, climatización, incendios y fotovoltaica en Almería: boletín, proyecto y registro industrial. Pide presupuesto gratis.",
+    description: "Legalizamos instalaciones eléctricas, climatización, incendios y fotovoltaica en Almería: boletín, proyecto y registro industrial. Pide presupuesto.",
     images: [{ url: "/images/og-abaco.jpg", width: 1200, height: 630, alt: "Legalización de instalaciones y registro industrial en Almería – Abaco Ingeniería" }],
   },
   twitter: { card: "summary_large_image", title: "Legalización de instalaciones y registro industrial en Almería", description: "Ingeniero técnico industrial colegiado en Almería.", images: ["/images/og-abaco.jpg"] },
@@ -45,13 +45,13 @@ const serviceLd = {
     { "@type": "Country", name: "España" },
   ],
   url: "https://www.ingenierial.es/legalizacion-instalaciones-almeria",
-  description: "Legalizamos instalaciones eléctricas, climatización, incendios y fotovoltaica en Almería: boletín, proyecto y registro industrial. Pide presupuesto gratis.",
+  description: "Legalizamos instalaciones eléctricas, climatización, incendios y fotovoltaica en Almería: boletín, proyecto y registro industrial. Pide presupuesto.",
 };
 
 const faqs = [
   {
     "q": "¿Necesito un boletín eléctrico o un proyecto para legalizar mi instalación?",
-    "a": "El boletín eléctrico, o certificado de instalación eléctrica (CIE), lo emite un instalador autorizado y suele bastar para instalaciones pequeñas: dar de alta la luz, una ampliación de potencia o un local sencillo. Un boletín en Almería ronda los 150-200 euros orientativos. Cuando la instalación supera ciertos umbrales de potencia o es un local de pública concurrencia, la ley exige además un proyecto o una memoria técnica de diseño firmada por ingeniero. Te decimos qué necesitas en el estudio previo gratuito y, si solo hace falta boletín, te derivamos a un instalador."
+    "a": "El boletín eléctrico, o certificado de instalación eléctrica (CIE), lo emite un instalador autorizado y suele bastar para instalaciones pequeñas: dar de alta la luz, una ampliación de potencia o un local sencillo. Un boletín en Almería ronda los 150-200 euros orientativos. Cuando la instalación supera ciertos umbrales de potencia o es un local de pública concurrencia, la ley exige además un proyecto o una memoria técnica de diseño firmada por ingeniero. Te decimos qué necesitas en el estudio previo y, si solo hace falta boletín, te derivamos a un instalador."
   },
   {
     "q": "¿Tengo que legalizar el aire acondicionado de mi local o vivienda?",
@@ -71,7 +71,7 @@ const faqs = [
   },
   {
     "q": "¿Trabajáis solo en Almería y cuánto cuesta legalizar?",
-    "a": "Somos una oficina técnica de ingeniería con ingeniero colegiado desde 1983. Tramitamos el 100% online con firma digital FNMT en toda España y nos desplazamos de forma presencial a Almería capital y provincia (y también a Granada, Málaga y Murcia) cuando hay que medir o inspeccionar la instalación. El coste depende del tipo de instalación y de su potencia; tras un estudio previo gratuito te damos un presupuesto cerrado, sin variaciones posteriores."
+    "a": "Somos una oficina técnica de ingeniería con ingeniero colegiado desde 1983. Tramitamos el 100% online con firma digital FNMT en toda España y nos desplazamos de forma presencial a Almería capital y provincia (y también a Granada, Málaga y Murcia) cuando hay que medir o inspeccionar la instalación. El coste depende del tipo de instalación y de su potencia; tras un estudio previo te damos un presupuesto cerrado, sin variaciones posteriores."
   }
 ];
 
@@ -152,7 +152,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"La legalización de instalaciones es el trámite que convierte una instalación ya ejecutada en una instalación legal, con su documentación técnica registrada ante Industria y lista para funcionar. En Abaco Ingeniería la gestionamos para empresas, autónomos y particulares de Almería que necesitan dar de alta el suministro eléctrico de un local, adecuar una nave del polígono, poner en marcha la climatización de un comercio o inscribir su actividad en el registro industrial. El tejido almeriense (invernaderos, almacenes de manipulado, talleres, naves logísticas y hostelería en la capital y la provincia) genera a diario instalaciones que hay que legalizar antes de abrir o de contratar potencia. Nosotros nos ocupamos del proyecto, la memoria y la puesta en servicio."}</p>
-          <p>{"Trabajamos como oficina técnica dirigida por un ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años legalizando instalaciones. Firmamos digitalmente con certificado FNMT, de modo que tramitamos el 100% online en toda España y, cuando el caso lo pide, nos desplazamos a tu local, nave o parcela en Almería capital y provincia. Antes de empezar hacemos un estudio previo gratuito, te explicamos si basta un boletín o hace falta proyecto y te damos un presupuesto cerrado, sin sorpresas ni añadidos posteriores."}</p>
+          <p>{"Trabajamos como oficina técnica dirigida por un ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años legalizando instalaciones. Firmamos digitalmente con certificado FNMT, de modo que tramitamos el 100% online en toda España y, cuando el caso lo pide, nos desplazamos a tu local, nave o parcela en Almería capital y provincia. Antes de empezar hacemos un estudio previo, te explicamos si basta un boletín o hace falta proyecto y te damos un presupuesto cerrado, sin sorpresas ni añadidos posteriores."}</p>
         </div>
       </section>
 

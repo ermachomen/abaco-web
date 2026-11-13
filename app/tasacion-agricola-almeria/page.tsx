@@ -58,7 +58,7 @@ const faqs = [
   },
   {
     "q": "¿Qué documentación necesito para la tasación de una finca rústica?",
-    "a": "Ayuda mucho tener la referencia catastral, la escritura o nota simple y, si existen, datos del pozo, la balsa o el contrato de arrendamiento. No es imprescindible aportarlo todo: con lo que tengas hacemos el estudio previo gratuito y te decimos qué falta antes de cerrar el presupuesto. Si no tienes la documentación a mano, no te preocupes."
+    "a": "Ayuda mucho tener la referencia catastral, la escritura o nota simple y, si existen, datos del pozo, la balsa o el contrato de arrendamiento. No es imprescindible aportarlo todo: con lo que tengas hacemos el estudio previo y te decimos qué falta antes de cerrar el presupuesto. Si no tienes la documentación a mano, no te preocupes."
   },
   {
     "q": "¿Sirve la tasación para una herencia o un divorcio con fincas e invernaderos?",
@@ -109,7 +109,7 @@ const bloques = [
   },
   {
     "titulo": "Método e informe pericial",
-    "cuerpo": "Empezamos con un estudio previo gratuito y un presupuesto cerrado. Después hacemos la visita e inspección, medimos y, cuando aportas la documentación, comprobamos catastro y registro. Valoramos por coste de reposición depreciado en construcciones e instalaciones, por comparación con operaciones de la zona cuando hay datos y por capitalización de rentas cuando la finca está arrendada o en producción. El método concreto depende del encargo y se justifica en el informe. Lo entregamos con firma digital FNMT, redactado con claridad y con las fotografías y mediciones que lo respaldan. Nos desplazamos al Poniente (El Ejido, Roquetas, Vícar, La Mojonera, Adra, Berja), a Níjar y al Almanzora."
+    "cuerpo": "Empezamos con un estudio previo y un presupuesto cerrado. Después hacemos la visita e inspección, medimos y, cuando aportas la documentación, comprobamos catastro y registro. Valoramos por coste de reposición depreciado en construcciones e instalaciones, por comparación con operaciones de la zona cuando hay datos y por capitalización de rentas cuando la finca está arrendada o en producción. El método concreto depende del encargo y se justifica en el informe. Lo entregamos con firma digital FNMT, redactado con claridad y con las fotografías y mediciones que lo respaldan. Nos desplazamos al Poniente (El Ejido, Roquetas, Vícar, La Mojonera, Adra, Berja), a Níjar y al Almanzora."
   }
 ];
 
@@ -148,7 +148,7 @@ export default function Page() {
         <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
           <p className="text-sm font-semibold uppercase tracking-wider text-sky-400">{"Tasador agrícola en Almería"}</p>
           <h1 className="mt-4 text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">{"Tasación de invernaderos en Almería, fincas rústicas y maquinaria agrícola"}</h1>
-          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Valoración pericial de invernaderos, fincas rústicas y maquinaria agrícola firmada por ingeniero técnico industrial colegiado desde 1983. Herencias, divorcios, Hacienda y daños por temporal. Estudio previo gratuito y presupuesto cerrado."}</p>
+          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Valoración pericial de invernaderos, fincas rústicas y maquinaria agrícola firmada por ingeniero técnico industrial colegiado desde 1983. Herencias, divorcios, Hacienda y daños por temporal. Estudio previo y presupuesto cerrado."}</p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a href="#contacto" className="rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-400">Solicitar presupuesto</a>
             <a href="tel:+34670607830" className="rounded-xl border border-slate-600 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800">Llamar 670 607 830</a>

@@ -58,7 +58,7 @@ const faqs = [
   },
   {
     "q": "¿Puedo legalizar una reforma ya montada para pasar la ITV en Málaga?",
-    "a": "Depende de la reforma y de cómo esté ejecutada. En el estudio previo, que es gratuito, revisamos qué se ha cambiado, localizamos su código en el Manual de Reformas, vemos qué documentación falta (proyecto técnico, informe de conformidad o certificado del taller) y si hay que adaptar algo en el vehículo. Antes de empezar te damos un presupuesto cerrado. No prometemos un resultado sin haber visto el vehículo: primero se comprueba, después se tramita."
+    "a": "Depende de la reforma y de cómo esté ejecutada. En el estudio previo, revisamos qué se ha cambiado, localizamos su código en el Manual de Reformas, vemos qué documentación falta (proyecto técnico, informe de conformidad o certificado del taller) y si hay que adaptar algo en el vehículo. Antes de empezar te damos un presupuesto cerrado. No prometemos un resultado sin haber visto el vehículo: primero se comprueba, después se tramita."
   },
   {
     "q": "¿Qué necesito para homologar un coche importado que ya tengo en la Costa del Sol?",
@@ -70,7 +70,7 @@ const faqs = [
   },
   {
     "q": "¿Cómo es el estudio previo y cuándo me dais el presupuesto?",
-    "a": "Nos cuentas qué vehículo es y qué se ha cambiado o qué quieres hacer, con fotos y documentación si las tienes. Respondemos en menos de 24 horas. A partir de ahí hacemos el estudio previo, que es gratuito: qué trámite te corresponde y qué documentos hacen falta. Después te damos un presupuesto cerrado, antes de empezar. Si sigues adelante, nos desplazamos a ver el vehículo y el resto se hace online con firma digital FNMT."
+    "a": "Nos cuentas qué vehículo es y qué se ha cambiado o qué quieres hacer, con fotos y documentación si las tienes. Respondemos en menos de 24 horas. A partir de ahí hacemos el estudio previo: qué trámite te corresponde y qué documentos hacen falta. Después te damos un presupuesto cerrado, antes de empezar. Si sigues adelante, nos desplazamos a ver el vehículo y el resto se hace online con firma digital FNMT."
   }
 ];
 
@@ -105,7 +105,7 @@ const bloques = [
   },
   {
     "titulo": "El plazo de quince días y cómo trabajamos contigo",
-    "cuerpo": "El artículo 8.1 del Real Decreto 866/2010 obliga al titular del vehículo, o a la persona que autorice, a presentar el vehículo reformado a inspección técnica en un plazo máximo de quince días, con la documentación que determina el Manual de Reformas. Por eso preparamos el expediente antes de que el taller termine la obra. El proceso es este: estudio previo gratuito y presupuesto cerrado; visita para ver el vehículo en cualquier punto de la provincia; redacción y tramitación del expediente online con firma digital FNMT; y entrega de la documentación completa para que pidas cita en la ITV. Tanto en la homologación de vehículos en Málaga como al legalizar una reforma para la ITV, este orden evita sorpresas."
+    "cuerpo": "El artículo 8.1 del Real Decreto 866/2010 obliga al titular del vehículo, o a la persona que autorice, a presentar el vehículo reformado a inspección técnica en un plazo máximo de quince días, con la documentación que determina el Manual de Reformas. Por eso preparamos el expediente antes de que el taller termine la obra. El proceso es este: estudio previo y presupuesto cerrado; visita para ver el vehículo en cualquier punto de la provincia; redacción y tramitación del expediente online con firma digital FNMT; y entrega de la documentación completa para que pidas cita en la ITV. Tanto en la homologación de vehículos en Málaga como al legalizar una reforma para la ITV, este orden evita sorpresas."
   }
 ];
 
@@ -155,7 +155,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"Si necesitas homologación de vehículos en Málaga, lo primero es saber qué trámite te corresponde. En la Costa del Sol, la Axarquía, Antequera o la Serranía de Ronda los casos son muy distintos: un 4x4 con neumáticos más grandes, una moto con llantas nuevas, una furgoneta de trabajo a la que se añaden asientos o un coche que llegó de otro país con un propietario extranjero. Cada uno exige una cosa diferente. Antes de pasar por la inspección hay que determinar si lo que se ha hecho es una reforma, qué código del Manual de Reformas de Vehículos le corresponde y qué documentación pide ese código. Ese análisis es lo primero que hacemos, antes de que el taller empiece a trabajar."}</p>
-          <p>{"Nos organizamos para ir a ver el vehículo allí donde esté: Marbella, Fuengirola, Vélez-Málaga, Nerja, Antequera o el Valle del Guadalhorce. El resto del trámite es online, con firma digital con certificado FNMT. Lo firma un ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años de ejercicio: el ingeniero de homologaciones que necesitas en Málaga sin tener que moverte tú. Si quieres homologar un coche o una moto en Málaga, empezamos con un estudio previo gratuito y te damos un presupuesto cerrado antes de comenzar. Respondemos en menos de 24 horas, también si solo quieres saber si tu modificación necesita algún trámite."}</p>
+          <p>{"Nos organizamos para ir a ver el vehículo allí donde esté: Marbella, Fuengirola, Vélez-Málaga, Nerja, Antequera o el Valle del Guadalhorce. El resto del trámite es online, con firma digital con certificado FNMT. Lo firma un ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años de ejercicio: el ingeniero de homologaciones que necesitas en Málaga sin tener que moverte tú. Si quieres homologar un coche o una moto en Málaga, empezamos con un estudio previo y te damos un presupuesto cerrado antes de comenzar. Respondemos en menos de 24 horas, también si solo quieres saber si tu modificación necesita algún trámite."}</p>
         </div>
       </section>
 

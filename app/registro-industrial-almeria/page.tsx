@@ -9,7 +9,7 @@ const path = "/registro-industrial-almeria";
 
 export const metadata: Metadata = {
   title: "Registro industrial en Almería (alta de establecimiento)",
-  description: "Inscribimos tu establecimiento en el Registro Integrado Industrial de Andalucía (RIIA) con la puesta en servicio ante Industria. Pide presupuesto gratis.",
+  description: "Inscribimos tu establecimiento en el Registro Integrado Industrial de Andalucía (RIIA) con la puesta en servicio ante Industria. Pide presupuesto.",
   keywords: ["registro industrial Almería","alta establecimiento industrial Almería","Registro Integrado Industrial de Andalucía","RIIA Andalucía","inscripción registro industrial Almería","número de registro industrial","registro establecimientos industriales Almería","dar de alta industria Almería","puesta en servicio Industria Almería","registro industrial Andalucía"],
   alternates: { canonical: path, languages: { "es-ES": path } },
   openGraph: {
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.ingenierial.es/registro-industrial-almeria",
     siteName: "Abaco Ingeniería",
     title: "Registro industrial en Almería (alta de establecimiento industrial)",
-    description: "Inscribimos tu establecimiento en el Registro Integrado Industrial de Andalucía (RIIA) con la puesta en servicio ante Industria. Pide presupuesto gratis.",
+    description: "Inscribimos tu establecimiento en el Registro Integrado Industrial de Andalucía (RIIA) con la puesta en servicio ante Industria. Pide presupuesto.",
     images: [{ url: "/images/og-abaco.jpg", width: 1200, height: 630, alt: "Registro industrial en Almería (alta de establecimiento industrial) – Abaco Ingeniería" }],
   },
   twitter: { card: "summary_large_image", title: "Registro industrial en Almería (alta de establecimiento industrial)", description: "Ingeniero técnico industrial colegiado en Almería.", images: ["/images/og-abaco.jpg"] },
@@ -45,7 +45,7 @@ const serviceLd = {
     { "@type": "Country", name: "España" },
   ],
   url: "https://www.ingenierial.es/registro-industrial-almeria",
-  description: "Inscribimos tu establecimiento en el Registro Integrado Industrial de Andalucía (RIIA) con la puesta en servicio ante Industria. Pide presupuesto gratis.",
+  description: "Inscribimos tu establecimiento en el Registro Integrado Industrial de Andalucía (RIIA) con la puesta en servicio ante Industria. Pide presupuesto.",
 };
 
 const faqs = [
@@ -71,7 +71,7 @@ const faqs = [
   },
   {
     "q": "¿Trabajáis solo en Almería y cuánto cuesta el trámite?",
-    "a": "Somos una oficina técnica de ingeniería dirigida por un ingeniero colegiado desde 1983. Gracias a la firma digital FNMT tramitamos la inscripción y la puesta en servicio 100% online en toda España, y nos desplazamos a la capital y la provincia (también a Granada, Málaga y Murcia) cuando hay que revisar la instalación in situ. El precio depende del establecimiento y de sus instalaciones; lo cerramos por adelantado tras un estudio previo sin coste."
+    "a": "Somos una oficina técnica de ingeniería dirigida por un ingeniero colegiado desde 1983. Gracias a la firma digital FNMT tramitamos la inscripción y la puesta en servicio 100% online en toda España, y nos desplazamos a la capital y la provincia (también a Granada, Málaga y Murcia) cuando hay que revisar la instalación in situ. El precio depende del establecimiento y de sus instalaciones; lo cerramos por adelantado tras un estudio previo."
   }
 ];
 
@@ -154,7 +154,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"El registro industrial es la inscripción de tu establecimiento o instalación en el Registro Integrado Industrial de Andalucía (RIIA), el censo administrativo que la Junta de Andalucía mantiene de la actividad industrial de la comunidad. Lo regula el Decreto 83/2016, que sustituyó al antiguo Registro de Establecimientos Industriales (REIA), dentro del marco de la Ley 21/1992 de Industria y del Reglamento estatal del Registro Integrado Industrial (RD 559/2010). Afecta a talleres, almacenes de manipulado, naves del polígono, industrias agroalimentarias, carpinterías metálicas y a cualquier establecimiento que ejerza una actividad industrial en Almería capital y provincia. Su carácter es informativo: no otorga derechos, pero acredita que tu industria consta y opera dentro de la legalidad."}</p>
-          <p>{"En Abaco Ingeniería lo tramitamos como oficina técnica dirigida por un ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años de experiencia ante Industria. Firmamos con certificado digital FNMT, así que gestionamos el 100% online en toda España y nos desplazamos de forma presencial a Almería capital y provincia (y a Granada, Málaga y Murcia) cuando hay que medir o inspeccionar la instalación. Empezamos con un estudio previo gratuito y te damos un presupuesto cerrado, sin variaciones posteriores, hasta obtener tu número de registro."}</p>
+          <p>{"En Abaco Ingeniería lo tramitamos como oficina técnica dirigida por un ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años de experiencia ante Industria. Firmamos con certificado digital FNMT, así que gestionamos el 100% online en toda España y nos desplazamos de forma presencial a Almería capital y provincia (y a Granada, Málaga y Murcia) cuando hay que medir o inspeccionar la instalación. Empezamos con un estudio previo y te damos un presupuesto cerrado, sin variaciones posteriores, hasta obtener tu número de registro."}</p>
         </div>
       </section>
 

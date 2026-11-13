@@ -440,7 +440,7 @@ export const CITY_FAQS: Record<Servicio, Record<string, { q: string; a: string }
       { q: "¿Cómo se tramita la licencia de apertura en Málaga?", a: "El Ayuntamiento de Málaga tiene sede electrónica para presentar declaraciones responsables (actividades inocuas) y licencias previas (calificadas). Aplicamos normativa andaluza y la ordenanza propia municipal." },
       { q: "¿Qué exigencias tiene la hostelería costera en Málaga?", a: "Para zonas costeras como Pedregalejo, El Palo o Muelle Uno hay particularidades sobre veladores, terrazas y aislamiento acústico por proximidad a zonas residenciales. Para bares con cocina, salida de humos por cubierta. Para música, limitador-registrador." },
       { q: "¿Trabajáis en Marbella, Fuengirola y resto de la Costa del Sol?", a: "Sí. Marbella, Estepona, Fuengirola, Torremolinos, Benalmádena, Mijas, Vélez-Málaga y Ronda. Cada ayuntamiento tiene su sede electrónica y sus particularidades, que revisamos en el estudio previo de cada caso." },
-      { q: "¿Cuánto cuesta el proyecto en Málaga?", a: "Depende del tipo de actividad, superficie e instalaciones. Para un comercio pequeño parte de 600-900 €. Para hostelería con cocina 1.400-2.200 €. Tras visita gratuita damos presupuesto cerrado." },
+      { q: "¿Cuánto cuesta el proyecto en Málaga?", a: "Depende del tipo de actividad, superficie e instalaciones. Para un comercio pequeño parte de 600-900 €. Para hostelería con cocina 1.400-2.200 €. Tras visita damos presupuesto cerrado." },
       { q: "¿Tramitáis también licencias para apartamentos turísticos?", a: "Sí. Revisamos qué exige cada caso ante el Ayuntamiento y la Junta de Andalucía y preparamos la documentación técnica que corresponda." },
     ],
     granada: [
@@ -490,7 +490,7 @@ export const CITY_FAQS: Record<Servicio, Record<string, { q: string; a: string }
       { q: "¿Trabajáis en El Ejido, Roquetas, Vícar y municipios de la provincia?", a: "Sí. Toda la provincia incluyendo El Ejido, Roquetas de Mar, Vícar, Huércal-Overa, Adra, Berja, Cuevas del Almanzora, Vera, Mojácar y Carboneras. Tenemos landings dedicadas para los principales municipios." },
       { q: "¿Trabajáis con almacenes hortofrutícolas?", a: "Sí. Es uno de los servicios más demandados en Almería. Almacenes de manipulado, cámaras frigoríficas, plantas de envasado. Aplicamos requisitos sanitarios, contraincendios y gestión de residuos." },
       { q: "¿Tramitáis hostelería costera?", a: "Sí. Chiringuitos (con autorización adicional de Costas), bares, restaurantes y locales de música. Aplicamos requisitos acústicos y de salida de humos específicos para zonas costeras y residenciales." },
-      { q: "¿Cuánto cuesta el proyecto en Almería?", a: "Desde 600 € para locales pequeños hasta 2.500 € para industrias o hostelería compleja. Visita gratuita y presupuesto cerrado tras revisar tu caso." },
+      { q: "¿Cuánto cuesta el proyecto en Almería?", a: "Desde 600 € para locales pequeños hasta 2.500 € para industrias o hostelería compleja. Visita y presupuesto cerrado tras revisar tu caso." },
     ],
   },
   peritaciones: {
@@ -499,14 +499,14 @@ export const CITY_FAQS: Record<Servicio, Record<string, { q: string; a: string }
       { q: "¿Qué tipos de peritaje hacéis con más frecuencia en Madrid?", a: "Patologías constructivas en comunidades de propietarios, humedades, aluminosis, peritajes laborales, accidentes de tráfico, valoraciones por herencias y divorcios, peritajes en obras nuevas (LOE) e incendios." },
       { q: "¿Cuánto tarda un informe pericial en Madrid?", a: "Plazo habitual: 15-30 días desde la visita de inspección. En casos urgentes con plazo procesal ajustado podemos priorizar." },
       { q: "¿Trabajáis con bufetes especializados en derecho de la edificación?", a: "Sí. Bufetes especializados en LOE, derecho de seguros, comunidades de propietarios, derecho laboral y derecho civil. Coordinamos contenido técnico con argumento jurídico." },
-      { q: "¿Cuánto cuesta una peritación judicial en Madrid?", a: "Depende del alcance: visita, mediciones, ensayos, ratificación en sala. Damos presupuesto cerrado tras consulta previa sin coste." },
+      { q: "¿Cuánto cuesta una peritación judicial en Madrid?", a: "Depende del alcance: visita, mediciones, ensayos, ratificación en sala. Damos presupuesto cerrado tras consulta previa." },
     ],
     sevilla: [
       { q: "¿Comparecéis ante los juzgados de Sevilla?", a: "Sí. Sevilla capital y partidos judiciales de la provincia (Dos Hermanas, Alcalá de Guadaíra, Utrera, Écija, Carmona)." },
       { q: "¿Qué peritajes hacéis con más frecuencia en Sevilla?", a: "Patologías en cascos antiguos (humedades, fisuras, aluminosis), peritajes laborales, accidentes, valoraciones, peritajes de obras nuevas e incendios. También peritajes específicos del sector industrial sevillano." },
       { q: "¿Cuánto tarda un informe en Sevilla?", a: "15-30 días desde la visita. Urgencias procesales priorizadas." },
       { q: "¿Trabajáis para aseguradoras?", a: "Sí. Reclamaciones por daños, valoraciones para indemnizaciones, contraperitajes y peritajes contradictorios." },
-      { q: "¿Cuánto cuesta una peritación en Sevilla?", a: "Presupuesto cerrado tras consulta previa sin coste. Depende del alcance del informe y de si requiere ratificación en sala." },
+      { q: "¿Cuánto cuesta una peritación en Sevilla?", a: "Presupuesto cerrado tras consulta previa. Depende del alcance del informe y de si requiere ratificación en sala." },
     ],
     malaga: [
       { q: "¿Comparecéis ante los juzgados de Málaga?", a: "Sí. Málaga capital, Marbella, Estepona, Fuengirola, Torremolinos y resto de partidos judiciales de la provincia." },
@@ -527,7 +527,7 @@ export const CITY_FAQS: Record<Servicio, Record<string, { q: string; a: string }
       { q: "¿Qué peritajes hacéis en Córdoba?", a: "Patologías en cascos patrimoniales, peritajes industriales en polígonos, peritajes oleícolas (almazaras, cooperativas), accidentes laborales, valoraciones e incendios." },
       { q: "¿Trabajáis con almazaras y cooperativas?", a: "Sí. Peritajes de daños, incendios, gestión de subproductos, valoraciones para herencias en familias propietarias." },
       { q: "¿Cuánto tarda el informe?", a: "15-30 días desde la visita. Urgencias procesales priorizadas." },
-      { q: "¿Cuánto cuesta?", a: "Presupuesto cerrado tras consulta previa sin coste." },
+      { q: "¿Cuánto cuesta?", a: "Presupuesto cerrado tras consulta previa." },
     ],
     cadiz: [
       { q: "¿Comparecéis ante los juzgados de Cádiz y la Bahía?", a: "Sí. Cádiz capital, San Fernando, Puerto Real, Puerto de Santa María, Jerez, Chiclana, Sanlúcar y partidos judiciales de la provincia." },
@@ -547,7 +547,7 @@ export const CITY_FAQS: Record<Servicio, Record<string, { q: string; a: string }
       { q: "¿Comparecéis ante los juzgados de Jaén?", a: "Sí. Jaén capital y partidos judiciales (Úbeda, Baeza, Linares, Andújar, Martos)." },
       { q: "¿Qué peritajes hacéis en Jaén?", a: "Peritajes oleícolas (almazaras, cooperativas, fincas), accidentes laborales del olivar, daños en explotaciones, valoraciones e incendios." },
       { q: "¿Trabajáis con peritajes del sector oleícola?", a: "Sí. Es uno de nuestros nichos. Peritajes de calidad del aceite, daños en almacenes, accidentes en almazaras, valoraciones de explotaciones." },
-      { q: "¿Cuánto tarda y cuánto cuesta?", a: "15-30 días. Presupuesto cerrado tras consulta previa sin coste." },
+      { q: "¿Cuánto tarda y cuánto cuesta?", a: "15-30 días. Presupuesto cerrado tras consulta previa." },
       { q: "¿Trabajáis con accidentes laborales en olivar?", a: "Sí. Caídas, atropellos por maquinaria, accidentes con varas y vibradores. Peritajes técnicos rigurosos para procedimientos laborales." },
     ],
     murcia: [
@@ -555,7 +555,7 @@ export const CITY_FAQS: Record<Servicio, Record<string, { q: string; a: string }
       { q: "¿Qué peritajes hacéis en Murcia?", a: "Patologías constructivas, peritajes agroalimentarios (huerta, conservas, almacenes), accidentes laborales, valoraciones e incendios industriales." },
       { q: "¿Trabajáis con peritajes del sector conservero?", a: "Sí. Peritajes de incendios, daños en instalaciones, accidentes laborales, contaminación cruzada, gestión de subproductos." },
       { q: "¿Cuánto tarda el informe?", a: "15-30 días desde la visita." },
-      { q: "¿Cuánto cuesta?", a: "Presupuesto cerrado tras consulta previa sin coste." },
+      { q: "¿Cuánto cuesta?", a: "Presupuesto cerrado tras consulta previa." },
     ],
     almeria: [
       { q: "¿Qué diferencia hay entre perito de parte y perito judicial?", a: "El perito de parte lo contratas tú y su informe lo aporta tu abogado. El perito de designación judicial lo nombra el juzgado. Actuamos en ambos casos, y en los dos comparecemos a ratificar el informe si nos citan." },
@@ -563,7 +563,7 @@ export const CITY_FAQS: Record<Servicio, Record<string, { q: string; a: string }
       { q: "¿Qué peritajes hacéis en Almería?", a: "Patologías agrícolas (invernaderos, almacenes), accidentes laborales, daños por temporales, peritajes industriales y costeros, valoraciones e incendios." },
       { q: "¿Trabajáis con peritajes en invernaderos y agricultura?", a: "Sí. Es uno de nuestros nichos. Daños por temporales, accidentes con maquinaria, peritajes de cubiertas, valoraciones de explotaciones." },
       { q: "¿Cuánto tarda?", a: "15-30 días desde la visita." },
-      { q: "¿Cuánto cuesta?", a: "Presupuesto cerrado tras consulta previa sin coste." },
+      { q: "¿Cuánto cuesta?", a: "Presupuesto cerrado tras consulta previa." },
     ],
   },
   tasaciones: {

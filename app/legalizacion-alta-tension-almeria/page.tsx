@@ -9,7 +9,7 @@ const path = "/legalizacion-alta-tension-almeria";
 
 export const metadata: Metadata = {
   title: "Legalización de Alta Tensión y Centros de Transformación Almería",
-  description: "Legalizamos centros de transformación y líneas de alta tensión en Almería: proyecto de ingeniero y puesta en servicio ante la Junta. Pide presupuesto gratis.",
+  description: "Legalizamos centros de transformación y líneas de alta tensión en Almería: proyecto de ingeniero y puesta en servicio ante la Junta. Pide presupuesto.",
   keywords: ["legalización alta tensión Almería","centro de transformación Almería","proyecto centro de transformación Almería","legalizar línea de alta tensión Almería","ficha técnica alta tensión un solo usuario Andalucía","puesta en servicio PUES Almería","ingeniero alta tensión Almería","inspección OCA centro de transformación Almería","CT abonado Almería","proyecto RAT RD 337/2014"],
   alternates: { canonical: path, languages: { "es-ES": path } },
   openGraph: {
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.ingenierial.es/legalizacion-alta-tension-almeria",
     siteName: "Abaco Ingeniería",
     title: "Legalización de alta tensión y centros de transformación en Almería",
-    description: "Legalizamos centros de transformación y líneas de alta tensión en Almería: proyecto de ingeniero y puesta en servicio ante la Junta. Pide presupuesto gratis.",
+    description: "Legalizamos centros de transformación y líneas de alta tensión en Almería: proyecto de ingeniero y puesta en servicio ante la Junta. Pide presupuesto.",
     images: [{ url: "/images/og-abaco.jpg", width: 1200, height: 630, alt: "Legalización de alta tensión y centros de transformación en Almería – Abaco Ingeniería" }],
   },
   twitter: { card: "summary_large_image", title: "Legalización de alta tensión y centros de transformación en Almería", description: "Ingeniero técnico industrial colegiado en Almería.", images: ["/images/og-abaco.jpg"] },
@@ -45,7 +45,7 @@ const serviceLd = {
     { "@type": "Country", name: "España" },
   ],
   url: "https://www.ingenierial.es/legalizacion-alta-tension-almeria",
-  description: "Legalizamos centros de transformación y líneas de alta tensión en Almería: proyecto de ingeniero y puesta en servicio ante la Junta. Pide presupuesto gratis.",
+  description: "Legalizamos centros de transformación y líneas de alta tensión en Almería: proyecto de ingeniero y puesta en servicio ante la Junta. Pide presupuesto.",
 };
 
 const faqs = [
@@ -55,7 +55,7 @@ const faqs = [
   },
   {
     "q": "¿Qué diferencia hay entre la ficha técnica de un solo usuario y un proyecto completo?",
-    "a": "La ficha técnica descriptiva de alta tensión es un procedimiento simplificado que Andalucía admite cuando la instalación sirve a un único usuario y no requiere autorización administrativa previa. Es más rápida y económica que el proyecto ordinario e incluye una declaración responsable del promotor; recientemente se ha ampliado a acometidas y líneas de hasta 30 kV. Si tu centro de transformación alimenta a varios usuarios o supera esos supuestos, necesitarás proyecto completo. Lo determinamos en el estudio previo gratuito."
+    "a": "La ficha técnica descriptiva de alta tensión es un procedimiento simplificado que Andalucía admite cuando la instalación sirve a un único usuario y no requiere autorización administrativa previa. Es más rápida y económica que el proyecto ordinario e incluye una declaración responsable del promotor; recientemente se ha ampliado a acometidas y líneas de hasta 30 kV. Si tu centro de transformación alimenta a varios usuarios o supera esos supuestos, necesitarás proyecto completo. Lo determinamos en el estudio previo."
   },
   {
     "q": "¿Mi centro de transformación necesita autorización administrativa previa?",
@@ -71,7 +71,7 @@ const faqs = [
   },
   {
     "q": "¿Trabajáis en toda la provincia de Almería y cuánto cuesta legalizar la alta tensión?",
-    "a": "Somos una oficina técnica de ingeniería con ingeniero colegiado desde 1983. Tramitamos online con firma FNMT en toda España y nos desplazamos a Almería capital y provincia (y a Granada, Málaga y Murcia) para el reconocimiento del CT o de la línea. El coste depende de la potencia del transformador, de la tensión y de si va por ficha técnica o por proyecto; tras un estudio previo gratuito damos un presupuesto cerrado, sin variaciones posteriores."
+    "a": "Somos una oficina técnica de ingeniería con ingeniero colegiado desde 1983. Tramitamos online con firma FNMT en toda España y nos desplazamos a Almería capital y provincia (y a Granada, Málaga y Murcia) para el reconocimiento del CT o de la línea. El coste depende de la potencia del transformador, de la tensión y de si va por ficha técnica o por proyecto; tras un estudio previo damos un presupuesto cerrado, sin variaciones posteriores."
   }
 ];
 
@@ -154,7 +154,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"La legalización de alta tensión es el conjunto de trámites que dejan en regla una instalación eléctrica que trabaja por encima de 1 kV: un centro de transformación (CT), una línea aérea o subterránea de alta tensión o la acometida propia de una industria o explotación agrícola. La normativa de referencia es el Reglamento sobre condiciones técnicas y garantías de seguridad en instalaciones de alta tensión (RD 337/2014, RAT) y sus instrucciones ITC-RAT, que exigen un proyecto firmado por ingeniero para ejecutar y poner en marcha este tipo de instalaciones. Afecta a naves y polígonos de Almería, invernaderos, bombeos de riego, plantas de manipulado y a cualquier consumo que se conecta en media tensión a la red de distribución."}</p>
-          <p>{"En Abaco Ingeniería somos oficina técnica dirigida por un ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años en instalaciones industriales. Redactamos el proyecto o la ficha técnica de un solo usuario, asumimos la dirección de obra, coordinamos el punto de conexión con la distribuidora y presentamos la puesta en servicio ante Industria de la Junta de Andalucía. Firmamos con certificado FNMT y tramitamos online en toda España, con desplazamiento presencial a Almería capital y provincia. Estudio previo gratuito y presupuesto cerrado, sin sorpresas."}</p>
+          <p>{"En Abaco Ingeniería somos oficina técnica dirigida por un ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años en instalaciones industriales. Redactamos el proyecto o la ficha técnica de un solo usuario, asumimos la dirección de obra, coordinamos el punto de conexión con la distribuidora y presentamos la puesta en servicio ante Industria de la Junta de Andalucía. Firmamos con certificado FNMT y tramitamos online en toda España, con desplazamiento presencial a Almería capital y provincia. Estudio previo y presupuesto cerrado, sin sorpresas."}</p>
         </div>
       </section>
 

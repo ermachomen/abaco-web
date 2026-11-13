@@ -9,7 +9,7 @@ const path = "/legalizacion-climatizacion-almeria";
 
 export const metadata: Metadata = {
   title: "Legalizar aire acondicionado y climatización RITE en Almería",
-  description: "Legalizamos el aire acondicionado y la climatización RITE de tu local o nave en Almería: memoria técnica o proyecto según la potencia. Estudio previo gratis.",
+  description: "Legalizamos el aire acondicionado y la climatización RITE de tu local o nave en Almería: memoria técnica o proyecto según la potencia. Presupuesto cerrado.",
   keywords: ["legalizar aire acondicionado Almería","legalización climatización Almería","certificado RITE Almería","memoria técnica RITE Almería","legalizar aerotermia Almería","proyecto climatización Almería","legalización instalación térmica Almería","puesta en servicio climatización Almería","legalizar aire acondicionado local Almería","RITE Almería"],
   alternates: { canonical: path, languages: { "es-ES": path } },
   openGraph: {
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.ingenierial.es/legalizacion-climatizacion-almeria",
     siteName: "Abaco Ingeniería",
     title: "Legalización de climatización y aire acondicionado (RITE) en Almería",
-    description: "Legalizamos el aire acondicionado y la climatización RITE de tu local o nave en Almería: memoria técnica o proyecto según la potencia. Estudio previo gratis.",
+    description: "Legalizamos el aire acondicionado y la climatización RITE de tu local o nave en Almería: memoria técnica o proyecto según la potencia. Presupuesto cerrado.",
     images: [{ url: "/images/og-abaco.jpg", width: 1200, height: 630, alt: "Legalización de climatización y aire acondicionado (RITE) en Almería – Abaco Ingeniería" }],
   },
   twitter: { card: "summary_large_image", title: "Legalización de climatización y aire acondicionado (RITE) en Almería", description: "Ingeniero técnico industrial colegiado en Almería.", images: ["/images/og-abaco.jpg"] },
@@ -45,7 +45,7 @@ const serviceLd = {
     { "@type": "Country", name: "España" },
   ],
   url: "https://www.ingenierial.es/legalizacion-climatizacion-almeria",
-  description: "Legalizamos el aire acondicionado y la climatización RITE de tu local o nave en Almería: memoria técnica o proyecto según la potencia. Estudio previo gratis.",
+  description: "Legalizamos el aire acondicionado y la climatización RITE de tu local o nave en Almería: memoria técnica o proyecto según la potencia. Presupuesto cerrado.",
 };
 
 const faqs = [
@@ -55,7 +55,7 @@ const faqs = [
   },
   {
     "q": "¿Cuánto cuesta legalizar la climatización de un local en Almería?",
-    "a": "Depende de la potencia y de si basta una memoria técnica o hace falta proyecto. Una memoria para un local entre 5 y 70 kW es bastante más económica que un proyecto de más de 70 kW. Tras el estudio previo gratuito te damos un presupuesto cerrado, sin variaciones posteriores, con la tramitación ante la Junta de Andalucía incluida."
+    "a": "Depende de la potencia y de si basta una memoria técnica o hace falta proyecto. Una memoria para un local entre 5 y 70 kW es bastante más económica que un proyecto de más de 70 kW. Tras el estudio previo te damos un presupuesto cerrado, sin variaciones posteriores, con la tramitación ante la Junta de Andalucía incluida."
   },
   {
     "q": "¿Qué diferencia hay entre memoria técnica y proyecto?",
@@ -154,7 +154,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"Tengo que legalizar mi aire acondicionado: es la primera duda de cualquier comercio, oficina o vivienda de Almería que instala frío o calor, y la respuesta depende de la potencia térmica. El Reglamento de Instalaciones Térmicas en los Edificios (RITE, RD 1027/2007, actualizado por el RD 178/2021) considera instalación térmica cualquier equipo destinado al bienestar de las personas: aire acondicionado, bomba de calor, aerotermia o climatización. Por debajo de 5 kW no hay que presentar documentación; a partir de esa cifra la instalación queda sujeta y hay que registrarla ante Industria. Un split doméstico de 3,5 kW no obliga, pero varios equipos que sumen más de 5 kW en un mismo local sí lo requieren."}</p>
-          <p>{"En Abaco Ingeniería somos oficina técnica dirigida por un ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años en legalizaciones. Redactamos la memoria técnica o el proyecto RITE según los kilovatios de tu instalación, emitimos el certificado y tramitamos la puesta en servicio ante la Delegación de Industria de la Junta de Andalucía. Firmamos con certificado digital FNMT, así que trabajamos el 100% online en toda España y nos desplazamos a tu local o nave en Almería capital y provincia. Estudio previo gratuito y presupuesto cerrado, sin sorpresas."}</p>
+          <p>{"En Abaco Ingeniería somos oficina técnica dirigida por un ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años en legalizaciones. Redactamos la memoria técnica o el proyecto RITE según los kilovatios de tu instalación, emitimos el certificado y tramitamos la puesta en servicio ante la Delegación de Industria de la Junta de Andalucía. Firmamos con certificado digital FNMT, así que trabajamos el 100% online en toda España y nos desplazamos a tu local o nave en Almería capital y provincia. Estudio previo y presupuesto cerrado, sin sorpresas."}</p>
         </div>
       </section>
 

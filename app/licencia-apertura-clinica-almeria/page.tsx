@@ -9,7 +9,7 @@ const path = "/licencia-apertura-clinica-almeria";
 
 export const metadata: Metadata = {
   title: "Licencia de apertura de clínica en Almería",
-  description: "Licencia de apertura de clínica en Almería: dental, fisioterapia, consultas, psicología y podología. Proyecto, instalaciones y certificado. Estudio gratis.",
+  description: "Licencia de apertura de clínica en Almería: dental, fisioterapia, consultas, psicología y podología. Proyecto, instalaciones y certificado. Presupuesto cerrado.",
   keywords: ["licencia de apertura de clínica en Almería","licencia clínica dental Almería","licencia consulta fisioterapia Almería","abrir una clínica requisitos","licencia de actividad centro sanitario","licencia consulta médica Almería","licencia clínica de podología Almería","licencia consulta de psicología Almería","proyecto de actividad clínica Almería"],
   alternates: { canonical: path, languages: { "es-ES": path } },
   openGraph: {
@@ -18,10 +18,10 @@ export const metadata: Metadata = {
     url: "https://www.ingenierial.es/licencia-apertura-clinica-almeria",
     siteName: "Abaco Ingeniería",
     title: "Licencia de apertura de clínica en Almería",
-    description: "Licencia de apertura de clínica en Almería: dental, fisioterapia, consultas, psicología y podología. Proyecto, instalaciones y certificado. Estudio gratis.",
+    description: "Licencia de apertura de clínica en Almería: dental, fisioterapia, consultas, psicología y podología. Proyecto, instalaciones y certificado. Presupuesto cerrado.",
     images: [{ url: "/images/og-abaco.jpg", width: 1200, height: 630, alt: "Licencia de apertura de clínica en Almería – Abaco Ingeniería" }],
   },
-  twitter: { card: "summary_large_image", title: "Licencia de apertura de clínica en Almería", description: "Licencia de apertura de clínica en Almería: dental, fisioterapia, consultas, psicología y podología. Proyecto, instalaciones y certificado. Estudio gratis.", images: ["/images/og-abaco.jpg"] },
+  twitter: { card: "summary_large_image", title: "Licencia de apertura de clínica en Almería", description: "Licencia de apertura de clínica en Almería: dental, fisioterapia, consultas, psicología y podología. Proyecto, instalaciones y certificado. Presupuesto cerrado.", images: ["/images/og-abaco.jpg"] },
 };
 
 const serviceLd = {
@@ -44,7 +44,7 @@ const serviceLd = {
     { "@type": "AdministrativeArea", name: "Provincia de Almería" },
   ],
   url: "https://www.ingenierial.es/licencia-apertura-clinica-almeria",
-  description: "Licencia de apertura de clínica en Almería: dental, fisioterapia, consultas, psicología y podología. Proyecto, instalaciones y certificado. Estudio gratis.",
+  description: "Licencia de apertura de clínica en Almería: dental, fisioterapia, consultas, psicología y podología. Proyecto, instalaciones y certificado. Presupuesto cerrado.",
 };
 
 const faqs = [
@@ -62,7 +62,7 @@ const faqs = [
   },
   {
     "q": "¿Puedo abrir una consulta de fisioterapia en cualquier local?",
-    "a": "No siempre. Hay que comprobar que el uso urbanístico lo permite, que existe un itinerario accesible hasta las salas, que cabe un aseo adaptado y que las instalaciones soportan tus equipos. Por eso conviene que visitemos el local antes de que firmes el alquiler. En la visita te decimos si es viable y qué obras necesitaría, sin compromiso y sin coste."
+    "a": "No siempre. Hay que comprobar que el uso urbanístico lo permite, que existe un itinerario accesible hasta las salas, que cabe un aseo adaptado y que las instalaciones soportan tus equipos. Por eso conviene que visitemos el local antes de que firmes el alquiler. En la visita te decimos si es viable y qué obras necesitaría, sin compromiso."
   },
   {
     "q": "¿Qué pasa si el local tiene escalones o los aseos no son adaptados?",
@@ -70,7 +70,7 @@ const faqs = [
   },
   {
     "q": "¿Cuánto tardáis y cómo empezamos?",
-    "a": "Escríbenos o llámanos al 670 607 830 y respondemos en 24 horas. Concertamos una visita al local, hacemos el estudio previo gratuito y, si decides seguir, te damos un presupuesto cerrado. No prometemos plazos de resolución, porque dependen del Ayuntamiento y de cada expediente. Sí podemos decirte qué documentación y obras necesitas, y en qué orden, para no perder tiempo."
+    "a": "Escríbenos o llámanos al 670 607 830 y respondemos en 24 horas. Concertamos una visita al local, hacemos el estudio previo y, si decides seguir, te damos un presupuesto cerrado. No prometemos plazos de resolución, porque dependen del Ayuntamiento y de cada expediente. Sí podemos decirte qué documentación y obras necesitas, y en qué orden, para no perder tiempo."
   }
 ];
 
@@ -93,7 +93,7 @@ const bloques = [
   },
   {
     "titulo": "Qué mirar antes de alquilar o comprar el local",
-    "cuerpo": "Antes de firmar nada comprueba que el uso urbanístico del local admite una clínica y si hubo una actividad anterior, con qué licencia funcionaba y si está en regla. Mira también el acceso desde la calle, porque los pacientes han de poder entrar y moverse con autonomía: escalones, rampas, anchura de puertas y ascensor pesan mucho en el coste. Fíjate en si hay sitio para un aseo adaptado, en si el local admite una salida de ventilación hacia la fachada o la cubierta y en si la potencia eléctrica contratada alcanza para tus equipos. Una visita técnica antes del contrato te evita descubrir estos problemas con la fianza ya pagada. Esa visita es gratuita."
+    "cuerpo": "Antes de firmar nada comprueba que el uso urbanístico del local admite una clínica y si hubo una actividad anterior, con qué licencia funcionaba y si está en regla. Mira también el acceso desde la calle, porque los pacientes han de poder entrar y moverse con autonomía: escalones, rampas, anchura de puertas y ascensor pesan mucho en el coste. Fíjate en si hay sitio para un aseo adaptado, en si el local admite una salida de ventilación hacia la fachada o la cubierta y en si la potencia eléctrica contratada alcanza para tus equipos. Una visita técnica antes del contrato te evita descubrir estos problemas con la fianza ya pagada."
   },
   {
     "titulo": "Exigencias técnicas típicas de una clínica",
@@ -105,7 +105,7 @@ const bloques = [
   },
   {
     "titulo": "Cómo trabajamos",
-    "cuerpo": "Empezamos con una visita al local, antes de que firmes, y con un estudio previo gratuito donde te decimos si es viable, qué trámite le corresponde y qué obras harán falta. Después redactamos y firmamos el proyecto con las instalaciones, la accesibilidad y la evacuación, y te damos un presupuesto cerrado. Si el local necesita obras, dirigimos la adecuación y coordinamos a los instaladores. Al terminar emitimos el certificado final, preparamos el expediente y lo presentamos por la sede electrónica del Ayuntamiento con firma FNMT. Mientras tanto avisamos de los documentos que tu trámite sanitario necesita de la parte técnica, para que lleguen a tiempo. Respondemos en 24 horas y damos la cara ante el Ayuntamiento si hay requerimientos."
+    "cuerpo": "Empezamos con una visita al local, antes de que firmes, y con un estudio previo donde te decimos si es viable, qué trámite le corresponde y qué obras harán falta. Después redactamos y firmamos el proyecto con las instalaciones, la accesibilidad y la evacuación, y te damos un presupuesto cerrado. Si el local necesita obras, dirigimos la adecuación y coordinamos a los instaladores. Al terminar emitimos el certificado final, preparamos el expediente y lo presentamos por la sede electrónica del Ayuntamiento con firma FNMT. Mientras tanto avisamos de los documentos que tu trámite sanitario necesita de la parte técnica, para que lleguen a tiempo. Respondemos en 24 horas y damos la cara ante el Ayuntamiento si hay requerimientos."
   },
   {
     "titulo": "Traspaso o cambio de titularidad de una clínica",
@@ -159,7 +159,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"Abrir una clínica en Almería exige dos caminos distintos que conviene llevar a la vez: la licencia de actividad del Ayuntamiento y la autorización sanitaria de la Junta de Andalucía. No son el mismo trámite ni lo resuelve el mismo técnico, y confundirlos es la causa más habitual de retrasos y de alquileres firmados demasiado pronto. Nosotros nos ocupamos del primero y de toda la parte técnica del local, y la coordinamos con el segundo para que ninguno bloquee al otro."}</p>
-          <p>{"Somos una oficina técnica de ingeniería con un ingeniero técnico industrial colegiado desde 1983. Visitamos el local antes de que firmes, te decimos si es viable para tu tipo de clínica y, si lo es, redactamos y firmamos el proyecto, dirigimos la obra de adecuación cuando procede, emitimos el certificado final y lo presentamos por la sede electrónica con firma FNMT. El estudio previo es gratuito, el presupuesto es cerrado y respondemos en 24 horas. Trabajamos en la capital y en toda la provincia."}</p>
+          <p>{"Somos una oficina técnica de ingeniería con un ingeniero técnico industrial colegiado desde 1983. Visitamos el local antes de que firmes, te decimos si es viable para tu tipo de clínica y, si lo es, redactamos y firmamos el proyecto, dirigimos la obra de adecuación cuando procede, emitimos el certificado final y lo presentamos por la sede electrónica con firma FNMT. El presupuesto es cerrado y respondemos en 24 horas. Trabajamos en la capital y en toda la provincia."}</p>
         </div>
       </section>
 

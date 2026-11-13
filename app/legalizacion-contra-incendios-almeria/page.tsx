@@ -9,7 +9,7 @@ const path = "/legalizacion-contra-incendios-almeria";
 
 export const metadata: Metadata = {
   title: "Legalización y Proyecto Contra Incendios (PCI) en Almería",
-  description: "Proyecto y legalización de protección contra incendios (PCI) en Almería: RSCIEI en naves y CTE DB-SI en locales. Presupuesto cerrado y estudio previo gratis.",
+  description: "Proyecto y legalización de protección contra incendios (PCI) en Almería: RSCIEI en naves y CTE DB-SI en locales. Presupuesto cerrado.",
   keywords: ["legalización contra incendios Almería","proyecto protección contra incendios Almería","proyecto PCI Almería","RSCIEI Almería","RD 164/2025 incendios","CTE DB-SI Almería","protección contra incendios naves Almería","certificado instalación contra incendios Almería","plan de autoprotección Almería","nivel de riesgo intrínseco carga de fuego","inspección OCA incendios Almería","ingeniero protección contra incendios Almería"],
   alternates: { canonical: path, languages: { "es-ES": path } },
   openGraph: {
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.ingenierial.es/legalizacion-contra-incendios-almeria",
     siteName: "Abaco Ingeniería",
     title: "Legalización y proyecto de protección contra incendios (PCI) en Almería",
-    description: "Proyecto y legalización de protección contra incendios (PCI) en Almería: RSCIEI en naves y CTE DB-SI en locales. Presupuesto cerrado y estudio previo gratis.",
+    description: "Proyecto y legalización de protección contra incendios (PCI) en Almería: RSCIEI en naves y CTE DB-SI en locales. Presupuesto cerrado.",
     images: [{ url: "/images/og-abaco.jpg", width: 1200, height: 630, alt: "Legalización y proyecto de protección contra incendios (PCI) en Almería – Abaco Ingeniería" }],
   },
   twitter: { card: "summary_large_image", title: "Legalización y proyecto de protección contra incendios (PCI) en Almería", description: "Ingeniero técnico industrial colegiado en Almería.", images: ["/images/og-abaco.jpg"] },
@@ -45,13 +45,13 @@ const serviceLd = {
     { "@type": "Country", name: "España" },
   ],
   url: "https://www.ingenierial.es/legalizacion-contra-incendios-almeria",
-  description: "Proyecto y legalización de protección contra incendios (PCI) en Almería: RSCIEI en naves y CTE DB-SI en locales. Presupuesto cerrado y estudio previo gratis.",
+  description: "Proyecto y legalización de protección contra incendios (PCI) en Almería: RSCIEI en naves y CTE DB-SI en locales. Presupuesto cerrado.",
 };
 
 const faqs = [
   {
     "q": "¿Mi nave necesita un proyecto de protección contra incendios o basta un certificado de instalación?",
-    "a": "Depende del alcance. Si solo instalas o renuevas equipos concretos (extintores, BIEs, detección), suele bastar el certificado de instalación que emite la empresa instaladora autorizada. Cuando hay que justificar la seguridad del conjunto de la nave o del local (sectorización, carga de fuego, evacuación, sistemas exigibles) o abrir actividad, la normativa pide un proyecto o memoria firmada por ingeniero. En el estudio previo gratuito te decimos qué necesitas exactamente."
+    "a": "Depende del alcance. Si solo instalas o renuevas equipos concretos (extintores, BIEs, detección), suele bastar el certificado de instalación que emite la empresa instaladora autorizada. Cuando hay que justificar la seguridad del conjunto de la nave o del local (sectorización, carga de fuego, evacuación, sistemas exigibles) o abrir actividad, la normativa pide un proyecto o memoria firmada por ingeniero. En el estudio previo te decimos qué necesitas exactamente."
   },
   {
     "q": "¿Se aplica el RSCIEI o el CTE DB-SI a mi caso?",
@@ -154,7 +154,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"La protección contra incendios (PCI) es el conjunto de medidas constructivas y de instalación (sectorización, resistencia al fuego de la estructura, detección, extintores, BIEs, hidrantes, rociadores, control de humo, alumbrado de emergencia y señalización) que un edificio debe cumplir para funcionar con seguridad. Legalizarla significa justificar por proyecto o memoria que la nave o el local cumple la normativa y dejar la instalación registrada ante Industria. Es obligatoria al abrir o reformar naves industriales, almacenes, talleres, comercios y locales de pública concurrencia, y es una de las piezas centrales de la licencia de actividad. En Almería la necesitan a diario polígonos, almacenes de manipulado hortofrutícola, naves logísticas y hostelería."}</p>
-          <p>{"En Abaco Ingeniería lo resolvemos como oficina técnica dirigida por un ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años de experiencia. Calculamos la carga de fuego y el nivel de riesgo, redactamos el proyecto o la memoria de PCI, coordinamos con la empresa instaladora autorizada el certificado de instalación y tramitamos la puesta en servicio ante la Junta de Andalucía. Firmamos con certificado digital FNMT, así que trabajamos el 100% online en toda España y nos desplazamos a Almería capital y provincia. Estudio previo gratuito y presupuesto cerrado, sin sorpresas."}</p>
+          <p>{"En Abaco Ingeniería lo resolvemos como oficina técnica dirigida por un ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años de experiencia. Calculamos la carga de fuego y el nivel de riesgo, redactamos el proyecto o la memoria de PCI, coordinamos con la empresa instaladora autorizada el certificado de instalación y tramitamos la puesta en servicio ante la Junta de Andalucía. Firmamos con certificado digital FNMT, así que trabajamos el 100% online en toda España y nos desplazamos a Almería capital y provincia. Estudio previo y presupuesto cerrado, sin sorpresas."}</p>
         </div>
       </section>
 

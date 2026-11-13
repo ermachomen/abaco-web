@@ -9,7 +9,7 @@ const path = "/legalizacion-nave-industrial-vicar";
 
 export const metadata: Metadata = {
   title: "Legalizar nave industrial en Vícar · Polígono La Gangosa",
-  description: "Legalizamos naves y almacenes en La Gangosa y Agruenco, en Vícar: licencia de actividad, cámaras, incendios y electricidad. Estudio previo gratuito.",
+  description: "Legalizamos naves y almacenes en La Gangosa y Agruenco, en Vícar: licencia de actividad, cámaras, incendios y electricidad. Presupuesto cerrado.",
   keywords: ["legalizar nave industrial Vícar","legalización de naves Vícar","licencia de actividad nave Vícar","polígono industrial La Gangosa","polígono industrial Agruenco","legalizar almacén de manipulado Vícar","legalizar cámara frigorífica Vícar","proyecto contra incendios nave Vícar","ingeniero industrial Vícar","legalizar nave agrícola Vícar"],
   alternates: { canonical: path, languages: { "es-ES": path } },
   openGraph: {
@@ -18,10 +18,10 @@ export const metadata: Metadata = {
     url: "https://www.ingenierial.es/legalizacion-nave-industrial-vicar",
     siteName: "Abaco Ingeniería",
     title: "Legalizar nave industrial en Vícar",
-    description: "Legalizamos naves y almacenes en La Gangosa y Agruenco, en Vícar: licencia de actividad, cámaras, incendios y electricidad. Estudio previo gratuito.",
+    description: "Legalizamos naves y almacenes en La Gangosa y Agruenco, en Vícar: licencia de actividad, cámaras, incendios y electricidad. Presupuesto cerrado.",
     images: [{ url: "/images/og-abaco.jpg", width: 1200, height: 630, alt: "Legalización de naves e instalaciones en Vícar – Abaco Ingeniería" }],
   },
-  twitter: { card: "summary_large_image", title: "Legalizar nave industrial en Vícar", description: "Legalizamos naves y almacenes en La Gangosa y Agruenco, en Vícar: licencia de actividad, cámaras, incendios y electricidad. Estudio previo gratuito.", images: ["/images/og-abaco.jpg"] },
+  twitter: { card: "summary_large_image", title: "Legalizar nave industrial en Vícar", description: "Legalizamos naves y almacenes en La Gangosa y Agruenco, en Vícar: licencia de actividad, cámaras, incendios y electricidad. Presupuesto cerrado.", images: ["/images/og-abaco.jpg"] },
 };
 
 const serviceLd = {
@@ -44,13 +44,13 @@ const serviceLd = {
     { "@type": "AdministrativeArea", name: "Provincia de Almería" },
   ],
   url: "https://www.ingenierial.es/legalizacion-nave-industrial-vicar",
-  description: "Legalizamos naves y almacenes en La Gangosa y Agruenco, en Vícar: licencia de actividad, cámaras, incendios y electricidad. Estudio previo gratuito.",
+  description: "Legalizamos naves y almacenes en La Gangosa y Agruenco, en Vícar: licencia de actividad, cámaras, incendios y electricidad. Presupuesto cerrado.",
 };
 
 const faqs = [
   {
     "q": "¿Cuánto se tarda en legalizar un almacén de manipulado en La Gangosa o Agruenco?",
-    "a": "Depende de lo que haya que resolver: la licencia de actividad, el registro de las instalaciones, la situación urbanística o varias cosas a la vez. También influye cuánta documentación exista y cuánto tarde cada administración. Por eso no damos plazos a ciegas. Tras la visita y el estudio previo gratuito te explicamos cada paso, de quién depende y cómo ordenarlos para que la nave pueda seguir funcionando mientras tanto."
+    "a": "Depende de lo que haya que resolver: la licencia de actividad, el registro de las instalaciones, la situación urbanística o varias cosas a la vez. También influye cuánta documentación exista y cuánto tarde cada administración. Por eso no damos plazos a ciegas. Tras la visita y el estudio previo te explicamos cada paso, de quién depende y cómo ordenarlos para que la nave pueda seguir funcionando mientras tanto."
   },
   {
     "q": "¿Puedo alquilar una nave en Vícar para montar un taller agrícola?",
@@ -109,7 +109,7 @@ const bloques = [
   },
   {
     "titulo": "Cómo trabajamos con tu nave",
-    "cuerpo": "Primero te visitamos: tomamos medidas, vemos la actividad real y repasamos las instalaciones, sin que tengas que desplazarte a ningún sitio. Después redactamos el diagnóstico y el estudio previo, que es gratuito, con las vías posibles y el orden en que conviene recorrerlas. Si te encaja, fijamos un presupuesto cerrado. A continuación elaboramos los proyectos, memorias y certificados, los firmamos con firma digital FNMT y los tramitamos ante el Ayuntamiento y la Delegación de Industria de la Junta. En campaña, cuando el tiempo escasea, ese trabajo en remoto es lo que más se agradece. Respondemos en 24 h y evitamos prometer resultados que decide la administración."
+    "cuerpo": "Primero te visitamos: tomamos medidas, vemos la actividad real y repasamos las instalaciones, sin que tengas que desplazarte a ningún sitio. Después redactamos el diagnóstico y el estudio previo, con las vías posibles y el orden en que conviene recorrerlas. Si te encaja, fijamos un presupuesto cerrado. A continuación elaboramos los proyectos, memorias y certificados, los firmamos con firma digital FNMT y los tramitamos ante el Ayuntamiento y la Delegación de Industria de la Junta. En campaña, cuando el tiempo escasea, ese trabajo en remoto es lo que más se agradece. Respondemos en 24 h y evitamos prometer resultados que decide la administración."
   }
 ];
 
@@ -159,7 +159,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"En Vícar, buena parte de la actividad industrial gira alrededor de la agricultura intensiva, y eso se nota en las naves. Es habitual encontrar almacenes de manipulado, cámaras, naves de suministros y talleres que atienden a las explotaciones de alrededor, muchos de ellos levantados por fases según crecía el negocio. Una cámara añadida después, un muelle nuevo o un cambio de titular suelen dejar el expediente por detrás de la realidad. Legalizamos naves en el Polígono Industrial La Gangosa y en el Polígono Industrial Agruenco, y nos desplazamos a la nave para medir, ver cómo se trabaja dentro y decirte qué hay que ordenar primero."}</p>
-          <p>{"Detrás de cada expediente hay un ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años de oficio. Firmamos los proyectos, memorias técnicas y certificados de baja tensión, alta tensión y centros de transformación, protección contra incendios, climatización y ventilación, autoconsumo solar y licencia de actividad, y los presentamos ante el Ayuntamiento y la Delegación de Industria de la Junta. La visita a la nave es lo único presencial: el resto se resuelve online con firma digital FNMT, algo que agradece quien no puede parar la campaña. Estudio previo gratuito, presupuesto cerrado y respuesta en 24 h."}</p>
+          <p>{"Detrás de cada expediente hay un ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años de oficio. Firmamos los proyectos, memorias técnicas y certificados de baja tensión, alta tensión y centros de transformación, protección contra incendios, climatización y ventilación, autoconsumo solar y licencia de actividad, y los presentamos ante el Ayuntamiento y la Delegación de Industria de la Junta. La visita a la nave es lo único presencial: el resto se resuelve online con firma digital FNMT, algo que agradece quien no puede parar la campaña. Estudio previo, presupuesto cerrado y respuesta en 24 h."}</p>
         </div>
       </section>
 

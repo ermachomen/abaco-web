@@ -533,7 +533,7 @@ export const MUNICIPIOS_ALMERIA: MunicipioAlmeria[] = [
     "comarca": "Levante Almeriense",
     "heroSub": "Proyecto técnico y tramitación ante el Ayuntamiento de Mojácar para chiringuitos, restaurantes y bares del Paseo del Mediterráneo, hoteles y apartamentos turísticos, comercio del casco histórico y locales de primera línea de playa.",
     "intro1": "Mojácar vive del turismo desde hace más de medio siglo y es uno de los destinos pioneros de la costa almeriense. Con algo más de 7.500 vecinos empadronados y más de 18.000 plazas turísticas, es el único municipio de la provincia con más camas para visitantes que habitantes. El modelo es sobre todo hotelero, complementado con camping, alojamiento rural y vivienda vacacional, y el turismo sostiene en torno a 1.340 empleos directos. Esa intensidad genera una rotación constante de aperturas: chiringuitos, restaurantes, bares, heladerías, comercio de temporada y apartamentos turísticos que abren, cambian de manos o se reforman cada temporada.",
-    "intro2": "En Mojácar cada apertura sigue uno de dos caminos. Las actividades inocuas se resuelven con declaración responsable y permiten abrir de inmediato; las calificadas, con más aforo, cocina o incidencia acústica y ambiental, requieren proyecto técnico y un plazo municipal mayor. Todo se presenta en la sede electrónica del Ayuntamiento de Mojácar y en la oficina virtual de tramitación de la Diputación de Almería con certificado digital o Cl@ve. Nosotros redactamos el proyecto, visitamos el local sin coste y presentamos el expediente telemáticamente por ti.",
+    "intro2": "En Mojácar cada apertura sigue uno de dos caminos. Las actividades inocuas se resuelven con declaración responsable y permiten abrir de inmediato; las calificadas, con más aforo, cocina o incidencia acústica y ambiental, requieren proyecto técnico y un plazo municipal mayor. Todo se presenta en la sede electrónica del Ayuntamiento de Mojácar y en la oficina virtual de tramitación de la Diputación de Almería con certificado digital o Cl@ve. Nosotros redactamos el proyecto, visitamos el local y presentamos el expediente telemáticamente por ti.",
     "zonas": [
       {
         "zona": "Mojácar Pueblo (casco histórico)",
@@ -1020,7 +1020,7 @@ export const MUNICIPIOS_ALMERIA: MunicipioAlmeria[] = [
       },
       {
         "q": "¿El estudio previo tiene coste?",
-        "a": "No. El estudio previo es gratuito y la respuesta llega en un máximo de 24 horas. Con la actividad, la superficie y el estado del local te decimos qué documentación técnica hace falta y te damos un presupuesto cerrado, sin sorpresas posteriores. Así puedes decidir con datos antes de comprometer ningún gasto."
+        "a": "No. La respuesta llega en un máximo de 24 horas. Con la actividad, la superficie y el estado del local te decimos qué documentación técnica hace falta y te damos un presupuesto cerrado, sin sorpresas posteriores. Así puedes decidir con datos antes de comprometer ningún gasto."
       }
     ],
     "keywordsExtra": [
@@ -1037,7 +1037,7 @@ export const MUNICIPIOS_ALMERIA: MunicipioAlmeria[] = [
     "comarca": "Poniente Almeriense",
     "heroSub": "Proyecto técnico y tramitación de la licencia de actividad en La Mojonera: almacenes agrícolas, naves de manipulado, talleres, comercios y servicios auxiliares de la agricultura intensiva, con presupuesto cerrado.",
     "intro1": "La Mojonera, con cerca de 8.800 habitantes, es un municipio pequeño en extensión pero muy activo, cuya economía gira en torno a la agricultura intensiva bajo plástico. Alrededor del invernadero se ha formado un tejido completo de negocios: almacenes de manipulado y confección, naves de suministros, talleres de maquinaria, empresas de transporte, comercios de insumos y servicios para los agricultores. Esa actividad constante hace que cada año se reformen naves y se abran locales nuevos, a menudo con instalaciones eléctricas exigentes, cámaras frigoríficas y requisitos de protección contra incendios que conviene estudiar antes de empezar cualquier obra.",
-    "intro2": "Como ingeniero técnico industrial colegiado desde 1983, redactamos el proyecto o la documentación técnica de tu nave o local en La Mojonera, dirigimos la adecuación, firmamos el certificado final con firma digital FNMT y lo presentamos en la sede electrónica del Ayuntamiento. Visitamos la nave antes de que firmes el alquiler para comprobar instalación eléctrica, ventilación y estado general. Aplicamos el CTE, el REBT y el RITE cuando corresponde, y el trámite exacto lo decidimos en el estudio previo, que es gratuito y recibe respuesta en 24 horas.",
+    "intro2": "Como ingeniero técnico industrial colegiado desde 1983, redactamos el proyecto o la documentación técnica de tu nave o local en La Mojonera, dirigimos la adecuación, firmamos el certificado final con firma digital FNMT y lo presentamos en la sede electrónica del Ayuntamiento. Visitamos la nave antes de que firmes el alquiler para comprobar instalación eléctrica, ventilación y estado general. Aplicamos el CTE, el REBT y el RITE cuando corresponde, y el trámite exacto lo decidimos en el estudio previo, con respuesta en 24 horas.",
     "zonas": [
       {
         "zona": "Entorno agrícola y almacenes",
@@ -1083,7 +1083,7 @@ export const MUNICIPIOS_ALMERIA: MunicipioAlmeria[] = [
       },
       {
         "q": "¿El estudio previo tiene coste?",
-        "a": "No. El estudio previo es gratuito y la respuesta llega en un máximo de 24 horas. Con la actividad, la superficie y el estado del local te decimos qué documentación técnica hace falta y te damos un presupuesto cerrado, sin sorpresas posteriores. Así puedes decidir con datos antes de comprometer ningún gasto."
+        "a": "No. La respuesta llega en un máximo de 24 horas. Con la actividad, la superficie y el estado del local te decimos qué documentación técnica hace falta y te damos un presupuesto cerrado, sin sorpresas posteriores. Así puedes decidir con datos antes de comprometer ningún gasto."
       }
     ],
     "keywordsExtra": [
@@ -1100,7 +1100,7 @@ export const MUNICIPIOS_ALMERIA: MunicipioAlmeria[] = [
     "comarca": "Área Metropolitana de Almería",
     "heroSub": "Proyecto técnico y tramitación de la licencia de actividad en Viator: comercios, hostelería, clínicas, gestorías y naves del Polígono Industrial La Juaida, a un paso de la capital, con visita previa al local.",
     "intro1": "Viator, con más de 6.300 habitantes, forma parte del área metropolitana y está muy cerca de la capital y de Huércal de Almería. Esa cercanía lo convierte en un municipio residencial con un comercio y unos servicios en crecimiento: tiendas, bares, consultas, academias, gimnasios y pequeños servicios profesionales que dan servicio a los vecinos sin obligarles a desplazarse. Además, el Polígono Industrial La Juaida acoge naves, talleres y almacenes de empresas que buscan suelo industrial bien comunicado. La mezcla de uso residencial y actividad económica exige prestar atención al ruido, la ventilación y la convivencia con las viviendas cercanas desde el primer momento.",
-    "intro2": "Con un ingeniero técnico industrial colegiado desde 1983, trabajamos en Viator: nos desplazamos al local, lo visitamos antes de que firmes el alquiler y valoramos con honestidad su estado real y las obras necesarias. Después redactamos el proyecto o la documentación técnica, dirigimos la adecuación, firmamos el certificado final con firma digital FNMT y lo presentamos en la sede electrónica del Ayuntamiento. El trámite que corresponde depende de la actividad, de la superficie y del estado del local, y lo concretamos en el estudio previo, gratuito, con presupuesto cerrado y respuesta en 24 horas.",
+    "intro2": "Con un ingeniero técnico industrial colegiado desde 1983, trabajamos en Viator: nos desplazamos al local, lo visitamos antes de que firmes el alquiler y valoramos con honestidad su estado real y las obras necesarias. Después redactamos el proyecto o la documentación técnica, dirigimos la adecuación, firmamos el certificado final con firma digital FNMT y lo presentamos en la sede electrónica del Ayuntamiento. El trámite que corresponde depende de la actividad, de la superficie y del estado del local, y lo concretamos en el estudio previo, con presupuesto cerrado y respuesta en 24 horas.",
     "zonas": [
       {
         "zona": "Casco urbano",
@@ -1145,8 +1145,8 @@ export const MUNICIPIOS_ALMERIA: MunicipioAlmeria[] = [
         "a": "Depende de la actividad y del local, y no podemos asegurarlo sin conocerlos. En el estudio previo lo determinamos y te indicamos qué documentación técnica corresponde. Nosotros redactamos, dirigimos la adecuación, firmamos el certificado final y lo presentamos, para que no tengas que preocuparte del procedimiento."
       },
       {
-        "q": "¿Es gratis el estudio previo?",
-        "a": "Sí. El estudio previo es gratuito y la respuesta llega en un máximo de 24 horas. Con la actividad, la superficie y el estado del local te decimos qué documentación técnica hace falta y te damos un presupuesto cerrado, sin sorpresas posteriores. Así puedes decidir con datos antes de comprometer ningún gasto."
+        "q": "¿Qué incluye el estudio previo?",
+        "a": "La respuesta llega en un máximo de 24 horas. Con la actividad, la superficie y el estado del local te decimos qué documentación técnica hace falta y te damos un presupuesto cerrado, sin sorpresas posteriores. Así puedes decidir con datos antes de comprometer ningún gasto."
       }
     ],
     "keywordsExtra": [
@@ -1163,7 +1163,7 @@ export const MUNICIPIOS_ALMERIA: MunicipioAlmeria[] = [
     "comarca": "Valle del Almanzora",
     "heroSub": "Proyecto técnico y tramitación de la licencia de actividad en Olula del Río: naves del Polígono Industrial Olula del Río, talleres de piedra y mármol, comercios y hostelería, con presupuesto cerrado.",
     "intro1": "Olula del Río, con más de 6.500 habitantes, pertenece al corazón de la comarca del mármol, junto a Macael. Su economía se apoya en la extracción, elaboración y comercialización de la piedra, y en torno a ella se ha formado un tejido de talleres, naves de corte y pulido, empresas de transporte y almacenes de maquinaria. Esa industria convive con un comercio y una hostelería que atienden a los vecinos y a quienes llegan por trabajo. Las naves de elaboración de piedra tienen necesidades técnicas muy particulares, como instalaciones eléctricas de potencia, captación de polvo, ruido de maquinaria y protección contra incendios, que conviene resolver desde el proyecto.",
-    "intro2": "Como ingeniero técnico industrial colegiado desde 1983, trabajamos en Olula del Río y nos desplazamos a tu nave o local. Lo visitamos antes de que firmes el alquiler, redactamos el proyecto o la documentación técnica, dirigimos la adecuación, firmamos el certificado final con firma digital FNMT y lo presentamos en la sede electrónica del Ayuntamiento. Aplicamos el CTE, el REBT y el RITE cuando corresponde, y te explicamos cada paso con claridad. El trámite concreto depende de la actividad y lo decidimos en un estudio previo gratuito, con respuesta en 24 horas.",
+    "intro2": "Como ingeniero técnico industrial colegiado desde 1983, trabajamos en Olula del Río y nos desplazamos a tu nave o local. Lo visitamos antes de que firmes el alquiler, redactamos el proyecto o la documentación técnica, dirigimos la adecuación, firmamos el certificado final con firma digital FNMT y lo presentamos en la sede electrónica del Ayuntamiento. Aplicamos el CTE, el REBT y el RITE cuando corresponde, y te explicamos cada paso con claridad. El trámite concreto depende de la actividad y lo decidimos en un estudio previo, con respuesta en 24 horas.",
     "zonas": [
       {
         "zona": "Polígono Industrial Olula del Río",
@@ -1209,7 +1209,7 @@ export const MUNICIPIOS_ALMERIA: MunicipioAlmeria[] = [
       },
       {
         "q": "¿El presupuesto es cerrado?",
-        "a": "Sí. Tras el estudio previo, que es gratuito y responde en 24 horas, te damos un presupuesto cerrado por la documentación técnica, la dirección de la adecuación y la firma del certificado final. Si la actividad cambia, te avisamos antes de nada, de modo que sepas siempre qué vas a pagar."
+        "a": "Sí. Tras el estudio previo te damos un presupuesto cerrado por la documentación técnica, la dirección de la adecuación y la firma del certificado final. Si la actividad cambia, te avisamos antes de nada, de modo que sepas siempre qué vas a pagar."
       }
     ],
     "keywordsExtra": [
@@ -1226,7 +1226,7 @@ export const MUNICIPIOS_ALMERIA: MunicipioAlmeria[] = [
     "comarca": "Los Vélez",
     "heroSub": "Proyecto técnico y tramitación de la licencia de actividad en Vélez-Rubio: comercios del casco urbano, hostelería, clínicas, talleres y almacenes agroganaderos de la comarca de Los Vélez, con visita previa al local.",
     "intro1": "Vélez-Rubio, con cerca de 6.700 habitantes, es uno de los núcleos de servicios de la comarca de Los Vélez, en el norte de la provincia. Su casco urbano concentra comercio, hostelería, consultas y gestorías que atienden a los vecinos y a quienes llegan de los pueblos cercanos. En el entorno rural se mantienen explotaciones agrícolas y ganaderas con sus naves y almacenes. Es una economía de interior, con negocios de tamaño medio y reducido, donde cada local aprovecha edificios antiguos que a menudo exigen revisar la instalación eléctrica, la ventilación y las salidas antes de poner en marcha cualquier actividad nueva.",
-    "intro2": "Trabajamos en Vélez-Rubio como ingeniero técnico industrial colegiado desde 1983. Nos desplazamos al local, lo visitamos antes de que firmes el alquiler y comprobamos si se puede adaptar a tu actividad. Después redactamos el proyecto o la documentación técnica, dirigimos la adecuación, firmamos el certificado final con firma digital FNMT y lo presentamos en la sede electrónica del Ayuntamiento. El trámite aplicable depende de la actividad, de la superficie y del estado del local, y lo decidimos en el estudio previo, gratuito, con presupuesto cerrado y respuesta en 24 horas.",
+    "intro2": "Trabajamos en Vélez-Rubio como ingeniero técnico industrial colegiado desde 1983. Nos desplazamos al local, lo visitamos antes de que firmes el alquiler y comprobamos si se puede adaptar a tu actividad. Después redactamos el proyecto o la documentación técnica, dirigimos la adecuación, firmamos el certificado final con firma digital FNMT y lo presentamos en la sede electrónica del Ayuntamiento. El trámite aplicable depende de la actividad, de la superficie y del estado del local, y lo decidimos en el estudio previo, con presupuesto cerrado y respuesta en 24 horas.",
     "zonas": [
       {
         "zona": "Casco urbano",
@@ -1271,8 +1271,8 @@ export const MUNICIPIOS_ALMERIA: MunicipioAlmeria[] = [
         "a": "Depende de la actividad y del local, y no lo afirmamos sin conocer el caso. En el estudio previo lo determinamos y te explicamos la documentación técnica que se presenta. Nosotros redactamos, dirigimos la adecuación, firmamos el certificado final y lo presentamos en la sede electrónica."
       },
       {
-        "q": "¿El estudio previo es gratuito?",
-        "a": "Sí. El estudio previo es gratuito y la respuesta llega en un máximo de 24 horas. Con la actividad, la superficie y el estado del local te decimos qué documentación técnica hace falta y te damos un presupuesto cerrado, sin sorpresas posteriores. Así puedes decidir con datos antes de comprometer ningún gasto."
+        "q": "¿Qué incluye el estudio previo?",
+        "a": "La respuesta llega en un máximo de 24 horas. Con la actividad, la superficie y el estado del local te decimos qué documentación técnica hace falta y te damos un presupuesto cerrado, sin sorpresas posteriores. Así puedes decidir con datos antes de comprometer ningún gasto."
       }
     ],
     "keywordsExtra": [
@@ -1293,7 +1293,7 @@ export function buildMunicipioMetadata(m: MunicipioAlmeria): Metadata {
   const path = `/licencia-actividad-${m.slug}`;
   return {
     title: `Licencia de Actividad y Apertura en ${m.nombre} | Ingeniero`,
-    description: `Proyecto técnico y tramitación de licencia de apertura y actividad en ${m.nombre}: comercios, hostelería, talleres, naves e industrias. Ingeniero colegiado, visita sin coste y presupuesto cerrado.`,
+    description: `Proyecto técnico y tramitación de licencia de apertura y actividad en ${m.nombre}: comercios, hostelería, talleres, naves e industrias. Ingeniero colegiado, visita al local y presupuesto cerrado.`,
     keywords: [
       `licencia de actividad ${m.nombre}`,
       `licencia de apertura ${m.nombre}`,

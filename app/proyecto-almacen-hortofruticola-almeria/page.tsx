@@ -71,7 +71,7 @@ const faqs = [
   },
   {
     "q": "Cómo se cobra este tipo de proyecto?",
-    "a": "Con presupuesto cerrado tras un estudio previo gratuito. Visitamos la nave o la parcela, vemos el alcance real y te pasamos un precio por escrito, desglosado por expedientes, para que sepas qué estás contratando. No trabajamos con tarifas genéricas por metro cuadrado porque cada almacén tiene una carga de instalaciones distinta."
+    "a": "Con presupuesto cerrado tras un estudio previo. Visitamos la nave o la parcela, vemos el alcance real y te pasamos un precio por escrito, desglosado por expedientes, para que sepas qué estás contratando. No trabajamos con tarifas genéricas por metro cuadrado porque cada almacén tiene una carga de instalaciones distinta."
   }
 ];
 

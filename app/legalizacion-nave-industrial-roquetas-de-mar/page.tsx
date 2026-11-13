@@ -9,7 +9,7 @@ const path = "/legalizacion-nave-industrial-roquetas-de-mar";
 
 export const metadata: Metadata = {
   title: "Legalizar nave industrial en Roquetas de Mar · Las Salinas",
-  description: "Legalizamos naves y almacenes en Roquetas de Mar y en el Polígono Industrial de las Salinas: licencia, instalaciones y urbanismo. Estudio previo gratuito.",
+  description: "Legalizamos naves y almacenes en Roquetas de Mar y en el Polígono Industrial de las Salinas: licencia, instalaciones y urbanismo. Presupuesto cerrado.",
   keywords: ["legalizar nave en Roquetas de Mar","legalización de nave industrial Roquetas de Mar","nave Polígono Industrial de las Salinas","licencia de actividad nave Roquetas de Mar","legalizar almacén Roquetas de Mar","ingeniero para nave industrial Roquetas de Mar","proyecto contra incendios nave Roquetas de Mar","regularizar nave sin licencia Poniente almeriense","comprar nave industrial Roquetas de Mar"],
   alternates: { canonical: path, languages: { "es-ES": path } },
   openGraph: {
@@ -18,10 +18,10 @@ export const metadata: Metadata = {
     url: "https://www.ingenierial.es/legalizacion-nave-industrial-roquetas-de-mar",
     siteName: "Abaco Ingeniería",
     title: "Legalizar nave industrial en Roquetas de Mar",
-    description: "Legalizamos naves y almacenes en Roquetas de Mar y en el Polígono Industrial de las Salinas: licencia, instalaciones y urbanismo. Estudio previo gratuito.",
+    description: "Legalizamos naves y almacenes en Roquetas de Mar y en el Polígono Industrial de las Salinas: licencia, instalaciones y urbanismo. Presupuesto cerrado.",
     images: [{ url: "/images/og-abaco.jpg", width: 1200, height: 630, alt: "Legalización de naves e instalaciones en Roquetas de Mar – Abaco Ingeniería" }],
   },
-  twitter: { card: "summary_large_image", title: "Legalizar nave industrial en Roquetas de Mar", description: "Legalizamos naves y almacenes en Roquetas de Mar y en el Polígono Industrial de las Salinas: licencia, instalaciones y urbanismo. Estudio previo gratuito.", images: ["/images/og-abaco.jpg"] },
+  twitter: { card: "summary_large_image", title: "Legalizar nave industrial en Roquetas de Mar", description: "Legalizamos naves y almacenes en Roquetas de Mar y en el Polígono Industrial de las Salinas: licencia, instalaciones y urbanismo. Presupuesto cerrado.", images: ["/images/og-abaco.jpg"] },
 };
 
 const serviceLd = {
@@ -44,13 +44,13 @@ const serviceLd = {
     { "@type": "AdministrativeArea", name: "Provincia de Almería" },
   ],
   url: "https://www.ingenierial.es/legalizacion-nave-industrial-roquetas-de-mar",
-  description: "Legalizamos naves y almacenes en Roquetas de Mar y en el Polígono Industrial de las Salinas: licencia, instalaciones y urbanismo. Estudio previo gratuito.",
+  description: "Legalizamos naves y almacenes en Roquetas de Mar y en el Polígono Industrial de las Salinas: licencia, instalaciones y urbanismo. Presupuesto cerrado.",
 };
 
 const faqs = [
   {
     "q": "¿Cuánto se tarda en legalizar una nave en el Polígono Industrial de las Salinas?",
-    "a": "No damos plazos sin ver la nave, porque dependen de varios factores: si la nave ya tiene licencia o se parte de cero, cuántas instalaciones hay que documentar, si hay que corregir algo en obra y el ritmo de respuesta del Ayuntamiento y de la Delegación de Industria. Tras el estudio previo gratuito te explicamos qué trámites pueden ir en paralelo y cuáles dependen de otros, para que puedas planificar con criterio."
+    "a": "No damos plazos sin ver la nave, porque dependen de varios factores: si la nave ya tiene licencia o se parte de cero, cuántas instalaciones hay que documentar, si hay que corregir algo en obra y el ritmo de respuesta del Ayuntamiento y de la Delegación de Industria. Tras el estudio previo te explicamos qué trámites pueden ir en paralelo y cuáles dependen de otros, para que puedas planificar con criterio."
   },
   {
     "q": "¿Puedo alquilar una nave en Roquetas de Mar para montar un taller?",
@@ -109,7 +109,7 @@ const bloques = [
   },
   {
     "titulo": "Cómo trabajamos",
-    "cuerpo": "Primero visitamos la nave para tomar datos y hacer el diagnóstico: es la única parte presencial. Con lo que vemos y con la documentación que tengas, preparamos un estudio previo gratuito que dice qué falta, qué vías hay y en qué orden conviene actuar. Si decides seguir, te damos un presupuesto cerrado. Después redactamos y firmamos el proyecto o la memoria técnica, los certificados de instalaciones y, cuando procede, el expediente de la licencia de actividad. Lo tramitamos ante el Ayuntamiento y ante la Delegación de Industria de la Junta de Andalucía, con firma digital FNMT y sin que tengas que desplazarte. Respondemos en 24 horas y te contamos cada paso, sin prometer resultados que dependen de la administración."
+    "cuerpo": "Primero visitamos la nave para tomar datos y hacer el diagnóstico: es la única parte presencial. Con lo que vemos y con la documentación que tengas, preparamos un estudio previo que dice qué falta, qué vías hay y en qué orden conviene actuar. Si decides seguir, te damos un presupuesto cerrado. Después redactamos y firmamos el proyecto o la memoria técnica, los certificados de instalaciones y, cuando procede, el expediente de la licencia de actividad. Lo tramitamos ante el Ayuntamiento y ante la Delegación de Industria de la Junta de Andalucía, con firma digital FNMT y sin que tengas que desplazarte. Respondemos en 24 horas y te contamos cada paso, sin prometer resultados que dependen de la administración."
   }
 ];
 
@@ -148,7 +148,7 @@ export default function Page() {
         <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
           <p className="text-sm font-semibold uppercase tracking-wider text-sky-400">{"Naves en Roquetas de Mar"}</p>
           <h1 className="mt-4 text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">{"Legalización de naves e instalaciones en Roquetas de Mar"}</h1>
-          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Legalizamos naves y almacenes en Roquetas de Mar y en el Polígono Industrial de las Salinas: licencia de actividad, instalaciones ante Industria y situación urbanística. Estudio previo gratuito y presupuesto cerrado."}</p>
+          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Legalizamos naves y almacenes en Roquetas de Mar y en el Polígono Industrial de las Salinas: licencia de actividad, instalaciones ante Industria y situación urbanística. Estudio previo y presupuesto cerrado."}</p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a href="#contacto" className="rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-400">Solicitar presupuesto</a>
             <a href="tel:+34670607830" className="rounded-xl border border-slate-600 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800">Llamar 670 607 830</a>
@@ -159,7 +159,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"Roquetas de Mar es el municipio más poblado de la provincia después de la capital, con unos 111.240 habitantes según el INE de 2025. Esa densidad se nota en las naves: conviven almacenes, talleres y locales de servicios con zonas residenciales y comerciales, y muchas se levantaron o se reformaron sin cerrar del todo el papeleo. En Abaco Ingeniería nos desplazamos a la nave para medirla, vemos qué se hace realmente dentro y comparamos esa realidad con la licencia, los certificados y la inscripción que constan. Con ese diagnóstico sabes qué falta, en qué orden conviene resolverlo y cuánto cuesta antes de empezar, sin sorpresas ni trámites innecesarios."}</p>
-          <p>{"Trabajamos en el Polígono Industrial de las Salinas y en las naves y almacenes del término municipal de Roquetas de Mar. Un ingeniero técnico industrial colegiado desde 1983 revisa cada caso sobre el terreno y firma los proyectos, memorias técnicas y certificados que hagan falta: baja tensión, protección contra incendios, climatización, autoconsumo solar o la licencia de actividad. El resto del expediente se gestiona online con firma digital FNMT, de modo que no pierdes jornadas de trabajo en ventanillas. Respondemos en 24 horas y el estudio previo es gratuito. Si tu nave no tiene arreglo por la vía que esperabas, te lo decimos con franqueza desde el principio."}</p>
+          <p>{"Trabajamos en el Polígono Industrial de las Salinas y en las naves y almacenes del término municipal de Roquetas de Mar. Un ingeniero técnico industrial colegiado desde 1983 revisa cada caso sobre el terreno y firma los proyectos, memorias técnicas y certificados que hagan falta: baja tensión, protección contra incendios, climatización, autoconsumo solar o la licencia de actividad. El resto del expediente se gestiona online con firma digital FNMT, de modo que no pierdes jornadas de trabajo en ventanillas. Respondemos en 24 horas. Si tu nave no tiene arreglo por la vía que esperabas, te lo decimos con franqueza desde el principio."}</p>
         </div>
       </section>
 

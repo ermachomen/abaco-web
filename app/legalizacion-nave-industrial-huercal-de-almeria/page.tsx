@@ -9,7 +9,7 @@ const path = "/legalizacion-nave-industrial-huercal-de-almeria";
 
 export const metadata: Metadata = {
   title: "Legalizar nave industrial en Huércal de Almería · La Cepa",
-  description: "Legalizamos naves en los polígonos La Cepa, San Rafael y Venta Alegre de Huércal de Almería: actividad, incendios y electricidad. Estudio previo gratuito.",
+  description: "Legalizamos naves en los polígonos La Cepa, San Rafael y Venta Alegre de Huércal de Almería: actividad, incendios y electricidad. Presupuesto cerrado.",
   keywords: ["legalizar nave industrial Huércal de Almería","legalización de naves Huércal de Almería","licencia de actividad nave Huércal de Almería","polígono industrial La Cepa","polígono industrial San Rafael Huércal","polígono industrial Venta Alegre","proyecto contra incendios nave Huércal de Almería","boletín eléctrico nave Huércal de Almería","ingeniero industrial Huércal de Almería"],
   alternates: { canonical: path, languages: { "es-ES": path } },
   openGraph: {
@@ -18,10 +18,10 @@ export const metadata: Metadata = {
     url: "https://www.ingenierial.es/legalizacion-nave-industrial-huercal-de-almeria",
     siteName: "Abaco Ingeniería",
     title: "Legalizar nave industrial en Huércal de Almería",
-    description: "Legalizamos naves en los polígonos La Cepa, San Rafael y Venta Alegre de Huércal de Almería: actividad, incendios y electricidad. Estudio previo gratuito.",
+    description: "Legalizamos naves en los polígonos La Cepa, San Rafael y Venta Alegre de Huércal de Almería: actividad, incendios y electricidad. Presupuesto cerrado.",
     images: [{ url: "/images/og-abaco.jpg", width: 1200, height: 630, alt: "Legalización de naves e instalaciones en Huércal de Almería – Abaco Ingeniería" }],
   },
-  twitter: { card: "summary_large_image", title: "Legalizar nave industrial en Huércal de Almería", description: "Legalizamos naves en los polígonos La Cepa, San Rafael y Venta Alegre de Huércal de Almería: actividad, incendios y electricidad. Estudio previo gratuito.", images: ["/images/og-abaco.jpg"] },
+  twitter: { card: "summary_large_image", title: "Legalizar nave industrial en Huércal de Almería", description: "Legalizamos naves en los polígonos La Cepa, San Rafael y Venta Alegre de Huércal de Almería: actividad, incendios y electricidad. Presupuesto cerrado.", images: ["/images/og-abaco.jpg"] },
 };
 
 const serviceLd = {
@@ -44,13 +44,13 @@ const serviceLd = {
     { "@type": "AdministrativeArea", name: "Provincia de Almería" },
   ],
   url: "https://www.ingenierial.es/legalizacion-nave-industrial-huercal-de-almeria",
-  description: "Legalizamos naves en los polígonos La Cepa, San Rafael y Venta Alegre de Huércal de Almería: actividad, incendios y electricidad. Estudio previo gratuito.",
+  description: "Legalizamos naves en los polígonos La Cepa, San Rafael y Venta Alegre de Huércal de Almería: actividad, incendios y electricidad. Presupuesto cerrado.",
 };
 
 const faqs = [
   {
     "q": "¿Cuánto se tarda en legalizar una nave en La Cepa, San Rafael o Venta Alegre?",
-    "a": "No damos un plazo sin ver la nave, porque depende de qué capas haya que resolver: licencia de actividad, instalaciones o situación urbanística. También influye que la documentación de partida esté completa y lo que tarden el Ayuntamiento y la Junta en resolver. Tras la visita y el estudio previo gratuito te decimos qué pasos hay, en qué orden conviene darlos y cuáles dependen de nosotros y cuáles de la administración."
+    "a": "No damos un plazo sin ver la nave, porque depende de qué capas haya que resolver: licencia de actividad, instalaciones o situación urbanística. También influye que la documentación de partida esté completa y lo que tarden el Ayuntamiento y la Junta en resolver. Tras la visita y el estudio previo te decimos qué pasos hay, en qué orden conviene darlos y cuáles dependen de nosotros y cuáles de la administración."
   },
   {
     "q": "¿Puedo alquilar una nave en Huércal de Almería para montar un taller?",
@@ -109,7 +109,7 @@ const bloques = [
   },
   {
     "titulo": "Cómo trabajamos",
-    "cuerpo": "Empezamos con una visita a la nave para tomar datos, ver la actividad real y revisar las instalaciones. Con eso hacemos el diagnóstico: qué está en orden, qué falta y en qué orden conviene resolverlo. Te entregamos un estudio previo gratuito y un presupuesto cerrado, para que sepas el coste antes de decidir. Si seguimos adelante, redactamos y firmamos los proyectos, memorias y certificados, y tramitamos ante el Ayuntamiento y la Delegación de Industria de la Junta. Salvo la visita, todo se hace online con firma digital FNMT, así que no tienes que perder una mañana en ventanillas. Respondemos en 24 h y no prometemos resultados que dependen de la administración: te decimos con franqueza qué recorrido tiene tu nave."
+    "cuerpo": "Empezamos con una visita a la nave para tomar datos, ver la actividad real y revisar las instalaciones. Con eso hacemos el diagnóstico: qué está en orden, qué falta y en qué orden conviene resolverlo. Te entregamos un estudio previo y un presupuesto cerrado, para que sepas el coste antes de decidir. Si seguimos adelante, redactamos y firmamos los proyectos, memorias y certificados, y tramitamos ante el Ayuntamiento y la Delegación de Industria de la Junta. Salvo la visita, todo se hace online con firma digital FNMT, así que no tienes que perder una mañana en ventanillas. Respondemos en 24 h y no prometemos resultados que dependen de la administración: te decimos con franqueza qué recorrido tiene tu nave."
   }
 ];
 
@@ -159,7 +159,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"Una nave en Huércal de Almería rara vez falla por una sola cosa. Lo habitual es que la actividad cambie de manos, que alguien añada un altillo o una cámara, que el contrato de alquiler pida un certificado que nadie tiene y que el expediente acabe contando algo distinto de lo que hay dentro. Esa distancia entre papeles y realidad la vemos una y otra vez, y casi siempre se puede ordenar si se empieza por mirar la nave y no por rellenar impresos. Trabajamos en los polígonos La Cepa, San Rafael, Venta Alegre, San Silvestre y Alfa, y nos desplazamos a la nave para tomar datos y hacer el diagnóstico antes de proponerte ningún gasto."}</p>
-          <p>{"Somos un ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años de experiencia en instalaciones. Redactamos y firmamos los proyectos, memorias técnicas y certificados de la nave: baja tensión, alta tensión y centros de transformación, protección contra incendios, climatización y ventilación, autoconsumo solar y licencia de actividad. Presentamos el expediente ante el Ayuntamiento y ante la Delegación de Industria de la Junta. Después de la visita, todo se hace online con firma digital FNMT. Trabajamos también en el vecino Viator, donde está el Polígono Industrial La Juaida, y en Benahadux y Pechina. El estudio previo es gratuito, el presupuesto es cerrado y respondemos en 24 h."}</p>
+          <p>{"Somos un ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años de experiencia en instalaciones. Redactamos y firmamos los proyectos, memorias técnicas y certificados de la nave: baja tensión, alta tensión y centros de transformación, protección contra incendios, climatización y ventilación, autoconsumo solar y licencia de actividad. Presentamos el expediente ante el Ayuntamiento y ante la Delegación de Industria de la Junta. Después de la visita, todo se hace online con firma digital FNMT. Trabajamos también en el vecino Viator, donde está el Polígono Industrial La Juaida, y en Benahadux y Pechina. El presupuesto es cerrado y respondemos en 24 h."}</p>
         </div>
       </section>
 

@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 const comunes = [
   {
     "titulo": "Qué trámite necesita tu negocio",
-    "cuerpo": "Según la actividad, el Ayuntamiento puede exigir una declaración responsable o una licencia. No es lo mismo una tienda de ropa que un supermercado pequeño con cámaras frigoríficas, ni una ferretería con almacén trasero que un comercio de barrio sin obras. Influyen lo que se vende, la superficie dedicada a almacén, las instalaciones que lleve el local y si hay que reformar. No te vamos a dar una respuesta de memoria: lo determinamos en el estudio previo, con el local delante y la actividad definida. Ese estudio es gratuito y te dice qué trámite toca, qué documentación hay que firmar y qué obras, si las hay, conviene presupuestar."
+    "cuerpo": "Según la actividad, el Ayuntamiento puede exigir una declaración responsable o una licencia. No es lo mismo una tienda de ropa que un supermercado pequeño con cámaras frigoríficas, ni una ferretería con almacén trasero que un comercio de barrio sin obras. Influyen lo que se vende, la superficie dedicada a almacén, las instalaciones que lleve el local y si hay que reformar. No te vamos a dar una respuesta de memoria: lo determinamos en el estudio previo, con el local delante y la actividad definida. Ese estudio te dice qué trámite toca, qué documentación hay que firmar y qué obras, si las hay, conviene presupuestar."
   },
   {
     "titulo": "Qué revisar antes de alquilar o comprar el local",
@@ -31,7 +31,7 @@ const comunes = [
   },
   {
     "titulo": "Cómo trabajamos, paso a paso",
-    "cuerpo": "Primero, visita al local y estudio previo gratuito: viabilidad, trámite aplicable y obras previsibles. Segundo, presupuesto cerrado, sin sorpresas. Tercero, proyecto o documentación técnica firmada por ingeniero colegiado, con planos, memoria e instalaciones. Cuarto, si el local necesita adecuación, dirigimos la obra con el contratista que elijas o te proponemos uno. Quinto, certificado final de obra e instalaciones. Sexto, presentamos el expediente en la sede electrónica del Ayuntamiento con firma FNMT y atendemos cualquier requerimiento. Tú sigues con el género, la decoración, la contratación y los proveedores; nosotros llevamos el expediente técnico y administrativo de principio a fin, y te avisamos de cada novedad."
+    "cuerpo": "Primero, visita al local y estudio previo: viabilidad, trámite aplicable y obras previsibles. Segundo, presupuesto cerrado, sin sorpresas. Tercero, proyecto o documentación técnica firmada por ingeniero colegiado, con planos, memoria e instalaciones. Cuarto, si el local necesita adecuación, dirigimos la obra con el contratista que elijas o te proponemos uno. Quinto, certificado final de obra e instalaciones. Sexto, presentamos el expediente en la sede electrónica del Ayuntamiento con firma FNMT y atendemos cualquier requerimiento. Tú sigues con el género, la decoración, la contratación y los proveedores; nosotros llevamos el expediente técnico y administrativo de principio a fin, y te avisamos de cada novedad."
   }
 ];
 
@@ -198,7 +198,7 @@ export default function Page() {
           <h1 className="mt-4 text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">{"Licencia de apertura según tu negocio en Almería"}</h1>
           <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Cada negocio tiene sus propias exigencias técnicas. Te contamos qué piden en Almería para una peluquería, un centro de estética, una tienda, un gimnasio, una academia o una oficina, y qué revisar antes de firmar el alquiler."}</p>
           <div className="mt-8 flex flex-wrap gap-4">
-            <a href="#contacto" className="rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-400">Pedir estudio previo gratuito</a>
+            <a href="#contacto" className="rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-400">Pedir estudio previo</a>
             <a href="tel:+34670607830" className="rounded-xl border border-slate-600 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800">Llamar 670 607 830</a>
           </div>
         </div>

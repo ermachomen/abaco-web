@@ -71,7 +71,7 @@ const faqs = [
   },
   {
     "q": "¿Cuánto cuesta y en cuánto tiempo tengo el informe?",
-    "a": "El precio depende del tipo y tamaño del activo; a título orientativo, la tasación de nave parte de unos 450 euros, siempre con presupuesto cerrado y estudio previo gratuito. Los plazos habituales van de pocos días a algo más según la visita y la documentación. Puede ver los precios por tipo de inmueble en la página de precios."
+    "a": "El precio depende del tipo y tamaño del activo; a título orientativo, la tasación de nave parte de unos 450 euros, siempre con presupuesto cerrado. Los plazos habituales van de pocos días a algo más según la visita y la documentación. Puede ver los precios por tipo de inmueble en la página de precios."
   }
 ];
 
@@ -105,7 +105,7 @@ const bloques = [
   },
   {
     "titulo": "Cómo trabajamos en Almería",
-    "cuerpo": "Estudio previo gratuito para orientar valor y plazo, y presupuesto cerrado antes de empezar, sin sorpresas. El trabajo es cien por cien online con firma digital FNMT válida en toda España, con desplazamiento presencial a la capital y la provincia cuando la nave, el invernadero o la finca requieren visita e inspección. Más de cuarenta años de ejercicio colegiado y trato directo con el ingeniero que firma, no con un centro de llamadas. Puede consultar los precios orientativos por tipo de inmueble antes de decidir."
+    "cuerpo": "Estudio previo para orientar valor y plazo, y presupuesto cerrado antes de empezar, sin sorpresas. El trabajo es cien por cien online con firma digital FNMT válida en toda España, con desplazamiento presencial a la capital y la provincia cuando la nave, el invernadero o la finca requieren visita e inspección. Más de cuarenta años de ejercicio colegiado y trato directo con el ingeniero que firma, no con un centro de llamadas. Puede consultar los precios orientativos por tipo de inmueble antes de decidir."
   }
 ];
 
@@ -141,7 +141,7 @@ export default function Page() {
         <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
           <p className="text-sm font-semibold uppercase tracking-wider text-sky-400">Almería · Oficina técnica · 100% online</p>
           <h1 className="mt-4 text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">Tasación de nave industrial, local y terreno en Almería</h1>
-          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Valoración no hipotecaria de activos no residenciales firmada por ingeniero técnico industrial colegiado desde 1983. Naves de polígono, almacenes de manipulado, invernaderos, locales, suelo urbano y fincas de regadío. Presupuesto cerrado y estudio previo gratuito."}</p>
+          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Valoración no hipotecaria de activos no residenciales firmada por ingeniero técnico industrial colegiado desde 1983. Naves de polígono, almacenes de manipulado, invernaderos, locales, suelo urbano y fincas de regadío. Presupuesto cerrado."}</p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a href="#contacto" className="rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-400">Solicitar presupuesto</a>
             <a href="tel:+34670607830" className="rounded-xl border border-slate-600 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800">Llamar 670 607 830</a>

@@ -66,10 +66,10 @@ const faqs = [
   },
   {
     "q": "¿Homologáis también motos en Granada?",
-    "a": "Sí, estudiamos motos igual que el resto de vehículos, ya sean importadas o con reformas. El procedimiento depende del origen y de lo que se haya modificado, y no podemos adelantarlo sin ver la documentación. En el estudio previo gratuito te decimos qué trámite corresponde, qué documentos hacen falta y si el caso es viable, sin compromiso."
+    "a": "Sí, estudiamos motos igual que el resto de vehículos, ya sean importadas o con reformas. El procedimiento depende del origen y de lo que se haya modificado, y no podemos adelantarlo sin ver la documentación. En el estudio previo te decimos qué trámite corresponde, qué documentos hacen falta y si el caso es viable, sin compromiso."
   },
   {
-    "q": "¿Qué incluye el estudio previo gratuito y cuándo sé lo que me va a costar?",
+    "q": "¿Qué incluye el estudio previo y cuándo sé lo que me va a costar?",
     "a": "Revisamos la documentación y el estado del vehículo, identificamos el procedimiento o el código de reforma que corresponde y te explicamos qué documentos harán falta. Con eso te damos un presupuesto cerrado antes de empezar, de modo que sabes el coste total antes de comprometerte a nada. Respondemos en menos de 24 horas desde que nos cuentas tu caso."
   }
 ];
@@ -105,7 +105,7 @@ const bloques = [
   },
   {
     "titulo": "El plazo de quince días y cómo trabajamos contigo",
-    "cuerpo": "El artículo 8.1 del Real Decreto 866/2010 obliga al titular del vehículo, o a la persona que él autorice, a presentar el vehículo reformado a inspección técnica en un plazo máximo de quince días, aportando la documentación que determina el Manual de Reformas. Por eso conviene preparar el expediente antes de ejecutar la reforma, no después. Así trabajamos la homologación de vehículos en Granada: nos cuentas el caso, hacemos el estudio previo gratuito y te damos un presupuesto cerrado. Vemos el vehículo en Granada capital, el área metropolitana, Motril, Guadix, Baza o Loja, y el resto del trámite es online. Firmamos la documentación con certificado digital FNMT y tú pides cita y llevas el vehículo a la inspección dentro del plazo."
+    "cuerpo": "El artículo 8.1 del Real Decreto 866/2010 obliga al titular del vehículo, o a la persona que él autorice, a presentar el vehículo reformado a inspección técnica en un plazo máximo de quince días, aportando la documentación que determina el Manual de Reformas. Por eso conviene preparar el expediente antes de ejecutar la reforma, no después. Así trabajamos la homologación de vehículos en Granada: nos cuentas el caso, hacemos el estudio previo y te damos un presupuesto cerrado. Vemos el vehículo en Granada capital, el área metropolitana, Motril, Guadix, Baza o Loja, y el resto del trámite es online. Firmamos la documentación con certificado digital FNMT y tú pides cita y llevas el vehículo a la inspección dentro del plazo."
   }
 ];
 
@@ -155,7 +155,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"Si buscas homologación de vehículos en Granada, lo primero es saber qué necesita exactamente el tuyo. No es lo mismo montar un enganche en una furgoneta para subir a Sierra Nevada, cambiar los neumáticos de un 4x4 que se mueve por la Alpujarra y los caminos rurales, o traer un coche matriculado en otro país. En todos los casos partimos de lo mismo: comparar lo que figura en la ficha técnica con lo que lleva realmente el vehículo y con lo que exige el Manual de Reformas de Vehículos. A partir de ahí decidimos si basta con una ficha técnica reducida, si hace falta una homologación individual o si hay que legalizar una reforma con proyecto técnico, para que llegues a la ITV con la documentación correcta."}</p>
-          <p>{"Somos Abaco Ingeniería, con un ingeniero técnico industrial colegiado desde 1983 y más de cuarenta años de trayectoria. Nos desplazamos a ver el vehículo en Granada capital, el área metropolitana, Motril, Guadix, Baza o Loja, y el resto del trámite, desde la documentación hasta la firma digital con certificado FNMT, lo resolvemos online. Antes de empezar hacemos un estudio previo gratuito y te damos un presupuesto cerrado, con respuesta en menos de 24 horas. Tanto si quieres homologar un coche o una moto en Granada como legalizar una reforma, el expediente lo lleva y lo firma el ingeniero."}</p>
+          <p>{"Somos Abaco Ingeniería, con un ingeniero técnico industrial colegiado desde 1983 y más de cuarenta años de trayectoria. Nos desplazamos a ver el vehículo en Granada capital, el área metropolitana, Motril, Guadix, Baza o Loja, y el resto del trámite, desde la documentación hasta la firma digital con certificado FNMT, lo resolvemos online. Antes de empezar hacemos un estudio previo y te damos un presupuesto cerrado, con respuesta en menos de 24 horas. Tanto si quieres homologar un coche o una moto en Granada como legalizar una reforma, el expediente lo lleva y lo firma el ingeniero."}</p>
         </div>
       </section>
 

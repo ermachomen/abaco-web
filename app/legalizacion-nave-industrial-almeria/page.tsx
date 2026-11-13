@@ -50,7 +50,7 @@ const serviceLd = {
 const faqs = [
   {
     "q": "¿Se puede legalizar una nave industrial construida sin licencia en Almería?",
-    "a": "Depende de su situación urbanística y de si ya ha transcurrido el plazo que fija la legislación urbanística para actuar contra la obra. Si encaja en el planeamiento, la vía es un proyecto de legalización con licencia. Si no encaja y ese plazo ha pasado, cabe solicitar el reconocimiento de asimilado a fuera de ordenación. Lo valoramos en un estudio previo gratuito, sin prometer resultados que no dependen de nosotros."
+    "a": "Depende de su situación urbanística y de si ya ha transcurrido el plazo que fija la legislación urbanística para actuar contra la obra. Si encaja en el planeamiento, la vía es un proyecto de legalización con licencia. Si no encaja y ese plazo ha pasado, cabe solicitar el reconocimiento de asimilado a fuera de ordenación. Lo valoramos en un estudio previo, sin prometer resultados que no dependen de nosotros."
   },
   {
     "q": "¿Qué significa que una nave está asimilada a fuera de ordenación?",
@@ -66,7 +66,7 @@ const faqs = [
   },
   {
     "q": "¿Cuánto cuesta legalizar una nave industrial?",
-    "a": "No hay una cifra única: depende de la superficie, de si hay que levantar el estado real, de las actividades e instalaciones que existan y de la vía administrativa que corresponda. Tras el estudio previo gratuito te damos un presupuesto cerrado, desglosado por proyecto y tramitación. Las tasas municipales y los costes de posibles obras de adaptación no los fijamos nosotros y se suman aparte."
+    "a": "No hay una cifra única: depende de la superficie, de si hay que levantar el estado real, de las actividades e instalaciones que existan y de la vía administrativa que corresponda. Tras el estudio previo te damos un presupuesto cerrado, desglosado por proyecto y tramitación. Las tasas municipales y los costes de posibles obras de adaptación no los fijamos nosotros y se suman aparte."
   },
   {
     "q": "¿Os desplazáis a polígonos y municipios de toda la provincia?",
@@ -148,7 +148,7 @@ export default function Page() {
         <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
           <p className="text-sm font-semibold uppercase tracking-wider text-sky-400">{"Almería · Naves, almacenes y talleres"}</p>
           <h1 className="mt-4 text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">{"Legalizar nave industrial en Almería"}</h1>
-          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Regularizamos tu nave industrial, almacén o taller en tres frentes: la obra, la actividad y las instalaciones. Estudio previo gratuito, presupuesto cerrado y tramitación ante Ayuntamiento y Junta de Andalucía."}</p>
+          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Regularizamos tu nave industrial, almacén o taller en tres frentes: la obra, la actividad y las instalaciones. Estudio previo, presupuesto cerrado y tramitación ante Ayuntamiento y Junta de Andalucía."}</p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a href="#contacto" className="rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-400">Solicitar presupuesto</a>
             <a href="tel:+34670607830" className="rounded-xl border border-slate-600 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800">Llamar 670 607 830</a>

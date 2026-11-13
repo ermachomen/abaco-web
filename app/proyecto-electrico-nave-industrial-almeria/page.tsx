@@ -9,7 +9,7 @@ const path = "/proyecto-electrico-nave-industrial-almeria";
 
 export const metadata: Metadata = {
   title: "Proyecto eléctrico de nave industrial en Almería",
-  description: "Proyecto eléctrico de nave industrial en Almería: baja tensión, centro de transformación y fotovoltaica, con legalización en la Junta. Estudio previo gratis.",
+  description: "Proyecto eléctrico de nave industrial en Almería: baja tensión, centro de transformación y fotovoltaica, con legalización en la Junta. Presupuesto cerrado.",
   keywords: ["proyecto eléctrico de nave industrial en Almería","proyecto electricidad nave Almería","instalación eléctrica nave industrial Almería","proyecto baja tensión nave","centro de transformación nave Almería","ingeniero proyecto eléctrico Almería","legalizar instalación eléctrica nave","fotovoltaica autoconsumo nave Almería","previsión de cargas nave industrial"],
   alternates: { canonical: path, languages: { "es-ES": path } },
   openGraph: {
@@ -18,10 +18,10 @@ export const metadata: Metadata = {
     url: "https://www.ingenierial.es/proyecto-electrico-nave-industrial-almeria",
     siteName: "Abaco Ingeniería",
     title: "Proyecto eléctrico de nave industrial en Almería",
-    description: "Proyecto eléctrico de nave industrial en Almería: baja tensión, centro de transformación y fotovoltaica, con legalización en la Junta. Estudio previo gratis.",
+    description: "Proyecto eléctrico de nave industrial en Almería: baja tensión, centro de transformación y fotovoltaica, con legalización en la Junta. Presupuesto cerrado.",
     images: [{ url: "/images/og-abaco.jpg", width: 1200, height: 630, alt: "Proyecto eléctrico de nave industrial en Almería – Abaco Ingeniería" }],
   },
-  twitter: { card: "summary_large_image", title: "Proyecto eléctrico de nave industrial en Almería", description: "Proyecto eléctrico de nave industrial en Almería: baja tensión, centro de transformación y fotovoltaica, con legalización en la Junta. Estudio previo gratis.", images: ["/images/og-abaco.jpg"] },
+  twitter: { card: "summary_large_image", title: "Proyecto eléctrico de nave industrial en Almería", description: "Proyecto eléctrico de nave industrial en Almería: baja tensión, centro de transformación y fotovoltaica, con legalización en la Junta. Presupuesto cerrado.", images: ["/images/og-abaco.jpg"] },
 };
 
 const serviceLd = {
@@ -44,13 +44,13 @@ const serviceLd = {
     { "@type": "AdministrativeArea", name: "Provincia de Almería" },
   ],
   url: "https://www.ingenierial.es/proyecto-electrico-nave-industrial-almeria",
-  description: "Proyecto eléctrico de nave industrial en Almería: baja tensión, centro de transformación y fotovoltaica, con legalización en la Junta. Estudio previo gratis.",
+  description: "Proyecto eléctrico de nave industrial en Almería: baja tensión, centro de transformación y fotovoltaica, con legalización en la Junta. Presupuesto cerrado.",
 };
 
 const faqs = [
   {
     "q": "¿Cuándo necesita proyecto eléctrico una nave industrial?",
-    "a": "Depende de la potencia instalada y del uso de la actividad: según esos datos, el REBT exige proyecto firmado por técnico titulado competente o basta una memoria técnica de diseño. Una nave nueva, una ampliación con más maquinaria o un cambio de actividad suelen obligar a revisarlo. No damos la respuesta a ojo, porque un error cuesta tiempo y dinero: lo determinamos en el estudio previo gratuito, con los datos de tu nave, y te decimos qué documento hace falta antes de presupuestar."
+    "a": "Depende de la potencia instalada y del uso de la actividad: según esos datos, el REBT exige proyecto firmado por técnico titulado competente o basta una memoria técnica de diseño. Una nave nueva, una ampliación con más maquinaria o un cambio de actividad suelen obligar a revisarlo. No damos la respuesta a ojo, porque un error cuesta tiempo y dinero: lo determinamos en el estudio previo, con los datos de tu nave, y te decimos qué documento hace falta antes de presupuestar."
   },
   {
     "q": "¿Qué incluye el proyecto eléctrico de una nave?",
@@ -70,7 +70,7 @@ const faqs = [
   },
   {
     "q": "¿Trabajáis en toda la provincia y de forma online?",
-    "a": "Sí. Nos desplazamos a toda la provincia: polígonos de la capital, Huércal de Almería, Viator, El Ejido, Roquetas, Vícar, Níjar, Huércal-Overa o Albox. Firmamos con certificado digital FNMT, así que la tramitación es online y no pierdes tiempo en gestiones presenciales. El estudio previo es gratuito, el presupuesto cerrado y respondemos en un plazo de 24 horas desde que nos cuentas el caso, por teléfono al 670 607 830 o por formulario."
+    "a": "Sí. Nos desplazamos a toda la provincia: polígonos de la capital, Huércal de Almería, Viator, El Ejido, Roquetas, Vícar, Níjar, Huércal-Overa o Albox. Firmamos con certificado digital FNMT, así que la tramitación es online y no pierdes tiempo en gestiones presenciales. El presupuesto es cerrado y respondemos en un plazo de 24 horas desde que nos cuentas el caso, por teléfono al 670 607 830 o por formulario."
   }
 ];
 
@@ -89,7 +89,7 @@ const breadcrumbLd = {
 const bloques = [
   {
     "titulo": "Proyecto o memoria técnica: lo que exige tu nave",
-    "cuerpo": "No todas las naves necesitan lo mismo. Según la potencia y el uso de la actividad, el REBT exige un proyecto firmado por técnico titulado o basta una memoria técnica de diseño, y no conviene decidirlo a ojo: un error obliga a rehacer documentación y retrasa la licencia. En el estudio previo gratuito revisamos la actividad, la maquinaria prevista y las características del local, y te decimos qué documento corresponde, qué incluirá y cuánto costará, con presupuesto cerrado antes de empezar. Si la nave ya existe, comprobamos también qué consta ya legalizado. Así sabes desde el primer día qué vas a firmar, quién lo tramita y qué falta para abrir."
+    "cuerpo": "No todas las naves necesitan lo mismo. Según la potencia y el uso de la actividad, el REBT exige un proyecto firmado por técnico titulado o basta una memoria técnica de diseño, y no conviene decidirlo a ojo: un error obliga a rehacer documentación y retrasa la licencia. En el estudio previo revisamos la actividad, la maquinaria prevista y las características del local, y te decimos qué documento corresponde, qué incluirá y cuánto costará, con presupuesto cerrado antes de empezar. Si la nave ya existe, comprobamos también qué consta ya legalizado. Así sabes desde el primer día qué vas a firmar, quién lo tramita y qué falta para abrir."
   },
   {
     "titulo": "Previsión de cargas y potencia a contratar",
@@ -159,7 +159,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"El proyecto eléctrico de una nave industrial es el documento técnico que define cuánta potencia necesita la nave, cómo se distribuye y con qué protecciones, y que firma un ingeniero para poder ejecutar la instalación y legalizarla. Se redacta conforme al Reglamento electrotécnico para baja tensión (Real Decreto 842/2002) y sus instrucciones técnicas complementarias. Lo necesitas al construir una nave nueva, al ampliarla, al cambiar de actividad o al meter maquinaria y cámaras frigoríficas que superan lo que la instalación existente admite. Sin él, ni la licencia de actividad ni el alta del suministro con la compañía distribuidora llegan a buen puerto."}</p>
-          <p>{"Somos Abaco Ingeniería, oficina técnica de ingeniería dirigida por un ingeniero técnico industrial colegiado desde 1983. Trabajamos en los polígonos de La Juaida, Sector 20 y San Silvestre, y en Huércal de Almería, Viator, El Ejido, Roquetas, Vícar, Níjar, Huércal-Overa y Albox. Redactamos el proyecto, dirigimos la obra cuando procede, emitimos los certificados y tramitamos la legalización con firma FNMT. Estudio previo gratuito, presupuesto cerrado y respuesta en 24 horas. Si tu nave es de nueva construcción, podemos coordinar este proyecto con el de obra y el de actividad para que todos los documentos coincidan en potencias, usos y plazos."}</p>
+          <p>{"Somos Abaco Ingeniería, oficina técnica de ingeniería dirigida por un ingeniero técnico industrial colegiado desde 1983. Trabajamos en los polígonos de La Juaida, Sector 20 y San Silvestre, y en Huércal de Almería, Viator, El Ejido, Roquetas, Vícar, Níjar, Huércal-Overa y Albox. Redactamos el proyecto, dirigimos la obra cuando procede, emitimos los certificados y tramitamos la legalización con firma FNMT. Estudio previo, presupuesto cerrado y respuesta en 24 horas. Si tu nave es de nueva construcción, podemos coordinar este proyecto con el de obra y el de actividad para que todos los documentos coincidan en potencias, usos y plazos."}</p>
         </div>
       </section>
 

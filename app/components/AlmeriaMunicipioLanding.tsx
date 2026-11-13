@@ -183,7 +183,7 @@ export default function AlmeriaMunicipioLanding({
             técnico industrial colegiado desde 1983. Redactamos el proyecto,
             lo presentamos telemáticamente en la sede electrónica del
             Ayuntamiento de {m.nombre} con firma digital FNMT y hacemos el
-            seguimiento hasta la resolución. Nos desplazamos al local sin coste
+            seguimiento hasta la resolución. Nos desplazamos al local
             y damos presupuesto cerrado desde el primer momento.
           </p>
         </div>

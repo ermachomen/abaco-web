@@ -70,7 +70,7 @@ const faqs = [
   },
   {
     "q": "¿Tengo que llevar la furgoneta a Almería para homologarla?",
-    "a": "No. Nos desplazamos a ver tu furgoneta en la provincia de Málaga, ya esté en la Costa del Sol, la Axarquía, Antequera, Ronda o el Valle del Guadalhorce, y el resto del trámite lo hacemos online, con firma digital con certificado FNMT. Empezamos con un estudio previo gratuito y te damos un presupuesto cerrado antes de arrancar."
+    "a": "No. Nos desplazamos a ver tu furgoneta en la provincia de Málaga, ya esté en la Costa del Sol, la Axarquía, Antequera, Ronda o el Valle del Guadalhorce, y el resto del trámite lo hacemos online, con firma digital con certificado FNMT. Empezamos con un estudio previo y te damos un presupuesto cerrado antes de arrancar."
   }
 ];
 
@@ -105,7 +105,7 @@ const bloques = [
   },
   {
     "titulo": "Errores habituales al camperizar y cómo evitarlos",
-    "cuerpo": "El más caro es montar antes de estudiar: con el techo cortado y el mobiliario atornillado solo queda justificar lo hecho, y a veces hay que rehacerlo. El segundo son las masas: muebles, agua, baterías y equipaje suman peso, y comprobamos la masa real con todo instalado. El tercero, las plazas: una plaza nueva (8.2) necesita anclajes y documentación que ampare la nueva distribución de asientos, y quitar plazas de forma permanente (8.1) también es reforma. El cuarto, dejar pasar los quince días para presentar el vehículo. Con un estudio previo gratuito los evitas. Cuéntanos tu caso por el formulario o en el 670 607 830; respondemos en menos de 24 horas."
+    "cuerpo": "El más caro es montar antes de estudiar: con el techo cortado y el mobiliario atornillado solo queda justificar lo hecho, y a veces hay que rehacerlo. El segundo son las masas: muebles, agua, baterías y equipaje suman peso, y comprobamos la masa real con todo instalado. El tercero, las plazas: una plaza nueva (8.2) necesita anclajes y documentación que ampare la nueva distribución de asientos, y quitar plazas de forma permanente (8.1) también es reforma. El cuarto, dejar pasar los quince días para presentar el vehículo. Con un estudio previo los evitas. Cuéntanos tu caso por el formulario o en el 670 607 830; respondemos en menos de 24 horas."
   }
 ];
 
@@ -144,7 +144,7 @@ export default function Page() {
         <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
           <p className="text-sm font-semibold uppercase tracking-wider text-sky-400">{"Málaga · Desplazamiento y online"}</p>
           <h1 className="mt-4 text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">{"Homologar camper en Málaga: legaliza tu furgoneta camperizada"}</h1>
-          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Vemos tu furgoneta camper en la provincia de Málaga, preparamos el proyecto técnico y los certificados que pide el Manual de Reformas de Vehículos y tramitamos el resto online con firma digital. Estudio previo gratuito y presupuesto cerrado."}</p>
+          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Vemos tu furgoneta camper en la provincia de Málaga, preparamos el proyecto técnico y los certificados que pide el Manual de Reformas de Vehículos y tramitamos el resto online con firma digital. Estudio previo y presupuesto cerrado."}</p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a href="#contacto" className="rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-400">Solicitar presupuesto</a>
             <a href="tel:+34670607830" className="rounded-xl border border-slate-600 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800">Llamar 670 607 830</a>
@@ -155,7 +155,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"Si quieres homologar tu camper en Málaga, empieza por comparar lo que lleva montado con lo que consta en su ficha técnica y en la tarjeta ITV. La Costa del Sol es un destino camper que se disfruta todo el año, y conviene saber, tanto si compras como si vendes o camperizas, que el mobiliario fijo, la instalación eléctrica auxiliar, el agua, el gas, el techo elevable, las ventanas o las plazas nuevas son reformas. El Real Decreto 866/2010 obliga a tramitarlas con la documentación que determina el Manual de Reformas de Vehículos. Nosotros te explicamos qué exige tu caso concreto antes de gastar en material o de cerrar una compra, y preparamos el expediente completo."}</p>
-          <p>{"Somos una oficina técnica de ingeniería, con ingeniero técnico industrial colegiado desde 1983. En Málaga nos desplazamos a ver la furgoneta, esté en la capital, en la Costa del Sol, en la Axarquía, en Antequera o en la Serranía de Ronda, y el resto del trámite lo hacemos online con firma digital con certificado FNMT. Trabajamos con el camperizador o el taller que tú elijas: si quieres camperizar una furgoneta en Málaga de forma legal, el proyecto técnico se estudia antes de cortar o atornillar, y el taller certifica después la ejecución. Estudio previo gratuito, presupuesto cerrado antes de empezar y respuesta en menos de 24 horas."}</p>
+          <p>{"Somos una oficina técnica de ingeniería, con ingeniero técnico industrial colegiado desde 1983. En Málaga nos desplazamos a ver la furgoneta, esté en la capital, en la Costa del Sol, en la Axarquía, en Antequera o en la Serranía de Ronda, y el resto del trámite lo hacemos online con firma digital con certificado FNMT. Trabajamos con el camperizador o el taller que tú elijas: si quieres camperizar una furgoneta en Málaga de forma legal, el proyecto técnico se estudia antes de cortar o atornillar, y el taller certifica después la ejecución. Estudio previo, presupuesto cerrado antes de empezar y respuesta en menos de 24 horas."}</p>
         </div>
       </section>
 

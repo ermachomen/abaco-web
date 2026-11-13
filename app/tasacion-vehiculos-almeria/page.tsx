@@ -71,7 +71,7 @@ const faqs = [
   },
   {
     "q": "¿Tasáis coches clásicos o históricos? ¿Cuánto cuesta y en qué zona trabajáis?",
-    "a": "Sí, incluidos los vehículos catalogados como históricos según el nuevo reglamento de 2024, con más de treinta años de antigüedad, cuyo valor depende de la rareza, el estado y la autenticidad, no de una tabla de depreciación estándar. El precio depende del tipo de vehículo y de si es una unidad o una flota completa; tras un estudio previo gratuito damos un presupuesto cerrado, sin sorpresas. Somos una oficina técnica de ingeniería, trabajamos online con firma digital FNMT en toda España y nos desplazamos a inspeccionar en Almería capital y provincia, y también en Granada, Málaga y Murcia."
+    "a": "Sí, incluidos los vehículos catalogados como históricos según el nuevo reglamento de 2024, con más de treinta años de antigüedad, cuyo valor depende de la rareza, el estado y la autenticidad, no de una tabla de depreciación estándar. El precio depende del tipo de vehículo y de si es una unidad o una flota completa; tras un estudio previo damos un presupuesto cerrado, sin sorpresas. Somos una oficina técnica de ingeniería, trabajamos online con firma digital FNMT en toda España y nos desplazamos a inspeccionar en Almería capital y provincia, y también en Granada, Málaga y Murcia."
   }
 ];
 
@@ -141,7 +141,7 @@ export default function Page() {
         <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
           <p className="text-sm font-semibold uppercase tracking-wider text-sky-400">Almería · Oficina técnica · 100% online</p>
           <h1 className="mt-4 text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">Tasación y valoración de vehículos en Almería</h1>
-          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Valoramos turismos, furgonetas, flotas, maquinaria agrícola autopropulsada y vehículos clásicos para fijar su valor venal y su valor de mercado real. No es una tasación hipotecaria: es un informe pericial firmado por ingeniero técnico industrial colegiado, con validez ante aseguradoras, juzgados y Hacienda. Presupuesto cerrado y estudio previo gratuito."}</p>
+          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Valoramos turismos, furgonetas, flotas, maquinaria agrícola autopropulsada y vehículos clásicos para fijar su valor venal y su valor de mercado real. No es una tasación hipotecaria: es un informe pericial firmado por ingeniero técnico industrial colegiado, con validez ante aseguradoras, juzgados y Hacienda. Presupuesto cerrado."}</p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a href="#contacto" className="rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-400">Solicitar presupuesto</a>
             <a href="tel:+34670607830" className="rounded-xl border border-slate-600 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800">Llamar 670 607 830</a>

@@ -9,7 +9,7 @@ const path = "/perito-danos-invernadero-almeria";
 
 export const metadata: Metadata = {
   title: "Perito de daños en invernadero en Almería",
-  description: "Perito de daños en invernadero en Almería: peritación tras temporal, granizo o viento y contraperitaje del seguro. Ingeniero colegiado. Estudio previo gratis.",
+  description: "Perito de daños en invernadero en Almería: peritación tras temporal, granizo o viento y contraperitaje del seguro. Ingeniero colegiado. Presupuesto cerrado.",
   keywords: ["perito de daños en invernadero en Almería","peritación daños invernadero","daños temporal invernadero seguro","granizo invernadero perito","contraperitaje seguro agrario","perito de parte invernadero El Ejido","valoración daños viento invernadero","perito invernaderos Almería","reclamar aseguradora invernadero","informe pericial invernadero"],
   alternates: { canonical: path, languages: { "es-ES": path } },
   openGraph: {
@@ -18,10 +18,10 @@ export const metadata: Metadata = {
     url: "https://www.ingenierial.es/perito-danos-invernadero-almeria",
     siteName: "Abaco Ingeniería",
     title: "Perito de daños en invernadero en Almería",
-    description: "Perito de daños en invernadero en Almería: peritación tras temporal, granizo o viento y contraperitaje del seguro. Ingeniero colegiado. Estudio previo gratis.",
+    description: "Perito de daños en invernadero en Almería: peritación tras temporal, granizo o viento y contraperitaje del seguro. Ingeniero colegiado. Presupuesto cerrado.",
     images: [{ url: "/images/og-abaco.jpg", width: 1200, height: 630, alt: "Perito de daños en invernadero en Almería – Abaco Ingeniería" }],
   },
-  twitter: { card: "summary_large_image", title: "Perito de daños en invernadero en Almería", description: "Perito de daños en invernadero en Almería: peritación tras temporal, granizo o viento y contraperitaje del seguro. Ingeniero colegiado. Estudio previo gratis.", images: ["/images/og-abaco.jpg"] },
+  twitter: { card: "summary_large_image", title: "Perito de daños en invernadero en Almería", description: "Perito de daños en invernadero en Almería: peritación tras temporal, granizo o viento y contraperitaje del seguro. Ingeniero colegiado. Presupuesto cerrado.", images: ["/images/og-abaco.jpg"] },
 };
 
 const serviceLd = {
@@ -44,7 +44,7 @@ const serviceLd = {
     { "@type": "AdministrativeArea", name: "Provincia de Almería" },
   ],
   url: "https://www.ingenierial.es/perito-danos-invernadero-almeria",
-  description: "Perito de daños en invernadero en Almería: peritación tras temporal, granizo o viento y contraperitaje del seguro. Ingeniero colegiado. Estudio previo gratis.",
+  description: "Perito de daños en invernadero en Almería: peritación tras temporal, granizo o viento y contraperitaje del seguro. Ingeniero colegiado. Presupuesto cerrado.",
 };
 
 const faqs = [
@@ -62,7 +62,7 @@ const faqs = [
   },
   {
     "q": "¿La aseguradora me ofrece poco, qué puedo hacer?",
-    "a": "Puedes encargar un contraperitaje a un perito de parte, que revisa la valoración de la compañía partida por partida y emite un dictamen propio. Se apoya en la Ley de Contrato de Seguro y en lo que diga tu póliza. Si crees que hay plazos corriendo, no esperes: envíanos la propuesta recibida y la póliza para estudiarlas sin coste."
+    "a": "Puedes encargar un contraperitaje a un perito de parte, que revisa la valoración de la compañía partida por partida y emite un dictamen propio. Se apoya en la Ley de Contrato de Seguro y en lo que diga tu póliza. Si crees que hay plazos corriendo, no esperes: envíanos la propuesta recibida y la póliza para estudiarlas."
   },
   {
     "q": "¿Puedo reclamar si el daño lo ha causado un vecino o una obra?",
@@ -70,7 +70,7 @@ const faqs = [
   },
   {
     "q": "¿Cuánto tardáis en acudir y a qué zonas vais?",
-    "a": "Respondemos en menos de 24 horas y coordinamos la visita contigo lo antes posible, porque la prueba desaparece al reparar. Nos desplazamos al Poniente (El Ejido, Roquetas de Mar, Vícar, La Mojonera, Adra y Berja), al Campo de Níjar, al Bajo Andarax y al resto de la provincia. El estudio previo es gratuito y el presupuesto, cerrado."
+    "a": "Respondemos en menos de 24 horas y coordinamos la visita contigo lo antes posible, porque la prueba desaparece al reparar. Nos desplazamos al Poniente (El Ejido, Roquetas de Mar, Vícar, La Mojonera, Adra y Berja), al Campo de Níjar, al Bajo Andarax y al resto de la provincia. El presupuesto es cerrado."
   }
 ];
 
@@ -148,7 +148,7 @@ export default function Page() {
         <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
           <p className="text-sm font-semibold uppercase tracking-wider text-sky-400">{"Peritación de invernaderos siniestrados"}</p>
           <h1 className="mt-4 text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">{"Perito de daños en invernadero en Almería"}</h1>
-          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Peritación de daños en invernaderos tras temporal, granizo o viento, firmada por ingeniero técnico industrial colegiado desde 1983. Inspección rápida en toda la provincia, contraperitaje del seguro y estudio previo gratuito."}</p>
+          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Peritación de daños en invernaderos tras temporal, granizo o viento, firmada por ingeniero técnico industrial colegiado desde 1983. Inspección rápida en toda la provincia, contraperitaje del seguro y estudio previo."}</p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a href="#contacto" className="rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-400">Solicitar presupuesto</a>
             <a href="tel:+34670607830" className="rounded-xl border border-slate-600 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800">Llamar 670 607 830</a>
@@ -159,7 +159,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"Cuando un temporal, una granizada o un golpe de viento dañan un invernadero, el tiempo juega en tu contra: la prueba desaparece en cuanto se repara la cubierta o se retiran los restos. Un perito de daños en invernadero en Almería documenta el estado real de la estructura, la cubierta y las instalaciones antes de que eso ocurra, y separa lo que ha causado el siniestro de lo que ya estaba gastado. En Abaco Ingeniería lo hace un ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años de trayectoria, que se desplaza a tu explotación para inspeccionar, medir y fotografiar. El resultado es un informe pericial firmado con el que puedes reclamar a tu aseguradora o a un tercero."}</p>
-          <p>{"La peritación de daños en invernadero sirve en tres situaciones. La primera, cuando todavía no has avisado y quieres hacerlo con la documentación bien hecha. La segunda, cuando la aseguradora ya te ha enviado a su perito y la cantidad que ofrece te parece corta: entonces hacemos el contraperitaje como perito de parte, al amparo de la Ley de Contrato de Seguro. La tercera, cuando el daño lo ha causado otra persona, por ejemplo una obra o la estructura de un vecino. En los tres casos nos desplazamos con rapidez, el estudio previo es gratuito y el presupuesto es cerrado antes de empezar. Respondemos en menos de 24 horas."}</p>
+          <p>{"La peritación de daños en invernadero sirve en tres situaciones. La primera, cuando todavía no has avisado y quieres hacerlo con la documentación bien hecha. La segunda, cuando la aseguradora ya te ha enviado a su perito y la cantidad que ofrece te parece corta: entonces hacemos el contraperitaje como perito de parte, al amparo de la Ley de Contrato de Seguro. La tercera, cuando el daño lo ha causado otra persona, por ejemplo una obra o la estructura de un vecino. En los tres casos nos desplazamos con rapidez, el presupuesto es cerrado antes de empezar. Respondemos en menos de 24 horas."}</p>
         </div>
       </section>
 

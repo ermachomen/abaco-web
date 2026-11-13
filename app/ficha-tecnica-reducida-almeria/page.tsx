@@ -9,7 +9,7 @@ const path = "/ficha-tecnica-reducida-almeria";
 
 export const metadata: Metadata = {
   title: "Ficha Técnica Reducida en Almería · Ingeniero Colegiado",
-  description: "Ficha técnica reducida en Almería para matricular tu coche importado, rehabilitado o catalogado. Ingeniero colegiado, tramitación online con firma FNMT. Desde 45 €, estudio previo gratis.",
+  description: "Ficha técnica reducida en Almería para matricular tu coche importado, rehabilitado o catalogado. Ingeniero colegiado, tramitación online con firma FNMT. Desde 45 €, presupuesto cerrado.",
   keywords: ["ficha técnica reducida Almería","ficha reducida coche importado","ficha técnica reducida El Ejido","ficha técnica reducida Roquetas de Mar","matricular coche importado Almería","certificado de conformidad COC","ficha reducida ITV Almería","homologación individual Almería","ingeniero ficha reducida Almería","precio ficha técnica reducida","rehabilitación vehículo baja Almería","ficha reducida matriculación"],
   alternates: { canonical: path, languages: { "es-ES": path } },
   openGraph: {
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.ingenierial.es/ficha-tecnica-reducida-almeria",
     siteName: "Abaco Ingeniería",
     title: "Ficha técnica reducida en Almería",
-    description: "Ficha técnica reducida en Almería para matricular tu coche importado, rehabilitado o catalogado. Ingeniero colegiado, tramitación online con firma FNMT. Desde 45 €, estudio previo gratis.",
+    description: "Ficha técnica reducida en Almería para matricular tu coche importado, rehabilitado o catalogado. Ingeniero colegiado, tramitación online con firma FNMT. Desde 45 €, presupuesto cerrado.",
     images: [{ url: "/images/og-abaco.jpg", width: 1200, height: 630, alt: "Ficha técnica reducida en Almería – Abaco Ingeniería" }],
   },
   twitter: { card: "summary_large_image", title: "Ficha técnica reducida en Almería", description: "Ingeniero técnico industrial colegiado en Almería.", images: ["/images/og-abaco.jpg"] },
@@ -45,7 +45,7 @@ const serviceLd = {
     { "@type": "Country", name: "España" },
   ],
   url: "https://www.ingenierial.es/ficha-tecnica-reducida-almeria",
-  description: "Ficha técnica reducida en Almería para matricular tu coche importado, rehabilitado o catalogado. Ingeniero colegiado, tramitación online con firma FNMT. Desde 45 €, estudio previo gratis.",
+  description: "Ficha técnica reducida en Almería para matricular tu coche importado, rehabilitado o catalogado. Ingeniero colegiado, tramitación online con firma FNMT. Desde 45 €, presupuesto cerrado.",
 };
 
 const faqs = [
@@ -59,7 +59,7 @@ const faqs = [
   },
   {
     "q": "¿Cuánto cuesta una ficha técnica reducida en Almería?",
-    "a": "Desde 45 € más IVA para un coche del Espacio Económico Europeo con homologación europea. Lo habitual es un rango de 70 € a 250 € según el tipo de vehículo y su procedencia. Si el caso requiere homologación individual, el importe es superior y parte de unos 600 €. Te damos presupuesto cerrado tras revisar tu documentación, con estudio previo gratuito y sin compromiso."
+    "a": "Desde 45 € más IVA para un coche del Espacio Económico Europeo con homologación europea. Lo habitual es un rango de 70 € a 250 € según el tipo de vehículo y su procedencia. Si el caso requiere homologación individual, el importe es superior y parte de unos 600 €. Te damos presupuesto cerrado tras revisar tu documentación, con estudio previo y sin compromiso."
   },
   {
     "q": "Quiero rehabilitar un coche dado de baja definitiva, ¿me sirve la ficha reducida?",
@@ -147,7 +147,7 @@ export default function Page() {
 
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
-          <p>{"La ficha técnica reducida es el documento que un ingeniero técnico industrial colegiado firma para reflejar, de forma resumida, las características de tu vehículo: dimensiones, masas, número de plazas, combustible, potencia y la contraseña de homologación. En Almería es el paso técnico habitual para matricular un coche importado, rehabilitar uno dado de baja o regularizar su tarjeta de ITV. En abacoingeniería® la preparamos con más de 40 años de experiencia y firma digital FNMT, válida ante cualquier estación de ITV de la provincia y ante la Jefatura Provincial de Tráfico de Almería. Estudio previo gratuito y presupuesto cerrado antes de empezar, sin sorpresas."}</p>
+          <p>{"La ficha técnica reducida es el documento que un ingeniero técnico industrial colegiado firma para reflejar, de forma resumida, las características de tu vehículo: dimensiones, masas, número de plazas, combustible, potencia y la contraseña de homologación. En Almería es el paso técnico habitual para matricular un coche importado, rehabilitar uno dado de baja o regularizar su tarjeta de ITV. En abacoingeniería® la preparamos con más de 40 años de experiencia y firma digital FNMT, válida ante cualquier estación de ITV de la provincia y ante la Jefatura Provincial de Tráfico de Almería. Estudio previo y presupuesto cerrado antes de empezar, sin sorpresas."}</p>
           <p>{"La clave está en distinguir cuándo basta una ficha reducida y cuándo hace falta ir más allá. Si tu coche procede de la Unión Europea, conserva su homologación CE y no lleva reformas, la ficha reducida (o el propio certificado de conformidad COC) es suficiente para matricularlo. Si viene de Estados Unidos, Japón o Reino Unido, es anterior a la homologación europea o incorpora modificaciones, necesitarás una homologación individual o un proyecto de reforma. Te decimos qué caso es el tuyo antes de cobrarte nada, sin desplazamientos innecesarios."}</p>
         </div>
       </section>

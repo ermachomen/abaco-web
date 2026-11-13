@@ -9,7 +9,7 @@ const path = "/legalizacion-instalaciones-electricas-almeria";
 
 export const metadata: Metadata = {
   title: "Legalización Instalaciones Eléctricas Almería · Baja Tensión",
-  description: "Legalizamos tu instalación eléctrica de baja tensión en Almería: boletín CIE, memoria o proyecto REBT y puesta en servicio. Pide presupuesto gratis.",
+  description: "Legalizamos tu instalación eléctrica de baja tensión en Almería: boletín CIE, memoria o proyecto REBT y puesta en servicio. Pide presupuesto.",
   keywords: ["legalización instalaciones eléctricas Almería","legalización eléctrica baja tensión Almería","boletín eléctrico Almería","certificado instalación eléctrica CIE Almería","memoria técnica de diseño REBT","proyecto instalación eléctrica baja tensión Almería","alta de suministro eléctrico Almería","ampliación de potencia Almería","adecuación de local eléctrico Almería","puesta en servicio Industria Almería","ingeniero instalación eléctrica Almería","REBT RD 842/2002 Almería"],
   alternates: { canonical: path, languages: { "es-ES": path } },
   openGraph: {
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.ingenierial.es/legalizacion-instalaciones-electricas-almeria",
     siteName: "Abaco Ingeniería",
     title: "Legalización de instalaciones eléctricas de baja tensión en Almería",
-    description: "Legalizamos tu instalación eléctrica de baja tensión en Almería: boletín CIE, memoria o proyecto REBT y puesta en servicio. Pide presupuesto gratis.",
+    description: "Legalizamos tu instalación eléctrica de baja tensión en Almería: boletín CIE, memoria o proyecto REBT y puesta en servicio. Pide presupuesto.",
     images: [{ url: "/images/og-abaco.jpg", width: 1200, height: 630, alt: "Legalización de instalaciones eléctricas de baja tensión en Almería – Abaco Ingeniería" }],
   },
   twitter: { card: "summary_large_image", title: "Legalización de instalaciones eléctricas de baja tensión en Almería", description: "Ingeniero técnico industrial colegiado en Almería.", images: ["/images/og-abaco.jpg"] },
@@ -45,13 +45,13 @@ const serviceLd = {
     { "@type": "Country", name: "España" },
   ],
   url: "https://www.ingenierial.es/legalizacion-instalaciones-electricas-almeria",
-  description: "Legalizamos tu instalación eléctrica de baja tensión en Almería: boletín CIE, memoria o proyecto REBT y puesta en servicio. Pide presupuesto gratis.",
+  description: "Legalizamos tu instalación eléctrica de baja tensión en Almería: boletín CIE, memoria o proyecto REBT y puesta en servicio. Pide presupuesto.",
 };
 
 const faqs = [
   {
     "q": "¿Cuándo basta una memoria técnica de diseño y cuándo hace falta proyecto?",
-    "a": "Lo decide la ITC-BT-04 del REBT. La memoria técnica de diseño (MTD) cubre las instalaciones que no entran en los grupos que exigen proyecto: por ejemplo, la mayoría de viviendas, o comercios y oficinas de potencia moderada sin riesgos especiales. Se exige proyecto firmado por ingeniero en industrias de más de 20 kW, locales húmedos o polvorientos de más de 10 kW, edificios de más de 100 kW por caja general, viviendas unifamiliares de más de 50 kW y en cualquier local de pública concurrencia. En el estudio previo gratuito lo determinamos con tu caso concreto."
+    "a": "Lo decide la ITC-BT-04 del REBT. La memoria técnica de diseño (MTD) cubre las instalaciones que no entran en los grupos que exigen proyecto: por ejemplo, la mayoría de viviendas, o comercios y oficinas de potencia moderada sin riesgos especiales. Se exige proyecto firmado por ingeniero en industrias de más de 20 kW, locales húmedos o polvorientos de más de 10 kW, edificios de más de 100 kW por caja general, viviendas unifamiliares de más de 50 kW y en cualquier local de pública concurrencia. En el estudio previo lo determinamos con tu caso concreto."
   },
   {
     "q": "¿Qué es el boletín eléctrico (CIE) y quién lo firma?",
@@ -71,7 +71,7 @@ const faqs = [
   },
   {
     "q": "¿Cuánto cuesta legalizar la instalación eléctrica y trabajáis solo en Almería?",
-    "a": "El precio depende de si basta boletín y memoria o hace falta proyecto, de la potencia y del tipo de local. Como orientación, un boletín de local suele moverse entre 150 y 600 euros y un proyecto parte de cifras superiores según la instalación. Somos una oficina técnica de ingeniería con ingeniero colegiado desde 1983; tramitamos el 100% online con firma FNMT en toda España y nos desplazamos a Almería capital y provincia, y también a Granada, Málaga y Murcia. Estudio previo gratuito y presupuesto cerrado."
+    "a": "El precio depende de si basta boletín y memoria o hace falta proyecto, de la potencia y del tipo de local. Como orientación, un boletín de local suele moverse entre 150 y 600 euros y un proyecto parte de cifras superiores según la instalación. Somos una oficina técnica de ingeniería con ingeniero colegiado desde 1983; tramitamos el 100% online con firma FNMT en toda España y nos desplazamos a Almería capital y provincia, y también a Granada, Málaga y Murcia. Estudio previo y presupuesto cerrado."
   }
 ];
 
@@ -154,7 +154,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"La legalización de instalaciones eléctricas de baja tensión es el trámite que deja tu instalación en regla ante Industria conforme al Reglamento Electrotécnico para Baja Tensión (REBT, RD 842/2002). Es obligatoria para dar de alta el suministro de un local o vivienda, ampliar la potencia contratada o adecuar una nave del polígono a una nueva actividad. En Almería la necesitan comercios, bares, talleres, almacenes de manipulado hortofrutícola, oficinas y particulares que contratan luz o cambian de titular. Sin el certificado de instalación eléctrica (CIE) y, cuando procede, la memoria técnica de diseño o el proyecto, la distribuidora no da suministro ni el Ayuntamiento concede la licencia de actividad."}</p>
-          <p>{"Somos oficina técnica dirigida por un ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años en legalizaciones eléctricas. Redactamos y firmamos la memoria de diseño o el proyecto, coordinamos con el instalador habilitado el boletín y presentamos el expediente por TECI o PUES ante la Delegación Territorial de Industria de la Junta de Andalucía. Firmamos con certificado digital FNMT, así que tramitamos el 100% online en toda España y nos desplazamos a tu local o nave en Almería capital y provincia. Estudio previo gratuito y presupuesto cerrado."}</p>
+          <p>{"Somos oficina técnica dirigida por un ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años en legalizaciones eléctricas. Redactamos y firmamos la memoria de diseño o el proyecto, coordinamos con el instalador habilitado el boletín y presentamos el expediente por TECI o PUES ante la Delegación Territorial de Industria de la Junta de Andalucía. Firmamos con certificado digital FNMT, así que tramitamos el 100% online en toda España y nos desplazamos a tu local o nave en Almería capital y provincia. Estudio previo y presupuesto cerrado."}</p>
         </div>
       </section>
 

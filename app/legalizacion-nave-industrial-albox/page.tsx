@@ -9,7 +9,7 @@ const path = "/legalizacion-nave-industrial-albox";
 
 export const metadata: Metadata = {
   title: "Legalizar nave industrial en Albox · Valle del Almanzora",
-  description: "Legalización de naves en Albox, Olula del Río, Purchena, Arboleas y Macael: licencia de actividad, instalaciones y urbanismo. Estudio previo gratuito.",
+  description: "Legalización de naves en Albox, Olula del Río, Purchena, Arboleas y Macael: licencia de actividad, instalaciones y urbanismo. Presupuesto cerrado.",
   keywords: ["legalizar nave en Albox","legalización de nave industrial Albox","Polígono Industrial de Albox","licencia de actividad nave Albox","legalizar nave Valle del Almanzora","legalizar taller mármol Macael","ingeniero nave industrial Albox","regularizar nave sin licencia Almanzora","centro de transformación nave Albox"],
   alternates: { canonical: path, languages: { "es-ES": path } },
   openGraph: {
@@ -18,10 +18,10 @@ export const metadata: Metadata = {
     url: "https://www.ingenierial.es/legalizacion-nave-industrial-albox",
     siteName: "Abaco Ingeniería",
     title: "Legalizar nave industrial en Albox",
-    description: "Legalización de naves en Albox, Olula del Río, Purchena, Arboleas y Macael: licencia de actividad, instalaciones y urbanismo. Estudio previo gratuito.",
+    description: "Legalización de naves en Albox, Olula del Río, Purchena, Arboleas y Macael: licencia de actividad, instalaciones y urbanismo. Presupuesto cerrado.",
     images: [{ url: "/images/og-abaco.jpg", width: 1200, height: 630, alt: "Legalización de naves e instalaciones en Albox – Abaco Ingeniería" }],
   },
-  twitter: { card: "summary_large_image", title: "Legalizar nave industrial en Albox", description: "Legalización de naves en Albox, Olula del Río, Purchena, Arboleas y Macael: licencia de actividad, instalaciones y urbanismo. Estudio previo gratuito.", images: ["/images/og-abaco.jpg"] },
+  twitter: { card: "summary_large_image", title: "Legalizar nave industrial en Albox", description: "Legalización de naves en Albox, Olula del Río, Purchena, Arboleas y Macael: licencia de actividad, instalaciones y urbanismo. Presupuesto cerrado.", images: ["/images/og-abaco.jpg"] },
 };
 
 const serviceLd = {
@@ -44,13 +44,13 @@ const serviceLd = {
     { "@type": "AdministrativeArea", name: "Provincia de Almería" },
   ],
   url: "https://www.ingenierial.es/legalizacion-nave-industrial-albox",
-  description: "Legalización de naves en Albox, Olula del Río, Purchena, Arboleas y Macael: licencia de actividad, instalaciones y urbanismo. Estudio previo gratuito.",
+  description: "Legalización de naves en Albox, Olula del Río, Purchena, Arboleas y Macael: licencia de actividad, instalaciones y urbanismo. Presupuesto cerrado.",
 };
 
 const faqs = [
   {
     "q": "¿Cuánto se tarda en legalizar una nave en el Polígono Industrial de Albox?",
-    "a": "No damos plazos sin ver la nave, porque dependen de qué falte: licencia, instalaciones, ajustes en obra o la situación urbanística. También cuenta el ritmo de respuesta del Ayuntamiento y de la Delegación de Industria. Tras el estudio previo gratuito te explicamos qué se puede hacer a la vez y qué depende de otro trámite, y así puedes planificar la apertura o la venta con criterio."
+    "a": "No damos plazos sin ver la nave, porque dependen de qué falte: licencia, instalaciones, ajustes en obra o la situación urbanística. También cuenta el ritmo de respuesta del Ayuntamiento y de la Delegación de Industria. Tras el estudio previo te explicamos qué se puede hacer a la vez y qué depende de otro trámite, y así puedes planificar la apertura o la venta con criterio."
   },
   {
     "q": "¿Legalizáis talleres de piedra natural o mármol en Macael?",
@@ -109,7 +109,7 @@ const bloques = [
   },
   {
     "titulo": "De la visita al registro",
-    "cuerpo": "Empezamos visitando la nave: medimos, vemos las instalaciones y entendemos la actividad. Con eso y con tu documentación preparamos un estudio previo gratuito, con las vías posibles y el orden recomendado, y un presupuesto cerrado si decides continuar. Luego redactamos y firmamos el proyecto o la memoria técnica, los certificados de cada instalación y, cuando procede, el expediente de licencia de actividad. Lo presentamos ante el Ayuntamiento y la Delegación de Industria de la Junta de Andalucía con firma digital FNMT, así que no necesitas desplazarte. Respondemos en 24 horas y no prometemos resultados que dependen de la administración: te decimos con franqueza qué recorrido tiene tu nave."
+    "cuerpo": "Empezamos visitando la nave: medimos, vemos las instalaciones y entendemos la actividad. Con eso y con tu documentación preparamos un estudio previo, con las vías posibles y el orden recomendado, y un presupuesto cerrado si decides continuar. Luego redactamos y firmamos el proyecto o la memoria técnica, los certificados de cada instalación y, cuando procede, el expediente de licencia de actividad. Lo presentamos ante el Ayuntamiento y la Delegación de Industria de la Junta de Andalucía con firma digital FNMT, así que no necesitas desplazarte. Respondemos en 24 horas y no prometemos resultados que dependen de la administración: te decimos con franqueza qué recorrido tiene tu nave."
   }
 ];
 
@@ -148,7 +148,7 @@ export default function Page() {
         <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
           <p className="text-sm font-semibold uppercase tracking-wider text-sky-400">{"Naves en Albox y Almanzora"}</p>
           <h1 className="mt-4 text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">{"Legalización de naves e instalaciones en Albox"}</h1>
-          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Legalizamos naves, talleres y almacenes en Albox, en su polígono industrial y en todo el Valle del Almanzora: licencia de actividad, instalaciones ante Industria y situación urbanística. Estudio previo gratuito."}</p>
+          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Legalizamos naves, talleres y almacenes en Albox, en su polígono industrial y en todo el Valle del Almanzora: licencia de actividad, instalaciones ante Industria y situación urbanística. Presupuesto cerrado."}</p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a href="#contacto" className="rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-400">Solicitar presupuesto</a>
             <a href="tel:+34670607830" className="rounded-xl border border-slate-600 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800">Llamar 670 607 830</a>
@@ -159,7 +159,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"Albox, con unos 12.800 habitantes, es uno de los núcleos principales del Valle del Almanzora, una comarca cuyo carácter industrial lo marca en buena parte la piedra natural y el mármol de Macael y su entorno. En el valle se mezclan talleres con maquinaria de potencia, almacenes, naves de servicios y pequeña industria, y muchas han ido creciendo sobre la marcha con nuevas máquinas, nuevos usos y ampliaciones. Ese ritmo suele dejar el expediente por detrás de la realidad. Visitamos tu nave, vemos qué se hace en ella y qué consta en los papeles, y te explicamos qué hay que resolver, en qué orden y con qué presupuesto."}</p>
-          <p>{"Trabajamos en el Polígono Industrial de Albox y en todo el Valle del Almanzora: en Olula del Río, el Polígono Industrial Olula del Río; en Purchena, el Polígono Industrial de Purchena; en Arboleas; y en Macael y su entorno del mármol. Un ingeniero técnico industrial colegiado desde 1983 redacta y firma los proyectos, memorias técnicas y certificados, y los tramita ante el Ayuntamiento y la Delegación de Industria de la Junta. Tras la visita, el expediente es online con firma digital FNMT. Estudio previo gratuito, presupuesto cerrado y respuesta en 24 horas."}</p>
+          <p>{"Trabajamos en el Polígono Industrial de Albox y en todo el Valle del Almanzora: en Olula del Río, el Polígono Industrial Olula del Río; en Purchena, el Polígono Industrial de Purchena; en Arboleas; y en Macael y su entorno del mármol. Un ingeniero técnico industrial colegiado desde 1983 redacta y firma los proyectos, memorias técnicas y certificados, y los tramita ante el Ayuntamiento y la Delegación de Industria de la Junta. Tras la visita, el expediente es online con firma digital FNMT. Estudio previo, presupuesto cerrado y respuesta en 24 horas."}</p>
         </div>
       </section>
 

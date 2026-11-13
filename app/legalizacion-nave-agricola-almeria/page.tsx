@@ -59,7 +59,7 @@ const faqs = [
   },
   {
     "q": "Tengo la nave construida hace años sin licencia, tiene solución?",
-    "a": "Normalmente sí, aunque la vía depende de la antigüedad y de la situación urbanística de la parcela. Puede ser una legalización ordinaria o el reconocimiento de asimilado a fuera de ordenación previsto en la normativa andaluza, que no legaliza en sentido estricto pero da un régimen jurídico estable al inmueble. Hacemos un estudio previo gratuito y te decimos con franqueza qué recorrido tiene tu caso."
+    "a": "Normalmente sí, aunque la vía depende de la antigüedad y de la situación urbanística de la parcela. Puede ser una legalización ordinaria o el reconocimiento de asimilado a fuera de ordenación previsto en la normativa andaluza, que no legaliza en sentido estricto pero da un régimen jurídico estable al inmueble. Hacemos un estudio previo y te decimos con franqueza qué recorrido tiene tu caso."
   },
   {
     "q": "Cuánto cuesta legalizar una nave agrícola?",

@@ -9,7 +9,7 @@ const path = "/proyecto-de-actividad-almeria";
 
 export const metadata: Metadata = {
   title: "Proyecto de Actividad en Almería | Ingeniero Colegiado",
-  description: "Proyecto de actividad en Almería, inocua o calificada: memoria, planos, cálculos e instalaciones firmados por ingeniero técnico industrial colegiado. Estudio previo gratis.",
+  description: "Proyecto de actividad en Almería, inocua o calificada: memoria, planos, cálculos e instalaciones firmados por ingeniero técnico industrial colegiado. Presupuesto cerrado.",
   keywords: ["proyecto de actividad Almería","proyecto de actividad inocua Almería","proyecto actividad calificada Almería","memoria técnica de actividad Almería","proyecto de apertura Almería","quién firma el proyecto de actividad","ingeniero proyecto de actividad Almería","licencia ambiental Almería LEGAM","declaración responsable de actividad Almería","proyecto técnico para licencia de actividad Almería","proyecto actividad ingeniero industrial Almería"],
   alternates: { canonical: path, languages: { "es-ES": path } },
   openGraph: {
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.ingenierial.es/proyecto-de-actividad-almeria",
     siteName: "Abaco Ingeniería",
     title: "Proyecto de actividad en Almería",
-    description: "Proyecto de actividad en Almería, inocua o calificada: memoria, planos, cálculos e instalaciones firmados por ingeniero técnico industrial colegiado. Estudio previo gratis.",
+    description: "Proyecto de actividad en Almería, inocua o calificada: memoria, planos, cálculos e instalaciones firmados por ingeniero técnico industrial colegiado. Presupuesto cerrado.",
     images: [{ url: "/images/og-abaco.jpg", width: 1200, height: 630, alt: "Proyecto de actividad en Almería – Abaco Ingeniería" }],
   },
   twitter: { card: "summary_large_image", title: "Proyecto de actividad en Almería", description: "Ingeniero técnico industrial colegiado en Almería.", images: ["/images/og-abaco.jpg"] },
@@ -45,13 +45,13 @@ const serviceLd = {
     { "@type": "Country", name: "España" },
   ],
   url: "https://www.ingenierial.es/proyecto-de-actividad-almeria",
-  description: "Proyecto de actividad en Almería, inocua o calificada: memoria, planos, cálculos e instalaciones firmados por ingeniero técnico industrial colegiado. Estudio previo gratis.",
+  description: "Proyecto de actividad en Almería, inocua o calificada: memoria, planos, cálculos e instalaciones firmados por ingeniero técnico industrial colegiado. Presupuesto cerrado.",
 };
 
 const faqs = [
   {
     "q": "¿Qué diferencia hay entre un proyecto de actividad y una memoria técnica?",
-    "a": "El proyecto de actividad es el documento técnico completo (memoria, planos, cálculos y anexos de instalaciones) que se exige para las actividades calificadas: hostelería con cocina, talleres, industria, locales de ocio o con ruido, humos o vertidos. La memoria técnica es una versión más reducida que suele bastar para actividades inocuas de poca entidad, como una oficina o una tienda pequeña, que se tramitan por declaración responsable o comunicación previa. En ambos casos debe firmarlo un técnico competente colegiado. En el estudio previo gratuito te decimos cuál necesita tu local en Almería."
+    "a": "El proyecto de actividad es el documento técnico completo (memoria, planos, cálculos y anexos de instalaciones) que se exige para las actividades calificadas: hostelería con cocina, talleres, industria, locales de ocio o con ruido, humos o vertidos. La memoria técnica es una versión más reducida que suele bastar para actividades inocuas de poca entidad, como una oficina o una tienda pequeña, que se tramitan por declaración responsable o comunicación previa. En ambos casos debe firmarlo un técnico competente colegiado. En el estudio previo te decimos cuál necesita tu local en Almería."
   },
   {
     "q": "¿Quién puede firmar el proyecto de actividad, un ingeniero o un arquitecto?",
@@ -71,7 +71,7 @@ const faqs = [
   },
   {
     "q": "¿Trabajáis en toda la provincia y en cuánto tiempo entregáis el proyecto?",
-    "a": "Sí. Trabajamos en toda la provincia: El Ejido, Roquetas de Mar, Níjar, Vícar, Huércal de Almería, Huércal-Overa, Vera, Adra y el resto de municipios, además de Granada, Málaga y Murcia. Firmamos con certificado digital FNMT, así que tramitamos el 100% online y nos desplazamos a medir cuando hace falta. La redacción suele llevar entre 7 y 15 días desde que tenemos la información del local. Tras un estudio previo gratuito te damos un presupuesto cerrado, sin variaciones posteriores."
+    "a": "Sí. Trabajamos en toda la provincia: El Ejido, Roquetas de Mar, Níjar, Vícar, Huércal de Almería, Huércal-Overa, Vera, Adra y el resto de municipios, además de Granada, Málaga y Murcia. Firmamos con certificado digital FNMT, así que tramitamos el 100% online y nos desplazamos a medir cuando hace falta. La redacción suele llevar entre 7 y 15 días desde que tenemos la información del local. Tras un estudio previo te damos un presupuesto cerrado, sin variaciones posteriores."
   }
 ];
 
@@ -89,7 +89,7 @@ const breadcrumbLd = {
 const bloques = [
   {
     "titulo": "Proyecto de actividad o memoria técnica: qué necesita tu local",
-    "cuerpo": "El primer paso es saber qué documento exige tu caso. Si la actividad es inocua (una tienda pequeña, una oficina o un despacho sin apenas instalaciones ni molestias) suele bastar una memoria técnica más sencilla presentada con una declaración responsable o comunicación previa, al amparo de la Ley 12/2012 de liberalización del comercio minorista para locales de hasta cierta superficie. Si la actividad es calificada (hostelería con cocina, talleres, industria, ocio, o cualquier actividad con ruido, humos o vertidos) hace falta un proyecto de actividad completo. Analizamos tu actividad, la clasificamos y te confirmamos si necesitas memoria o proyecto antes de empezar, sin coste."
+    "cuerpo": "El primer paso es saber qué documento exige tu caso. Si la actividad es inocua (una tienda pequeña, una oficina o un despacho sin apenas instalaciones ni molestias) suele bastar una memoria técnica más sencilla presentada con una declaración responsable o comunicación previa, al amparo de la Ley 12/2012 de liberalización del comercio minorista para locales de hasta cierta superficie. Si la actividad es calificada (hostelería con cocina, talleres, industria, ocio, o cualquier actividad con ruido, humos o vertidos) hace falta un proyecto de actividad completo. Analizamos tu actividad, la clasificamos y te confirmamos si necesitas memoria o proyecto antes de empezar."
   },
   {
     "titulo": "Qué incluye el proyecto de actividad",
@@ -141,7 +141,7 @@ export default function Page() {
         <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
           <p className="text-sm font-semibold uppercase tracking-wider text-sky-400">Almería · Oficina técnica · 100% online</p>
           <h1 className="mt-4 text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">Proyecto de actividad en Almería</h1>
-          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Redactamos el proyecto de actividad de tu local, comercio o pequeña industria en Almería: memoria, planos, cálculos e instalaciones, firmado por ingeniero técnico industrial colegiado y competente en actividades calificadas. Estudio previo gratuito, presupuesto cerrado y tramitación 100% online en toda España."}</p>
+          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Redactamos el proyecto de actividad de tu local, comercio o pequeña industria en Almería: memoria, planos, cálculos e instalaciones, firmado por ingeniero técnico industrial colegiado y competente en actividades calificadas. Estudio previo, presupuesto cerrado y tramitación 100% online en toda España."}</p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a href="#contacto" className="rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-400">Solicitar presupuesto</a>
             <a href="tel:+34670607830" className="rounded-xl border border-slate-600 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800">Llamar 670 607 830</a>
@@ -152,7 +152,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"Si ya sabes que tu ayuntamiento te pide un proyecto de actividad, esta es tu página. El proyecto de actividad es el documento técnico que describe y justifica tu local o nave para poder abrir: memoria, planos, cálculos e instalaciones, firmado por un técnico competente. En Almería lo redactamos como oficina técnica de ingeniería, dirigida por un ingeniero técnico industrial colegiado desde 1983. Es el mismo documento que unos llaman proyecto de apertura, memoria técnica o proyecto de licencia; lo que importa es que esté bien hecho para que el expediente municipal avance sin requerimientos y puedas poner en marcha tu negocio cuanto antes."}</p>
-          <p>{"No todos los locales necesitan el mismo documento. Una actividad inocua suele resolverse con una memoria técnica y una declaración responsable; una actividad calificada, con efectos sobre el medio ambiente o las personas, exige un proyecto completo y, con la nueva Ley 2/2026 para la Gestión Ambiental de Andalucía (LEGAM), la licencia ambiental municipal o la declaración responsable de efectos ambientales. Te decimos qué te toca en un estudio previo gratuito y te damos un presupuesto cerrado. Trabajamos el 100% online con firma digital FNMT y nos desplazamos a medir por Almería capital y provincia."}</p>
+          <p>{"No todos los locales necesitan el mismo documento. Una actividad inocua suele resolverse con una memoria técnica y una declaración responsable; una actividad calificada, con efectos sobre el medio ambiente o las personas, exige un proyecto completo y, con la nueva Ley 2/2026 para la Gestión Ambiental de Andalucía (LEGAM), la licencia ambiental municipal o la declaración responsable de efectos ambientales. Te decimos qué te toca en un estudio previo y te damos un presupuesto cerrado. Trabajamos el 100% online con firma digital FNMT y nos desplazamos a medir por Almería capital y provincia."}</p>
         </div>
       </section>
 

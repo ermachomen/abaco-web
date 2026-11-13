@@ -9,7 +9,7 @@ const path = "/legalizacion-nave-industrial-el-ejido";
 
 export const metadata: Metadata = {
   title: "Legalizar nave en El Ejido: licencia o fuera de ordenación",
-  description: "Legalizar nave en El Ejido: obra, actividad e instalaciones. Licencia o asimilado a fuera de ordenación. Ingeniero colegiado. Estudio previo gratuito.",
+  description: "Legalizar nave en El Ejido: obra, actividad e instalaciones. Licencia o asimilado a fuera de ordenación. Ingeniero colegiado. Presupuesto cerrado.",
   keywords: ["legalizar nave en El Ejido","legalización de nave industrial El Ejido","legalizar almacén El Ejido","legalizar nave sin licencia Poniente","licencia nave El Ejido","asimilado a fuera de ordenación El Ejido","legalizar almacén de manipulado El Ejido","ingeniero legalización nave El Ejido","regularizar nave ampliada Poniente almeriense"],
   alternates: { canonical: path, languages: { "es-ES": path } },
   openGraph: {
@@ -18,10 +18,10 @@ export const metadata: Metadata = {
     url: "https://www.ingenierial.es/legalizacion-nave-industrial-el-ejido",
     siteName: "Abaco Ingeniería",
     title: "Legalizar nave industrial en El Ejido",
-    description: "Legalizar nave en El Ejido: obra, actividad e instalaciones. Licencia o asimilado a fuera de ordenación. Ingeniero colegiado. Estudio previo gratuito.",
+    description: "Legalizar nave en El Ejido: obra, actividad e instalaciones. Licencia o asimilado a fuera de ordenación. Ingeniero colegiado. Presupuesto cerrado.",
     images: [{ url: "/images/og-abaco.jpg", width: 1200, height: 630, alt: "Legalizar nave en El Ejido – Abaco Ingeniería" }],
   },
-  twitter: { card: "summary_large_image", title: "Legalizar nave industrial en El Ejido", description: "Legalizar nave en El Ejido: obra, actividad e instalaciones. Licencia o asimilado a fuera de ordenación. Ingeniero colegiado. Estudio previo gratuito.", images: ["/images/og-abaco.jpg"] },
+  twitter: { card: "summary_large_image", title: "Legalizar nave industrial en El Ejido", description: "Legalizar nave en El Ejido: obra, actividad e instalaciones. Licencia o asimilado a fuera de ordenación. Ingeniero colegiado. Presupuesto cerrado.", images: ["/images/og-abaco.jpg"] },
 };
 
 const serviceLd = {
@@ -44,13 +44,13 @@ const serviceLd = {
     { "@type": "AdministrativeArea", name: "Provincia de Almería" },
   ],
   url: "https://www.ingenierial.es/legalizacion-nave-industrial-el-ejido",
-  description: "Legalizar nave en El Ejido: obra, actividad e instalaciones. Licencia o asimilado a fuera de ordenación. Ingeniero colegiado. Estudio previo gratuito.",
+  description: "Legalizar nave en El Ejido: obra, actividad e instalaciones. Licencia o asimilado a fuera de ordenación. Ingeniero colegiado. Presupuesto cerrado.",
 };
 
 const faqs = [
   {
     "q": "¿Se puede legalizar una nave en El Ejido construida sin licencia?",
-    "a": "Depende de su situación urbanística y de si ha transcurrido el plazo que fija la legislación urbanística para actuar contra la obra. Si todavía cabe actuar, la vía es la legalización con licencia mediante proyecto y comprobación estructural. Si ya no cabe, puede solicitarse ante el Ayuntamiento el reconocimiento de asimilado a fuera de ordenación. Tras un estudio previo gratuito te decimos cuál de las dos vías tiene recorrido en tu caso."
+    "a": "Depende de su situación urbanística y de si ha transcurrido el plazo que fija la legislación urbanística para actuar contra la obra. Si todavía cabe actuar, la vía es la legalización con licencia mediante proyecto y comprobación estructural. Si ya no cabe, puede solicitarse ante el Ayuntamiento el reconocimiento de asimilado a fuera de ordenación. Tras un estudio previo te decimos cuál de las dos vías tiene recorrido en tu caso."
   },
   {
     "q": "¿Qué significa que una nave esté asimilada a fuera de ordenación?",
@@ -66,7 +66,7 @@ const faqs = [
   },
   {
     "q": "¿Cuánto cuesta y cuánto tarda legalizar una nave en El Ejido?",
-    "a": "Depende de la superficie, del número de ampliaciones, de la vía urbanística aplicable y de las instalaciones, y no damos cifras sin ver la nave. Tras el estudio previo gratuito entregamos un presupuesto cerrado que desglosa proyecto, certificados y tramitación. Los plazos de resolución los marcan el Ayuntamiento y la Junta, pero te informamos de cada paso y respondemos en 24 horas."
+    "a": "Depende de la superficie, del número de ampliaciones, de la vía urbanística aplicable y de las instalaciones, y no damos cifras sin ver la nave. Tras el estudio previo entregamos un presupuesto cerrado que desglosa proyecto, certificados y tramitación. Los plazos de resolución los marcan el Ayuntamiento y la Junta, pero te informamos de cada paso y respondemos en 24 horas."
   },
   {
     "q": "¿Os desplazáis a Almerimar, Balerma o Las Norias de Daza?",
@@ -93,7 +93,7 @@ const bloques = [
   },
   {
     "titulo": "Diagnóstico de obra, actividad e instalaciones",
-    "cuerpo": "Visitamos la nave, medimos y levantamos planos de lo realmente ejecutado. Después ordenamos el expediente en las tres capas que tiene toda legalización. Primero, la obra: qué se construyó, cuándo y con qué cobertura. Segundo, la actividad: qué se hace hoy en la nave y si cuenta con licencia o declaración responsable que la ampare. Tercero, las instalaciones: electricidad, protección contra incendios y, si las hay, frío industrial o climatización, con su registro ante la Junta. El diagnóstico termina en un informe claro con las vías posibles, el orden recomendado de los trámites y un presupuesto cerrado. El estudio previo es gratuito y no te compromete, y si algo no tiene recorrido te lo decimos desde el principio."
+    "cuerpo": "Visitamos la nave, medimos y levantamos planos de lo realmente ejecutado. Después ordenamos el expediente en las tres capas que tiene toda legalización. Primero, la obra: qué se construyó, cuándo y con qué cobertura. Segundo, la actividad: qué se hace hoy en la nave y si cuenta con licencia o declaración responsable que la ampare. Tercero, las instalaciones: electricidad, protección contra incendios y, si las hay, frío industrial o climatización, con su registro ante la Junta. El diagnóstico termina en un informe claro con las vías posibles, el orden recomendado de los trámites y un presupuesto cerrado. Si algo no tiene recorrido te lo decimos desde el principio."
   },
   {
     "titulo": "Licencia o asimilado a fuera de ordenación",
@@ -109,7 +109,7 @@ const bloques = [
   },
   {
     "titulo": "Cómo trabajamos",
-    "cuerpo": "Primero, un estudio previo gratuito: nos cuentas qué nave tienes y qué te preocupa, y vamos a verla. Medimos, contrastamos con la documentación existente y te entregamos un diagnóstico con las vías posibles. Con tu conformidad fijamos un presupuesto cerrado que desglosa proyecto, certificados y tramitación, para que sepas el coste antes de empezar; las tasas de las administraciones se suman aparte y no dependen de nosotros. Redactamos y firmamos los proyectos y certificados con firma digital FNMT, dirigimos la obra cuando procede y gestionamos el expediente ante el Ayuntamiento de El Ejido y la Junta de Andalucía. Te informamos de cada paso y respondemos en 24 horas. No prometemos resultados que dependen de la administración: te decimos con franqueza qué recorrido tiene tu nave."
+    "cuerpo": "Primero, un estudio previo: nos cuentas qué nave tienes y qué te preocupa, y vamos a verla. Medimos, contrastamos con la documentación existente y te entregamos un diagnóstico con las vías posibles. Con tu conformidad fijamos un presupuesto cerrado que desglosa proyecto, certificados y tramitación, para que sepas el coste antes de empezar; las tasas de las administraciones se suman aparte y no dependen de nosotros. Redactamos y firmamos los proyectos y certificados con firma digital FNMT, dirigimos la obra cuando procede y gestionamos el expediente ante el Ayuntamiento de El Ejido y la Junta de Andalucía. Te informamos de cada paso y respondemos en 24 horas. No prometemos resultados que dependen de la administración: te decimos con franqueza qué recorrido tiene tu nave."
   }
 ];
 
@@ -148,7 +148,7 @@ export default function Page() {
         <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
           <p className="text-sm font-semibold uppercase tracking-wider text-sky-400">{"Naves del Poniente · El Ejido"}</p>
           <h1 className="mt-4 text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">{"Legalizar nave en El Ejido"}</h1>
-          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Legalización de nave industrial en El Ejido: almacenes de manipulado, talleres y naves logísticas con obra, actividad o instalaciones pendientes. Diagnóstico, proyecto y tramitación ante el Ayuntamiento, con estudio previo gratuito y presupuesto cerrado."}</p>
+          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Legalización de nave industrial en El Ejido: almacenes de manipulado, talleres y naves logísticas con obra, actividad o instalaciones pendientes. Diagnóstico, proyecto y tramitación ante el Ayuntamiento, con estudio previo y presupuesto cerrado."}</p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a href="#contacto" className="rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-400">Solicitar presupuesto</a>
             <a href="tel:+34670607830" className="rounded-xl border border-slate-600 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800">Llamar 670 607 830</a>

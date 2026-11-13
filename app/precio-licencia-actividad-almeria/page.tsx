@@ -91,7 +91,7 @@ const faqs = [
   },
   {
     q: "¿Dais presupuesto cerrado?",
-    a: "Sí. Después de una visita gratuita al local emitimos presupuesto cerrado por escrito, sin variaciones posteriores. Si el local no es viable, te lo decimos antes de cobrar nada.",
+    a: "Sí. Después de una visita al local emitimos presupuesto cerrado por escrito, sin variaciones posteriores. Si el local no es viable, te lo decimos antes de cobrar nada.",
   },
 ];
 
@@ -172,7 +172,7 @@ export default function PrecioLicenciaActividadAlmeria() {
           </h1>
           <p className="mt-6 max-w-2xl text-lg text-slate-300">
             Desglose orientativo por tipo de actividad, partidas que componen
-            el coste total y presupuesto cerrado tras visita gratuita al local.
+            el coste total y presupuesto cerrado tras visita al local.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a href="#contacto" className="rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-400">Pedir presupuesto exacto</a>

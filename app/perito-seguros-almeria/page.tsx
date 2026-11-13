@@ -71,7 +71,7 @@ const faqs = [
   },
   {
     "q": "¿Cuánto cuesta y cómo empezamos?",
-    "a": "Primero estudiamos tu caso sin coste: nos cuentas el siniestro, nos pasas la póliza y la propuesta de la aseguradora, y valoramos si hay recorrido para reclamar. Con eso te damos un presupuesto cerrado del informe pericial, sin sorpresas. Llámanos al 670 60 78 30 o escríbenos desde la web. Cuanto antes actúes, más margen tienes: los plazos del artículo 38 y de la reclamación corren."
+    "a": "Primero estudiamos tu caso: nos cuentas el siniestro, nos pasas la póliza y la propuesta de la aseguradora, y valoramos si hay recorrido para reclamar. Con eso te damos un presupuesto cerrado del informe pericial, sin sorpresas. Llámanos al 670 60 78 30 o escríbenos desde la web. Cuanto antes actúes, más margen tienes: los plazos del artículo 38 y de la reclamación corren."
   }
 ];
 
@@ -105,7 +105,7 @@ const bloques = [
   },
   {
     "titulo": "Un informe de parte que firma un ingeniero colegiado",
-    "cuerpo": "El informe lo firma un ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años de ejercicio, lo que le da solvencia frente a la aseguradora y, si el caso llega a juicio, ante el juzgado, donde puede ratificarse. Conviene distinguir dos figuras: como perito de parte trabajamos para ti y defendemos tu valoración; como perito de designación judicial actuaríamos con imparcialidad por encargo del juzgado. Para reclamar a tu compañía, lo que necesitas es un perito de parte. Estudio previo gratuito y presupuesto cerrado: cuéntanos el siniestro y te decimos cómo enfocarlo."
+    "cuerpo": "El informe lo firma un ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años de ejercicio, lo que le da solvencia frente a la aseguradora y, si el caso llega a juicio, ante el juzgado, donde puede ratificarse. Conviene distinguir dos figuras: como perito de parte trabajamos para ti y defendemos tu valoración; como perito de designación judicial actuaríamos con imparcialidad por encargo del juzgado. Para reclamar a tu compañía, lo que necesitas es un perito de parte. Estudio previo y presupuesto cerrado: cuéntanos el siniestro y te decimos cómo enfocarlo."
   }
 ];
 
@@ -152,7 +152,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"Has tenido un siniestro y la indemnización que te ofrece tu compañía no cubre ni de lejos el daño real. Es la situación más frecuente en un seguro de daños: el perito de la aseguradora trabaja para la aseguradora, y tú te quedas sin una valoración técnica que defienda tus intereses. Abaco Ingeniería actúa como perito de seguros de parte: un ingeniero técnico industrial colegiado desde 1983 estudia tu siniestro, cuantifica el daño con criterio y emite un informe pericial con el que negociar de igual a igual o reclamar por la vía del artículo 38 de la Ley de Contrato de Seguro."}</p>
-          <p>{"Cubrimos incendios, daños por agua, fenómenos atmosféricos y averías en maquinaria e instalaciones industriales, además del sub-nicho de vehículos: siniestro total, valor venal frente a valor de mercado y discrepancias de tasación. Trabajamos 100% online con firma digital FNMT en toda España y nos desplazamos a Almería capital y provincia para inspeccionar el siniestro. El estudio previo es gratuito y el presupuesto, cerrado. Importante: como ingenieros somos competentes en instalaciones, industria y causa-origen de incendios, no en las competencias reservadas de la edificación."}</p>
+          <p>{"Cubrimos incendios, daños por agua, fenómenos atmosféricos y averías en maquinaria e instalaciones industriales, además del sub-nicho de vehículos: siniestro total, valor venal frente a valor de mercado y discrepancias de tasación. Trabajamos 100% online con firma digital FNMT en toda España y nos desplazamos a Almería capital y provincia para inspeccionar el siniestro. El presupuesto es cerrado. Importante: como ingenieros somos competentes en instalaciones, industria y causa-origen de incendios, no en las competencias reservadas de la edificación."}</p>
         </div>
       </section>
 

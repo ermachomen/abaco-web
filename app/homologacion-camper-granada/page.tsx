@@ -9,7 +9,7 @@ const path = "/homologacion-camper-granada";
 
 export const metadata: Metadata = {
   title: "Homologar camper en Granada | Proyecto técnico e ITV",
-  description: "Homologar camper en Granada: proyecto técnico, certificados e inspección de la reforma. Techo elevable, calefacción y mobiliario. Estudio previo gratis.",
+  description: "Homologar camper en Granada: proyecto técnico, certificados e inspección de la reforma. Techo elevable, calefacción y mobiliario. Presupuesto cerrado.",
   keywords: ["homologar camper en Granada","homologación camper Granada","homologar furgoneta camper Granada","camperizar furgoneta Granada","homologar techo elevable","autocaravana homologación Granada","legalizar camper ya montada","furgón vivienda homologación Granada","proyecto técnico camper","certificado del taller anexo III"],
   alternates: { canonical: path, languages: { "es-ES": path } },
   openGraph: {
@@ -18,10 +18,10 @@ export const metadata: Metadata = {
     url: "https://www.ingenierial.es/homologacion-camper-granada",
     siteName: "Abaco Ingeniería",
     title: "Homologar camper en Granada: proyecto e ITV de reforma",
-    description: "Homologar camper en Granada: proyecto técnico, certificados e inspección de la reforma. Techo elevable, calefacción y mobiliario. Estudio previo gratis.",
+    description: "Homologar camper en Granada: proyecto técnico, certificados e inspección de la reforma. Techo elevable, calefacción y mobiliario. Presupuesto cerrado.",
     images: [{ url: "/images/og-abaco.jpg", width: 1200, height: 630, alt: "Homologar camper en Granada: proyecto, certificados e ITV – Abaco Ingeniería" }],
   },
-  twitter: { card: "summary_large_image", title: "Homologar camper en Granada: proyecto e ITV de reforma", description: "Homologar camper en Granada: proyecto técnico, certificados e inspección de la reforma. Techo elevable, calefacción y mobiliario. Estudio previo gratis.", images: ["/images/og-abaco.jpg"] },
+  twitter: { card: "summary_large_image", title: "Homologar camper en Granada: proyecto e ITV de reforma", description: "Homologar camper en Granada: proyecto técnico, certificados e inspección de la reforma. Techo elevable, calefacción y mobiliario. Presupuesto cerrado.", images: ["/images/og-abaco.jpg"] },
 };
 
 const serviceLd = {
@@ -44,13 +44,13 @@ const serviceLd = {
     { "@type": "AdministrativeArea", name: "Provincia de Granada" },
   ],
   url: "https://www.ingenierial.es/homologacion-camper-granada",
-  description: "Homologar camper en Granada: proyecto técnico, certificados e inspección de la reforma. Techo elevable, calefacción y mobiliario. Estudio previo gratis.",
+  description: "Homologar camper en Granada: proyecto técnico, certificados e inspección de la reforma. Techo elevable, calefacción y mobiliario. Presupuesto cerrado.",
 };
 
 const faqs = [
   {
     "q": "¿Qué necesito para homologar una camper en Granada?",
-    "a": "Depende de lo montado, pero el punto de partida son la ficha técnica y fotos del interior, del techo y de las instalaciones. Con eso valoramos la reforma, que como camperización corresponde al código 8.31 (furgón vivienda) o al 8.70 (autocaravana) del Manual de Reformas, y determinamos la documentación: proyecto técnico, certificado de dirección final de obra y certificado del taller, entre otros. El estudio previo es gratuito y te dice qué falta antes de pasar la inspección."
+    "a": "Depende de lo montado, pero el punto de partida son la ficha técnica y fotos del interior, del techo y de las instalaciones. Con eso valoramos la reforma, que como camperización corresponde al código 8.31 (furgón vivienda) o al 8.70 (autocaravana) del Manual de Reformas, y determinamos la documentación: proyecto técnico, certificado de dirección final de obra y certificado del taller, entre otros. El estudio previo te dice qué falta antes de pasar la inspección."
   },
   {
     "q": "¿Hay que homologar el techo elevable y las ventanas?",
@@ -70,7 +70,7 @@ const faqs = [
   },
   {
     "q": "¿Cómo trabajáis en Granada y cómo se fija el presupuesto?",
-    "a": "Nos desplazamos a Granada para ver la furgoneta; el resto del trámite es online, con firma digital FNMT. No damos cifras sin conocer el vehículo: tras el estudio previo gratuito te entregamos un presupuesto cerrado, que depende de las reformas montadas y de la documentación que haya que preparar. Respondemos en menos de 24 horas en el 670 607 830."
+    "a": "Nos desplazamos a Granada para ver la furgoneta; el resto del trámite es online, con firma digital FNMT. No damos cifras sin conocer el vehículo: tras el estudio previo te entregamos un presupuesto cerrado, que depende de las reformas montadas y de la documentación que haya que preparar. Respondemos en menos de 24 horas en el 670 607 830."
   }
 ];
 
@@ -105,7 +105,7 @@ const bloques = [
   },
   {
     "titulo": "Plazo de quince días y pasos del trámite",
-    "cuerpo": "Al homologar camper en Granada hay un plazo que no conviene perder: el RD 866/2010 obliga al titular de un vehículo reformado a presentarlo a inspección técnica en el plazo máximo de quince días, aportando la documentación que determine el Manual de Reformas (art. 8.1). Por eso conviene tener el expediente listo antes de terminar la obra. El camino es este: estudio previo gratuito con fotos y ficha técnica; proyecto técnico; ejecución y certificados; inspección técnica de la reforma en una estación ITV; y, si el resultado es favorable, diligencia de la tarjeta ITV con la reforma reflejada. Firmamos con certificado digital FNMT, nos desplazamos a ver la furgoneta y el resto lo tramitas desde casa."
+    "cuerpo": "Al homologar camper en Granada hay un plazo que no conviene perder: el RD 866/2010 obliga al titular de un vehículo reformado a presentarlo a inspección técnica en el plazo máximo de quince días, aportando la documentación que determine el Manual de Reformas (art. 8.1). Por eso conviene tener el expediente listo antes de terminar la obra. El camino es este: estudio previo con fotos y ficha técnica; proyecto técnico; ejecución y certificados; inspección técnica de la reforma en una estación ITV; y, si el resultado es favorable, diligencia de la tarjeta ITV con la reforma reflejada. Firmamos con certificado digital FNMT, nos desplazamos a ver la furgoneta y el resto lo tramitas desde casa."
   }
 ];
 
@@ -155,7 +155,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"Si quieres homologar camper en Granada, el punto de partida es entender que camperizar una furgoneta es una reforma de vehículo: en el Manual de Reformas, la transformación a furgón vivienda se legaliza por el código 8.31 y la transformación a autocaravana por el 8.70, y el resultado debe quedar reflejado en la ficha técnica tras pasar la inspección técnica. En Abaco Ingeniería, redactamos el proyecto técnico, ordenamos los certificados y preparamos el expediente para esa inspección. Tanto si vas a empezar la obra como si ya la tienes terminada, estudiamos tu furgoneta, te decimos qué se puede legalizar tal como está y qué habría que corregir, y te damos un presupuesto cerrado antes de empezar."}</p>
-          <p>{"Detrás de Abaco hay un ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años de trayectoria. En Granada nos desplazamos a ver tu furgoneta, ya esté en la capital, en el área metropolitana, en la Costa Tropical, en la Alpujarra o en Guadix, Baza y Loja; el resto del trámite es online, con firma digital FNMT. Cuando alguien camperiza por su cuenta una furgoneta de segunda mano, algo frecuente entre estudiantes y gente joven, suele llegar con la obra hecha y dudas sobre qué es legalizable: se resuelve revisando fotos, ficha técnica y equipos. El estudio previo es gratuito y respondemos en menos de 24 horas."}</p>
+          <p>{"Detrás de Abaco hay un ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años de trayectoria. En Granada nos desplazamos a ver tu furgoneta, ya esté en la capital, en el área metropolitana, en la Costa Tropical, en la Alpujarra o en Guadix, Baza y Loja; el resto del trámite es online, con firma digital FNMT. Cuando alguien camperiza por su cuenta una furgoneta de segunda mano, algo frecuente entre estudiantes y gente joven, suele llegar con la obra hecha y dudas sobre qué es legalizable: se resuelve revisando fotos, ficha técnica y equipos. Respondemos en menos de 24 horas."}</p>
         </div>
       </section>
 

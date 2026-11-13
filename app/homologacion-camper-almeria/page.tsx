@@ -9,7 +9,7 @@ const path = "/homologacion-camper-almeria";
 
 export const metadata: Metadata = {
   title: "Homologar furgoneta camper en Almería | Techo elevable",
-  description: "Homologación de furgoneta camper en Almería: cambio de clasificación a vivienda o autocaravana, techo elevable con proyecto técnico, instalación eléctrica, gas y agua e ITV de reforma. Ingeniero colegiado, estudio previo gratis.",
+  description: "Homologación de furgoneta camper en Almería: cambio de clasificación a vivienda o autocaravana, techo elevable con proyecto técnico, instalación eléctrica, gas y agua e ITV de reforma. Ingeniero colegiado, presupuesto cerrado.",
   keywords: ["homologar camper Almería","homologación furgoneta camper Almería","techo elevable homologación Almería","cambio clasificación vivienda ficha técnica","furgón vivienda autocaravana homologación","proyecto técnico camper ingeniero","ITV reforma camper Almería","camperización legal Almería","homologar autocaravana Almería","certificado eléctrico gas camper"],
   alternates: { canonical: path, languages: { "es-ES": path } },
   openGraph: {
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.ingenierial.es/homologacion-camper-almeria",
     siteName: "Abaco Ingeniería",
     title: "Homologación de furgoneta camper en Almería",
-    description: "Homologación de furgoneta camper en Almería: cambio de clasificación a vivienda o autocaravana, techo elevable con proyecto técnico, instalación eléctrica, gas y agua e ITV de reforma. Ingeniero colegiado, estudio previo gratis.",
+    description: "Homologación de furgoneta camper en Almería: cambio de clasificación a vivienda o autocaravana, techo elevable con proyecto técnico, instalación eléctrica, gas y agua e ITV de reforma. Ingeniero colegiado, presupuesto cerrado.",
     images: [{ url: "/images/og-abaco.jpg", width: 1200, height: 630, alt: "Homologación de furgoneta camper en Almería – Abaco Ingeniería" }],
   },
   twitter: { card: "summary_large_image", title: "Homologación de furgoneta camper en Almería", description: "Ingeniero técnico industrial colegiado en Almería.", images: ["/images/og-abaco.jpg"] },
@@ -45,7 +45,7 @@ const serviceLd = {
     { "@type": "Country", name: "España" },
   ],
   url: "https://www.ingenierial.es/homologacion-camper-almeria",
-  description: "Homologación de furgoneta camper en Almería: cambio de clasificación a vivienda o autocaravana, techo elevable con proyecto técnico, instalación eléctrica, gas y agua e ITV de reforma. Ingeniero colegiado, estudio previo gratis.",
+  description: "Homologación de furgoneta camper en Almería: cambio de clasificación a vivienda o autocaravana, techo elevable con proyecto técnico, instalación eléctrica, gas y agua e ITV de reforma. Ingeniero colegiado, presupuesto cerrado.",
 };
 
 const faqs = [
@@ -67,7 +67,7 @@ const faqs = [
   },
   {
     "q": "¿Cuánto cuesta y cuánto tarda homologar una camper en Almería?",
-    "a": "El coste varía según las reformas: una camperización básica es más económica que una completa con techo elevable, gas y cambio de clasificación, que implica proyecto estructural y más certificados. A ello se suma la tasa de la ITV de reforma. Damos siempre presupuesto cerrado tras el estudio previo gratuito. El plazo habitual es de 3 a 4 semanas desde que reunimos la documentación."
+    "a": "El coste varía según las reformas: una camperización básica es más económica que una completa con techo elevable, gas y cambio de clasificación, que implica proyecto estructural y más certificados. A ello se suma la tasa de la ITV de reforma. Damos siempre presupuesto cerrado tras el estudio previo. El plazo habitual es de 3 a 4 semanas desde que reunimos la documentación."
   },
   {
     "q": "¿Puedo homologar aunque ya haya hecho yo la camperización?",
@@ -101,11 +101,11 @@ const bloques = [
   },
   {
     "titulo": "Homologación de campers en Almería, paso a paso",
-    "cuerpo": "1. Estudio previo gratuito: nos envías fotos del interior, del techo y la ficha técnica; confirmamos qué es legalizable y cerramos presupuesto. 2. Proyecto técnico: redactamos memoria, cálculos y planos según el Manual de Reformas. 3. Certificados: coordinamos boletín eléctrico, certificado de gas y certificado de taller de la instalación del techo. 4. ITV de reforma: acudes a una estación de la provincia (capital, El Ejido, Roquetas o Huércal de Almería) para la inspección de importancia y se sella la tarjeta con la nueva clasificación. 5. Trámite final: actualización del permiso de circulación si cambian categoría, plazas o pesos. Firmamos con certificado digital FNMT, así que puedes tener el proyecto sin salir de casa."
+    "cuerpo": "1. Estudio previo: nos envías fotos del interior, del techo y la ficha técnica; confirmamos qué es legalizable y cerramos presupuesto. 2. Proyecto técnico: redactamos memoria, cálculos y planos según el Manual de Reformas. 3. Certificados: coordinamos boletín eléctrico, certificado de gas y certificado de taller de la instalación del techo. 4. ITV de reforma: acudes a una estación de la provincia (capital, El Ejido, Roquetas o Huércal de Almería) para la inspección de importancia y se sella la tarjeta con la nueva clasificación. 5. Trámite final: actualización del permiso de circulación si cambian categoría, plazas o pesos. Firmamos con certificado digital FNMT, así que puedes tener el proyecto sin salir de casa."
   },
   {
     "titulo": "Presupuesto cerrado y adaptado a tu furgoneta",
-    "cuerpo": "El precio depende de cuántas reformas sumes. Una camperización sencilla, solo mobiliario y eléctrica básica, tiene un ticket contenido; añadir techo elevable, gas y cambio de clasificación sube el importe porque implica proyecto estructural y más certificados. A eso se añade la tasa de la ITV de reforma. Frente a los kits genéricos que no contemplan tu vehículo, dimensionamos el proyecto a tu furgoneta concreta y te damos un precio cerrado antes de empezar. Estudio previo gratis y respuesta en 24 horas en el 670 60 78 30."
+    "cuerpo": "El precio depende de cuántas reformas sumes. Una camperización sencilla, solo mobiliario y eléctrica básica, tiene un ticket contenido; añadir techo elevable, gas y cambio de clasificación sube el importe porque implica proyecto estructural y más certificados. A eso se añade la tasa de la ITV de reforma. Frente a los kits genéricos que no contemplan tu vehículo, dimensionamos el proyecto a tu furgoneta concreta y te damos un precio cerrado antes de empezar. Estudio previo y respuesta en 24 horas en el 670 60 78 30."
   }
 ];
 
@@ -152,7 +152,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"Convertir una furgoneta en camper sin regularizarla en la ficha técnica es circular al margen de la ley: en la próxima ITV la reforma sale a la luz y el vehículo queda desfavorable. En Abaco Ingeniería, homologamos tu camperización de principio a fin conforme al Manual de Reformas de Vehículos y el RD 866/2010. Redactamos el proyecto técnico, coordinamos los certificados de instalación y preparamos la ITV de reforma para que tu furgoneta pase a clasificarse como vivienda o autocaravana. Ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años tramitando reformas en Almería capital y provincia."}</p>
-          <p>{"Trabajamos de dos formas: 100% online con firma digital FNMT, válida en toda España, o con desplazamiento presencial a tu localidad para ver la furgoneta cuando el caso lo requiere. Cada trabajo arranca con un estudio previo gratuito en el que revisamos fotos y datos del vehículo, te decimos qué es homologable y qué no, y cerramos un presupuesto cerrado sin sorpresas. Nada de tarifas por horas ni sobrecostes de última hora. Cuéntanos qué has montado o qué quieres montar y te respondemos en menos de 24 horas."}</p>
+          <p>{"Trabajamos de dos formas: 100% online con firma digital FNMT, válida en toda España, o con desplazamiento presencial a tu localidad para ver la furgoneta cuando el caso lo requiere. Cada trabajo arranca con un estudio previo en el que revisamos fotos y datos del vehículo, te decimos qué es homologable y qué no, y cerramos un presupuesto cerrado sin sorpresas. Nada de tarifas por horas ni sobrecostes de última hora. Cuéntanos qué has montado o qué quieres montar y te respondemos en menos de 24 horas."}</p>
         </div>
       </section>
 

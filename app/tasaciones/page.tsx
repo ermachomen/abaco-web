@@ -96,7 +96,7 @@ const faqs = [
   },
   {
     q: "¿Cuánto cuesta una tasación técnica?",
-    a: "Tasación de vivienda urbana: desde 250 €. Locales y oficinas: desde 350 €. Naves industriales: desde 450 €. Maquinaria, fincas y casos especiales: presupuesto a medida según complejidad. Damos presupuesto cerrado tras consulta previa sin coste.",
+    a: "Tasación de vivienda urbana: desde 250 €. Locales y oficinas: desde 350 €. Naves industriales: desde 450 €. Maquinaria, fincas y casos especiales: presupuesto a medida según complejidad. Damos presupuesto cerrado tras consulta previa.",
   },
   {
     q: "¿Trabajáis a toda España?",

@@ -9,7 +9,7 @@ const path = "/homologacion-enganche-remolque-almeria";
 
 export const metadata: Metadata = {
   title: "Homologar Enganche o Bola de Remolque en Almería · ITV",
-  description: "Homologamos tu enganche o bola de remolque en la ITV de Almería: certificado de taller, informe de conformidad y acta de reforma según el Manual de Reformas. Ingeniero colegiado, presupuesto cerrado y estudio previo gratuito.",
+  description: "Homologamos tu enganche o bola de remolque en la ITV de Almería: certificado de taller, informe de conformidad y acta de reforma según el Manual de Reformas. Ingeniero colegiado, presupuesto cerrado.",
   keywords: ["homologar enganche remolque Almería","homologación bola remolque Almería","legalizar gancho remolque ITV Almería","enganche remolque ITV Almería","reforma enganche Manual de Reformas","certificado enganche remolque","informe de conformidad bola remolque","masa máxima remolcable ficha técnica","homologar enganche desmontable Almería","proyecto enganche remolque Almería"],
   alternates: { canonical: path, languages: { "es-ES": path } },
   openGraph: {
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.ingenierial.es/homologacion-enganche-remolque-almeria",
     siteName: "Abaco Ingeniería",
     title: "Homologación de enganche o bola de remolque en Almería",
-    description: "Homologamos tu enganche o bola de remolque en la ITV de Almería: certificado de taller, informe de conformidad y acta de reforma según el Manual de Reformas. Ingeniero colegiado, presupuesto cerrado y estudio previo gratuito.",
+    description: "Homologamos tu enganche o bola de remolque en la ITV de Almería: certificado de taller, informe de conformidad y acta de reforma según el Manual de Reformas. Ingeniero colegiado, presupuesto cerrado.",
     images: [{ url: "/images/og-abaco.jpg", width: 1200, height: 630, alt: "Homologación de enganche o bola de remolque en Almería – Abaco Ingeniería" }],
   },
   twitter: { card: "summary_large_image", title: "Homologación de enganche o bola de remolque en Almería", description: "Ingeniero técnico industrial colegiado en Almería.", images: ["/images/og-abaco.jpg"] },
@@ -45,13 +45,13 @@ const serviceLd = {
     { "@type": "Country", name: "España" },
   ],
   url: "https://www.ingenierial.es/homologacion-enganche-remolque-almeria",
-  description: "Homologamos tu enganche o bola de remolque en la ITV de Almería: certificado de taller, informe de conformidad y acta de reforma según el Manual de Reformas. Ingeniero colegiado, presupuesto cerrado y estudio previo gratuito.",
+  description: "Homologamos tu enganche o bola de remolque en la ITV de Almería: certificado de taller, informe de conformidad y acta de reforma según el Manual de Reformas. Ingeniero colegiado, presupuesto cerrado.",
 };
 
 const faqs = [
   {
     "q": "¿Cuánto cuesta homologar un enganche de remolque en Almería?",
-    "a": "La tramitación técnica parte desde unos 120 € más IVA cuando el caso no necesita proyecto (turismo moderno con enganche homologado). Si el vehículo exige proyecto (antiguos, especiales o autocaravanas) damos presupuesto cerrado según el modelo. A eso hay que añadir la pieza, su montaje en taller autorizado y las tasas de la ITV de reforma en Almería, habitualmente entre 40 y 90 €. El estudio previo es gratuito."
+    "a": "La tramitación técnica parte desde unos 120 € más IVA cuando el caso no necesita proyecto (turismo moderno con enganche homologado). Si el vehículo exige proyecto (antiguos, especiales o autocaravanas) damos presupuesto cerrado según el modelo. A eso hay que añadir la pieza, su montaje en taller autorizado y las tasas de la ITV de reforma en Almería, habitualmente entre 40 y 90 €."
   },
   {
     "q": "¿Cuánto tiempo tengo para pasar la ITV tras instalar la bola?",
@@ -59,7 +59,7 @@ const faqs = [
   },
   {
     "q": "¿Necesito proyecto de ingeniero o basta con el certificado del taller?",
-    "a": "Depende del vehículo y del enganche. Para la reforma 10.1, el Manual de Reformas exime de proyecto técnico cuando el dispositivo y su instalación están homologados, y lo exige si la instalación no lo está o el emplazamiento es distinto; en turismos matriculados después del 1 de enero de 1998 el dispositivo tiene que estar homologado. El informe de conformidad lo emite un servicio técnico de reformas, el fabricante del vehículo o, en ciertos casos, el titular de la homologación del enganche. Lo confirmamos gratis revisando tu ficha técnica."
+    "a": "Depende del vehículo y del enganche. Para la reforma 10.1, el Manual de Reformas exime de proyecto técnico cuando el dispositivo y su instalación están homologados, y lo exige si la instalación no lo está o el emplazamiento es distinto; en turismos matriculados después del 1 de enero de 1998 el dispositivo tiene que estar homologado. El informe de conformidad lo emite un servicio técnico de reformas, el fabricante del vehículo o, en ciertos casos, el titular de la homologación del enganche. Lo confirmamos revisando tu ficha técnica."
   },
   {
     "q": "¿Puedo poner el enganche yo mismo o en cualquier taller?",
@@ -97,7 +97,7 @@ const bloques = [
   },
   {
     "titulo": "Con proyecto o sin proyecto: de qué depende tu caso",
-    "cuerpo": "No todos los enganches necesitan lo mismo. Un turismo M1 moderno, con un enganche que lleva su propia contraseña de homologación y masas remolcables en ficha, suele resolverse con certificado de taller e informe de conformidad, sin proyecto. Requieren proyecto técnico firmado por ingeniero los vehículos matriculados antes de determinadas fechas, los que no tienen declarada masa remolcable, los enganches sin contraseña o fabricados a medida, y los vehículos especiales como autocaravanas, ambulancias o industriales. En el estudio previo gratuito analizamos matrícula, categoría y placa del enganche para decirte con certeza qué documento aplica y cuánto cuesta."
+    "cuerpo": "No todos los enganches necesitan lo mismo. Un turismo M1 moderno, con un enganche que lleva su propia contraseña de homologación y masas remolcables en ficha, suele resolverse con certificado de taller e informe de conformidad, sin proyecto. Requieren proyecto técnico firmado por ingeniero los vehículos matriculados antes de determinadas fechas, los que no tienen declarada masa remolcable, los enganches sin contraseña o fabricados a medida, y los vehículos especiales como autocaravanas, ambulancias o industriales. En el estudio previo analizamos matrícula, categoría y placa del enganche para decirte con certeza qué documento aplica y cuánto cuesta."
   },
   {
     "titulo": "Masa máxima remolcable: cuánto podrás arrastrar",
@@ -151,7 +151,7 @@ export default function Page() {
 
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
-          <p>{"Has instalado una bola o enganche de remolque en tu coche, furgoneta o autocaravana y necesitas legalizarlo para pasar la ITV en Almería. Toda incorporación posterior a la matriculación es una reforma de vehículo según el RD 866/2010 y el Manual de Reformas de Vehículos y debe quedar reflejada en la tarjeta ITV. En Abaco Ingeniería, oficina técnica con ingeniero técnico industrial colegiado desde 1983, reunimos toda la documentación (certificado de taller, informe de conformidad y, cuando el caso lo exige, el proyecto técnico que firmamos) para que tu gancho quede inscrito sin sobresaltos. Estudio previo gratuito y presupuesto cerrado, sin sorpresas de última hora."}</p>
+          <p>{"Has instalado una bola o enganche de remolque en tu coche, furgoneta o autocaravana y necesitas legalizarlo para pasar la ITV en Almería. Toda incorporación posterior a la matriculación es una reforma de vehículo según el RD 866/2010 y el Manual de Reformas de Vehículos y debe quedar reflejada en la tarjeta ITV. En Abaco Ingeniería, oficina técnica con ingeniero técnico industrial colegiado desde 1983, reunimos toda la documentación (certificado de taller, informe de conformidad y, cuando el caso lo exige, el proyecto técnico que firmamos) para que tu gancho quede inscrito sin sobresaltos. Estudio previo y presupuesto cerrado, sin sorpresas de última hora."}</p>
           <p>{"Circular con el enganche sin homologar no solo expone a sanción: sin la reforma inscrita la ITV resulta desfavorable y no podrás vincular legalmente un remolque, un portabicis matriculado o una caravana a tu vehículo. Trabajamos el 100% online con firma digital FNMT para toda España y nos desplazamos a las estaciones ITV de Almería capital, El Ejido, Huércal de Almería, Roquetas de Mar y Vícar. Desde el primer contacto te decimos si tu caso necesita proyecto o basta con certificado, y qué masa máxima podrás remolcar según los campos de tu ficha técnica."}</p>
         </div>
       </section>

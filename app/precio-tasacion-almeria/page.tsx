@@ -9,7 +9,7 @@ const path = "/precio-tasacion-almeria";
 
 export const metadata: Metadata = {
   title: "Precio de una Tasación en Almería 2026: Cuánto Cuesta",
-  description: "Cuánto cuesta una tasación en Almería: desde 250 EUR vivienda, 350 EUR locales, 450 EUR naves y maquinaria a valorar. No hipotecaria, firmada por ingeniero colegiado. Presupuesto cerrado y estudio gratis.",
+  description: "Cuánto cuesta una tasación en Almería: desde 250 EUR vivienda, 350 EUR locales, 450 EUR naves y maquinaria a valorar. No hipotecaria, firmada por ingeniero colegiado. Presupuesto cerrado.",
   keywords: ["precio tasación Almería","cuánto cuesta una tasación en Almería","precio tasación vivienda Almería","tarifa tasación no hipotecaria Almería","coste tasación herencia Almería","precio tasación nave Almería","precio tasación maquinaria Almería","presupuesto tasación Almería","precio valoración inmueble Almería","tasador Almería precio"],
   alternates: { canonical: path, languages: { "es-ES": path } },
   openGraph: {
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.ingenierial.es/precio-tasacion-almeria",
     siteName: "Abaco Ingeniería",
     title: "Precio de una tasación en Almería: cuánto cuesta",
-    description: "Cuánto cuesta una tasación en Almería: desde 250 EUR vivienda, 350 EUR locales, 450 EUR naves y maquinaria a valorar. No hipotecaria, firmada por ingeniero colegiado. Presupuesto cerrado y estudio gratis.",
+    description: "Cuánto cuesta una tasación en Almería: desde 250 EUR vivienda, 350 EUR locales, 450 EUR naves y maquinaria a valorar. No hipotecaria, firmada por ingeniero colegiado. Presupuesto cerrado.",
     images: [{ url: "/images/og-abaco.jpg", width: 1200, height: 630, alt: "Precio de una tasación en Almería: cuánto cuesta – Abaco Ingeniería" }],
   },
   twitter: { card: "summary_large_image", title: "Precio de una tasación en Almería: cuánto cuesta", description: "Ingeniero técnico industrial colegiado en Almería.", images: ["/images/og-abaco.jpg"] },
@@ -45,13 +45,13 @@ const serviceLd = {
     { "@type": "Country", name: "España" },
   ],
   url: "https://www.ingenierial.es/precio-tasacion-almeria",
-  description: "Cuánto cuesta una tasación en Almería: desde 250 EUR vivienda, 350 EUR locales, 450 EUR naves y maquinaria a valorar. No hipotecaria, firmada por ingeniero colegiado. Presupuesto cerrado y estudio gratis.",
+  description: "Cuánto cuesta una tasación en Almería: desde 250 EUR vivienda, 350 EUR locales, 450 EUR naves y maquinaria a valorar. No hipotecaria, firmada por ingeniero colegiado. Presupuesto cerrado.",
 };
 
 const faqs = [
   {
     "q": "¿Cuánto cuesta una tasación en Almería?",
-    "a": "Como referencia orientativa: vivienda desde unos 250 EUR, locales y naves pequeñas alrededor de 350 EUR, naves industriales desde 450 EUR y maquinaria o industria a valorar según inventario. El precio final depende del tipo de bien, la finalidad y la complejidad, y siempre se cierra por escrito tras un estudio previo gratuito."
+    "a": "Como referencia orientativa: vivienda desde unos 250 EUR, locales y naves pequeñas alrededor de 350 EUR, naves industriales desde 450 EUR y maquinaria o industria a valorar según inventario. El precio final depende del tipo de bien, la finalidad y la complejidad, y siempre se cierra por escrito tras un estudio previo."
   },
   {
     "q": "¿Hacéis tasaciones hipotecarias?",
@@ -104,8 +104,8 @@ const bloques = [
     "cuerpo": "Desde 2022, en herencias, donaciones y compraventas se tributa como mínimo por el valor de referencia que fija el Catastro en el Impuesto sobre Sucesiones y Donaciones y en el de Transmisiones Patrimoniales. Ese valor no siempre refleja el estado real del inmueble y con frecuencia lo sobrevalora. Una tasación técnica independiente te sirve para defender un valor distinto, impugnar una comprobación de valores o instar la tasación pericial contradictoria que reconoce el artículo 135 de la Ley General Tributaria. Un informe bien argumentado puede ahorrarte mucho más de lo que cuesta."
   },
   {
-    "titulo": "Estudio previo gratuito y presupuesto cerrado",
-    "cuerpo": "Antes de cobrar nada estudiamos tu caso sin coste. Nos cuentas qué bien hay que tasar, para qué lo necesitas y dónde está, y te damos un presupuesto cerrado por escrito, sin variaciones posteriores. Trabajamos 100% online con firma digital FNMT, válida en toda España, y nos desplazamos a Almería capital y provincia cuando hay que inspeccionar el inmueble, la nave o la maquinaria. El plazo habitual de entrega es de 7 a 15 días desde la visita. Si el encargo no te compensa, te lo decimos antes de empezar."
+    "titulo": "Estudio previo y presupuesto cerrado",
+    "cuerpo": "Primero estudiamos tu caso. Nos cuentas qué bien hay que tasar, para qué lo necesitas y dónde está, y te damos un presupuesto cerrado por escrito, sin variaciones posteriores. Trabajamos 100% online con firma digital FNMT, válida en toda España, y nos desplazamos a Almería capital y provincia cuando hay que inspeccionar el inmueble, la nave o la maquinaria. El plazo habitual de entrega es de 7 a 15 días desde la visita. Si el encargo no te compensa, te lo decimos antes de empezar."
   }
 ];
 
@@ -141,7 +141,7 @@ export default function Page() {
         <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
           <p className="text-sm font-semibold uppercase tracking-wider text-sky-400">Almería · Oficina técnica · 100% online</p>
           <h1 className="mt-4 text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">Precio de una tasación en Almería: cuánto cuesta</h1>
-          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Precios orientativos por tipo de bien, qué factores mueven el coste y presupuesto cerrado tras estudio previo gratuito. Tasación no hipotecaria firmada por ingeniero técnico colegiado en Almería."}</p>
+          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Precios orientativos por tipo de bien, qué factores mueven el coste y presupuesto cerrado tras estudio previo. Tasación no hipotecaria firmada por ingeniero técnico colegiado en Almería."}</p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a href="#contacto" className="rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-400">Solicitar presupuesto</a>
             <a href="tel:+34670607830" className="rounded-xl border border-slate-600 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800">Llamar 670 607 830</a>
@@ -152,7 +152,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"Si buscas cuánto cuesta una tasación en Almería, la respuesta honesta es que depende de tres cosas: el tipo de bien, la finalidad y la complejidad del encargo. En Abaco Ingeniería trabajamos con presupuesto cerrado y precios orientativos ya publicados: desde unos 250 EUR para una vivienda, alrededor de 350 EUR para locales y naves pequeñas, desde 450 EUR para naves industriales y valoración a medida para maquinaria e industria. Somos una oficina técnica de ingeniería, con un ingeniero técnico industrial colegiado desde 1983 y más de cuarenta años firmando valoraciones con plena validez ante Hacienda, notarios y juzgados."}</p>
-          <p>{"Importante y honesto: Abaco no es sociedad de tasación homologada por el Banco de España, así que no realizamos tasación hipotecaria para pedir un préstamo. Nuestro terreno es la tasación no hipotecaria firmada por ingeniero colegiado, igual de válida para herencias, divorcios, extinción de condominio, Hacienda y procedimientos judiciales. Cuando la finalidad no es una hipoteca no necesitas una tasadora oficial, y evitar ese sobrecoste reduce el precio de forma notable. Antes de cobrar nada hacemos un estudio previo gratuito y te damos un presupuesto cerrado, sin sorpresas."}</p>
+          <p>{"Importante y honesto: Abaco no es sociedad de tasación homologada por el Banco de España, así que no realizamos tasación hipotecaria para pedir un préstamo. Nuestro terreno es la tasación no hipotecaria firmada por ingeniero colegiado, igual de válida para herencias, divorcios, extinción de condominio, Hacienda y procedimientos judiciales. Cuando la finalidad no es una hipoteca no necesitas una tasadora oficial, y evitar ese sobrecoste reduce el precio de forma notable. Antes de empezar hacemos un estudio previo y te damos un presupuesto cerrado, sin sorpresas."}</p>
         </div>
       </section>
 

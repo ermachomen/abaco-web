@@ -70,7 +70,7 @@ const faqs = [
   },
   {
     "q": "¿Puedo legalizar un taller que ya funciona sin licencia?",
-    "a": "Se puede estudiar. Visitamos el taller, revisamos qué instalaciones tiene y qué falta, y redactamos el proyecto de legalización con las obras necesarias para adecuarlo. No prometemos un resultado antes de verlo, porque depende del local y del uso del suelo. Lo que sí hacemos es decirte con claridad si es viable y qué supondría, sin compromiso, en el estudio previo gratuito."
+    "a": "Se puede estudiar. Visitamos el taller, revisamos qué instalaciones tiene y qué falta, y redactamos el proyecto de legalización con las obras necesarias para adecuarlo. No prometemos un resultado antes de verlo, porque depende del local y del uso del suelo. Lo que sí hacemos es decirte con claridad si es viable y qué supondría, sin compromiso, en el estudio previo."
   }
 ];
 
@@ -105,7 +105,7 @@ const bloques = [
   },
   {
     "titulo": "Cómo trabajamos",
-    "cuerpo": "Primero, la visita: vemos el local, hablamos de tu actividad y te decimos si es viable. Segundo, el estudio previo gratuito, donde fijamos el trámite que corresponde y las obras necesarias. Tercero, el proyecto técnico, con presupuesto cerrado desde el principio. Cuarto, la dirección de la obra de adecuación, si la hay: extracción, desagües, instalación eléctrica y protección contra incendios. Quinto, el certificado final de obra e instalaciones. Y sexto, la presentación de toda la documentación en la sede electrónica del Ayuntamiento con firma FNMT, además de la inscripción industrial en la Junta. Respondemos en 24 horas y trabajamos en toda la provincia, desde El Ejido o Roquetas de Mar hasta Vera."
+    "cuerpo": "Primero, la visita: vemos el local, hablamos de tu actividad y te decimos si es viable. Segundo, el estudio previo, donde fijamos el trámite que corresponde y las obras necesarias. Tercero, el proyecto técnico, con presupuesto cerrado desde el principio. Cuarto, la dirección de la obra de adecuación, si la hay: extracción, desagües, instalación eléctrica y protección contra incendios. Quinto, el certificado final de obra e instalaciones. Y sexto, la presentación de toda la documentación en la sede electrónica del Ayuntamiento con firma FNMT, además de la inscripción industrial en la Junta. Respondemos en 24 horas y trabajamos en toda la provincia, desde El Ejido o Roquetas de Mar hasta Vera."
   },
   {
     "titulo": "Traspaso o cambio de titular de un taller",
@@ -159,7 +159,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"Un taller no es un local cualquiera: trabaja con aceites, baterías, gases de escape, pintura, aire comprimido y maquinaria de fuerza. Por eso abrir un taller mecánico en Almería exige un proyecto técnico bien hecho, que demuestre que el local soporta esa actividad con seguridad y sin molestar a los vecinos. Cubrimos talleres de mecánica, electricidad del automóvil, chapa y pintura, motos y lavaderos de coches. Esta página te explica qué suele pedirse en cada caso, qué conviene mirar antes de firmar el alquiler y en qué orden se hace el trámite, para que no pierdas tiempo ni dinero con un local que luego no pueda abrir."}</p>
-          <p>{"En Abaco Ingeniería somos una oficina técnica de ingeniería, con un ingeniero técnico industrial colegiado desde 1983. Redactamos y firmamos el proyecto, dirigimos la obra de adecuación cuando procede, emitimos el certificado final y lo tramitamos todo por la sede electrónica con firma FNMT. Antes de que te comprometas con el local, lo visitamos y te decimos si es viable. El estudio previo es gratuito y el presupuesto, cerrado. Llámanos al 670 607 830 o escríbenos y te respondemos en 24 horas, con una primera valoración de tu taller."}</p>
+          <p>{"En Abaco Ingeniería somos una oficina técnica de ingeniería, con un ingeniero técnico industrial colegiado desde 1983. Redactamos y firmamos el proyecto, dirigimos la obra de adecuación cuando procede, emitimos el certificado final y lo tramitamos todo por la sede electrónica con firma FNMT. Antes de que te comprometas con el local, lo visitamos y te decimos si es viable. El presupuesto es cerrado. Llámanos al 670 607 830 o escríbenos y te respondemos en 24 horas, con una primera valoración de tu taller."}</p>
         </div>
       </section>
 

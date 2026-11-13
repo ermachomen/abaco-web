@@ -58,7 +58,7 @@ const faqs = [
   },
   {
     "q": "¿Qué documentación necesito para tasar una vivienda o una finca en Níjar?",
-    "a": "Ayuda tener la referencia catastral, la escritura o la nota simple y, en fincas, los datos del pozo, la balsa o el contrato de arrendamiento. No hace falta aportarlo todo para empezar: con lo que tengas hacemos el estudio previo gratuito y te decimos qué falta antes de cerrar el presupuesto, sin compromiso alguno por tu parte."
+    "a": "Ayuda tener la referencia catastral, la escritura o la nota simple y, en fincas, los datos del pozo, la balsa o el contrato de arrendamiento. No hace falta aportarlo todo para empezar: con lo que tengas hacemos el estudio previo y te decimos qué falta antes de cerrar el presupuesto, sin compromiso alguno por tu parte."
   },
   {
     "q": "¿Sirve la tasación para una herencia con bienes en varios núcleos de Níjar?",
@@ -109,7 +109,7 @@ const bloques = [
   },
   {
     "titulo": "Cómo trabajamos y el informe",
-    "cuerpo": "Empezamos con un estudio previo gratuito y un presupuesto cerrado. Después visitamos el bien, medimos y, si aportas la documentación, comprobamos catastro y registro. El método concreto depende del encargo: coste de reposición depreciado en construcciones e instalaciones, comparación con operaciones de la zona cuando existen datos y capitalización de rentas cuando hay arrendamiento o producción. Todo se justifica en el informe, que entregamos con firma digital FNMT, con fotografías y mediciones que lo respaldan. Respondemos en menos de 24 horas, y coordinamos la visita contigo aunque el bien esté en un núcleo alejado de la carretera principal, algo habitual en un término tan extenso."
+    "cuerpo": "Empezamos con un estudio previo y un presupuesto cerrado. Después visitamos el bien, medimos y, si aportas la documentación, comprobamos catastro y registro. El método concreto depende del encargo: coste de reposición depreciado en construcciones e instalaciones, comparación con operaciones de la zona cuando existen datos y capitalización de rentas cuando hay arrendamiento o producción. Todo se justifica en el informe, que entregamos con firma digital FNMT, con fotografías y mediciones que lo respaldan. Respondemos en menos de 24 horas, y coordinamos la visita contigo aunque el bien esté en un núcleo alejado de la carretera principal, algo habitual en un término tan extenso."
   }
 ];
 
@@ -148,7 +148,7 @@ export default function Page() {
         <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
           <p className="text-sm font-semibold uppercase tracking-wider text-sky-400">{"Tasador en Níjar y su término"}</p>
           <h1 className="mt-4 text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">{"Tasaciones en Níjar: invernaderos, fincas, cortijos y viviendas"}</h1>
-          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Valoración pericial de invernaderos, fincas, cortijos, viviendas, locales y naves en todo el término de Níjar, firmada por ingeniero técnico industrial colegiado desde 1983. Estudio previo gratuito y presupuesto cerrado."}</p>
+          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Valoración pericial de invernaderos, fincas, cortijos, viviendas, locales y naves en todo el término de Níjar, firmada por ingeniero técnico industrial colegiado desde 1983. Estudio previo y presupuesto cerrado."}</p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a href="#contacto" className="rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-400">Solicitar presupuesto</a>
             <a href="tel:+34670607830" className="rounded-xl border border-slate-600 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800">Llamar 670 607 830</a>

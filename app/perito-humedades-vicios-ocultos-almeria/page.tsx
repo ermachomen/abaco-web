@@ -9,7 +9,7 @@ const path = "/perito-humedades-vicios-ocultos-almeria";
 
 export const metadata: Metadata = {
   title: "Perito de Humedades y Vicios Ocultos en Almería | Abaco Ingeniería",
-  description: "Perito de humedades, filtraciones y vicios ocultos en Almería. Ingeniero industrial colegiado: diagnóstico de origen, valoración del daño y reclamación. Estudio previo gratuito.",
+  description: "Perito de humedades, filtraciones y vicios ocultos en Almería. Ingeniero industrial colegiado: diagnóstico de origen, valoración del daño y reclamación. Presupuesto cerrado.",
   keywords: ["perito humedades Almería","perito vicios ocultos Almería","perito filtraciones Almería","informe pericial humedades","reclamar vicios ocultos vivienda Almería","perito judicial humedades Almería","peritaje daños por agua Almería","perito obra mal ejecutada Almería","dictamen causa origen humedades","perito ingeniero industrial instalaciones"],
   alternates: { canonical: path, languages: { "es-ES": path } },
   openGraph: {
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.ingenierial.es/perito-humedades-vicios-ocultos-almeria",
     siteName: "Abaco Ingeniería",
     title: "Perito de humedades, filtraciones y vicios ocultos en Almería",
-    description: "Perito de humedades, filtraciones y vicios ocultos en Almería. Ingeniero industrial colegiado: diagnóstico de origen, valoración del daño y reclamación. Estudio previo gratuito.",
+    description: "Perito de humedades, filtraciones y vicios ocultos en Almería. Ingeniero industrial colegiado: diagnóstico de origen, valoración del daño y reclamación. Presupuesto cerrado.",
     images: [{ url: "/images/og-abaco.jpg", width: 1200, height: 630, alt: "Perito de humedades, filtraciones y vicios ocultos en Almería – Abaco Ingeniería" }],
   },
   twitter: { card: "summary_large_image", title: "Perito de humedades, filtraciones y vicios ocultos en Almería", description: "Ingeniero técnico industrial colegiado en Almería.", images: ["/images/og-abaco.jpg"] },
@@ -45,7 +45,7 @@ const serviceLd = {
     { "@type": "Country", name: "España" },
   ],
   url: "https://www.ingenierial.es/perito-humedades-vicios-ocultos-almeria",
-  description: "Perito de humedades, filtraciones y vicios ocultos en Almería. Ingeniero industrial colegiado: diagnóstico de origen, valoración del daño y reclamación. Estudio previo gratuito.",
+  description: "Perito de humedades, filtraciones y vicios ocultos en Almería. Ingeniero industrial colegiado: diagnóstico de origen, valoración del daño y reclamación. Presupuesto cerrado.",
 };
 
 const faqs = [
@@ -71,7 +71,7 @@ const faqs = [
   },
   {
     "q": "¿Cuánto cuesta y en cuánto tiempo tengo el informe?",
-    "a": "Primero hago un estudio previo gratuito de tu caso para ver si tiene recorrido técnico. A partir de ahí trabajo con presupuesto cerrado, sin sorpresas, y acuerdo contigo un plazo de entrega según la complejidad y las pruebas necesarias. Cuéntame los síntomas y desde cuándo aparecen y te oriento sin compromiso."
+    "a": "Primero hago un estudio previo de tu caso para ver si tiene recorrido técnico. A partir de ahí trabajo con presupuesto cerrado, sin sorpresas, y acuerdo contigo un plazo de entrega según la complejidad y las pruebas necesarias. Cuéntame los síntomas y desde cuándo aparecen y te oriento sin compromiso."
   }
 ];
 
@@ -152,7 +152,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"Manchas que reaparecen, pintura que se abomba, olor a humedad, goteos desde el piso de arriba, tabiques que se ennegrecen o una vivienda recién comprada que empieza a mostrar defectos: detrás de cada síntoma hay una causa técnica concreta. Como ingeniero técnico industrial colegiado en Almería desde 1983, mi trabajo no es describir la mancha, sino determinar el origen del agua. Me centro en las humedades y filtraciones de origen instalación: fugas de fontanería empotrada, roturas de saneamiento, condensaciones por una ventilación o climatización mal ejecutada e impermeabilizaciones deficientes. Ese diagnóstico de causa-origen es la base de cualquier reclamación seria y de una reparación que no se limite a tapar la mancha."}</p>
-          <p>{"Con el origen identificado, valoro y cuantifico el perjuicio: coste real de reparación y daños asociados en mobiliario, acabados o pérdida de uso del inmueble. Con ese informe reclamas al vendedor por vicios ocultos, al promotor o constructor dentro de los plazos de la Ley de Ordenación de la Edificación, a tu seguro del hogar o a la comunidad de propietarios. Actúo como perito de parte cuando me contratas tú y como perito judicial por designación del juzgado, siempre con imparcialidad técnica. Cubro Almería capital y provincia con inspección presencial y firma digital FNMT. El estudio previo es gratuito y el presupuesto, cerrado."}</p>
+          <p>{"Con el origen identificado, valoro y cuantifico el perjuicio: coste real de reparación y daños asociados en mobiliario, acabados o pérdida de uso del inmueble. Con ese informe reclamas al vendedor por vicios ocultos, al promotor o constructor dentro de los plazos de la Ley de Ordenación de la Edificación, a tu seguro del hogar o a la comunidad de propietarios. Actúo como perito de parte cuando me contratas tú y como perito judicial por designación del juzgado, siempre con imparcialidad técnica. Cubro Almería capital y provincia con inspección presencial y firma digital FNMT. El presupuesto es cerrado."}</p>
         </div>
       </section>
 

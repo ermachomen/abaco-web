@@ -50,7 +50,7 @@ const serviceLd = {
 const faqs = [
   {
     "q": "¿Qué necesito para tramitar la licencia de apertura de un bar en Granada?",
-    "a": "El expediente parte de un proyecto de actividad redactado por técnico competente y se presenta en la sede electrónica del Ayuntamiento de Granada, como declaración responsable o como licencia según el caso. Al terminar las obras se aporta el certificado final. Empezamos con una visita al local y un estudio previo gratuito para decirte qué hace falta antes de que te comprometas con el alquiler o el traspaso."
+    "a": "El expediente parte de un proyecto de actividad redactado por técnico competente y se presenta en la sede electrónica del Ayuntamiento de Granada, como declaración responsable o como licencia según el caso. Al terminar las obras se aporta el certificado final. Empezamos con una visita al local y un estudio previo para decirte qué hace falta antes de que te comprometas con el alquiler o el traspaso."
   },
   {
     "q": "¿Hace falta licencia o basta con una declaración responsable para abrir un bar?",
@@ -70,7 +70,7 @@ const faqs = [
   },
   {
     "q": "¿Trabajáis en toda la provincia de Granada?",
-    "a": "Sí. Nos desplazamos para ver y medir el local y hacemos online el resto: firma con certificado digital FNMT, presentación en la sede electrónica y seguimiento del expediente. Atendemos la ciudad, el área metropolitana, Motril y Almuñécar. El estudio previo es gratuito y respondemos en menos de 24 h. Llámanos al 670 607 830."
+    "a": "Sí. Nos desplazamos para ver y medir el local y hacemos online el resto: firma con certificado digital FNMT, presentación en la sede electrónica y seguimiento del expediente. Atendemos la ciudad, el área metropolitana, Motril y Almuñécar. Respondemos en menos de 24 h. Llámanos al 670 607 830."
   }
 ];
 
@@ -144,7 +144,7 @@ export default function Page() {
         <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
           <p className="text-sm font-semibold uppercase tracking-wider text-sky-400">{"Granada · Desplazamiento y online"}</p>
           <h1 className="mt-4 text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">{"Licencia de apertura de bar en Granada: proyecto de actividad y tramitación"}</h1>
-          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Ingeniero técnico industrial colegiado desde 1983. Nos desplazamos a medir tu local en Granada y llevamos el resto online: proyecto de actividad, salida de humos, trámite en sede electrónica y certificado final. Estudio previo gratuito y presupuesto cerrado."}</p>
+          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Ingeniero técnico industrial colegiado desde 1983. Nos desplazamos a medir tu local en Granada y llevamos el resto online: proyecto de actividad, salida de humos, trámite en sede electrónica y certificado final. Estudio previo y presupuesto cerrado."}</p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a href="#contacto" className="rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-400">Solicitar presupuesto</a>
             <a href="tel:+34670607830" className="rounded-xl border border-slate-600 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800">Llamar 670 607 830</a>
@@ -155,7 +155,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"La licencia de apertura de bar en Granada empieza mucho antes de presentar ningún papel: empieza al elegir el local. Un bar de tapeo en el Centro, un restaurante en el Realejo o una cafetería junto a la zona universitaria de Pedro Antonio de Alarcón comparten trámite, pero no los mismos problemas. Cambian el edificio, los vecinos de las plantas superiores, la posibilidad de sacar humos y, a veces, la protección del entorno. Somos una oficina técnica de ingeniería con más de 40 años de trayectoria y redactamos el proyecto de actividad que acredita que tu local cumple, antes de que pagues un traspaso o firmes un alquiler."}</p>
-          <p>{"Nuestro trabajo en Granada es práctico. Nos desplazamos a ver y medir el local, comprobamos qué se puede hacer con la salida de humos, los accesos y las instalaciones existentes, y te decimos con franqueza si abrir un bar en Granada ahí es viable. Si lo es, el resto del expediente va online: firmamos con certificado digital FNMT, presentamos en la sede electrónica del Ayuntamiento de Granada y atendemos los requerimientos que lleguen. Atendemos la ciudad, el área metropolitana, Motril y Almuñécar. El estudio previo es gratuito, el presupuesto es cerrado antes de empezar y respondemos en menos de 24 h."}</p>
+          <p>{"Nuestro trabajo en Granada es práctico. Nos desplazamos a ver y medir el local, comprobamos qué se puede hacer con la salida de humos, los accesos y las instalaciones existentes, y te decimos con franqueza si abrir un bar en Granada ahí es viable. Si lo es, el resto del expediente va online: firmamos con certificado digital FNMT, presentamos en la sede electrónica del Ayuntamiento de Granada y atendemos los requerimientos que lleguen. Atendemos la ciudad, el área metropolitana, Motril y Almuñécar. El presupuesto es cerrado antes de empezar y respondemos en menos de 24 h."}</p>
         </div>
       </section>
 

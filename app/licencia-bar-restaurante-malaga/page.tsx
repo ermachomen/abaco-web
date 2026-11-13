@@ -50,7 +50,7 @@ const serviceLd = {
 const faqs = [
   {
     "q": "¿Qué licencia necesita un bar en Málaga?",
-    "a": "Un bar o una cafetería es una actividad de hostelería que se clasifica según el Catálogo andaluz (Decreto 155/2018) y se tramita ante el Ayuntamiento, en su sede electrónica, mediante declaración responsable o licencia. Cuál de las dos corresponde depende de la actividad y de cómo se vaya a explotar el local, y no lo afirmamos a ciegas: lo decidimos en el estudio previo gratuito, con el local visto. Nosotros preparamos el proyecto de actividad que lo justifica."
+    "a": "Un bar o una cafetería es una actividad de hostelería que se clasifica según el Catálogo andaluz (Decreto 155/2018) y se tramita ante el Ayuntamiento, en su sede electrónica, mediante declaración responsable o licencia. Cuál de las dos corresponde depende de la actividad y de cómo se vaya a explotar el local, y no lo afirmamos a ciegas: lo decidimos en el estudio previo, con el local visto. Nosotros preparamos el proyecto de actividad que lo justifica."
   },
   {
     "q": "¿Qué diferencia hay entre la licencia de un bar y la de un restaurante?",
@@ -70,7 +70,7 @@ const faqs = [
   },
   {
     "q": "¿Cuánto cuesta y cuánto tarda la licencia de un bar en Málaga?",
-    "a": "Ni el coste ni el plazo se pueden dar a ciegas: dependen del local, de si hay cocina o música, de las obras necesarias y del régimen que corresponda. Por eso hacemos un estudio previo gratuito y, tras ver el local, te damos presupuesto cerrado antes de empezar; respondemos en menos de 24 h. Los tiempos del Ayuntamiento no dependen de nosotros y no los prometemos. Sí cuidamos que el expediente vaya completo desde el primer día."
+    "a": "Ni el coste ni el plazo se pueden dar a ciegas: dependen del local, de si hay cocina o música, de las obras necesarias y del régimen que corresponda. Por eso hacemos un estudio previo y, tras ver el local, te damos presupuesto cerrado antes de empezar; respondemos en menos de 24 h. Los tiempos del Ayuntamiento no dependen de nosotros y no los prometemos. Sí cuidamos que el expediente vaya completo desde el primer día."
   }
 ];
 
@@ -144,7 +144,7 @@ export default function Page() {
         <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
           <p className="text-sm font-semibold uppercase tracking-wider text-sky-400">{"Hostelería Málaga · Visita y online"}</p>
           <h1 className="mt-4 text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">{"Licencia de apertura de bar en Málaga: proyecto de actividad y trámite"}</h1>
-          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Proyecto de actividad y tramitación para tu licencia de apertura de bar en Málaga. Nos desplazamos a medir el local y resolvemos el resto online, con estudio previo gratuito y presupuesto cerrado antes de empezar."}</p>
+          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Proyecto de actividad y tramitación para tu licencia de apertura de bar en Málaga. Nos desplazamos a medir el local y resolvemos el resto online, con estudio previo y presupuesto cerrado antes de empezar."}</p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a href="#contacto" className="rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-400">Solicitar presupuesto</a>
             <a href="tel:+34670607830" className="rounded-xl border border-slate-600 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800">Llamar 670 607 830</a>
@@ -155,7 +155,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"La licencia de apertura de bar en Málaga no empieza en el Ayuntamiento, sino en el local. Un bajo del Centro histórico, un local del Soho, una cafetería junto al paseo marítimo de Pedregalejo o El Palo: cada uno tiene su propia ventilación, su propia salida de humos posible y sus propios vecinos encima. Por eso el primer paso es ver el local y comprobar qué actividad admite, antes de firmar el alquiler o el traspaso. Lo hacemos con ingeniero técnico industrial colegiado desde 1983: medimos el local, redactamos el proyecto de actividad, lo firmamos digitalmente con certificado FNMT y lo presentamos en la sede electrónica del Ayuntamiento."}</p>
-          <p>{"En Málaga nos desplazamos a medir el local y atendemos online el resto: planos, memoria, certificados y presentación. Lo mismo vale para la Costa del Sol (Marbella, Fuengirola, Torremolinos, Benalmádena, Estepona, Mijas), la Axarquía, Antequera o Ronda, aunque cada municipio tiene su propio ayuntamiento y es ante él donde se presenta el trámite. Con más de 40 años de trayectoria, preferimos decirte con franqueza si un local es viable: el estudio previo es gratuito, el presupuesto es cerrado antes de empezar y respondemos en menos de 24 h. Si el local no sale por humos, ventilación o ruido, mejor saberlo antes de firmar que después."}</p>
+          <p>{"En Málaga nos desplazamos a medir el local y atendemos online el resto: planos, memoria, certificados y presentación. Lo mismo vale para la Costa del Sol (Marbella, Fuengirola, Torremolinos, Benalmádena, Estepona, Mijas), la Axarquía, Antequera o Ronda, aunque cada municipio tiene su propio ayuntamiento y es ante él donde se presenta el trámite. Con más de 40 años de trayectoria, preferimos decirte con franqueza si un local es viable: el presupuesto es cerrado antes de empezar y respondemos en menos de 24 h. Si el local no sale por humos, ventilación o ruido, mejor saberlo antes de firmar que después."}</p>
         </div>
       </section>
 

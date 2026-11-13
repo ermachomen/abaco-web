@@ -115,7 +115,7 @@ const faqLd = {
       name: "¿Cuánto cuesta una peritación judicial en Almería?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Valoramos cada caso en una consulta previa sin coste. El presupuesto depende del alcance del dictamen, las mediciones necesarias y la eventual ratificación en sala. Emitimos factura con IVA.",
+        text: "Valoramos cada caso en una consulta previa. El presupuesto depende del alcance del dictamen, las mediciones necesarias y la eventual ratificación en sala. Emitimos factura con IVA.",
       },
     },
   ],

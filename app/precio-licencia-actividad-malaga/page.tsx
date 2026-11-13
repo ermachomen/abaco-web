@@ -67,7 +67,7 @@ const faqs = [
   },
   {
     "q": "¿Dais presupuesto cerrado?",
-    "a": "Sí. Tras el estudio previo, que es gratuito, emitimos presupuesto cerrado por escrito. Si el local no es viable para la actividad que quieres, te lo decimos antes de cobrar nada."
+    "a": "Sí. Tras el estudio previo, emitimos presupuesto cerrado por escrito. Si el local no es viable para la actividad que quieres, te lo decimos antes de cobrar nada."
   }
 ];
 
@@ -120,7 +120,7 @@ export default function PrecioLicenciaActividadMalaga() {
         <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
           <p className="text-sm font-semibold uppercase tracking-wider text-sky-400">{"Precios 2026 · Málaga"}</p>
           <h1 className="mt-4 text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">{"Cuánto cuesta una licencia de actividad en Málaga"}</h1>
-          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Honorarios orientativos del proyecto técnico por tipo de local, partidas que componen el coste total y presupuesto cerrado tras un estudio previo gratuito. Nos desplazamos a Málaga y Marbella, Fuengirola, Torremolinos, Benalmádena, Estepona, Vélez-Málaga y el resto de la provincia."}</p>
+          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Honorarios orientativos del proyecto técnico por tipo de local, partidas que componen el coste total y presupuesto cerrado tras un estudio previo. Nos desplazamos a Málaga y Marbella, Fuengirola, Torremolinos, Benalmádena, Estepona, Vélez-Málaga y el resto de la provincia."}</p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a href="#contacto" className="rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-400">Pedir presupuesto exacto</a>
             <a href="tel:+34670607830" className="rounded-xl border border-slate-600 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800">Llamar 670 607 830</a>

@@ -11,7 +11,7 @@ export default function AperturaMunicipio({ municipio }: { municipio: string }) 
       </p>
       <ol className="mt-6 space-y-4 text-slate-700 leading-relaxed">
         <li>
-          <strong>1. Visita al local.</strong> Nos desplazamos sin coste para
+          <strong>1. Visita al local.</strong> Nos desplazamos para
           comprobar la viabilidad y la compatibilidad urbanística de la actividad.
         </li>
         <li>

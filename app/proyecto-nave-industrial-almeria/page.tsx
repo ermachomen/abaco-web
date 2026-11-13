@@ -51,11 +51,11 @@ const serviceLd = {
 const faqs = [
   {
     "q": "¿Cuánto cuesta el proyecto de una nave industrial o agrícola en Almería?",
-    "a": "Depende sobre todo de la superficie, del uso y de las instalaciones. De forma orientativa, el proyecto de una nave suele moverse entre 6.000 y 25.000 EUR, importe que se calcula como un porcentaje del presupuesto de ejecución material (aproximadamente entre el 4% y el 8% si se suman proyecto y dirección de obra). Aparte quedan las tasas municipales, el ICIO y la propia construcción. Regularizar una nave ya construida suele salir más barato cuando basta un proyecto de legalización. En el estudio previo gratuito te damos un presupuesto cerrado."
+    "a": "Depende sobre todo de la superficie, del uso y de las instalaciones. De forma orientativa, el proyecto de una nave suele moverse entre 6.000 y 25.000 EUR, importe que se calcula como un porcentaje del presupuesto de ejecución material (aproximadamente entre el 4% y el 8% si se suman proyecto y dirección de obra). Aparte quedan las tasas municipales, el ICIO y la propia construcción. Regularizar una nave ya construida suele salir más barato cuando basta un proyecto de legalización. En el estudio previo te damos un presupuesto cerrado."
   },
   {
     "q": "¿Qué diferencia hay entre proyecto de nave nueva y regularización de una existente?",
-    "a": "En una nave nueva redactamos el proyecto completo de obra, calculamos la estructura, proyectamos las instalaciones y dirigimos la ejecución hasta el certificado final. En una nave ya construida sin legalizar, levantamos el estado real, comprobamos si es compatible con el planeamiento y redactamos un proyecto o informe de legalización que justifique estructura e instalaciones conforme a la normativa vigente para obtener la licencia de actividad y la puesta en servicio. Si la construcción no es legalizable te lo decimos antes de empezar, sin coste."
+    "a": "En una nave nueva redactamos el proyecto completo de obra, calculamos la estructura, proyectamos las instalaciones y dirigimos la ejecución hasta el certificado final. En una nave ya construida sin legalizar, levantamos el estado real, comprobamos si es compatible con el planeamiento y redactamos un proyecto o informe de legalización que justifique estructura e instalaciones conforme a la normativa vigente para obtener la licencia de actividad y la puesta en servicio. Si la construcción no es legalizable te lo decimos antes de empezar."
   },
   {
     "q": "¿Puedo construir una nave agrícola en suelo rústico o no urbanizable?",
@@ -71,7 +71,7 @@ const faqs = [
   },
   {
     "q": "¿Trabajáis en toda la provincia de Almería y de forma online?",
-    "a": "Sí. Somos una oficina técnica de ingeniería con ingeniero técnico industrial colegiado desde 1983. Firmamos con certificado digital FNMT, así que tramitamos el 100% online en toda España y nos desplazamos a medir e inspeccionar a Almería capital y a los municipios del Poniente y el Levante como El Ejido, Roquetas de Mar, Níjar, Vícar o Huércal-Overa, y también a Granada, Málaga y Murcia. Estudio previo gratuito y respuesta en menos de 24 horas."
+    "a": "Sí. Somos una oficina técnica de ingeniería con ingeniero técnico industrial colegiado desde 1983. Firmamos con certificado digital FNMT, así que tramitamos el 100% online en toda España y nos desplazamos a medir e inspeccionar a Almería capital y a los municipios del Poniente y el Levante como El Ejido, Roquetas de Mar, Níjar, Vícar o Huércal-Overa, y también a Granada, Málaga y Murcia. Estudio previo y respuesta en menos de 24 horas."
   }
 ];
 
@@ -105,7 +105,7 @@ const bloques = [
   },
   {
     "titulo": "Precio orientativo y presupuesto cerrado",
-    "cuerpo": "Con honestidad: el mercado sitúa el proyecto de una nave entre unos 6.000 y 25.000 EUR según la superficie, el uso y las instalaciones, cifra que suele calcularse como un porcentaje del presupuesto de ejecución material (del orden del 4% al 8% sumando proyecto y dirección de obra). A ello se añaden las tasas municipales y el ICIO. Una regularización de nave existente puede resultar bastante más económica cuando basta un informe o proyecto de legalización sin obra nueva. Tras un estudio previo gratuito te damos un presupuesto cerrado, sin variaciones posteriores, ajustado a tu nave y a tu actividad."
+    "cuerpo": "Con honestidad: el mercado sitúa el proyecto de una nave entre unos 6.000 y 25.000 EUR según la superficie, el uso y las instalaciones, cifra que suele calcularse como un porcentaje del presupuesto de ejecución material (del orden del 4% al 8% sumando proyecto y dirección de obra). A ello se añaden las tasas municipales y el ICIO. Una regularización de nave existente puede resultar bastante más económica cuando basta un informe o proyecto de legalización sin obra nueva. Tras un estudio previo te damos un presupuesto cerrado, sin variaciones posteriores, ajustado a tu nave y a tu actividad."
   }
 ];
 
@@ -141,7 +141,7 @@ export default function Page() {
         <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
           <p className="text-sm font-semibold uppercase tracking-wider text-sky-400">Almería · Oficina técnica · 100% online</p>
           <h1 className="mt-4 text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">Proyecto de nave industrial en Almería</h1>
-          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Redactamos el proyecto completo de tu nave en Almería: obra, estructura e instalaciones eléctrica, contra incendios y saneamiento, con licencia de obra y de actividad y su legalización ante Industria. Nave nueva o regularización de nave existente. Ingeniero técnico industrial colegiado desde 1983, presupuesto cerrado y estudio previo gratuito."}</p>
+          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Redactamos el proyecto completo de tu nave en Almería: obra, estructura e instalaciones eléctrica, contra incendios y saneamiento, con licencia de obra y de actividad y su legalización ante Industria. Nave nueva o regularización de nave existente. Ingeniero técnico industrial colegiado desde 1983, presupuesto cerrado."}</p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a href="#contacto" className="rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-400">Solicitar presupuesto</a>
             <a href="tel:+34670607830" className="rounded-xl border border-slate-600 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800">Llamar 670 607 830</a>
@@ -152,7 +152,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"Un proyecto de nave industrial o agrícola es el documento técnico que define la obra, la estructura y las instalaciones del edificio y que firma un ingeniero competente para poder construir, abrir y legalizar la nave. En Almería la demanda es marcadamente agroindustrial: almacenes de manipulado hortofrutícola, cámaras frigoríficas y de pre-frío, naves logísticas y de acopio en el Poniente (El Ejido, Roquetas de Mar, Níjar y Vícar) y en el Levante (Huércal-Overa). Cada nave necesita justificar el cálculo estructural, la instalación eléctrica, la protección contra incendios y el saneamiento, además de la licencia de obra y la de actividad antes de entrar en funcionamiento."}</p>
-          <p>{"En Abaco Ingeniería, marca abacoingeniería, lo resolvemos como oficina técnica de ingeniería, dirigida por un ingeniero técnico industrial colegiado desde 1983 y con más de cuarenta años de experiencia. Redactamos el proyecto completo, calculamos la estructura, coordinamos las instalaciones y tramitamos licencias, legalización y puesta en servicio ante la Junta de Andalucía. Firmamos con certificado digital FNMT, así que trabajamos el 100% online en toda España y nos desplazamos a Almería capital y provincia, y también a Granada, Málaga y Murcia. Estudio previo gratuito y presupuesto cerrado, sin sorpresas."}</p>
+          <p>{"En Abaco Ingeniería, marca abacoingeniería, lo resolvemos como oficina técnica de ingeniería, dirigida por un ingeniero técnico industrial colegiado desde 1983 y con más de cuarenta años de experiencia. Redactamos el proyecto completo, calculamos la estructura, coordinamos las instalaciones y tramitamos licencias, legalización y puesta en servicio ante la Junta de Andalucía. Firmamos con certificado digital FNMT, así que trabajamos el 100% online en toda España y nos desplazamos a Almería capital y provincia, y también a Granada, Málaga y Murcia. Estudio previo y presupuesto cerrado, sin sorpresas."}</p>
         </div>
       </section>
 

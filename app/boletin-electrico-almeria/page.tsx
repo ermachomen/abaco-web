@@ -9,7 +9,7 @@ const path = "/boletin-electrico-almeria";
 
 export const metadata: Metadata = {
   title: "Boletín eléctrico y CIE en Almería | Alta y ampliación de luz",
-  description: "Boletín eléctrico o CIE en Almería para dar de alta o ampliar tu suministro. Te decimos cuándo basta el boletín y cuándo necesitas proyecto. Estudio gratis.",
+  description: "Boletín eléctrico o CIE en Almería para dar de alta o ampliar tu suministro. Te decimos cuándo basta el boletín y cuándo necesitas proyecto. Presupuesto cerrado.",
   keywords: ["boletín eléctrico Almería","CIE Almería","certificado de instalación eléctrica Almería","boletín eléctrico para dar de alta la luz","ampliación de potencia Almería","boletín eléctrico vivienda","alta de suministro eléctrico Almería","memoria técnica de diseño eléctrica","proyecto eléctrico Almería","instalador autorizado boletín Andalucía"],
   alternates: { canonical: path, languages: { "es-ES": path } },
   openGraph: {
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.ingenierial.es/boletin-electrico-almeria",
     siteName: "Abaco Ingeniería",
     title: "Boletín eléctrico y CIE en Almería",
-    description: "Boletín eléctrico o CIE en Almería para dar de alta o ampliar tu suministro. Te decimos cuándo basta el boletín y cuándo necesitas proyecto. Estudio gratis.",
+    description: "Boletín eléctrico o CIE en Almería para dar de alta o ampliar tu suministro. Te decimos cuándo basta el boletín y cuándo necesitas proyecto. Presupuesto cerrado.",
     images: [{ url: "/images/og-abaco.jpg", width: 1200, height: 630, alt: "Boletín eléctrico y CIE en Almería – Abaco Ingeniería" }],
   },
   twitter: { card: "summary_large_image", title: "Boletín eléctrico y CIE en Almería", description: "Ingeniero técnico industrial colegiado en Almería.", images: ["/images/og-abaco.jpg"] },
@@ -45,7 +45,7 @@ const serviceLd = {
     { "@type": "Country", name: "España" },
   ],
   url: "https://www.ingenierial.es/boletin-electrico-almeria",
-  description: "Boletín eléctrico o CIE en Almería para dar de alta o ampliar tu suministro. Te decimos cuándo basta el boletín y cuándo necesitas proyecto. Estudio gratis.",
+  description: "Boletín eléctrico o CIE en Almería para dar de alta o ampliar tu suministro. Te decimos cuándo basta el boletín y cuándo necesitas proyecto. Presupuesto cerrado.",
 };
 
 const faqs = [
@@ -101,7 +101,7 @@ const bloques = [
   },
   {
     "titulo": "Precio orientativo del boletín en Almería",
-    "cuerpo": "Como referencia de mercado, un boletín simple para una vivienda ronda los 150 a 200 euros, a los que se suma la tasa de Industria. Verás anuncios desde 70 euros: suelen cubrir solo la firma, sin visita real ni comprobación, y a menudo dan problemas cuando la distribuidora revisa. Nosotros no jugamos a ese precio. Cuando el caso exige proyecto de ingeniero el presupuesto es distinto y siempre cerrado, sin sorpresas, con el estudio previo gratuito para que sepas de antemano qué necesitas."
+    "cuerpo": "Como referencia de mercado, un boletín simple para una vivienda ronda los 150 a 200 euros, a los que se suma la tasa de Industria. Verás anuncios desde 70 euros: suelen cubrir solo la firma, sin visita real ni comprobación, y a menudo dan problemas cuando la distribuidora revisa. Nosotros no jugamos a ese precio. Cuando el caso exige proyecto de ingeniero el presupuesto es distinto y siempre cerrado, sin sorpresas, con el estudio previo para que sepas de antemano qué necesitas."
   },
   {
     "titulo": "Casos que resolvemos como oficina de ingeniería",
@@ -143,7 +143,7 @@ export default function Page() {
         <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
           <p className="text-sm font-semibold uppercase tracking-wider text-sky-400">Almería · Oficina técnica · 100% online</p>
           <h1 className="mt-4 text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">Boletín eléctrico y CIE en Almería</h1>
-          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Certificado de Instalación Eléctrica (CIE) para el alta o la ampliación de potencia de tu vivienda, local o nave. Te orientamos sin coste y, si tu caso exige proyecto, lo firma un ingeniero técnico industrial colegiado desde 1983."}</p>
+          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Certificado de Instalación Eléctrica (CIE) para el alta o la ampliación de potencia de tu vivienda, local o nave. Te orientamos y, si tu caso exige proyecto, lo firma un ingeniero técnico industrial colegiado desde 1983."}</p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a href="#contacto" className="rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-400">Solicitar presupuesto</a>
             <a href="tel:+34670607830" className="rounded-xl border border-slate-600 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800">Llamar 670 607 830</a>
@@ -154,7 +154,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"El boletín eléctrico, cuyo nombre oficial es Certificado de Instalación Eléctrica de Baja Tensión (CIE), es el documento que acredita que una instalación cumple el Reglamento Electrotécnico de Baja Tensión (RD 842/2002) y que permite a la distribuidora dar de alta o ampliar el suministro. Lo emite y firma una empresa instaladora autorizada, no un ingeniero, y en Andalucía se registra de forma telemática en Industria de la Junta mediante los aplicativos TECI o PUES. Es obligatorio para altas de suministro nuevas, ampliaciones de potencia contratada, cambios de titularidad, instalaciones con más de veinte años o tras un corte por impago. Su vigencia legal es de veinte años."}</p>
-          <p>{"En Abaco Ingeniería (abacoingeniería) somos una oficina técnica de ingeniería: un ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años de experiencia. No competimos por el boletín más barato; te orientamos con claridad sobre si tu caso se resuelve con boletín del instalador o exige proyecto de ingeniero, y en ese segundo supuesto lo redactamos y visamos. Trabajamos en toda España de forma online con firma digital FNMT y nos desplazamos a Almería capital y provincia. Presupuesto cerrado y estudio previo gratuito."}</p>
+          <p>{"En Abaco Ingeniería (abacoingeniería) somos una oficina técnica de ingeniería: un ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años de experiencia. No competimos por el boletín más barato; te orientamos con claridad sobre si tu caso se resuelve con boletín del instalador o exige proyecto de ingeniero, y en ese segundo supuesto lo redactamos y visamos. Trabajamos en toda España de forma online con firma digital FNMT y nos desplazamos a Almería capital y provincia. Presupuesto cerrado."}</p>
         </div>
       </section>
 

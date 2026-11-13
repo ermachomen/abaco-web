@@ -63,7 +63,7 @@ const faqs = [
   },
   {
     "q": "¿Cuánto tarda y cuánto cuesta legalizar el autoconsumo?",
-    "a": "El plazo depende de la carga de la Delegación de Industria y de si hay que solicitar punto de conexión, pero una instalación doméstica o de pequeño comercio suele cerrarse en pocas semanas una vez tenemos la documentación del instalador. El coste varía con la potencia y con que sea memoria o proyecto; te damos un presupuesto cerrado tras el estudio previo gratuito, sin añadidos posteriores."
+    "a": "El plazo depende de la carga de la Delegación de Industria y de si hay que solicitar punto de conexión, pero una instalación doméstica o de pequeño comercio suele cerrarse en pocas semanas una vez tenemos la documentación del instalador. El coste varía con la potencia y con que sea memoria o proyecto; te damos un presupuesto cerrado tras el estudio previo, sin añadidos posteriores."
   },
   {
     "q": "¿Hay que legalizar aunque sea autoconsumo sin excedentes?",
@@ -154,7 +154,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"La legalización de placas solares es el trámite que convierte una instalación fotovoltaica de autoconsumo ya ejecutada en una instalación legal, inscrita ante Industria y apta para conectarse a la red o compensar excedentes. El RD 244/2019 obliga a documentar y poner en servicio toda instalación de autoconsumo, tenga o no vertido a la red, antes de su funcionamiento. En Abaco Ingeniería nos ocupamos solo de esa parte: la ingeniería y la tramitación. Es el servicio que necesita quien montó las placas por su cuenta, cambió de instalador, compró una nave o vivienda con fotovoltaica sin registrar, o tiene un autoconsumo industrial pendiente de cerrar el expediente en Almería."}</p>
-          <p>{"Trabajamos como oficina técnica dirigida por un ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años de experiencia. Firmamos con certificado digital FNMT, así que tramitamos el 100% online en toda España y nos desplazamos a tu cubierta, nave o parcela en Almería capital y provincia cuando hace falta revisar la instalación. Primero comprobamos qué documentación falta y si basta memoria o hace falta proyecto, y te damos un presupuesto cerrado tras un estudio previo gratuito, sin sorpresas."}</p>
+          <p>{"Trabajamos como oficina técnica dirigida por un ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años de experiencia. Firmamos con certificado digital FNMT, así que tramitamos el 100% online en toda España y nos desplazamos a tu cubierta, nave o parcela en Almería capital y provincia cuando hace falta revisar la instalación. Primero comprobamos qué documentación falta y si basta memoria o hace falta proyecto, y te damos un presupuesto cerrado tras un estudio previo, sin sorpresas."}</p>
         </div>
       </section>
 

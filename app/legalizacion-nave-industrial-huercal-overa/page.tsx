@@ -9,7 +9,7 @@ const path = "/legalizacion-nave-industrial-huercal-overa";
 
 export const metadata: Metadata = {
   title: "Legalizar nave industrial en Huércal-Overa y el Levante",
-  description: "Legalización de naves en Huércal-Overa, Antas, Cuevas del Almanzora y Pulpí: licencia de actividad, instalaciones y urbanismo. Estudio previo gratuito.",
+  description: "Legalización de naves en Huércal-Overa, Antas, Cuevas del Almanzora y Pulpí: licencia de actividad, instalaciones y urbanismo. Presupuesto cerrado.",
   keywords: ["legalizar nave en Huércal-Overa","legalización de nave industrial Huércal-Overa","Polígono Industrial de Huércal-Overa","licencia de actividad nave Huércal-Overa","legalizar nave Levante Almeriense","ingeniero nave industrial Huércal-Overa","legalizar nave Antas Cuevas del Almanzora Pulpí","regularizar nave sin licencia Levante","proyecto contra incendios nave Huércal-Overa"],
   alternates: { canonical: path, languages: { "es-ES": path } },
   openGraph: {
@@ -18,10 +18,10 @@ export const metadata: Metadata = {
     url: "https://www.ingenierial.es/legalizacion-nave-industrial-huercal-overa",
     siteName: "Abaco Ingeniería",
     title: "Legalizar nave industrial en Huércal-Overa",
-    description: "Legalización de naves en Huércal-Overa, Antas, Cuevas del Almanzora y Pulpí: licencia de actividad, instalaciones y urbanismo. Estudio previo gratuito.",
+    description: "Legalización de naves en Huércal-Overa, Antas, Cuevas del Almanzora y Pulpí: licencia de actividad, instalaciones y urbanismo. Presupuesto cerrado.",
     images: [{ url: "/images/og-abaco.jpg", width: 1200, height: 630, alt: "Legalización de naves e instalaciones en Huércal-Overa – Abaco Ingeniería" }],
   },
-  twitter: { card: "summary_large_image", title: "Legalizar nave industrial en Huércal-Overa", description: "Legalización de naves en Huércal-Overa, Antas, Cuevas del Almanzora y Pulpí: licencia de actividad, instalaciones y urbanismo. Estudio previo gratuito.", images: ["/images/og-abaco.jpg"] },
+  twitter: { card: "summary_large_image", title: "Legalizar nave industrial en Huércal-Overa", description: "Legalización de naves en Huércal-Overa, Antas, Cuevas del Almanzora y Pulpí: licencia de actividad, instalaciones y urbanismo. Presupuesto cerrado.", images: ["/images/og-abaco.jpg"] },
 };
 
 const serviceLd = {
@@ -44,13 +44,13 @@ const serviceLd = {
     { "@type": "AdministrativeArea", name: "Provincia de Almería" },
   ],
   url: "https://www.ingenierial.es/legalizacion-nave-industrial-huercal-overa",
-  description: "Legalización de naves en Huércal-Overa, Antas, Cuevas del Almanzora y Pulpí: licencia de actividad, instalaciones y urbanismo. Estudio previo gratuito.",
+  description: "Legalización de naves en Huércal-Overa, Antas, Cuevas del Almanzora y Pulpí: licencia de actividad, instalaciones y urbanismo. Presupuesto cerrado.",
 };
 
 const faqs = [
   {
     "q": "¿Cuánto se tarda en legalizar una nave en el Polígono Industrial de Huércal-Overa?",
-    "a": "No damos plazos sin ver la nave. Dependen de si ya existe licencia o hay que tramitarla, de cuántas instalaciones deben documentarse, de si hay que corregir algo en la obra y del ritmo de respuesta del Ayuntamiento y de la Delegación de Industria. Con el estudio previo gratuito te explicamos qué trámites pueden avanzar a la vez y cuáles esperan a otros, para que organices tu negocio con realismo."
+    "a": "No damos plazos sin ver la nave. Dependen de si ya existe licencia o hay que tramitarla, de cuántas instalaciones deben documentarse, de si hay que corregir algo en la obra y del ritmo de respuesta del Ayuntamiento y de la Delegación de Industria. Con el estudio previo te explicamos qué trámites pueden avanzar a la vez y cuáles esperan a otros, para que organices tu negocio con realismo."
   },
   {
     "q": "¿Os desplazáis a Antas, Cuevas del Almanzora o Pulpí?",
@@ -109,7 +109,7 @@ const bloques = [
   },
   {
     "titulo": "Cómo trabajamos en el Levante",
-    "cuerpo": "La visita es presencial y sirve para tomar datos y diagnosticar; en el Levante nos desplazamos a la nave, esté en un polígono o aislada. Con esos datos preparamos un estudio previo gratuito y un presupuesto cerrado, para que sepas qué vas a pagar antes de empezar. Después redactamos y firmamos el proyecto, las memorias técnicas y los certificados que haga falta, y los presentamos ante el Ayuntamiento y la Delegación de Industria de la Junta. Todo el trámite posterior es online, con firma digital FNMT. Contestamos en 24 horas y te explicamos cada paso con claridad, sin prometer resultados que dependen de la administración."
+    "cuerpo": "La visita es presencial y sirve para tomar datos y diagnosticar; en el Levante nos desplazamos a la nave, esté en un polígono o aislada. Con esos datos preparamos un estudio previo y un presupuesto cerrado, para que sepas qué vas a pagar antes de empezar. Después redactamos y firmamos el proyecto, las memorias técnicas y los certificados que haga falta, y los presentamos ante el Ayuntamiento y la Delegación de Industria de la Junta. Todo el trámite posterior es online, con firma digital FNMT. Contestamos en 24 horas y te explicamos cada paso con claridad, sin prometer resultados que dependen de la administración."
   }
 ];
 
@@ -148,7 +148,7 @@ export default function Page() {
         <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
           <p className="text-sm font-semibold uppercase tracking-wider text-sky-400">{"Naves en Huércal-Overa y Levante"}</p>
           <h1 className="mt-4 text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">{"Legalización de naves e instalaciones en Huércal-Overa"}</h1>
-          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Legalizamos naves y almacenes en Huércal-Overa, en su polígono industrial y en el resto del Levante Almeriense: licencia de actividad, instalaciones ante Industria y situación urbanística. Estudio previo gratuito."}</p>
+          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Legalizamos naves y almacenes en Huércal-Overa, en su polígono industrial y en el resto del Levante Almeriense: licencia de actividad, instalaciones ante Industria y situación urbanística. Presupuesto cerrado."}</p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a href="#contacto" className="rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-400">Solicitar presupuesto</a>
             <a href="tel:+34670607830" className="rounded-xl border border-slate-600 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800">Llamar 670 607 830</a>
@@ -159,7 +159,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"Huércal-Overa, con unos 20.860 habitantes, es uno de los núcleos del Levante Almeriense y punto de paso entre varios municipios de la comarca. Sus naves y almacenes atienden actividades muy variadas, desde talleres y almacenaje hasta pequeña industria y servicios al campo, y es frecuente que hayan crecido por fases, con ampliaciones y cambios de uso que nunca llegaron al expediente. Cuando llega una compraventa, un alquiler, una financiación o un requerimiento, esa diferencia entre lo construido y lo documentado aparece de golpe. Nos desplazamos a tu nave, revisamos qué hay y te decimos qué falta antes de que gastes en proyectos."}</p>
-          <p>{"Trabajamos en el Polígono Industrial de Huércal-Overa y en el resto del Levante: en Antas, el Polígono Industrial El Real y el Polígono Industrial El Aljoroque; en Cuevas del Almanzora, el Polígono Industrial Valle de Almanzora; y en Pulpí, el Polígono Industrial La Fuente. Un ingeniero técnico industrial colegiado desde 1983 firma los proyectos, memorias técnicas y certificados, y tramitamos ante el Ayuntamiento y ante la Delegación de Industria de la Junta. Tras la visita, todo se hace online con firma digital FNMT. Estudio previo gratuito, presupuesto cerrado y respuesta en 24 horas."}</p>
+          <p>{"Trabajamos en el Polígono Industrial de Huércal-Overa y en el resto del Levante: en Antas, el Polígono Industrial El Real y el Polígono Industrial El Aljoroque; en Cuevas del Almanzora, el Polígono Industrial Valle de Almanzora; y en Pulpí, el Polígono Industrial La Fuente. Un ingeniero técnico industrial colegiado desde 1983 firma los proyectos, memorias técnicas y certificados, y tramitamos ante el Ayuntamiento y ante la Delegación de Industria de la Junta. Tras la visita, todo se hace online con firma digital FNMT. Estudio previo, presupuesto cerrado y respuesta en 24 horas."}</p>
         </div>
       </section>
 

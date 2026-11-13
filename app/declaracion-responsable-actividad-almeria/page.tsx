@@ -63,7 +63,7 @@ const faqs = [
   },
   {
     "q": "¿Cómo sé si mi actividad es inocua o calificada?",
-    "a": "Depende de su incidencia ambiental: ruido, emisiones, vertidos, residuos o riesgo. Las inocuas van por declaración responsable; las calificadas, por licencia ambiental municipal según la Ley 2/2026 de Andalucía. Determinarlo requiere análisis técnico, y es lo primero que hacemos en el estudio previo gratuito."
+    "a": "Depende de su incidencia ambiental: ruido, emisiones, vertidos, residuos o riesgo. Las inocuas van por declaración responsable; las calificadas, por licencia ambiental municipal según la Ley 2/2026 de Andalucía. Determinarlo requiere análisis técnico, y es lo primero que hacemos en el estudio previo."
   },
   {
     "q": "¿Qué pasa si el ayuntamiento inspecciona y algo no cumple?",
@@ -105,7 +105,7 @@ const bloques = [
   },
   {
     "titulo": "Cómo lo tramitamos, del estudio previo a la apertura",
-    "cuerpo": "Empezamos con un estudio previo gratuito: revisamos la actividad, el local y su situación urbanística para confirmar si procede declaración responsable, comunicación previa o licencia ambiental. Después redactamos el proyecto o la memoria, reunimos los certificados y presentamos la declaración ante el Ayuntamiento de Almería o el municipio que corresponda, con firma digital FNMT. Te entregamos copia sellada para que puedas abrir y, si el ayuntamiento requiere algo, respondemos nosotros. Presupuesto cerrado, sin sorpresas, y acompañamiento hasta que tu negocio queda en regla."
+    "cuerpo": "Empezamos con un estudio previo: revisamos la actividad, el local y su situación urbanística para confirmar si procede declaración responsable, comunicación previa o licencia ambiental. Después redactamos el proyecto o la memoria, reunimos los certificados y presentamos la declaración ante el Ayuntamiento de Almería o el municipio que corresponda, con firma digital FNMT. Te entregamos copia sellada para que puedas abrir y, si el ayuntamiento requiere algo, respondemos nosotros. Presupuesto cerrado, sin sorpresas, y acompañamiento hasta que tu negocio queda en regla."
   }
 ];
 
@@ -152,7 +152,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"Abrir tu negocio en Almería mediante declaración responsable de actividad significa poder empezar a operar el mismo día que presentas la documentación, sin esperar a que el ayuntamiento resuelva. Es el gran cambio del modelo actual: en las actividades inocuas y de baja incidencia, el control previo se sustituye por una comprobación posterior. Ahora bien, inmediato no quiere decir sin requisitos. Sigues necesitando un proyecto o una memoria técnica firmada por técnico competente, y eres tú, como titular, quien declara y asume que el local cumple. En Abaco Ingeniería redactamos esa documentación y tramitamos la declaración con firma digital, para que abras rápido y con respaldo técnico real."}</p>
-          <p>{"Muchos empresarios buscan la declaración responsable pensando que les evita el proyecto técnico, y no es así. Esa es la parte que más problemas genera cuando llega la inspección municipal. Como ingeniero técnico industrial colegiado desde 1983, valoro primero si tu actividad es realmente inocua o si necesita licencia ambiental municipal, redacto la documentación que corresponde y te explico qué firmas y de qué respondes. Trabajamos en Almería capital y provincia, de forma presencial o 100% online con firma digital FNMT, con estudio previo gratuito y presupuesto cerrado."}</p>
+          <p>{"Muchos empresarios buscan la declaración responsable pensando que les evita el proyecto técnico, y no es así. Esa es la parte que más problemas genera cuando llega la inspección municipal. Como ingeniero técnico industrial colegiado desde 1983, valoro primero si tu actividad es realmente inocua o si necesita licencia ambiental municipal, redacto la documentación que corresponde y te explico qué firmas y de qué respondes. Trabajamos en Almería capital y provincia, de forma presencial o 100% online con firma digital FNMT, con estudio previo y presupuesto cerrado."}</p>
         </div>
       </section>
 

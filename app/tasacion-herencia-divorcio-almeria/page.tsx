@@ -71,7 +71,7 @@ const faqs = [
   },
   {
     "q": "¿Cuánto tarda y cuánto cuesta el informe?",
-    "a": "Tras un estudio previo gratuito damos un presupuesto cerrado; orientativamente desde unos 250 euros una vivienda, 350 un local y 450 una nave. El plazo se ajusta a tu cita en notaría o a la fecha del juzgado, normalmente pocos días laborables una vez recibida la documentación."
+    "a": "Tras un estudio previo damos un presupuesto cerrado; orientativamente desde unos 250 euros una vivienda, 350 un local y 450 una nave. El plazo se ajusta a tu cita en notaría o a la fecha del juzgado, normalmente pocos días laborables una vez recibida la documentación."
   }
 ];
 
@@ -105,7 +105,7 @@ const bloques = [
   },
   {
     "titulo": "Cómo trabajamos y precios en Almería",
-    "cuerpo": "El proceso es sencillo: cuéntanos en qué punto está el asunto (cita en notaría, convenio en redacción o demanda presentada), envíanos la referencia catastral y la escritura o nota simple, y recibirás un presupuesto cerrado tras un estudio previo gratuito, sin sorpresas. Los honorarios orientativos parten de unos 250 euros para una vivienda, 350 para locales y 450 para naves, según superficie y complejidad. Ajustamos el plazo de entrega a la fecha del notario o del juzgado. Y si Hacienda ya te ha girado una comprobación de valores, valoramos también para preparar la defensa por vía de tasación pericial contradictoria."
+    "cuerpo": "El proceso es sencillo: cuéntanos en qué punto está el asunto (cita en notaría, convenio en redacción o demanda presentada), envíanos la referencia catastral y la escritura o nota simple, y recibirás un presupuesto cerrado tras un estudio previo, sin sorpresas. Los honorarios orientativos parten de unos 250 euros para una vivienda, 350 para locales y 450 para naves, según superficie y complejidad. Ajustamos el plazo de entrega a la fecha del notario o del juzgado. Y si Hacienda ya te ha girado una comprobación de valores, valoramos también para preparar la defensa por vía de tasación pericial contradictoria."
   }
 ];
 
@@ -141,7 +141,7 @@ export default function Page() {
         <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
           <p className="text-sm font-semibold uppercase tracking-wider text-sky-400">Almería · Oficina técnica · 100% online</p>
           <h1 className="mt-4 text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">Tasación para herencia, divorcio y extinción de condominio en Almería</h1>
-          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Valoramos vivienda, fincas, locales y bienes en proceso de herencia, separación de gananciales o disolución de proindiviso. Firma de ingeniero colegiado, presupuesto cerrado y estudio previo gratuito."}</p>
+          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Valoramos vivienda, fincas, locales y bienes en proceso de herencia, separación de gananciales o disolución de proindiviso. Firma de ingeniero colegiado, presupuesto cerrado."}</p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a href="#contacto" className="rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-400">Solicitar presupuesto</a>
             <a href="tel:+34670607830" className="rounded-xl border border-slate-600 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800">Llamar 670 607 830</a>

@@ -9,7 +9,7 @@ const path = "/legalizacion-nave-industrial-nijar";
 
 export const metadata: Metadata = {
   title: "Legalizar nave industrial en Níjar · Campohermoso y San Isidro",
-  description: "Legalizamos naves y almacenes en Campohermoso, Santa Olaya, La Granatilla y San Isidro, en Níjar: actividad, incendios y electricidad. Estudio previo gratuito.",
+  description: "Legalizamos naves y almacenes en Campohermoso, Santa Olaya, La Granatilla y San Isidro, en Níjar: actividad, incendios y electricidad. Presupuesto cerrado.",
   keywords: ["legalizar nave industrial Níjar","legalización de naves Níjar","licencia de actividad nave Níjar","polígono industrial Campohermoso","polígono industrial Santa Olaya","polígono de la Granatilla","sector industrial Los Grillos San Isidro","legalizar almacén Campohermoso","legalizar nave San Isidro Níjar","ingeniero industrial Níjar"],
   alternates: { canonical: path, languages: { "es-ES": path } },
   openGraph: {
@@ -18,10 +18,10 @@ export const metadata: Metadata = {
     url: "https://www.ingenierial.es/legalizacion-nave-industrial-nijar",
     siteName: "Abaco Ingeniería",
     title: "Legalizar nave industrial en Níjar",
-    description: "Legalizamos naves y almacenes en Campohermoso, Santa Olaya, La Granatilla y San Isidro, en Níjar: actividad, incendios y electricidad. Estudio previo gratuito.",
+    description: "Legalizamos naves y almacenes en Campohermoso, Santa Olaya, La Granatilla y San Isidro, en Níjar: actividad, incendios y electricidad. Presupuesto cerrado.",
     images: [{ url: "/images/og-abaco.jpg", width: 1200, height: 630, alt: "Legalización de naves e instalaciones en Níjar – Abaco Ingeniería" }],
   },
-  twitter: { card: "summary_large_image", title: "Legalizar nave industrial en Níjar", description: "Legalizamos naves y almacenes en Campohermoso, Santa Olaya, La Granatilla y San Isidro, en Níjar: actividad, incendios y electricidad. Estudio previo gratuito.", images: ["/images/og-abaco.jpg"] },
+  twitter: { card: "summary_large_image", title: "Legalizar nave industrial en Níjar", description: "Legalizamos naves y almacenes en Campohermoso, Santa Olaya, La Granatilla y San Isidro, en Níjar: actividad, incendios y electricidad. Presupuesto cerrado.", images: ["/images/og-abaco.jpg"] },
 };
 
 const serviceLd = {
@@ -44,13 +44,13 @@ const serviceLd = {
     { "@type": "AdministrativeArea", name: "Provincia de Almería" },
   ],
   url: "https://www.ingenierial.es/legalizacion-nave-industrial-nijar",
-  description: "Legalizamos naves y almacenes en Campohermoso, Santa Olaya, La Granatilla y San Isidro, en Níjar: actividad, incendios y electricidad. Estudio previo gratuito.",
+  description: "Legalizamos naves y almacenes en Campohermoso, Santa Olaya, La Granatilla y San Isidro, en Níjar: actividad, incendios y electricidad. Presupuesto cerrado.",
 };
 
 const faqs = [
   {
     "q": "¿Cuánto se tarda en legalizar una nave en el polígono de Campohermoso?",
-    "a": "No damos un plazo sin ver la nave. Depende de si falta la licencia de actividad, de si hay que registrar instalaciones o de si hay que aclarar la situación urbanística, y de lo que tarden en resolver el Ayuntamiento y la Junta. Tras la visita y el estudio previo gratuito te decimos qué pasos habría, cuáles dependen de nosotros y cuáles no, y en qué orden convendría darlos."
+    "a": "No damos un plazo sin ver la nave. Depende de si falta la licencia de actividad, de si hay que registrar instalaciones o de si hay que aclarar la situación urbanística, y de lo que tarden en resolver el Ayuntamiento y la Junta. Tras la visita y el estudio previo te decimos qué pasos habría, cuáles dependen de nosotros y cuáles no, y en qué orden convendría darlos."
   },
   {
     "q": "¿Podéis venir a una nave de San Isidro o de Los Grillos?",
@@ -62,7 +62,7 @@ const faqs = [
   },
   {
     "q": "¿Qué hago si mi nave del Polígono Santa Olaya no tiene los papeles?",
-    "a": "Reúne lo que tengas, aunque sea poco: escritura, recibos, boletines o fotos. Después visitamos la nave y reconstruimos el expediente: qué se construyó, qué actividad se hace y qué instalaciones hay. Con eso se ve qué documentos faltan y por dónde empezar. Antes de gastar en proyectos, el estudio previo gratuito te da una idea clara de las vías posibles."
+    "a": "Reúne lo que tengas, aunque sea poco: escritura, recibos, boletines o fotos. Después visitamos la nave y reconstruimos el expediente: qué se construyó, qué actividad se hace y qué instalaciones hay. Con eso se ve qué documentos faltan y por dónde empezar. Antes de gastar en proyectos, el estudio previo te da una idea clara de las vías posibles."
   },
   {
     "q": "¿Qué pasa si recibo un requerimiento de la administración sobre mi nave?",
@@ -109,7 +109,7 @@ const bloques = [
   },
   {
     "titulo": "De la visita a la tramitación",
-    "cuerpo": "La visita a la nave es el punto de partida: tomamos datos, medimos y valoramos las instalaciones. Con ella redactamos el diagnóstico y el estudio previo gratuito, donde vas a ver qué falta y en qué orden resolverlo. Después te damos un presupuesto cerrado. Si lo aceptas, elaboramos y firmamos los proyectos, memorias y certificados con firma digital FNMT y los presentamos ante el Ayuntamiento y la Delegación de Industria de la Junta. Todo ello online, de modo que no hacen falta más desplazamientos. Te informamos en cada fase, respondemos en 24 h y te decimos con claridad qué depende de nosotros y qué de la administración."
+    "cuerpo": "La visita a la nave es el punto de partida: tomamos datos, medimos y valoramos las instalaciones. Con ella redactamos el diagnóstico y el estudio previo, donde vas a ver qué falta y en qué orden resolverlo. Después te damos un presupuesto cerrado. Si lo aceptas, elaboramos y firmamos los proyectos, memorias y certificados con firma digital FNMT y los presentamos ante el Ayuntamiento y la Delegación de Industria de la Junta. Todo ello online, de modo que no hacen falta más desplazamientos. Te informamos en cada fase, respondemos en 24 h y te decimos con claridad qué depende de nosotros y qué de la administración."
   }
 ];
 
@@ -159,7 +159,7 @@ export default function Page() {
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
           <p>{"El término de Níjar es extenso y su actividad industrial está repartida. Hay naves en los núcleos agrícolas de Campohermoso y San Isidro, vinculadas en buena medida a la producción hortícola de la zona, y otras en polígonos de uso más variado. Esa dispersión complica algo que en otros sitios se resuelve con una llamada: encontrar a un técnico que se desplace de verdad a la nave. Nosotros vamos. Visitamos la nave, medimos, vemos qué actividad se hace y qué instalaciones hay, y con eso te decimos si lo que tienes está en orden, si falta algo y por dónde conviene empezar, sin presupuestos a ciegas."}</p>
-          <p>{"Somos un ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años de experiencia. Redactamos y firmamos proyectos, memorias técnicas y certificados de baja tensión, alta tensión y centros de transformación, protección contra incendios, climatización y ventilación, autoconsumo solar y licencia de actividad, y los tramitamos ante el Ayuntamiento y la Delegación de Industria de la Junta. Tras la visita, el expediente se gestiona online con firma digital FNMT, lo que evita desplazamientos innecesarios en un término tan grande como el de Níjar, y te permite seguir cada paso sin perder jornadas de trabajo. Estudio previo gratuito, presupuesto cerrado y respuesta en 24 h."}</p>
+          <p>{"Somos un ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años de experiencia. Redactamos y firmamos proyectos, memorias técnicas y certificados de baja tensión, alta tensión y centros de transformación, protección contra incendios, climatización y ventilación, autoconsumo solar y licencia de actividad, y los tramitamos ante el Ayuntamiento y la Delegación de Industria de la Junta. Tras la visita, el expediente se gestiona online con firma digital FNMT, lo que evita desplazamientos innecesarios en un término tan grande como el de Níjar, y te permite seguir cada paso sin perder jornadas de trabajo. Estudio previo, presupuesto cerrado y respuesta en 24 h."}</p>
         </div>
       </section>
 

@@ -50,7 +50,7 @@ const serviceLd = {
 const faqs = [
   {
     "q": "¿Cuánto tarda una tasación en El Ejido?",
-    "a": "Depende del tipo de bien y de la documentación disponible. Respondemos en menos de 24 horas con el estudio previo gratuito y, una vez aceptado el presupuesto cerrado, coordinamos la visita contigo. Un invernadero o una finca con varias construcciones requiere más medición que una vivienda. Al empezar te indicamos el plazo estimado para tu caso concreto, sin comprometer fechas que dependan de terceros."
+    "a": "Depende del tipo de bien y de la documentación disponible. Respondemos en menos de 24 horas con el estudio previo y, una vez aceptado el presupuesto cerrado, coordinamos la visita contigo. Un invernadero o una finca con varias construcciones requiere más medición que una vivienda. Al empezar te indicamos el plazo estimado para tu caso concreto, sin comprometer fechas que dependan de terceros."
   },
   {
     "q": "¿Cómo se hace la tasación de un invernadero en El Ejido?",
@@ -62,7 +62,7 @@ const faqs = [
   },
   {
     "q": "¿Qué documentación necesito para valorar una finca en El Ejido?",
-    "a": "Ayuda tener la referencia catastral, la escritura o la nota simple y, si existen, datos del pozo, la balsa o el contrato de arrendamiento. No hace falta aportarlo todo desde el principio: con lo que tengas hacemos el estudio previo gratuito y te decimos qué falta antes de cerrar el presupuesto. La inspección presencial completa lo que no conste en papeles."
+    "a": "Ayuda tener la referencia catastral, la escritura o la nota simple y, si existen, datos del pozo, la balsa o el contrato de arrendamiento. No hace falta aportarlo todo desde el principio: con lo que tengas hacemos el estudio previo y te decimos qué falta antes de cerrar el presupuesto. La inspección presencial completa lo que no conste en papeles."
   },
   {
     "q": "¿Qué hago si Hacienda ha comprobado el valor de mi inmueble?",
@@ -109,7 +109,7 @@ const bloques = [
   },
   {
     "titulo": "Cómo trabajamos y qué incluye el informe",
-    "cuerpo": "Empezamos con un estudio previo gratuito y un presupuesto cerrado. Después coordinamos contigo la visita, inspeccionamos, medimos y fotografiamos. Si nos aportas la documentación, comprobamos catastro y registro. Valoramos por coste de reposición depreciado en construcciones e instalaciones, por comparación con operaciones de la zona cuando hay datos y por capitalización de rentas cuando el bien está arrendado o en producción. El método concreto depende del encargo y se justifica en el informe. Lo entregamos con firma digital FNMT, redactado en lenguaje claro y con las mediciones y fotografías que lo respaldan, para que sirva ante notario, Hacienda o juzgado."
+    "cuerpo": "Empezamos con un estudio previo y un presupuesto cerrado. Después coordinamos contigo la visita, inspeccionamos, medimos y fotografiamos. Si nos aportas la documentación, comprobamos catastro y registro. Valoramos por coste de reposición depreciado en construcciones e instalaciones, por comparación con operaciones de la zona cuando hay datos y por capitalización de rentas cuando el bien está arrendado o en producción. El método concreto depende del encargo y se justifica en el informe. Lo entregamos con firma digital FNMT, redactado en lenguaje claro y con las mediciones y fotografías que lo respaldan, para que sirva ante notario, Hacienda o juzgado."
   }
 ];
 
@@ -148,7 +148,7 @@ export default function Page() {
         <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
           <p className="text-sm font-semibold uppercase tracking-wider text-sky-400">{"Tasador en El Ejido"}</p>
           <h1 className="mt-4 text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">{"Tasaciones en El Ejido: invernaderos, fincas, viviendas y naves"}</h1>
-          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Informe pericial firmado por ingeniero técnico industrial colegiado desde 1983. Valoramos invernaderos, fincas, viviendas, locales, naves y maquinaria en El Ejido y su término. Estudio previo gratuito y presupuesto cerrado."}</p>
+          <p className="mt-6 max-w-2xl text-lg text-slate-300">{"Informe pericial firmado por ingeniero técnico industrial colegiado desde 1983. Valoramos invernaderos, fincas, viviendas, locales, naves y maquinaria en El Ejido y su término. Estudio previo y presupuesto cerrado."}</p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a href="#contacto" className="rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-400">Solicitar presupuesto</a>
             <a href="tel:+34670607830" className="rounded-xl border border-slate-600 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800">Llamar 670 607 830</a>

@@ -71,7 +71,7 @@ const faqs = [
   },
   {
     "q": "¿Atendéis online o hace falta desplazarse a Almería?",
-    "a": "Las dos cosas. La documentación se remite por correo y se firma con certificado digital FNMT, con plena validez en toda España. La inspección de la instalación, la máquina o el lugar del siniestro y la posterior ratificación en sala son presenciales: nos desplazamos por Almería capital y provincia, y también a Granada, Málaga y Murcia. Antes de empezar hacemos un estudio previo gratuito y damos presupuesto cerrado."
+    "a": "Las dos cosas. La documentación se remite por correo y se firma con certificado digital FNMT, con plena validez en toda España. La inspección de la instalación, la máquina o el lugar del siniestro y la posterior ratificación en sala son presenciales: nos desplazamos por Almería capital y provincia, y también a Granada, Málaga y Murcia. Antes de empezar hacemos un estudio previo y damos presupuesto cerrado."
   }
 ];
 
@@ -151,7 +151,7 @@ export default function Page() {
 
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
-          <p>{"Cuando el objeto del litigio es una instalación eléctrica, una máquina, una línea de producción o el origen de un incendio, quien debe dictaminar es un ingeniero, no un generalista de directorio. En Ábaco Ingeniería (marca abacoingeniería®) el informe lo firma un ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años analizando instalaciones y equipos en Almería y en toda España. No somos un marketplace que te asigna un nombre sacado de una lista: tratas directamente con el perito que inspecciona, redacta el dictamen y lo defiende ante el juzgado. Estudio previo gratuito y presupuesto cerrado antes de empezar."}</p>
+          <p>{"Cuando el objeto del litigio es una instalación eléctrica, una máquina, una línea de producción o el origen de un incendio, quien debe dictaminar es un ingeniero, no un generalista de directorio. En Ábaco Ingeniería (marca abacoingeniería®) el informe lo firma un ingeniero técnico industrial colegiado desde 1983, con más de cuarenta años analizando instalaciones y equipos en Almería y en toda España. No somos un marketplace que te asigna un nombre sacado de una lista: tratas directamente con el perito que inspecciona, redacta el dictamen y lo defiende ante el juzgado. Estudio previo y presupuesto cerrado antes de empezar."}</p>
           <p>{"Actuamos en dos escenarios. Como perito de parte, elaboramos el informe que aporta tu abogado con la demanda o la contestación, conforme al artículo 335 de la Ley de Enjuiciamiento Civil. Como perito de designación judicial, aceptamos el nombramiento del juzgado y emitimos un dictamen imparcial por insaculación de las listas colegiales. En ambos casos comparecemos a ratificar el informe en sala, respondiendo al interrogatorio de las partes y del tribunal. La firma digital FNMT permite tramitar en remoto; la inspección y la vista son presenciales en Almería."}</p>
         </div>
       </section>

@@ -97,7 +97,7 @@ const faqs = [
   },
   {
     q: "¿Cuánto cuesta el proyecto técnico de un bar?",
-    a: "Depende de superficie, aforo, instalaciones y si hay cocina, terraza o música. Tras la visita gratuita al local te damos presupuesto cerrado, sin variaciones posteriores.",
+    a: "Depende de superficie, aforo, instalaciones y si hay cocina, terraza o música. Tras la visita al local te damos presupuesto cerrado, sin variaciones posteriores.",
   },
 ];
 
@@ -169,8 +169,7 @@ export default function LicenciaBarRestauranteAlmeria() {
           </h1>
           <p className="mt-6 max-w-2xl text-lg text-slate-300">
             Proyecto técnico y tramitación completa para abrir tu bar,
-            restaurante, cafetería o local de hostelería en Almería. Visita
-            gratuita al local, presupuesto cerrado y gestión ante el
+            restaurante, cafetería o local de hostelería en Almería. Visita al local, presupuesto cerrado y gestión ante el
             Ayuntamiento hasta la apertura.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">

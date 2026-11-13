@@ -9,7 +9,7 @@ const path = "/ficha-tecnica-reducida-malaga";
 
 export const metadata: Metadata = {
   title: "Ficha técnica reducida en Málaga para coches importados",
-  description: "Ficha técnica reducida en Málaga para coche o moto importados: ingeniero colegiado, estudio previo gratuito, visita al vehículo si hace falta y resto online.",
+  description: "Ficha técnica reducida en Málaga para coche o moto importados: ingeniero colegiado, estudio previo, visita al vehículo si hace falta y resto online.",
   keywords: ["ficha técnica reducida en Málaga","ficha reducida Málaga","ficha reducida coche Málaga","ficha reducida moto Málaga","matricular coche importado Málaga","COC o ficha reducida","ficha técnica reducida Costa del Sol","matricular coche británico en España","certificado de conformidad COC Málaga","ingeniero ficha reducida Málaga"],
   alternates: { canonical: path, languages: { "es-ES": path } },
   openGraph: {
@@ -18,10 +18,10 @@ export const metadata: Metadata = {
     url: "https://www.ingenierial.es/ficha-tecnica-reducida-malaga",
     siteName: "Abaco Ingeniería",
     title: "Ficha técnica reducida en Málaga: coche y moto importados",
-    description: "Ficha técnica reducida en Málaga para coche o moto importados: ingeniero colegiado, estudio previo gratuito, visita al vehículo si hace falta y resto online.",
+    description: "Ficha técnica reducida en Málaga para coche o moto importados: ingeniero colegiado, estudio previo, visita al vehículo si hace falta y resto online.",
     images: [{ url: "/images/og-abaco.jpg", width: 1200, height: 630, alt: "Ficha técnica reducida en Málaga para coches y motos importados – Abaco Ingeniería" }],
   },
-  twitter: { card: "summary_large_image", title: "Ficha técnica reducida en Málaga: coche y moto importados", description: "Ficha técnica reducida en Málaga para coche o moto importados: ingeniero colegiado, estudio previo gratuito, visita al vehículo si hace falta y resto online.", images: ["/images/og-abaco.jpg"] },
+  twitter: { card: "summary_large_image", title: "Ficha técnica reducida en Málaga: coche y moto importados", description: "Ficha técnica reducida en Málaga para coche o moto importados: ingeniero colegiado, estudio previo, visita al vehículo si hace falta y resto online.", images: ["/images/og-abaco.jpg"] },
 };
 
 const serviceLd = {
@@ -44,7 +44,7 @@ const serviceLd = {
     { "@type": "AdministrativeArea", name: "Provincia de Málaga" },
   ],
   url: "https://www.ingenierial.es/ficha-tecnica-reducida-malaga",
-  description: "Ficha técnica reducida en Málaga para coche o moto importados: ingeniero colegiado, estudio previo gratuito, visita al vehículo si hace falta y resto online.",
+  description: "Ficha técnica reducida en Málaga para coche o moto importados: ingeniero colegiado, estudio previo, visita al vehículo si hace falta y resto online.",
 };
 
 const faqs = [
@@ -154,7 +154,7 @@ export default function Page() {
 
       <section className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
         <div className="space-y-4 text-slate-700 leading-relaxed">
-          <p>{"La ficha técnica reducida en Málaga es el documento técnico que se prepara para que un vehículo importado pueda pasar la inspección previa a su matriculación en España. Lo firma un ingeniero técnico industrial colegiado y recoge los datos del vehículo, como bastidor, masas, dimensiones, plazas y motor, junto con su homologación. En la provincia es un trámite muy frecuente: residentes europeos de la Costa del Sol que se instalan con su coche, compradores que traen un coche de segunda mano desde Alemania o los Países Bajos y profesionales de la compraventa que importan para vender. En abacoingeniería® llevamos más de 40 años en la oficina técnica, y atendemos Málaga y su provincia con estudio previo gratuito y presupuesto cerrado antes de empezar."}</p>
+          <p>{"La ficha técnica reducida en Málaga es el documento técnico que se prepara para que un vehículo importado pueda pasar la inspección previa a su matriculación en España. Lo firma un ingeniero técnico industrial colegiado y recoge los datos del vehículo, como bastidor, masas, dimensiones, plazas y motor, junto con su homologación. En la provincia es un trámite muy frecuente: residentes europeos de la Costa del Sol que se instalan con su coche, compradores que traen un coche de segunda mano desde Alemania o los Países Bajos y profesionales de la compraventa que importan para vender. En abacoingeniería® llevamos más de 40 años en la oficina técnica, y atendemos Málaga y su provincia con estudio previo y presupuesto cerrado antes de empezar."}</p>
           <p>{"Antes de comprar o de traer el coche conviene saber en qué grupo está, porque no todos los importados siguen el mismo camino. Si tiene homologación europea vigente, lo normal es trabajar con la ficha reducida o con el certificado de conformidad COC. Si carece de ella, como puede ocurrir con un vehículo de Estados Unidos o con alguno procedente de Reino Unido, hay que plantear la homologación individual del Real Decreto 750/2010. Y si el vehículo lleva cambios respecto a su tipo homologado, se trata además como reforma según el Manual de Reformas de Vehículos. En el estudio previo te decimos cuál es tu caso, con tus documentos delante y sin que tengas que pagar nada por ese primer análisis."}</p>
         </div>
       </section>
