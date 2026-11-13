@@ -162,7 +162,7 @@ export default function GuiaLicenciaActividadPage() {
             ¿Tienes un local concreto en mente?
           </h2>
           <p className="mt-4 text-slate-300">
-            Hacemos una visita gratuita y te damos presupuesto cerrado para la
+            Hacemos una visita y te damos presupuesto cerrado para la
             licencia, sin compromiso.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">

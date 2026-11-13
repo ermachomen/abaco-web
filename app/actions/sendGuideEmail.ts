@@ -47,7 +47,7 @@ export async function sendGuideEmail(formData: FormData) {
           Si tienes cualquier duda sobre un local concreto, respóndenos a este
           mismo correo o llámanos al
           <a href="tel:+34670607830" style="color:#0284c7;">670 607 830</a>.
-          El estudio previo es gratuito y el presupuesto, cerrado.
+          El presupuesto es cerrado.
         </p>
         <p style="margin-top:28px;font-size:12px;color:#94a3b8;">
           Abaco Ingeniería · Ctra. de Ronda, 293, Entresuelo 2 · 04009 Almería<br/>
