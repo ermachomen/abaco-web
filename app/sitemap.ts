@@ -100,6 +100,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "licencia-apertura-negocios-almeria",
     "licencia-apertura-clinica-almeria",
     "licencia-apertura-taller-almeria",
+    "licencia-apertura-local-comercial-almeria",
+    "licencia-apertura-gimnasio-almeria",
+    "licencia-apertura-peluqueria-almeria",
+    "licencia-apertura-academia-almeria",
+    "licencia-apertura-oficina-almeria",
+    "calificacion-ambiental-almeria",
   ].map((slug) => ({
     url: `${siteUrl}/${slug}`,
     lastModified: now,

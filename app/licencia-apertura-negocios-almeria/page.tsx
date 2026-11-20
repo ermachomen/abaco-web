@@ -161,6 +161,12 @@ const otros = [
   ["/licencia-apertura-taller-almeria", "Taller mecánico, chapa y pintura o lavadero", "Licencia, separador de hidrocarburos, residuos y registro industrial."],
   ["/licencia-bar-restaurante-almeria", "Bar, cafetería o restaurante", "Salida de humos, ruido y clasificación en el catálogo andaluz."],
   ["/licencia-discoteca-pub-almeria", "Pub, discoteca o local con música", "Aislamiento acústico, aforo y evacuación."],
+  ["/licencia-apertura-local-comercial-almeria", "Local comercial o tienda", "Declaración responsable y, en alimentación, calificación ambiental por declaración."],
+  ["/licencia-apertura-gimnasio-almeria", "Gimnasio o centro deportivo", "Calificación ambiental según aforo y superficie, ruido y vestuarios."],
+  ["/licencia-apertura-peluqueria-almeria", "Peluquería, barbería o centro de estética", "Instalación eléctrica, agua caliente, ventilación y accesibilidad."],
+  ["/licencia-apertura-academia-almeria", "Academia de idiomas, refuerzo o formación", "Aforo de las aulas, evacuación y accesibilidad."],
+  ["/licencia-apertura-oficina-almeria", "Oficina o despacho profesional", "Qué excluye la ordenanza y qué hay que cumplir igualmente."],
+  ["/calificacion-ambiental-almeria", "Calificación ambiental", "Qué actividades la necesitan y cómo se tramita en Almería."],
 ];
 
 export default function Page() {

@@ -7,6 +7,7 @@ import {
   CITY_CONTEXT,
   CITY_EXTRA_LINKS,
   CITY_EXTRA_SECTION,
+  CITY_GUIA,
   CITY_SEO_OVERRIDES,
   CITY_FAQS,
   ESPECIALIDADES,
@@ -41,6 +42,7 @@ export default function CityLandingTemplate({ servicio, citySlug }: CityLandingP
   const extraLinks = CITY_EXTRA_LINKS[servicio]?.[citySlug] ?? [];
   const seo = CITY_SEO_OVERRIDES[servicio]?.[citySlug];
   const extraSection = CITY_EXTRA_SECTION[servicio]?.[citySlug];
+  const guia = CITY_GUIA[servicio]?.[citySlug];
 
   // Ciudades hermanas para linkado interno (todas menos la actual)
   const otrasCiudades = CITIES.filter((c) => c.slug !== citySlug);
@@ -194,6 +196,39 @@ export default function CityLandingTemplate({ servicio, citySlug }: CityLandingP
               <li key={c}>· {c}</li>
             ))}
           </ul>
+        </section>
+      )}
+
+      {/* ── GUÍA NORMATIVA DE LA CIUDAD ── */}
+      {guia && (
+        <section className="bg-slate-50">
+          <div className="mx-auto max-w-5xl px-6 py-16 lg:px-8">
+            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">{guia.titulo}</h2>
+            <p className="mt-6 text-slate-700 leading-relaxed">{guia.intro}</p>
+            {guia.bloques.map((b) => (
+              <div key={b.titulo} className="mt-10">
+                <h3 className="text-xl font-semibold text-slate-900">{b.titulo}</h3>
+                <div className="mt-4 space-y-4 text-slate-700 leading-relaxed">
+                  {b.parrafos.map((p) => (
+                    <p key={p}>{p}</p>
+                  ))}
+                </div>
+                {b.lista && (
+                  <ul className="mt-4 space-y-2 text-slate-700">
+                    {b.lista.map((l) => (
+                      <li key={l}>· {l}</li>
+                    ))}
+                  </ul>
+                )}
+              </div>
+            ))}
+            <h3 className="mt-10 text-sm font-semibold uppercase tracking-wider text-slate-500">Fuentes</h3>
+            <ul className="mt-3 space-y-2 text-sm text-slate-600">
+              {guia.fuentes.map((f) => (
+                <li key={f}>· {f}</li>
+              ))}
+            </ul>
+          </div>
         </section>
       )}
 

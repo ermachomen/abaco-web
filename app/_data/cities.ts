@@ -226,6 +226,12 @@ export const CITY_EXTRA_LINKS: Partial<Record<Servicio, Record<string, { label: 
       { label: "Licencia de apertura por tipo de negocio en Almería", href: "/licencia-apertura-negocios-almeria" },
       { label: "Licencia de apertura de clínica en Almería", href: "/licencia-apertura-clinica-almeria" },
       { label: "Licencia de apertura de taller en Almería", href: "/licencia-apertura-taller-almeria" },
+      { label: "Licencia de apertura de local comercial o tienda en Almería", href: "/licencia-apertura-local-comercial-almeria" },
+      { label: "Licencia de apertura de gimnasio en Almería", href: "/licencia-apertura-gimnasio-almeria" },
+      { label: "Licencia de apertura de peluquería o centro de estética", href: "/licencia-apertura-peluqueria-almeria" },
+      { label: "Licencia de apertura de academia en Almería", href: "/licencia-apertura-academia-almeria" },
+      { label: "Licencia de apertura de oficina o despacho en Almería", href: "/licencia-apertura-oficina-almeria" },
+      { label: "Calificación ambiental en Almería", href: "/calificacion-ambiental-almeria" },
       { label: "Licencia de discoteca y pub en Almería", href: "/licencia-discoteca-pub-almeria" },
       { label: "Declaración responsable de actividad en Almería", href: "/declaracion-responsable-actividad-almeria" },
       { label: "Proyecto de actividad en Almería", href: "/proyecto-de-actividad-almeria" },
@@ -258,7 +264,7 @@ export const CITY_SEO_OVERRIDES: Partial<Record<Servicio, Record<string, { titul
     almeria: {
       titulo: "Licencia de Apertura y Actividad en Almería · Proyecto Técnico",
       h1: "Licencia de Actividad y Apertura en Almería",
-      descripcion: "Licencia de apertura y licencia de actividad en Almería: proyecto técnico, declaración responsable y tramitación ante el Ayuntamiento. Ingeniero colegiado.",
+      descripcion: "Licencia de apertura en Almería: declaración responsable, calificación ambiental y proyecto de actividad según la ordenanza municipal. Ingeniero colegiado.",
     },
   },
   peritaciones: {
@@ -331,6 +337,95 @@ export const CITY_EXTRA_SECTION: Partial<Record<Servicio, Record<string, { titul
         "Invernaderos y fincas rústicas en el Poniente y el Campo de Níjar.",
         "Maquinaria industrial y agrícola, unidad por unidad.",
         "Vehículos, flotas y clásicos.",
+      ],
+    },
+  },
+};
+
+/** Guía normativa de una landing, redactada sobre el texto oficial de cada norma (ver «fuentes»). */
+export const CITY_GUIA: Partial<Record<Servicio, Record<string, {
+  titulo: string;
+  intro: string;
+  bloques: { titulo: string; parrafos: string[]; lista?: string[] }[];
+  fuentes: string[];
+}>>> = {
+  "licencia-actividad": {
+    almeria: {
+      titulo: "Licencia de apertura en Almería: qué dicen la ordenanza municipal y la ley andaluza",
+      intro: "Resumimos aquí lo que exigen la ordenanza de apertura del Ayuntamiento de Almería, la ley andaluza de calidad ambiental y la ley estatal de liberalización del comercio. Lo hemos redactado sobre el texto oficial de cada norma; al final están las fuentes. Lo que sigue vale para Almería capital: cada municipio de la provincia tiene su propia ordenanza.",
+      bloques: [
+        {
+          titulo: "¿Licencia de apertura o declaración responsable?",
+          parrafos: [
+            "Aunque se siga hablando de «licencia de apertura», en Almería capital la regla general es la declaración responsable. La ordenanza municipal obliga a presentarla a los titulares de actividades y establecimientos que se implanten o reformen en el término municipal, salvo los casos que reserva a licencia y a comunicación previa. Con ella declaras que cumples la normativa y que tienes la documentación que lo acredita, y el Ayuntamiento la comprueba después.",
+            "La licencia de apertura previa queda para unos pocos supuestos: estructuras desmontables y atracciones de feria, establecimientos que acogen de forma ocasional espectáculos o actividades recreativas sin licencia adecuada para ello, actividades económicas que se desarrollan en el dominio público y modificaciones de actividades que ya tenían licencia de apertura.",
+          ],
+          lista: [
+            "Comunicación previa: actividades artesanales o artísticas en locales sin maquinaria ni proceso industrial, que no estén sometidas a ningún instrumento de control ambiental.",
+            "Declaración responsable: el resto de actividades, sean inocuas o estén sometidas a calificación ambiental, incluidos los establecimientos públicos permanentes.",
+            "Fuera de la ordenanza: los despachos y oficinas de actividades profesionales que no generen residuos, vertidos, radiaciones ni emisiones distintas de las de una vivienda. No entran en esta exclusión las actividades sanitarias o asistenciales con intervenciones quirúrgicas, aparatos de radiodiagnóstico o presencia de animales.",
+          ],
+        },
+        {
+          titulo: "Cuándo hace falta calificación ambiental",
+          parrafos: [
+            "La ley andaluza de calidad ambiental (Ley 7/2007, GICA) señala en su Anexo I qué actividades necesitan calificación ambiental (CA) y cuáles la resuelven mediante declaración responsable de los efectos ambientales (CA-DR); las superficies que usa son construidas totales. La calificación ambiental favorable es requisito para la licencia municipal y, cuando la actividad se inicia con declaración responsable, se resuelve antes. Con carácter general, el Ayuntamiento tiene un plazo máximo de tres meses desde que la documentación está completa, y si no contesta no se entiende concedida.",
+            "Con la solicitud o antes de la declaración responsable hay que presentar un análisis ambiental como documentación complementaria del proyecto técnico. En Almería capital, la ordenanza integra la calificación ambiental en la licencia de obras; después vienen la licencia de utilización y la declaración responsable de inicio.",
+          ],
+          lista: [
+            "Calificación ambiental (CA): restaurantes, cafeterías, pubs y bares; discotecas y salas de fiesta; academias de baile y danza; gimnasios para 150 personas o más, o de más de 500 m² construidos; freidurías, asadores, hamburgueserías y comidas preparadas; talleres de reparación de vehículos de más de 250 m²; talleres de carpintería metálica o de madera de más de 300 m².",
+            "Calificación ambiental mediante declaración responsable (CA-DR): gimnasios más pequeños; talleres de reparación de vehículos de hasta 250 m²; carnicerías, pescaderías, fruterías, tiendas de congelados y tiendas de pan y pastelería de menos de 750 m²; tintorerías y lavanderías de menos de 750 m²; droguerías y perfumerías de menos de 750 m²; tiendas de animales.",
+            "Sin calificación ambiental: las peluquerías, los centros de estética, las oficinas, las academias de enseñanza (salvo las de baile y danza) y las clínicas dentales no figuran en el Anexo I.",
+          ],
+        },
+        {
+          titulo: "Comercios y servicios de hasta 750 m²: sin licencia previa",
+          parrafos: [
+            "La Ley 12/2012 prohíbe exigir licencia previa de instalación, funcionamiento o actividad a las actividades de comercio minorista y de servicios que recoge su anexo cuando el establecimiento no supera 750 m² de superficie útil de exposición y venta. Entre esos servicios están las peluquerías y los salones de belleza, las tintorerías y lavanderías o las academias de idiomas y formación. La licencia se sustituye por una declaración responsable o una comunicación previa, que debe recoger que tienes la documentación exigible y, cuando corresponda, el proyecto firmado por técnico competente.",
+            "Tampoco necesitan licencia el cambio de titularidad, que solo exige comunicación previa, ni las obras de acondicionamiento del local que no requieran proyecto de obra. No quedan dentro de esta ley las actividades con impacto en el patrimonio histórico-artístico o que ocupan el dominio público.",
+          ],
+        },
+        {
+          titulo: "Qué documentación se presenta en el Ayuntamiento de Almería",
+          parrafos: [
+            "El anexo de la ordenanza fija la documentación mínima para la declaración responsable y la técnica que hay que tener según el caso.",
+          ],
+          lista: [
+            "Modelo normalizado cumplimentado, NIF o CIF del titular y, si actúa un representante, su acreditación.",
+            "Justificante del pago de la tasa municipal.",
+            "Referencia catastral completa (copia del recibo del IBI).",
+            "Alta en el epígrafe del IAE que corresponda a la actividad.",
+            "Nombre y titulación del técnico que interviene.",
+            "Si ha habido obras: la licencia urbanística correspondiente y el certificado final de obra, firmado por técnico competente.",
+            "Actividad inocua sin obras: proyecto técnico de actividad, certificado de que la actividad se ajusta a él y fotografías.",
+            "Actividad calificada sin obras: la calificación ambiental, previa licencia de utilización, y el certificado de puesta en marcha del técnico director.",
+            "Establecimientos de espectáculos públicos o actividades recreativas: póliza de responsabilidad civil obligatoria y justificante de pago.",
+          ],
+        },
+        {
+          titulo: "Qué contiene el proyecto de actividad",
+          parrafos: [
+            "Si no hay obras, el proyecto técnico de actividad consta de memoria y planos. Si las hay, se añaden pliego de condiciones, mediciones y presupuesto, estudio de seguridad y salud y estudio de gestión de residuos.",
+            "La memoria justifica, según la actividad: la compatibilidad urbanística del uso, la accesibilidad, la seguridad contra incendios del CTE (aforo, evacuación, sectores, alumbrado de emergencia), el ruido y las vibraciones con un estudio acústico previo, la ventilación y la climatización conforme al RITE, la normativa higiénico-sanitaria y el resto de instalaciones. Los planos incluyen situación, estado actual, distribución con cuadro de superficies y aforo, accesibilidad, protección contra incendios, aislamiento acústico, fontanería, electricidad con esquema unifilar y climatización.",
+          ],
+        },
+        {
+          titulo: "Después de presentar: plazos y obligaciones",
+          parrafos: [
+            "Puedes empezar desde el mismo día en que presentas la declaración responsable, o desde la fecha que indiques en ella, que no puede ir más allá de tres meses. La copia sellada o el recibo del registro electrónico es la toma de conocimiento del Ayuntamiento y debe estar expuesta en el local.",
+            "Después el Ayuntamiento hace la verificación posterior: puede pedirte la documentación que declaraste tener y visitar el local. Si falta algo, te da diez días para subsanarlo; si el defecto es esencial y no se corrige, puede ordenar el cese de la actividad.",
+          ],
+          lista: [
+            "Si la actividad se suspende o cesa más de un año, la declaración responsable o la licencia caducan y hay que presentar una nueva.",
+            "El cambio de titularidad lo comunican el antiguo y el nuevo titular; si no se hace, ambos responden de las obligaciones del titular.",
+            "Antes de alquilar puedes presentar una consulta previa con una memoria descriptiva. La respuesta orienta, pero no vincula al Ayuntamiento.",
+          ],
+        },
+      ],
+      fuentes: [
+        "Ordenanza reguladora de apertura de establecimientos para el ejercicio de actividades en el término municipal de Almería y su anexo (BOP de Almería n.º 246, de 28 de diciembre de 2011). Es de 2011 y cita leyes que después han cambiado: en cada expediente comprobamos con el Ayuntamiento el modelo y el criterio vigentes.",
+        "Ley 7/2007, de 9 de julio, de Gestión Integrada de la Calidad Ambiental de Andalucía: artículos 41 a 44 y Anexo I (texto consolidado del BOE, última modificación de 20 de marzo de 2026).",
+        "Ley 12/2012, de 26 de diciembre, de medidas urgentes de liberalización del comercio y de determinados servicios: artículos 2 a 5 y anexo (texto consolidado del BOE).",
       ],
     },
   },
@@ -491,6 +586,10 @@ export const CITY_FAQS: Record<Servicio, Record<string, { q: string; a: string }
       { q: "¿Trabajáis con almacenes hortofrutícolas?", a: "Sí. Es uno de los servicios más demandados en Almería. Almacenes de manipulado, cámaras frigoríficas, plantas de envasado. Aplicamos requisitos sanitarios, contraincendios y gestión de residuos." },
       { q: "¿Tramitáis hostelería costera?", a: "Sí. Chiringuitos (con autorización adicional de Costas), bares, restaurantes y locales de música. Aplicamos requisitos acústicos y de salida de humos específicos para zonas costeras y residenciales." },
       { q: "¿Cuánto cuesta el proyecto en Almería?", a: "Desde 600 € para locales pequeños hasta 2.500 € para industrias o hostelería compleja. Visita y presupuesto cerrado tras revisar tu caso." },
+      { q: "¿En Almería hace falta licencia de apertura o basta una declaración responsable?", a: "En Almería capital la regla general es la declaración responsable: la ordenanza municipal reserva la licencia de apertura para estructuras desmontables, atracciones de feria, espectáculos ocasionales, actividades en el dominio público y modificaciones de actividades que ya tenían licencia. La declaración responsable se presenta con las obras terminadas y con su documentación técnica." },
+      { q: "¿Un bar o un restaurante necesita calificación ambiental?", a: "Sí. El Anexo I de la ley andaluza de calidad ambiental incluye los restaurantes, cafeterías, pubs y bares entre las actividades sometidas a calificación ambiental. Hay que presentar un análisis ambiental con el proyecto técnico, y la calificación se resuelve antes de que la actividad pueda iniciarse con la declaración responsable." },
+      { q: "¿Puedo abrir el mismo día que presento la declaración responsable?", a: "Sí, según la ordenanza de Almería: la declaración responsable permite iniciar la actividad desde el día en que se presenta o desde la fecha que indiques, que no puede superar tres meses. El Ayuntamiento la comprueba después y puede pedirte la documentación o visitar el local." },
+      { q: "¿Qué pasa con la licencia si cierro el negocio un tiempo?", a: "Si la actividad se suspende o cesa durante más de un año, la licencia de apertura o la declaración responsable caducan, según la ordenanza de Almería. Para reabrir hay que presentar una nueva declaración responsable con la documentación al día." },
     ],
   },
   peritaciones: {
